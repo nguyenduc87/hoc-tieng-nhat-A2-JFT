@@ -1,0 +1,275 @@
+/* =========================
+   GRAMMAR LAYOUT
+========================= */
+
+.grammar-container {
+    max-width: 900px;
+    /* margin: 32px auto; */
+    padding: 0 16px;
+}
+
+/* =========================
+   TABS
+========================= */
+
+.grammar-tabs {
+    position: sticky;
+    top: 110px;
+    z-index: 50;
+    background: #f9fafb;
+    padding: 8px 0;
+
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.grammar-tab {
+    padding: 7px 20px;
+    border-radius: 10px;
+    background: #f1f1f1;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.grammar-tab:hover {
+    background: #e0e0e0;
+}
+
+.grammar-tab.active {
+    background: #ff6b6b;
+    color: white;
+    font-weight: 600;
+}
+
+/* =========================
+   GRAMMAR CARD
+========================= */
+.summary-row {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    gap: 14px;
+    padding: 10px 0;
+    border-bottom: 1px dotted #bbb;
+}
+
+.summary-left {
+    font-weight: 600;
+    color: #d93025;
+}
+
+.summary-jp {
+    font-weight: 500;
+}
+
+.summary-vi {
+    margin-top: 4px;
+    color: #555;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.summary-right {
+    color: #222;
+}
+
+.grammar-card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    
+}
+
+/* Title */
+.grammar-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #ff5a5a;
+    background-color: #fff3f3;
+    padding: 10px;
+    /* border-radius: 10px; */
+    border-left: 5px solid;
+}
+
+/* =========================
+   BLOCKS
+========================= */
+
+.block-summary {
+    background: #f1f8ff;
+    border-top: 1px solid #ddd;
+    border-left: 5px solid #4dabf7;
+}
+
+.block-summary ul {
+    margin-left: 16px;
+}
+
+
+.grammar-block,
+.dialogue {
+    border-radius: 16px;
+    padding: 16px 18px;
+    margin-bottom: 16px;
+}
+
+.grammar-block h4,
+.dialogue h4 {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* Usage */
+.block-usage {
+    background: #f0f7ff;
+    border-left: 6px solid #4dabf7;
+}
+
+/* Structure */
+.block-structure {
+    background: #e1fad8;
+    border-left: 6px solid #51cf66;
+}
+
+/* Note */
+.block-note {
+    background: #fff3f3;
+    border-left: 5px solid #ff6b6b;
+}
+
+.note-example {
+    margin-top: 12px;
+    padding: 12px;
+    background: #f3fff6;
+    border-left: 4px solid #4caf50;
+    border-radius: 6px;
+}
+
+.note-example h5 {
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* block-dialogue */
+.block-dialogue {
+    background: #f5faf6;
+    border-left: 6px solid #adb5bd;
+}
+
+/* =========================
+   LIST & TEXT
+========================= */
+
+.grammar-block ul {
+    padding-left: 18px;
+}
+
+.grammar-block li {
+    margin-bottom: 6px;
+    line-height: 1.6;
+}
+
+/* =========================
+   STRUCTURE BADGE
+========================= */
+
+.structure-badge {
+    display: inline-block;
+    background: #222;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* =========================
+   EXAMPLES
+========================= */
+
+.example-jp {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.example-vi {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.memo-red {
+    color: #c25050;
+    font-weight: 500;
+}
+
+/* =========================
+   DIALOGUE
+========================= */
+
+.dialogue {
+    margin-top: 20px;
+    padding: 16px;
+    border-radius: 16px;
+    background: #f3f3f3;
+}
+
+.dialogue-vi {
+    margin-bottom: 6px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+
+    .content {
+        margin-left: 0;
+        padding: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .summary-row {
+        grid-template-columns: 1fr;
+    }
+
+    .summary-left {
+        margin-bottom: 4px;
+    }
+
+    .summary-right {
+        padding-left: 8px;
+        border-left: 3px solid #f2bcbc;
+    }
+
+    .grammar-tabs {
+        top: 84px;
+        /* 👈 hạ xuống */    
+    }
+
+    .content h1 {
+        font-size: 18px;
+    }
+
+    .actions {
+        margin-bottom: 10px;
+    }
+
+    .btn.primary, .btn.outline {
+        padding: 5px;
+    }
+}

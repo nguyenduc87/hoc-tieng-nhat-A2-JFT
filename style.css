@@ -1,0 +1,101 @@
+/* ===== Reset & base ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  background: #f6f7fb;
+  color: #333;
+}
+
+/* ===== Banner (mobile) ===== */
+.banner {
+  padding: 28px 16px;
+  text-align: center;
+  background: linear-gradient(135deg, #ff4d4f, #ff7875);
+  color: #fff;
+}
+
+.banner h1 {
+  font-size: 26px;
+  margin-bottom: 6px;
+}
+
+.banner p {
+  font-size: 14px;
+  opacity: 0.95;
+}
+
+/* ===== Main ===== */
+.main {
+  padding: 24px 16px;
+}
+
+/* ===== Level list (mobile: dọc) ===== */
+.level-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ===== Card ===== */
+.level-card {
+  background: #fff;
+  padding: 22px 18px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  text-align: center;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.level-card h2 {
+  font-size: 20px;
+  color: #ff4d4f;
+  margin-bottom: 6px;
+}
+
+.level-card span {
+  font-size: 13px;
+  color: #666;
+}
+
+/* Touch feedback */
+.level-card:active {
+  transform: scale(0.97);
+}
+
+.level-card:hover {
+  border: 2px solid #ff4d4f;
+}
+
+/* ===== Desktop / Tablet ===== */
+@media (min-width: 768px) {
+  .banner h1 {
+    font-size: 36px;
+  }
+
+  .banner p {
+    font-size: 16px;
+  }
+
+  .main {
+    min-height: calc(100vh - 160px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .level-list {
+    width: 420px;
+    gap: 22px;
+  }
+
+  .level-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 30px rgba(0,0,0,0.12);
+  }
+}

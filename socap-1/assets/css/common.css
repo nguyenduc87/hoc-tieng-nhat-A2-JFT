@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", system-ui, sans-serif;
+}
+
+body {
+  background: #f6f7fb;
+  padding-bottom: 80px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.layout {
+  display: flex;
+  align-items: flex-start;
+  overflow: visible; 
+}
+
+.red-text {
+    color: #d93025;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  height: 100vh;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background: #fff;
+  border-right: 1px solid #eee;
+  padding: 16px;
+
+  overflow-y: auto;
+  z-index: 100;
+}
+
+.logo {
+  color: #d60000;
+  margin-bottom: 20px;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu li {
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.menu li.active {
+  background: #ffecec;
+  color: #d60000;
+}
+
+/* Content */
+.content {
+  flex: 1;
+  margin-left: 220px;
+  padding: 24px;
+  background: #f7f9fc;
+}
+
+/* Nội dung */
+.content-section {
+  display: none;
+}
+
+.content-section.active {
+  display: block;
+}
+
+/* Menu sidebar */
+.menu-item {
+  padding: 10px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 4px;
+  color: #333;
+}
+
+.menu-item:hover {
+  background: #fff1f0;
+}
+
+.menu-item.active {
+  background: #ffecec;
+  color: #ff4d4f;
+  font-weight: 600;
+}
+
+
+/* HEADER TRONG CONTENT */
+.content-header {
+  position: sticky;
+  top: 0;
+
+  background: #f7f9fc;
+  z-index: 10;
+
+  /* padding: 16px 0 12px; */
+  margin-bottom: 16px;
+
+  border-bottom: 1px solid #eee;
+}
+
+
+.content h1 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.content h2 {
+  margin: 8px 0 16px;
+  color: #555;
+}
+
+.actions {
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* .primary {
+  background: #ff4d4f;
+  color: white;
+}
+
+.outline {
+  background: white;
+  border: 1px solid #ff4d4f;
+  color: #ff4d4f;
+} */
+
+.btn.primary {
+  background: #ff4d4f;
+  color: #fff;
+}
+
+.btn.outline {
+  background: white;
+  border: 1px solid #ff4d4f;
+  color: #ff4d4f;
+}
+
+.btn.primary,
+.btn.outline {
+  padding: 10px;
+}
+
+.btn.active {
+  background-color: #e53935;
+  color: #fff;
+  border-color: #e53935;
+}
+
+
+
+/* Vocab cards */
+.vocab-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 10px;
+  border-left: 6px solid #ff4d4f;
+}
+
+.card .jp {
+  font-size: 20px;
+  color: #d60000;
+  margin-bottom: 6px;
+}
+
+.card .hira {
+  color: #888;
+  font-size: 16px;
+}
+
+.card .meaning {
+  margin-top: 6px;
+}
+
+.card .example {
+  margin-top: 10px;
+  background: #fff4f4;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* Kanji */
+.kanji-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.kanji-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.kanji-main {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ff4d4f;
+  margin: 8px 0;
+}
+
+.furi {
+  font-size: 14px;
+  color: #888;
+}
+
+.kanji-vi {
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+#prevBtn {
+  margin-right: 8px;
+}
+
+#prevBtn:hover {
+  background-color: #ff4d4f;
+  color: #fff;
+}
+
+
+
+
+/* ======================
+   MOBILE FIRST (default)
+====================== */
+
+/* Layout */
+.layout {
+  flex-direction: column;
+}
+
+/* Sidebar ẩn trên mobile */
+.sidebar {
+  display: none;
+}
+
+/* Content full width */
+.content {
+  padding: 16px;
+}
+
+/* Vocab: 1 cột */
+.vocab-grid {
+  grid-template-columns: 1fr;
+}
+
+/* Bottom menu (mobile) */
+.mobile-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 0;
+  z-index: 100;
+}
+
+.mobile-nav div {
+  text-align: center;
+  font-size: 12px;
+  color: #555;
+}
+
+.mobile-nav .active {
+  color: #ff4d4f;
+  font-weight: 600;
+}
+
+
+
+
+
+/* Mobile */
+
+@media (min-width: 768px) {
+  .vocab-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .layout {
+    flex-direction: row;
+  }
+
+  .header-logo {
+    display: none;
+  }
+
+  .sidebar {
+    display: block;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .vocab-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

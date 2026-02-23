@@ -1,0 +1,142 @@
+.reading-container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.reading-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.reading-vocab {
+  font-size: 16px;
+  line-height: 1.6;
+  background: #f0efee;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.reading-vocab p {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.reading-vocab .vocab-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.vocab-item .jp {
+  min-width: 100px;
+  font-weight: 500;
+}
+
+.vocab-item .jvn {
+  flex: 1;
+}
+
+.question-box {
+  margin-top: 20px;
+  background: #fff4e6;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.answer-btn {
+  margin-top: 15px;
+  padding: 8px 16px;
+  background: #ff4d4f;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.answer-box.show {
+  display: block;
+}
+
+.reading-image {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.reading-image img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.reading-text {
+  padding: 10px;
+  margin: 10px 0;
+  background: #ffecec;
+  border-radius: 5px;
+  border-left: 2px solid #ff4d4f;
+}
+
+.hidden {
+  display: none;
+}
+
+.reading-translate {
+  padding: 10px;
+  margin: 10px 0;
+  background: #f6f7fb;
+  border-radius: 5px;
+  border-left: 2px solid #4dabf7;
+}
+
+.toggle-translate {
+  background: #4dabf7;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.toggle-translate:hover {
+  opacity: 0.8;
+}
+
+.reading-text p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.vocab-box,
+.question-box {
+  background: #fff4e6;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.answer-box {
+  display: none;
+  margin-top: 15px;
+  background: #e6ffe6;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  .reading-card h2 {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+}
