@@ -18,7 +18,7 @@ const socap1Lessons = [
 
   {
     id: 3,
-    title: "Thời gian – lịch trình",
+    title: "Mùa  – Thời tiết",
     vocab: [],
     kanji: [],
     grammar: []
