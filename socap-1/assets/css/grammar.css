@@ -182,10 +182,11 @@
     display: inline-block;
     background: #222;
     color: #fff;
-    padding: 6px 14px;
-    border-radius: 999px;
+    padding: 6px 10px;
+    border-radius: 10px;
     font-size: 14px;
     font-weight: 600;
+    line-height: 1.8;
 }
 
 /* =========================

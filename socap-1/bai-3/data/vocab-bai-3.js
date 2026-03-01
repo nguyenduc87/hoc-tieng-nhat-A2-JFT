@@ -135,7 +135,7 @@ export const vocabList = [
   {
     jp: "梅雨",
     hira: "つゆ",
-    vi: "Mùa mưa (tsuyu)",
+    vi: "Mùa mưa (Đặc thù của nước Đông Á như Nhật, Hàn)",
     example: "梅雨はじめじめしています。",
     exampleVi: "Mùa mưa ẩm ướt."
   },
@@ -191,7 +191,7 @@ export const vocabList = [
   {
     jp: "雨季",
     hira: "うき",
-    vi: "Mùa mưa",
+    vi: "Mùa mưa (Quốc gia nhiệt đới Đông Nam Á như Viet Nam)",
     example: "ベトナムは雨季があります。",
     exampleVi: "Việt Nam có mùa mưa."
   },

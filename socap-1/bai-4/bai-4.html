@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SC1 - Bài 4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <link rel="stylesheet" href="../assets/css/grammar.css">
+    <link rel="stylesheet" href="../assets/css/listen.css">
+    <link rel="stylesheet" href="../assets/css/reading.css">
+</head>
+
+<body>
+    <div class="layout">
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <a href="../../index.html">
+                <h2 class="logo">DUCさん日本語</h2>
+            </a>
+            <ul class="menu">
+                <li class="menu-item active" data-target="vocab">📘 Từ vựng</li>
+                <li class="menu-item" data-target="kanji">有 Hán tự</li>
+                <li class="menu-item" data-target="grammar">✏️ Ngữ pháp</li>
+                <li class="menu-item" data-target="listening">🎧 Nghe hiểu</li>
+                <li class="menu-item" data-target="reading">📖 Đọc hiểu</li>
+            </ul>
+
+        </aside>
+
+        <!-- MAIN -->
+        <main class="content">
+            <!-- CONTENT HEADER -->
+            <div class="content-header">
+                <h1>Sơ Cấp 1 - Bài 4 : 昨日はすごい雨でしたね。</h1>
+                <!-- <h2></h2> -->
+                <div class="actions">
+                    <button class="btn outline" id="prevBtn">← Bài trước</button>
+
+                    <button class="btn primary" id="mainBtn">📘 Từ vựng</button>
+
+                    <button class="btn outline" id="testBtn">✏️ Test từ vựng</button>
+
+                    <button class="btn outline" id="nextBtn">Bài sau →</button>
+                </div>
+            </div>
+
+            <!-- TỪ VỰNG -->
+            <section id="vocab" class="content-section active">
+                <div class="vocab-grid" id="vocabGrid"></div>
+            </section>
+
+            <!-- HÁN TỰ -->
+            <section id="kanji" class="content-section">
+                <div class="kanji-grid" id="kanjiGrid"></div>
+            </section>
+
+            <!-- NGỮ PHÁP -->
+            <section id="grammar" class="content-section">
+                <div class="grammar-container">
+                    <!-- Tabs -->
+                    <div class="grammar-tabs">
+                    </div>
+                    <!-- Grammar content -->
+                    <div class="grammar-card">
+                    </div>
+                </div>
+            </section>
+
+            <!-- NGHE -->
+            <section id="listening" class="content-section">
+                <div class="listen-container" id="listenContainer"></div>
+            </section>
+
+            <!-- ĐỌC -->
+            <section id="reading" class="content-section">
+                <div class="reading-list" id="readingList"></div>
+            </section>
+        </main>
+    </div>
+
+
+    <!-- Mobile bottom nav -->
+    <nav class="mobile-nav">
+        <div class="menu-item active" data-target="vocab">📘<br>Từ vựng</div>
+        <div class="menu-item" data-target="kanji">有<br>Hán tự</div>
+        <div class="menu-item" data-target="grammar">✏️<br>Ngữ pháp</div>
+        <div class="menu-item" data-target="listening">🎧<br>Nghe</div>
+        <div class="menu-item" data-target="reading">📖<br>Đọc</div>
+    </nav>
+
+    <script type="module" src="../assets/js/common.js"></script>
+    <script type="module" src="./bai-4.js"></script>
+</body>
+
+</html>

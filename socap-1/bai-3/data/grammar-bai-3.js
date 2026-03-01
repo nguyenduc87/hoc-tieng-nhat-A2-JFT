@@ -233,7 +233,7 @@ export const grammarBai3 = [
       },
       {
         speaker: "A",
-        jp: "どうしてですか。",
+        jp: "「どうして」ですか。",
         vi: "Tại sao vậy?"
       },
       {
@@ -261,29 +261,43 @@ export const grammarBai3 = [
       ],
       examples: [
         {
-          jp: "暑いのが大好き「ですから」、夏が好きです。",
-          vi: "「Vì」 rất thích trời nóng nên tôi thích mùa hè."
+          jp: "ここは危ない（あぶない）ですから、入らないでください。",
+          vi: "「Vì」 chỗ này nguy hiểm 「nên」 xin đừng vào."
         },
         {
-          jp: "果物がおいしい「ですから」、秋が好きです。",
-          vi: "「Vì」 trái cây ngon nên tôi thích mùa thu."
+          jp: "果物がおいしい「から」、秋が好きです。",
+          vi: "「Vì」 trái cây ngon 「nên」 tôi thích mùa thu."
+        },
+        {
+          jp: "もう遅いですから、タクシーで帰りましょう。",
+          vi: "「Vì」 đã muộn rồi 「nên」 mình cùng về bằng taxi nhé."
         },
         {
           jp: "夏休みがあります「から」、夏がいちばん好きです。",
-          vi: "「Vì」 có kỳ nghỉ hè nên tôi thích mùa hè nhất."
+          vi: "「Vì」 có kỳ nghỉ hè 「nên」 tôi thích mùa hè nhất."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "どうして夏が好きですか。",
-        vi: "Tại sao bạn thích mùa hè?"
+        jp: "「どうして」来なかったですか。",
+        vi: "Tại sao bạn không đến? (hỏi どうして)"
       },
       {
         speaker: "B",
-        jp: "海で遊べます「から」、夏が好きです。",
-        vi: "「Vì」 có thể chơi ở biển nên tôi thích mùa hè."
+        jp: "病気でした「からです。」",
+        vi: "「Vì」 tôi bị ốm. (trả lời: Thể từ điển + からです)"
+      },
+      {
+        speaker: "A",
+        jp: "「どうして」ここに住んでいますか。",
+        vi: "Tại sao bạn sống ở đây? (hỏi どうして)"
+      },
+      {
+        speaker: "B",
+        jp: "便利（べんり）だ「からです。」",
+        vi: "「Vì」 tiện lợi. (trả lời: Thể từ điển + からです)"
       }
     ]
   },

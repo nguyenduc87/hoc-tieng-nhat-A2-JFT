@@ -103,7 +103,7 @@ export const grammarBai2 = [
           vi: "Tôi thích 「chơi game.」"
         },
         {
-          jp: "水泳を「するのが好きです」。",
+          jp: "水泳（すいえい）を「するのが好きです」。",
           vi: "Tôi thích 「bơi lội.」"
         }
       ]

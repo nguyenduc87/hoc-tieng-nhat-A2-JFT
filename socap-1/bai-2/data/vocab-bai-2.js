@@ -86,7 +86,7 @@ export const vocabList = [
   {
     jp: "料理",
     hira: "りょうり",
-    vi: "Nấu ăn",
+    vi: "Nấu ăn、Món ăn",
     example: "料理をします。",
     exampleVi: "Tôi nấu ăn."
   },
@@ -107,7 +107,7 @@ export const vocabList = [
   {
     jp: "いろいろ（な）",
     hira: "いろいろ（な）",
-    vi: "Nhiều / khác nhau",
+    vi: "Nhiều (đa dạng) / khác nhau",
     example: "いろいろな国があります。",
     exampleVi: "Có nhiều quốc gia khác nhau."
   },

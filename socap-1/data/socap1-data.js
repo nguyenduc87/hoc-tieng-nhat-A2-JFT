@@ -26,7 +26,7 @@ const socap1Lessons = [
 
   {
     id: 4,
-    title: "Địa điểm – phương tiện",
+    title: "Khí hậu – Nắng-Mưa-Bão",
     vocab: [],
     kanji: [],
     grammar: []
