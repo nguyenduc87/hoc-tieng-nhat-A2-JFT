@@ -348,5 +348,12 @@ export const vocabList = [
     vi: "Lê",
     example: "梨は甘いです。",
     exampleVi: "Lê ngọt."
+  },
+  {
+    jp: "気候",
+    hira: "きこう",
+    vi: "Khí hậu",
+    example: "地域によって気候が大きく異なります。",
+    exampleVi: "Tùy theo khu vực mà khí hậu có sự thay đổi lớn."
   }
 ];

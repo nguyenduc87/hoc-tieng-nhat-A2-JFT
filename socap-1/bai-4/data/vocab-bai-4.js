@@ -272,4 +272,11 @@ export const vocabList = [
     example: "電車が遅れました。",
     exampleVi: "Tàu đã bị trễ."
   },
+  {
+    jp: "天気予報",
+    hira: "てんきよほう",
+    vi: "Dự báo thời tiết",
+    example: "天気予報によると明日、雨が降りそうです。",
+    exampleVi: "Theo dự báo thời tiết, ngày mai có vẻ mưa."
+  },
 ];
