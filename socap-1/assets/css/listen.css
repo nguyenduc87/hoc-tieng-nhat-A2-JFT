@@ -17,7 +17,7 @@
   background: #fff;
   padding: 16px;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
 .listening-sidebar h3 {
@@ -95,7 +95,7 @@ html {
   background: #fff;
   padding: 12px 16px;
   border-radius: 40px;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
   margin: 10px 0;
 }
 
@@ -155,6 +155,7 @@ html {
 }
 
 .slide-box {
+  line-height: 1.8;
   max-height: 0;
   overflow: hidden;
   opacity: 0;
@@ -164,10 +165,10 @@ html {
 }
 
 .slide-box.show {
-  max-height: 1000px;
+  max-height: 2000px;
   opacity: 1;
   margin-top: 10px;
-  padding: 14px;
+  padding: 10px;
   background: #fff;
   border-radius: 10px;
 }
@@ -175,7 +176,7 @@ html {
 .sidebar-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.35);
+  background: rgba(0, 0, 0, 0.35);
   z-index: 2500;
   opacity: 0;
   pointer-events: none;
@@ -189,39 +190,55 @@ html {
 
 
 /* ===== MOBILE SIDEBAR FIX ===== */
-@media (max-width: 1023px) {
-  .mobile-toggle {
-    display: inline-block !important;
-    margin-bottom: 16px;
-  }
+@media (max-width:1023px){
 
-  .listening-layout {
-    display: block;
-  }
+.mobile-toggle{
+  display:inline-block !important;
+  margin-bottom:16px;
+}
 
-  .listening-sidebar {
-    position: fixed;
-    top: 0;
-    left: -260px;
-    width: 240px;
-    height: 100vh;
-    background: #fff;
-    z-index: 3000;
-    transition: left 0.3s ease;
-    border-radius: 0;
-    box-shadow: 4px 0 20px rgba(0,0,0,0.15);
-  }
+/* layout chuyển sang 1 cột */
+.listening-layout{
+  display:block;
+}
 
-  .listening-sidebar.open {
-    left: 0;
-  }
+/* sidebar ẩn bên trái */
+.listening-sidebar{
+  position:fixed;
+  top:0;
+  left:-260px;
+  width:240px;
+  height:100vh;
+  background:#fff;
+  z-index:3000;
+  transition:left .3s ease;
+  border-radius:0;
+  box-shadow:4px 0 20px rgba(0,0,0,0.15);
+}
 
-  .listening-content {
-    width: 100%;
-  }
+/* khi mở menu */
+.listening-sidebar.open{
+  left:0;
+}
+
+/* nội dung full width */
+.listening-content{
+  width:100%;
+  max-width:100%;
+}
 
 }
 
+/* mobile nhỏ hơn */
+@media (max-width:768px){
 
+  .listen-card {
+    padding: 10px;
+  }
 
+  .script-img img {
+    width: 100%;
+    height: auto;
+  }
 
+}

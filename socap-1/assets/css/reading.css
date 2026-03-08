@@ -75,6 +75,7 @@
 }
 
 .reading-text {
+  line-height: 1.9;
   padding: 10px;
   margin: 10px 0;
   background: #ffecec;
@@ -87,6 +88,7 @@
 }
 
 .reading-translate {
+  line-height: 1.8;
   padding: 10px;
   margin: 10px 0;
   background: #f6f7fb;
@@ -108,10 +110,9 @@
   opacity: 0.8;
 }
 
-.reading-text p {
+/* .reading-text p {
   font-size: 15px;
-  line-height: 1.6;
-}
+} */
 
 .vocab-box,
 .question-box {

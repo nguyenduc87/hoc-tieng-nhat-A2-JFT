@@ -143,7 +143,7 @@ export const grammarBai3 = [
   {
     id: "3",
     tab: "Mẫu 3",
-    title: "③ イAいのが好きです／苦手です",
+    title: "③ イAいのが好きです／苦手（にがて）です",
     usage: [
       "Dùng để nói về điều mình thích hoặc không thích.",
       "Trong bài này dùng để nói về thời tiết mà mình thích hoặc không thích."

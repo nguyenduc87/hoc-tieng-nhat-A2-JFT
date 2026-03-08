@@ -1,212 +1,296 @@
 export const listeningData = [
   {
     title: "Audio 1 : kotoba1",
-    audio: "audio/Y_[04-01]_kotoba1.mp3",
+    audio: "audio/Y_[05-01]_kotoba1.mp3",
     script: [
-      "a. 晴れ／晴れる／いい天気",
-      "b. くもり／くもる",
-      "c. 雨／雨が降る",
-      "d. 雪／雪が降る",
-      "e. 風／風が吹く",
-      "f. 雷／雷が鳴る"
+      "a. 便利【べんり】（な）",
+      "b. 不便【ふべん】（な）",
+      "c. にぎやか（な）",
+      "d. 静か（な）",
+      "e. 緑【みどり】が多い",
+      "f. 緑が少ない",
+      "g. 人がやさしい／親切【しんせつ】（な）",
+      "h. 人が冷【つめ】たい",
+      "i. 田舎【いなか】",
+      "j. 都会【とかい】",
+      "k. 景色【けしき】がきれい（な）"
     ],
     translation: [
-      "a. Trời nắng / trời quang / thời tiết đẹp",
-      "b. Trời nhiều mây / âm u",
-      "c. Mưa / trời mưa",
-      "d. Tuyết / tuyết rơi",
-      "e. Gió / gió thổi",
-      "f. Sấm / sấm kêu"
+      "a. Tiện lợi",
+      "b. Bất tiện",
+      "c. Nhộn nhịp",
+      "d. Yên tĩnh",
+      "e. Nhiều cây xanh",
+      "f. Ít cây xanh",
+      "g. Người dân thân thiện / tốt bụng",
+      "h. Người lạnh lùng",
+      "i. Nông thôn",
+      "j. Thành phố",
+      "k. Phong cảnh đẹp"
     ]
   },
   {
     title: "Audio 2 : kotoba2",
-    audio: "audio/Y_[04-02]_kotoba2.mp3",
+    audio: "audio/Y_[05-02]_kotoba2.mp3",
     script: [
-      "1. 雨が降っています",
-      "2. 風が吹いています",
-      "3. 曇（くも）っています",
-      "4. いい天気です",
-      "5. 雷（かみなり）が鳴（な）っています",
-      "6. 晴れています",
-      "7. 雪が降っています",
+      "1. 便利です",
+      "2. にぎやかです",
+      "3. 景色はきれいです",
+      "4. 静かです",
+      "5. 人がやさしいです／親切です",
+      "6. 緑が少ないです",
+      "7. 田舎です",
+      "8. 都会です",
+      "9. 人がつめたいです",
+      "10. 不便です",
+      "11. 緑が多いです",
     ],
     translation: [
-      "1. Trời đang mưa",
-      "2. Gió đang thổi",
-      "3. Trời đang nhiều mây / âm u",
-      "4. Thời tiết đẹp",
-      "5. Sấm đang kêu",
-      "6. Trời đang nắng / quang đãng",
-      "7. Tuyết đang rơi"
+      "1. Tiện lợi",
+      "2. Nhộn nhịp",
+      "3. Phong cảnh đẹp",
+      "4. Yên tĩnh",
+      "5. Người thân thiện / tốt bụng",
+      "6. Ít cây xanh",
+      "7. Nông thôn",
+      "8. Thành phố lớn",
+      "9. Người lạnh lùng",
+      "10. Bất tiện",
+      "11. Nhiều cây xanh"
     ]
   },
   {
     title: "Audio 3 : kiku1",
-    audio: "audio/Y_[04-03]_kiku1.mp3",
+    audio: "audio/Y_[05-03]_kiku1.mp3",
     script: [
-      "A: おはようございます。今日はいい天気ですね。",
-      "B: そうですね。いい天気ですね。",
-      "A: だいぶ暖かくなりましたね。",
-      "B: 本当ですね。"
+      "A: この町には慣【な】れましたか？",
+      "B: はい。おかげさまで。",
+      "A: どうですか。この町は。",
+      "B: そうですね……。とてもにぎやかで、便利です。",
+      "A: そうですか。",
+      "B: でも、緑【みどり】がちょっと少ないですね。",
+      "A: ああ、確【たし】かに。"
     ],
     translation: [
-      "A: Chào buổi sáng. Hôm nay thời tiết đẹp nhỉ.",
-      "B: Đúng vậy nhỉ. Thời tiết đẹp thật.",
-      "A: Trời đã ấm lên khá nhiều rồi nhỉ.",
-      "B: Đúng thật nhỉ."
+      "A: Bạn đã quen với thành phố này chưa?",
+      "B: Vâng, nhờ mọi người giúp đỡ.",
+      "A: Thế nào? Thành phố này ấy.",
+      "B: Ừm… rất nhộn nhịp và tiện lợi.",
+      "A: Vậy à.",
+      "B: Nhưng hơi ít cây xanh nhỉ.",
+      "A: À, đúng thật."
     ]
   },
   {
     title: "Audio 4 : kiku2",
-    audio: "audio/Y_[04-04]_kiku2.mp3",
+    audio: "audio/Y_[05-04]_kiku2.mp3",
     script: [
-      "A: 毎日、よく降りますね。",
-      "B: 本当ですね。",
-      "A: 嫌になりますね。",
-      "B: そうですね。"
+      "A: この町には慣れた？",
+      "B: はい。",
+      "A: どう？ この町は。",
+      "B: えっと、人がやさしくて、住みやすいです。それに、景色【けしき】がきれいです。",
+      "A: それはよかった。"
     ],
     translation: [
-      "A: Mỗi ngày mưa nhiều thật nhỉ.",
-      "B: Đúng thật nhỉ.",
-      "A: Phát chán thật nhỉ.",
-      "B: Ừ, đúng vậy."
+      "A: Đã quen với thành phố này chưa?",
+      "B: Rồi.",
+      "A: Thế nào? Thành phố này.",
+      "B: Ừm, mọi người thân thiện, dễ sống. Hơn nữa phong cảnh đẹp.",
+      "A: Vậy thì tốt quá."
     ]
   },
   {
     title: "Audio 5 : kiku3",
-    audio: "audio/Y_[04-05]_kiku3.mp3",
+    audio: "audio/Y_[05-05]_kiku3.mp3",
     script: [
-      "A: おはようございます。朝から暑いですね。",
-      "B: そうですね。ゆうべも暑かったですね。",
-      "A: そうですね。"
+      "A：どう？この町は。",
+      "B：都会【とかい】ですね。人も店も多くて、にぎやかですね。",
+      "A：そう。",
+      "B：うーん、でも、人がちょっと冷たいです。",
+      "A：そ、そう。"
     ],
     translation: [
-      "A: Chào buổi sáng. Từ sáng sớm đã nóng nhỉ.",
-      "B: Ừ nhỉ. Tối qua cũng nóng thật.",
-      "A: Đúng vậy nhỉ."
+      "A: Thế nào? Thành phố này ấy.",
+      "B: Là thành phố lớn nhỉ. Người và cửa hàng đều nhiều nên nhộn nhịp nhỉ.",
+      "A: Vậy à.",
+      "B: Ừm… nhưng mọi người hơi lạnh lùng.",
+      "A: À, vậy à."
     ]
   },
   {
     title: "Audio 6 : kiku4",
-    audio: "audio/Y_[04-06]_kiku4.mp3",
+    audio: "audio/Y_[05-06]_kiku4.mp3",
     script: [
-      "A: 昨日はすごい雨でしたね。",
-      "B: ええ、風もすごかったですね。",
-      "A: 大変でしたね。",
-      "B: 本当ですね。"
+      "A: この町はどうですか。",
+      "B: この町ですか。緑が多くて、静かでいいですね。",
+      "A: そうですね。",
+      "B: でも、バスが少なくて、ちょっと不便です。",
+      "A: あー、そうですね。"
     ],
     translation: [
-      "A: Hôm qua mưa dữ dội thật nhỉ.",
-      "B: Ừ, gió cũng mạnh thật.",
-      "A: Vất vả thật nhỉ.",
-      "B: Đúng thật vậy."
+      "A: Thành phố này thế nào?",
+      "B: Thành phố này à? Nhiều cây xanh, yên tĩnh nên rất tốt.",
+      "A: Đúng vậy nhỉ.",
+      "B: Nhưng xe buýt ít nên hơi bất tiện.",
+      "A: À, đúng vậy nhỉ."
     ]
   },
   {
     title: "Audio 7 : katachi",
-    audio: "audio/Y_[04-07]_katachi.mp3",
+    audio: "audio/Y_[05-07]_katachi.mp3",
     script: [
-      "今日はいい天気です________。",
-      "毎日、よく降ります________。",
-      "昨日はすごい雨________ね。",
-      "風も________ね。",
-      "大変________ね。"
+      "とてもにぎやか________、便利です。",
+      "人も多________にぎやかですね。",
+      "緑が多________、静か________いいですね。"
     ],
     translation: [
-      "1. Hôm nay thời tiết đẹp ________. → ね",
-      "2. Mỗi ngày mưa nhiều ________. → ね",
-      "3. Hôm qua mưa dữ dội ________ nhỉ. → でした",
-      "4. Gió cũng ________ nhỉ. → すごかったです",
-      "5. Vất vả ________ nhỉ. → でした"
+      "1. Rất nhộn nhịp ________ tiện lợi. → で",
+      "2. Người cũng đông ________ nhộn nhịp nhỉ. → くて",
+      "3. Nhiều cây xanh ________ yên tĩnh ________ tốt nhỉ. → くて／で"
     ]
   },
   {
     title: "Audio 8 : hanasu1",
-    audio: "audio/Y_[04-08]_hanasu1.mp3",
+    audio: "audio/Y_[05-08]_hanasu1.mp3",
     script: [
-      "A：おはようございます。",
-      "B：おはようございます。",
-      "A：今日はいい天気ですね。",
-      "B：そうですね。いい天気ですね。",
-      "A：だいぶ暖かくなりましたね。",
-      "B：本当ですね。"
+      "A：この町には慣れましたか。",
+      "B：はい、おかげさまで。",
+      "A：どうですか。この町は。",
+      "B：そうですねえ……。にぎやかで、便利です。",
+      "A：そうですか。",
+      "B：でも、緑が少ないです。",
+      "A：そうですか。"
     ],
     translation: [
-      "A: Chào buổi sáng.",
-      "B: Chào buổi sáng.",
-      "A: Hôm nay thời tiết đẹp nhỉ.",
-      "B: Ừ nhỉ. Thời tiết đẹp thật.",
-      "A: Trời đã ấm lên nhiều rồi nhỉ.",
-      "B: Đúng vậy nhỉ."
+      "A: Bạn đã quen với thành phố này chưa?",
+      "B: Vâng, nhờ mọi người mà tôi quen rồi.",
+      "A: Thế nào? Thành phố này ấy.",
+      "B: Ừm… nhộn nhịp và tiện lợi.",
+      "A: Vậy à?",
+      "B: Nhưng ít cây xanh.",
+      "A: Vậy à."
     ]
   },
   {
     title: "Audio 9 : hanasu2",
-    audio: "audio/Y_[04-09]_hanasu2.mp3",
+    audio: "audio/Y_[05-09]_hanasu2.mp3",
     script: [
-      "A：おはようございます。",
-      "B：おはようございます。",
-      "A：毎日、よく降りますね。",
-      "B：そうですね。よく降りますね。",
-      "A：嫌になりますね。",
-      "B：本当ですね。"
+      "A：この町には慣れましたか。",
+      "B：はい、おかげさまで。",
+      "A：どうですか。この町は。",
+      "B：そうですねえ……。人がやさしくて、住みやすいです。",
+      "A：そうですか。",
+      "B：それに、景色がきれいです。",
+      "A：そうですね。"
     ],
     translation: [
-      "A: Chào buổi sáng.",
-      "B: Chào buổi sáng.",
-      "A: Mỗi ngày mưa nhiều quá nhỉ.",
-      "B: Ừ nhỉ. Mưa suốt nhỉ.",
-      "A: Thật là phát chán nhỉ.",
-      "B: Đúng vậy nhỉ."
+      "A: Bạn đã quen với thành phố này chưa?",
+      "B: Vâng, nhờ mọi người mà tôi quen rồi.",
+      "A: Thế nào? Thành phố này ấy.",
+      "B: Ừm… mọi người thân thiện và dễ sống.",
+      "A: Vậy à?",
+      "B: Hơn nữa phong cảnh đẹp.",
+      "A: Đúng vậy nhỉ."
     ]
   },
   {
-    title: "Audio 10 : hanasu3",
-    audio: "audio/Y_[04-10]_hanasu3.mp3",
+    title: "Audio 10 : kiku1",
+    audio: "audio/Y_[05-10]_kiku1.mp3",
     script: [
-      "A：おはようございます。",
-      "B：おはようございます。",
-      "A：昨日はすごい雨でしたね。",
-      "B：そうですね。すごい雨でしたね。",
-      "A：風もすごかったですね。",
-      "B：本当ですね。"
+      "A: 休みの日にどこか行きたいんですが、いいところがありますか。",
+      "B: そうね……。スポーツは好き？",
+      "A: はい。",
+      "B: じゃあ、「南スポーツセンター」とかはどう？",
+      "A: スポーツセンター？",
+      "B: 建物【たてもの】は古いけど、安くていいわよ。",
+      "A: そうですか。"
     ],
     translation: [
-      "A: Chào buổi sáng.",
-      "B: Chào buổi sáng.",
-      "A: Hôm qua mưa dữ dội nhỉ.",
-      "B: Ừ nhỉ. Mưa ghê thật.",
-      "A: Gió cũng mạnh ghê nhỉ.",
-      "B: Đúng vậy nhỉ."
+      "A: Tôi muốn đi đâu đó vào ngày nghỉ, có chỗ nào hay không?",
+      "B: Ừm… bạn thích thể thao không?",
+      "A: Vâng, thích.",
+      "B: Vậy thì “Trung tâm thể thao Minami” thì sao?",
+      "A: Trung tâm thể thao à?",
+      "B: Tòa nhà hơi cũ nhưng rẻ và cũng tốt đó.",
+      "A: Vậy à."
     ]
   },
   {
-    title: "Audio 11 : kiku",
-    audio: "audio/Y_[04-11]_kiku.mp3",
+    title: "Audio 11 : kiku2",
+    audio: "audio/Y_[05-11]_kiku2.mp3",
     script: [
-      "今日は朝から雨の1日でした。今も少し降っています。",
-      "でも、この雨は夜中にはやんで、明日は晴れるでしょう。",
-      "ただ、明日は1日、風が強くなります。",
-      "寒い1日になります。暖かい服装でお出かけください。"
+      "A: 休みの日にどこか行きたいんですが、いいところがありますか。",
+      "B: そうだなあ。この町の人は「マリンモール」によく行くよ。",
+      "A: え、それは何ですか。",
+      "B: ショッピングモール。いろんな店とか、レストランとか、スーパーとかがあるところ。おもしろいけど、日曜日は人が多いかな。",
+      "A: そうですか。一度行ってみます。"
     ],
     translation: [
-      "Hôm nay là một ngày mưa từ sáng. Bây giờ vẫn còn mưa nhẹ.",
-      "Tuy nhiên, cơn mưa này sẽ tạnh vào nửa đêm và ngày mai có lẽ trời sẽ nắng.",
-      "Tuy vậy, ngày mai gió sẽ mạnh suốt cả ngày.",
-      "Sẽ là một ngày lạnh. Hãy mặc ấm khi ra ngoài."
+      "A: Tôi muốn đi đâu đó vào ngày nghỉ, có chỗ nào hay không?",
+      "B: Ừm, người ở thành phố này hay đến “Marine Mall”.",
+      "A: Ồ, đó là gì vậy?",
+      "B: Trung tâm mua sắm. Có nhiều cửa hàng, nhà hàng, siêu thị… Khá thú vị nhưng chủ nhật thì đông người.",
+      "A: Vậy à. Tôi sẽ thử đi một lần."
     ]
   },
   {
-    title: "Audio 12 : kaiwa",
-    audio: "audio/Y_[04-12]_katachi.mp3",
+    title: "Audio 12 : kiku3",
+    audio: "audio/Y_[05-12]_kiku3.mp3",
     script: [
-      "今も少し降って________。",
-      "明日は晴れる________。"
+      "A: 休みの日にどこか行きたいんですが、いいところがありますか。",
+      "B: そうですね……。「たちばな公園」はどうですか。",
+      "A: たちばな公園ですか？",
+      "B: ここから自転車【じてんしゃ】で20分ぐらい。場所【ばしょ】は不便だけど、きれいですよ。",
+      "A: へえ。",
+      "B: ぜひ行ってみてください。"
     ],
     translation: [
-      "1. Bây giờ vẫn còn mưa một chút ________. → います",
-      "2. Ngày mai trời sẽ nắng ________. → でしょう"
+      "A: Tôi muốn đi đâu đó vào ngày nghỉ, có chỗ nào hay không?",
+      "B: Ừm… Công viên Tachibana thì sao?",
+      "A: Công viên Tachibana à?",
+      "B: Từ đây đi xe đạp khoảng 20 phút. Vị trí hơi bất tiện nhưng đẹp lắm.",
+      "A: Ồ vậy à.",
+      "B: Nhất định hãy thử đi nhé."
+    ]
+  },
+  {
+    title: "Audio 13 : kiku4",
+    audio: "audio/Y_[05-13]_kiku4.mp3",
+    script: [
+      "A: 休みの日にどこか行きたいんですが、いいところがありますか。",
+      "B: ぼくが好きなのは、「ゆうゆう館」ですね。広くておすすめです。知ってますか。",
+      "A: いえ、それ、何ですか。",
+      "B: お風呂【ふろ】ですよ。",
+      "A: えっ、お風呂？",
+      "B: 食堂や休憩所【きゅうけいじょ】もあって、1日ゆっくりできますよ。",
+      "A: へー。",
+      "B: ちょっと遠いけど、バスがあります。"
+    ],
+    translation: [
+      "A: Tôi muốn đi đâu đó vào ngày nghỉ, có chỗ nào hay không?",
+      "B: Nơi tôi thích là “Yuuyuu-kan”. Rộng và rất đáng đi. Bạn biết không?",
+      "A: Không, đó là gì vậy?",
+      "B: Là nhà tắm công cộng.",
+      "A: Hả, nhà tắm à?",
+      "B: Có cả nhà ăn và khu nghỉ ngơi nên có thể thư giãn cả ngày.",
+      "A: Ồ vậy à.",
+      "B: Hơi xa một chút nhưng có xe buýt."
+    ]
+  },
+  {
+    title: "Audio 14 : katachi",
+    audio: "audio/Y_[05-14]_katachi.mp3",
+    script: [
+      "建物【たてもの】は古い________、安くていいわよ。",
+      "おもしろい________、日曜日は人が多いかな。",
+      "場所は不便________、きれいですよ。",
+      "ちょっと遠い________、バスがあります。"
+    ],
+    translation: [
+      "1. Tòa nhà cũ ________ nhưng rẻ và tốt đó. → けど",
+      "2. Thú vị ________ nhưng chủ nhật thì đông người nhỉ. → けど",
+      "3. Vị trí bất tiện ________ nhưng đẹp đó. → だけど",
+      "4. Hơi xa ________ nhưng có xe buýt. → けど"
     ]
   },
 

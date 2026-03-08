@@ -57,6 +57,15 @@ function renderTabs(activeId) {
 function highlight(text) {
   return text.replace(/「(.*?)」/g, '<span class="red-text">$1</span>');
 }
+
+// Phiên âm hira trên kanji
+function addHira(text) {
+  return text.replace(
+    /([\p{Script=Han}々〆ヵヶ]+)【(.*?)】/gu,
+    "<ruby><rb>$1</rb><rt>$2</rt></ruby>"
+  );
+}
+
 // Render Ngữ pháp
 function renderGrammar(id) {
   const g = grammarBai3.find(x => x.id == id);
@@ -274,7 +283,7 @@ function renderListening() {
       </div>
 
       <div id="script-${index}" class="slide-box">
-        ${item.script.map(line => `<p>${line}</p>`).join("")}
+        ${item.script.map(line => `<p>${addHira(line)}</p>`).join("")}
       </div>
 
       <div id="trans-${index}" class="slide-box">
@@ -346,7 +355,7 @@ function renderReading() {
         <h2>${item.title}</h2>
 
         <div class="reading-image">
-          ${item.image.map(img => `<img src="${img}">`).join("")}
+          ${item.image1.map(img => `<img src="${img}">`).join("")}
         </div>
 
         <div class="reading-text">
@@ -370,6 +379,10 @@ function renderReading() {
               </div>
               `
   ).join("")}
+        </div>
+
+        <div class="reading-image">
+          ${item.image2.map(img => `<img src="${img}">`).join("")}
         </div>
 
         <div class="question-box" id="readingQuestion">
