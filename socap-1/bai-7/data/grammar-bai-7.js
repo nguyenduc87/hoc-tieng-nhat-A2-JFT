@@ -2,22 +2,22 @@ export const grammarBai3 = [
   {
     id: "summary",
     tab: "Tóm tắt",
-    title: "Bài 6 – Bưu điện đi thế nào thì được?",
+    title: "Bài 7 – Tôi bị lạc đường nên sẽ đến muộn một chút",
     summaryList: [
       {
-        label: "① Nで、～／ナAで、～／イAくて、～",
-        example: "この町は、とてもにぎやか「で」、便利です。",
-        vi: "Thị trấn này rất náo nhiệt 「và」 tiện lợi."
+        label: "① N はどうですか？",
+        example: "６時は「どうですか？」",
+        vi: "6 giờ có 「được không?」"
       },
       {
-        label: "② Nだ／ナAだ／イAい けど、～",
-        example: "たちばな公園は、場所は不便だ「けど」、きれいですよ。",
-        vi: "Công viên Tachibana 「tuy」 vị trí bất tiện nhưng đẹp."
+        label: "② N でもいいですか？",
+        example: "６時半「でもいいですか？」",
+        vi: "6 giờ rưỡi 「cũng được chứ?」"
       },
       {
-        label: "③ V-ることができます",
-        example: "一年中、いろいろな花を「見ることができます。」",
-        vi: "Quanh năm 「có thể ngắm」 nhiều loại hoa khác nhau."
+        label: "③ Nで、～／V-て、～ ＜Nguyên nhân / lý do＞",
+        example: "事故「で」電車が止まりました。／「ねぼうして」、今、起きました。",
+        vi: "Tàu điện dừng vì tai nạn. / Vì ngủ quên nên bây giờ tôi mới thức dậy."
       }
     ]
   },
@@ -25,44 +25,40 @@ export const grammarBai3 = [
   {
     id: "1",
     tab: "Mẫu 1",
-    title: "① Nで、／ナAで、／イAくて、～",
+    title: "① N はどうですか？",
     usage: [
-      "Dùng để nối 2 câu hoặc 2 ý với nhau.",
-      "Nếu là N hoặc A ナ thì dùng dạng 「～で」.",
-      "Nếu là A イ thì đổi 「い」 thành 「くて」."
+      "Dùng khi 「đề xuất」 một điều gì đó và hỏi xem đối phương có đồng ý không.",
+      "Trong bài này dùng để quyết định thời gian hoặc địa điểm gặp.",
+      "N là từ chỉ thời gian hoặc địa điểm."
     ],
-    structure: "Nで、～／ナAで、～／イAくて、～",
+    structure: "N はどうですか？",
     notes: {
       points: [
-        "Dùng để liệt kê đặc điểm hoặc nối các tính chất song song.",
-        "Vế trước, vế sau mang ý nghĩa bổ sung cho nhau."
+        "N là thời gian.",
+        "どうでしょうか：lịch sự hơn khi nói với người trên."
       ],
       examples: [
         {
-          jp: "この町は、とても「にぎやかで」、便利です。",
-          vi: "Khu phố này rất náo nhiệt và tiện lợi."
-        },
-        {
-          jp: "この部屋は、「広くて」、きれいです。",
-          vi: "Căn phòng này rộng và sạch nữa."
+          jp: "６時は「どうですか」？",
+          vi: "6 giờ có 「được không?」"
         }
       ]
     },
     dialogue: [
       {
-        speaker: "例1",
-        jp: "ここは「田舎で」、のんびりしています。",
-        vi: "Đây là nông thôn và cuộc sống thong thả."
+        speaker: "A",
+        jp: "明日の待ち合わせ、「どうしますか？」",
+        vi: "Ngày mai mình sẽ gặp nhau thế nào 「kế hoạch gặp」?"
       },
       {
-        speaker: "例2",
-        jp: "この辺は緑が「多くて」、静かでいいですね。",
-        vi: "Quanh đây nhiều cây xanh, yên tĩnh và thích nhỉ."
+        speaker: "B",
+        jp: "ホテルのロビーは「どうですか？」",
+        vi: "Sảnh khách sạn 「được không?」"
       },
       {
-        speaker: "例3",
-        jp: "この町はバスが「少なくて」、ちょっと不便です。",
-        vi: "Khu phố này ít xe buýt nên hơi bất tiện."
+        speaker: "A",
+        jp: "わかりました。ロビーですね。",
+        vi: "Được. Hẹn cậu ở sảnh khách sạn nhé."
       }
     ]
   },
@@ -70,44 +66,40 @@ export const grammarBai3 = [
   {
     id: "2",
     tab: "Mẫu 2",
-    title: "② Nだ／ナAだ／イAい けど、～",
+    title: "② N でもいいですか？",
     usage: [
-      "Dùng để nối 2 câu có quan hệ trái ngược nhau.",
-      "Nếu là N hoặc A đuôi ナ thì dùng 「～だけど」.",
-      "Nếu là A đuôi イ thì dùng 「～いけど」."
+      "Dùng khi đưa ra một 「đề xuất thay thế」 và hỏi xem đối phương có đồng ý không.",
+      "Thường dùng khi đề xuất ban đầu không thuận tiện nên đưa ra phương án khác.",
+      "N là từ chỉ thời gian hoặc địa điểm."
     ],
-    structure: "Nだ／ナAだ／イAい + けど、～",
+    structure: "N でもいいですか？",
     notes: {
       points: [
-        "Một vế thể hiện đánh giá tích cực, vế còn lại thể hiện đánh giá tiêu cực (hoặc ngược lại).",
-        "Dùng khi muốn nêu ý đối lập một cách mềm mại."
+        "「Đưa ra phương án thay thế」 hỏi xem đối phương đồng ý không?",
+        "N là từ chỉ thời gian hoặc địa điểm."
       ],
       examples: [
         {
-          jp: "日本人だけど、漢字があまり書けません。",
-          vi: "Dù là người Nhật nhưng không viết được nhiều kanji lắm."
-        },
-        {
-          jp: "日曜日だけど、仕事があります。",
-          vi: "Dù là Chủ nhật nhưng vẫn có việc phải làm."
+          jp: "「６時半でもいいですか？」",
+          vi: "Hay là 「6 giờ rưỡi được không?」"
         }
       ]
     },
     dialogue: [
       {
-        speaker: "例1",
-        jp: "都会だけど、緑が多いですね。",
-        vi: "Là thành phố nhưng có nhiều cây xanh nhỉ."
+        speaker: "A",
+        jp: "明日の待ち合わせ、平和（へいわ）の鳥の像（ぞう）の前はどうですか？",
+        vi: "Ngày mai mình gặp nhau trước bức tượng Heiwa-no-tori được không?"
       },
       {
-        speaker: "例2",
-        jp: "この辺は静かだけど、ちょっと不便です。",
-        vi: "Vùng này yên tĩnh nhưng hơi bất tiện."
+        speaker: "B",
+        jp: "ちょっとわかりません。「駅の改札（かいさつ）でもいいですか？」",
+        vi: "Tớ không biết chỗ đấy. Hay là mình gặp nhau ở 「cửa soát vé nhà ga được không?」"
       },
       {
-        speaker: "例3",
-        jp: "ここからちょっと遠いけど、バスがあります。",
-        vi: "Từ đây hơi xa nhưng có xe buýt."
+        speaker: "A",
+        jp: "いいですよ。",
+        vi: "Được thôi."
       }
     ]
   },
@@ -115,38 +107,39 @@ export const grammarBai3 = [
   {
     id: "3",
     tab: "Mẫu 3",
-    title: "③ V-ることができます",
+    title: "③ N で、～／V-て、～ ＜Nguyên nhân / lý do＞",
     usage: [
-      "Diễn tả khả năng hoặc điều có thể thực hiện trong một hoàn cảnh nhất định.",
-      "Khi muốn biến động từ thành danh từ thì thêm 「こと」 sau thể từ điển."
+      "Dùng khi đưa ra nguyên nhân hoặc lý do cho sự việc ở phía sau.",
+      "Nếu là danh từ thì dùng 「Nで」.",
+      "Nếu là động từ thì dùng dạng 「V-て」."
     ],
-    structure: "V-る + ことができます",
+    structure: "Nで、～／V-て、～",
     notes: {
       points: [
-        "Trong bài này giải thích về thành phố, địa điểm du lịch, nhà hàng..."
+        "Dùng để nói nguyên nhân hoặc lý do của sự việc.",
+        "Dạng 「て」 không chỉ nói thứ tự hành động mà còn diễn tả lý do hoặc nguyên nhân."
       ],
       examples: [
         {
-          jp: "一年中、いろいろな花を見ることができます。",
-          vi: "Quanh năm có thể ngắm nhiều loại hoa."
+          jp: "「事故で」電車が止まりました。",
+          vi: "Tàu điện dừng 「vì tai nạn」."
+        },
+        {
+          jp: "「ねぼうして」、今、起きました。",
+          vi: "「Vì ngủ quên」 nên bây giờ tôi mới thức dậy."
         }
       ]
     },
     dialogue: [
       {
         speaker: "例1",
-        jp: "この店では、地元の料理を食べることができます。",
-        vi: "Ở cửa hàng này có thể ăn món địa phương."
+        jp: "「渋滞（じゅうたい）で」、30分ぐらい遅れます。",
+        vi: "Tôi sẽ đến muộn khoảng 30 phút 「vì tắc đường.」"
       },
       {
         speaker: "例2",
-        jp: "丘の上から海と町を見渡すことができます。",
-        vi: "Từ trên đồi có thể nhìn bao quát biển và khu phố."
-      },
-      {
-        speaker: "例3",
-        jp: "夏はここで泳ぐことができます。",
-        vi: "Mùa hè có thể bơi ở đây."
+        jp: "道に「迷って」、ちょっと遅れます。",
+        vi: "Tôi sẽ đến muộn một chút 「vì bị lạc」 đường."
       }
     ]
   }

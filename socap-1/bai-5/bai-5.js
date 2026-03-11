@@ -127,7 +127,7 @@ function renderGrammar(id) {
     <div class="grammar-block block-dialogue">
       <h4>Hội thoại</h4>
       ${g.dialogue.map(d => `
-        <p><strong>${d.speaker}:</strong> ${highlight(d.jp)}</p>
+        <p><strong>${d.speaker}:</strong> ${addHira(highlight(d.jp))}</p>
         <p class="dialogue-vi"><strong>${d.speaker}:</strong> ${highlight(d.vi)}</p>
       `).join("")}
     </div>` : ""}
@@ -359,7 +359,7 @@ function renderReading() {
         </div>
 
         <div class="reading-text">
-            ${item.conversation.map(line => `<p>${line}</p>`).join("")}
+            ${item.conversation.map(line => `<p>${addHira(line)}</p>`).join("")}
         </div>
 
         <div class="reading-translate-toggle">

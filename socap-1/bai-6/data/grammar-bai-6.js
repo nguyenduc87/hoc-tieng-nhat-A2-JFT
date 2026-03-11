@@ -84,11 +84,11 @@ export const grammarBai3 = [
       ],
       examples: [
         {
-          jp: "日本人だけど、漢字があまり書けません。",
+          jp: "「日本人だけど」、漢字があまり書けません。",
           vi: "Dù là người Nhật nhưng không viết được nhiều kanji lắm."
         },
         {
-          jp: "日曜日だけど、仕事があります。",
+          jp: "「日曜日だけど」、仕事があります。",
           vi: "Dù là Chủ nhật nhưng vẫn có việc phải làm."
         }
       ]
@@ -96,17 +96,17 @@ export const grammarBai3 = [
     dialogue: [
       {
         speaker: "例1",
-        jp: "都会だけど、緑が多いですね。",
+        jp: "「都会だけど」、緑が多いですね。",
         vi: "Là thành phố nhưng có nhiều cây xanh nhỉ."
       },
       {
         speaker: "例2",
-        jp: "この辺は静かだけど、ちょっと不便です。",
+        jp: "この辺は「静かだけど」、ちょっと不便です。",
         vi: "Vùng này yên tĩnh nhưng hơi bất tiện."
       },
       {
         speaker: "例3",
-        jp: "ここからちょっと遠いけど、バスがあります。",
+        jp: "ここからちょっと「遠いけど」、バスがあります。",
         vi: "Từ đây hơi xa nhưng có xe buýt."
       }
     ]

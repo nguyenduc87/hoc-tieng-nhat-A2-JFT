@@ -236,6 +236,13 @@ export const vocabList = [
     vi: "Quán cà phê",
     example: "カフェでコーヒーを飲みます。",
     exampleVi: "Tôi uống cà phê ở quán cà phê."
+  },
+  {
+    jp: "遅刻",
+    hira: "ちこく",
+    vi: "Đến trễ giờ quy định (đi học trễ, đi làm trễ)",
+    example: "電車が遅れて、会社に遅刻しました。",
+    exampleVi: "Vì tàu bị trễ nên tôi đi làm muộn."
   }
 
 ];

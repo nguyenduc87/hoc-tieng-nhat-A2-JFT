@@ -97,7 +97,7 @@ function renderGrammar(id) {
     ${g.usage ? `
     <div class="grammar-block block-usage">
       <h4>Cách dùng</h4>
-      <ul>${g.usage.map(u => `<li>${u}</li>`).join("")}</ul>
+      <ul>${g.usage.map(u => `<li>${highlight(u)}</li>`).join("")}</ul>
     </div>` : ""}
 
     ${g.structure ? `
@@ -282,15 +282,14 @@ function renderListening() {
       </div>
       
       <div id="script-${index}" class="slide-box">
-
-        ${item.script.map(line => `<p>${addHira(line)}</p>`).join("")}
-
         ${item.image ? item.image.map(img => `
           <div class="script-img">
             <img src="${img}">
           </div>
         `).join("") : ""}
 
+        ${item.script.map(line => `<p>${addHira(line)}</p>`).join("")}
+        
       </div>
 
       <div id="trans-${index}" class="slide-box">

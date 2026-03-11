@@ -6,18 +6,18 @@ export const grammarBai3 = [
     summaryList: [
       {
         label: "① Nで、～／ナAで、～／イAくて、～",
-        example: "この町は、とてもにぎやかで、便利です。",
-        vi: "Thị trấn này rất náo nhiệt và tiện lợi."
+        example: "この町は、とてもにぎやか「で」、便利です。",
+        vi: "Thị trấn này rất náo nhiệt 「và」 tiện lợi."
       },
       {
         label: "② Nだ／ナAだ／イAい けど、～",
-        example: "たちばな公園は、場所は不便だけど、きれいですよ。",
-        vi: "Công viên Tachibana tuy vị trí bất tiện nhưng đẹp."
+        example: "たちばな公園は、場所は不便だ「けど」、きれいですよ。",
+        vi: "Công viên Tachibana 「tuy」 vị trí bất tiện nhưng đẹp."
       },
       {
         label: "③ V-ることができます",
-        example: "一年中、いろいろな花を見ることができます。",
-        vi: "Quanh năm có thể ngắm nhiều loại hoa khác nhau."
+        example: "一年中、いろいろな花を「見ることができます。」",
+        vi: "Quanh năm 「có thể ngắm」 nhiều loại hoa khác nhau."
       }
     ]
   },
@@ -51,12 +51,12 @@ export const grammarBai3 = [
     dialogue: [
       {
         speaker: "例1",
-        jp: "ここは「田舎で」、のんびりしています。",
+        jp: "ここは「田舎【いなか】で」、のんびりしています。",
         vi: "Đây là nông thôn và cuộc sống thong thả."
       },
       {
         speaker: "例2",
-        jp: "この辺は緑が「多くて」、静かでいいですね。",
+        jp: "この辺【へん】は緑【みどり】が「多くて」、静かでいいですね。",
         vi: "Quanh đây nhiều cây xanh, yên tĩnh và thích nhỉ."
       },
       {
@@ -84,11 +84,11 @@ export const grammarBai3 = [
       ],
       examples: [
         {
-          jp: "日本人だけど、漢字があまり書けません。",
-          vi: "Dù là người Nhật nhưng không viết được nhiều kanji lắm."
+          jp: "日本人だ「けど」、漢字があまり書けません。",
+          vi: "「Dù」 là người Nhật nhưng không viết được nhiều kanji lắm."
         },
         {
-          jp: "日曜日だけど、仕事があります。",
+          jp: "日曜日だ「けど」、仕事があります。",
           vi: "Dù là Chủ nhật nhưng vẫn có việc phải làm."
         }
       ]
@@ -96,17 +96,17 @@ export const grammarBai3 = [
     dialogue: [
       {
         speaker: "例1",
-        jp: "都会だけど、緑が多いですね。",
+        jp: "「都会【とかい】だけど」、緑が多いですね。",
         vi: "Là thành phố nhưng có nhiều cây xanh nhỉ."
       },
       {
         speaker: "例2",
-        jp: "この辺は静かだけど、ちょっと不便です。",
+        jp: "この辺【へん】は「静かだけど」、ちょっと不便です。",
         vi: "Vùng này yên tĩnh nhưng hơi bất tiện."
       },
       {
         speaker: "例3",
-        jp: "ここからちょっと遠いけど、バスがあります。",
+        jp: "ここからちょっと「遠いけど」、バスがあります。",
         vi: "Từ đây hơi xa nhưng có xe buýt."
       }
     ]
@@ -127,25 +127,25 @@ export const grammarBai3 = [
       ],
       examples: [
         {
-          jp: "一年中、いろいろな花を見ることができます。",
-          vi: "Quanh năm có thể ngắm nhiều loại hoa."
+          jp: "一年中、いろいろな花を「見ることができます。」",
+          vi: "Quanh năm 「có thể ngắm」 nhiều loại hoa."
         }
       ]
     },
     dialogue: [
       {
         speaker: "例1",
-        jp: "この店では、地元の料理を食べることができます。",
+        jp: "この店では、地元【じもと】の料理を食べることができます。",
         vi: "Ở cửa hàng này có thể ăn món địa phương."
       },
       {
         speaker: "例2",
-        jp: "丘の上から海と町を見渡すことができます。",
+        jp: "丘【おか】の上から海【うみ】と町を見渡【みわた】すことができます。",
         vi: "Từ trên đồi có thể nhìn bao quát biển và khu phố."
       },
       {
         speaker: "例3",
-        jp: "夏はここで泳ぐことができます。",
+        jp: "夏はここで泳【およぐ】ぐことができます。",
         vi: "Mùa hè có thể bơi ở đây."
       }
     ]
