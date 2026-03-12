@@ -5,19 +5,19 @@ export const grammarBai3 = [
     title: "Bài 6 – Bưu điện đi thế nào thì được?",
     summaryList: [
       {
-        label: "① Nで、～／ナAで、～／イAくて、～",
-        example: "この町は、とてもにぎやか「で」、便利です。",
-        vi: "Thị trấn này rất náo nhiệt 「và」 tiện lợi."
+        label: "① Nに行きたいんですが…",
+        example: "マルイデパートに「行きたいんですが…。」",
+        vi: "Tôi muốn đến cửa hàng bách hóa Marui..."
       },
       {
-        label: "② Nだ／ナAだ／イAい けど、～",
-        example: "たちばな公園は、場所は不便だ「けど」、きれいですよ。",
-        vi: "Công viên Tachibana 「tuy」 vị trí bất tiện nhưng đẹp."
+        label: "② Vて、～",
+        example: "この道をまっすぐ「行って」、２つ目の信号を左に曲がってください。",
+        vi: "Đi thẳng con đường này, rồi rẽ trái ở đèn tín hiệu thứ hai."
       },
       {
-        label: "③ V-ることができます",
-        example: "一年中、いろいろな花を「見ることができます。」",
-        vi: "Quanh năm 「có thể ngắm」 nhiều loại hoa khác nhau."
+        label: "③ N1じゃなくて、N2",
+        example: "１つ目「じゃなくて」、２つ目です。",
+        vi: "Không phải cái thứ nhất, mà là cái thứ hai."
       }
     ]
   },
@@ -25,44 +25,39 @@ export const grammarBai3 = [
   {
     id: "1",
     tab: "Mẫu 1",
-    title: "① Nで、／ナAで、／イAくて、～",
+    title: "① Nに行きたいんですが…",
     usage: [
-      "Dùng để nối 2 câu hoặc 2 ý với nhau.",
-      "Nếu là N hoặc A ナ thì dùng dạng 「～で」.",
-      "Nếu là A イ thì đổi 「い」 thành 「くて」."
+      "～んですが… để trình bày tình huống của bản thân và nhờ đối phương giúp đỡ.",
+      "Trong bài này thường dùng khi muốn hỏi đường.",
     ],
-    structure: "Nで、～／ナAで、～／イAくて、～",
+    structure: "Nに行きたいんですが…",
     notes: {
       points: [
-        "Dùng để liệt kê đặc điểm hoặc nối các tính chất song song.",
-        "Vế trước, vế sau mang ý nghĩa bổ sung cho nhau."
+        "Thêm 「～んですが…」 vào cuối câu để giải thích tình huống của mình và nhờ đối phương giúp đỡ.",
+        "Ở đây dùng khi muốn đi đến một nơi nào đó nhưng không biết đường nên hỏi cách đi.",
       ],
       examples: [
         {
-          jp: "この町は、とても「にぎやかで」、便利です。",
-          vi: "Khu phố này rất náo nhiệt và tiện lợi."
-        },
-        {
-          jp: "この部屋は、「広くて」、きれいです。",
-          vi: "Căn phòng này rộng và sạch nữa."
+          jp: "マルイデパートに「行きたいんですが…。」",
+          vi: "Tôi muốn đi đến trung tâm thương mại Maruichi."
         }
       ]
     },
     dialogue: [
       {
         speaker: "例1",
-        jp: "ここは「田舎で」、のんびりしています。",
-        vi: "Đây là nông thôn và cuộc sống thong thả."
+        jp: "駅はどこですか。",
+        vi: "Nhà ga ở đâu ạ?"
       },
       {
         speaker: "例2",
-        jp: "この辺は緑が「多くて」、静かでいいですね。",
-        vi: "Quanh đây nhiều cây xanh, yên tĩnh và thích nhỉ."
+        jp: "駅は、「どう行ったらいいですか。」（どう　Vたらいいですか）",
+        vi: "Tôi phải đi như thế nào thì đến được ga?"
       },
       {
         speaker: "例3",
-        jp: "この町はバスが「少なくて」、ちょっと不便です。",
-        vi: "Khu phố này ít xe buýt nên hơi bất tiện."
+        jp: "銀行に「行きたいんですが…。」",
+        vi: "Tôi muốn đi đến ngân hàng..."
       }
     ]
   },
@@ -70,44 +65,51 @@ export const grammarBai3 = [
   {
     id: "2",
     tab: "Mẫu 2",
-    title: "② Nだ／ナAだ／イAい けど、～",
+    title: "② Vて、～",
     usage: [
-      "Dùng để nối 2 câu có quan hệ trái ngược nhau.",
-      "Nếu là N hoặc A đuôi ナ thì dùng 「～だけど」.",
-      "Nếu là A đuôi イ thì dùng 「～いけど」."
+      "Dùng thể て của động từ để nối các hành động xảy ra theo thứ tự.",
     ],
-    structure: "Nだ／ナAだ／イAい + けど、～",
+    structure: "Vて、～／Vてください",
     notes: {
       points: [
-        "Một vế thể hiện đánh giá tích cực, vế còn lại thể hiện đánh giá tiêu cực (hoặc ngược lại).",
-        "Dùng khi muốn nêu ý đối lập một cách mềm mại."
+        "Dùng thể て để nối các hành động theo thứ tự khi hướng dẫn đường đi.",
+        "Khi chỉ đường, thường nói vị trí tổng quát trước, khi gần tới thì mô tả đặc điểm nhận biết."
       ],
       examples: [
         {
-          jp: "「日本人だけど」、漢字があまり書けません。",
-          vi: "Dù là người Nhật nhưng không viết được nhiều kanji lắm."
+          jp: "この道をまっすぐ「行って」、２つ目の信号を左に曲がってください。",
+          vi: "Hãy đi thẳng con đường này và rẽ trái ở đèn giao thông thứ hai."
         },
         {
-          jp: "「日曜日だけど」、仕事があります。",
-          vi: "Dù là Chủ nhật nhưng vẫn có việc phải làm."
+          jp: "マルイデパートは、あの信号を右に「曲がって」、そのあと、ずっとまっすぐです。",
+          vi: "Để tới trung tâm thương mại Maruichi thì rẽ phải ở đèn giao thông kia, sau đó đi thẳng."
+        },
+        {
+          jp: "科学博物館は、ここをまっすぐ「行って」、橋を「渡って」、すぐ右に曲がったところにあります。",
+          vi: "Bảo tàng Khoa học đi thẳng từ đây, qua cầu rồi rẽ phải ngay là tới."
         }
       ]
     },
     dialogue: [
       {
-        speaker: "例1",
-        jp: "「都会だけど」、緑が多いですね。",
-        vi: "Là thành phố nhưng có nhiều cây xanh nhỉ."
+        speaker: "A",
+        jp: "家はどの辺ですか。",
+        vi: "Nhà bạn ở khu nào?"
       },
       {
-        speaker: "例2",
-        jp: "この辺は「静かだけど」、ちょっと不便です。",
-        vi: "Vùng này yên tĩnh nhưng hơi bất tiện."
+        speaker: "B",
+        jp: "小島高校の近くです。",
+        vi: "Gần trường cấp 3 Kojima."
       },
       {
-        speaker: "例3",
-        jp: "ここからちょっと「遠いけど」、バスがあります。",
-        vi: "Từ đây hơi xa nhưng có xe buýt."
+        speaker: "A",
+        jp: "もうすぐ小島高校だけど…。",
+        vi: "Sắp tới trường cấp 3 Kojima rồi…"
+      },
+      {
+        speaker: "B",
+        jp: "この先に、白くて大きな家があります。その角を右に入ってください。",
+        vi: "Phía trước có một ngôi nhà lớn màu trắng. Hãy rẽ phải ở góc đó."
       }
     ]
   },
@@ -115,38 +117,41 @@ export const grammarBai3 = [
   {
     id: "3",
     tab: "Mẫu 3",
-    title: "③ V-ることができます",
+    title: "③ N1じゃなくて、N2",
     usage: [
-      "Diễn tả khả năng hoặc điều có thể thực hiện trong một hoàn cảnh nhất định.",
-      "Khi muốn biến động từ thành danh từ thì thêm 「こと」 sau thể từ điển."
+      "Dùng để đính chính lại thông tin mà đối phương đã nói.",
+      "Phủ định N1 rồi sửa lại thành N2.",
+      "Khi muốn nói 'không phải A mà là B'."
     ],
-    structure: "V-る + ことができます",
+    structure: "N1じゃなくて、N2",
     notes: {
       points: [
-        "Trong bài này giải thích về thành phố, địa điểm du lịch, nhà hàng..."
+        "Dùng khi muốn sửa lại điều mà đối phương hiểu nhầm.",
+        "Phủ định N1 và đưa ra thông tin đúng là N2.",
+        "「～じゃなくて」 là dạng nối của 「～じゃない（です）」."
       ],
       examples: [
         {
-          jp: "一年中、いろいろな花を見ることができます。",
-          vi: "Quanh năm có thể ngắm nhiều loại hoa."
+          jp: "１つ目「じゃなくて」、２つ目です。",
+          vi: "Không phải cái thứ nhất, mà là cái thứ hai."
         }
       ]
     },
     dialogue: [
       {
-        speaker: "例1",
-        jp: "この店では、地元の料理を食べることができます。",
-        vi: "Ở cửa hàng này có thể ăn món địa phương."
+        speaker: "A",
+        jp: "すみません。博物館【はくぶつかん】はどこですか。",
+        vi: "Xin lỗi. Cho tôi hỏi bảo tàng ở đâu?"
       },
       {
-        speaker: "例2",
-        jp: "丘の上から海と町を見渡すことができます。",
-        vi: "Từ trên đồi có thể nhìn bao quát biển và khu phố."
+        speaker: "B",
+        jp: "博物館？ 市立【しりつ】博物館ですか。",
+        vi: "Bảo tàng à? Có phải bảo tàng thành phố không?"
       },
       {
-        speaker: "例3",
-        jp: "夏はここで泳ぐことができます。",
-        vi: "Mùa hè có thể bơi ở đây."
+        speaker: "A",
+        jp: "いいえ、市立博物館「じゃなくて」、科学【かがく】博物館です。",
+        vi: "Không, không phải bảo tàng thành phố mà là Bảo tàng Khoa học."
       }
     ]
   }

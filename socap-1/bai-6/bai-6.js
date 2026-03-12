@@ -126,7 +126,7 @@ function renderGrammar(id) {
     <div class="grammar-block block-dialogue">
       <h4>Hội thoại</h4>
       ${g.dialogue.map(d => `
-        <p><strong>${d.speaker}:</strong> ${highlight(d.jp)}</p>
+        <p><strong>${d.speaker}:</strong> ${addHira(highlight(d.jp))}</p>
         <p class="dialogue-vi"><strong>${d.speaker}:</strong> ${highlight(d.vi)}</p>
       `).join("")}
     </div>` : ""}
