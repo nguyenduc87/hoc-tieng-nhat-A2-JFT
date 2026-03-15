@@ -8,6 +8,10 @@ function shuffle(arr) {
     return arr.sort(() => Math.random() - 0.5);
 }
 
+// Tô màu chữ đỏ
+function highlight(text) {
+    return text.replace(/「(.*?)」/g, '<span class="red-text">$1</span>');
+}
 // Phiên âm hira trên kanji
 function addHira(text) {
   return text.replace(
@@ -22,6 +26,8 @@ function renderQuiz() {
     navEl.innerHTML = "";
 
     grammarList.forEach((item, index) => {
+
+        const texts = [].concat(item.leftContent?.text || "");
 
         const shuffledOptions = shuffle([...item.options]);
 
@@ -41,14 +47,14 @@ function renderQuiz() {
                 `<img src="${item.leftContent.image}" class="left-image">`
                 : ""}
 
-                ${item.leftContent?.text ?
-                `<div class="left-text">${addHira(item.leftContent.text)}</div>`
-                : ""}
+                ${texts.map(t => `
+                    <div class="left-text">${addHira(highlight(t))}</div>
+                `).join("")}
 
                 <div class="answers vertical">
                     ${shuffledOptions.map(opt => `
                         <button data-correct="${opt === item.correct}">
-                            ${addHira(opt)}
+                            ${opt}
                         </button>
                     `).join("")}
                 </div>

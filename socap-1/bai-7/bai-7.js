@@ -126,7 +126,7 @@ function renderGrammar(id) {
     <div class="grammar-block block-dialogue">
       <h4>Hội thoại</h4>
       ${g.dialogue.map(d => `
-        <p><strong>${d.speaker}:</strong> ${highlight(d.jp)}</p>
+        <p><strong>${d.speaker}:</strong> ${addHira(highlight(d.jp))}</p>
         <p class="dialogue-vi"><strong>${d.speaker}:</strong> ${highlight(d.vi)}</p>
       `).join("")}
     </div>` : ""}
@@ -393,13 +393,13 @@ function renderReading() {
 
         <div class="question-box" id="readingQuestion">
             <h4>❓ Câu hỏi</h4>
-            ${item.questions.map((q, i) => `<p>${i + 1}. ${q}</p>`).join("")}
+            ${item.questions.map((q) => `<p>${addHira(q)}</p>`).join("")}
         </div>
 
         <button class="answer-btn">Xem đáp án</button>
 
         <div class="answer-box">
-            ${item.answers.map((a, i) => `<p>${i + 1}. ${a}</p>`).join("")}
+            ${item.answers.map(a => `<p>${addHira(a)}</p>`).join("")}
         </div>
     </div>
   `).join("");

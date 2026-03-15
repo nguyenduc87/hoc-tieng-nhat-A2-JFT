@@ -77,15 +77,15 @@ export const grammarBai3 = [
       ],
       examples: [
         {
-          jp: "この道をまっすぐ「行って」、２つ目の信号を左に曲がってください。",
+          jp: "この道をまっすぐ「行って」、２つ目の信号を左に曲【ま】がってください。",
           vi: "Hãy đi thẳng con đường này và rẽ trái ở đèn giao thông thứ hai."
         },
         {
-          jp: "マルイデパートは、あの信号を右に「曲がって」、そのあと、ずっとまっすぐです。",
+          jp: "マルイデパートは、あの信号を右に「曲【ま】がって」、そのあと、ずっとまっすぐです。",
           vi: "Để tới trung tâm thương mại Maruichi thì rẽ phải ở đèn giao thông kia, sau đó đi thẳng."
         },
         {
-          jp: "科学博物館は、ここをまっすぐ「行って」、橋を「渡って」、すぐ右に曲がったところにあります。",
+          jp: "科学【かがく】博物館【はくぶつかん】は、ここをまっすぐ「行って」、橋【はし】を「渡【わた】って」、すぐ右に曲がったところにあります。",
           vi: "Bảo tàng Khoa học đi thẳng từ đây, qua cầu rồi rẽ phải ngay là tới."
         }
       ]
@@ -93,12 +93,12 @@ export const grammarBai3 = [
     dialogue: [
       {
         speaker: "A",
-        jp: "家はどの辺ですか。",
+        jp: "家はどの辺【へん】ですか。",
         vi: "Nhà bạn ở khu nào?"
       },
       {
         speaker: "B",
-        jp: "小島高校の近くです。",
+        jp: "小島高校【こじまこうこう】の近くです。",
         vi: "Gần trường cấp 3 Kojima."
       },
       {
@@ -108,7 +108,7 @@ export const grammarBai3 = [
       },
       {
         speaker: "B",
-        jp: "この先に、白くて大きな家があります。その角を右に入ってください。",
+        jp: "この先【さき】に、白くて大きな家があります。その角を右に入ってください。",
         vi: "Phía trước có một ngôi nhà lớn màu trắng. Hãy rẽ phải ở góc đó."
       }
     ]

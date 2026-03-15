@@ -88,12 +88,12 @@ export const grammarBai3 = [
     dialogue: [
       {
         speaker: "A",
-        jp: "明日の待ち合わせ、平和（へいわ）の鳥の像（ぞう）の前はどうですか？",
-        vi: "Ngày mai mình gặp nhau trước bức tượng Heiwa-no-tori được không?"
+        jp: "明日の待【ま】ち合【あ】わせ、平和【へいわ】の鳥の像【ぞう】の前は「どうですか？」",
+        vi: "Ngày mai mình gặp nhau trước bức tượng Heiwa-no-tori 「được không?」"
       },
       {
         speaker: "B",
-        jp: "ちょっとわかりません。「駅の改札（かいさつ）でもいいですか？」",
+        jp: "ちょっとわかりません。「駅の改札【かいさつ】でもいいですか？」",
         vi: "Tớ không biết chỗ đấy. Hay là mình gặp nhau ở 「cửa soát vé nhà ga được không?」"
       },
       {
@@ -133,12 +133,12 @@ export const grammarBai3 = [
     dialogue: [
       {
         speaker: "例1",
-        jp: "「渋滞（じゅうたい）で」、30分ぐらい遅れます。",
+        jp: "「渋滞【じゅうたい】で」、30分ぐらい遅【おく】れます。",
         vi: "Tôi sẽ đến muộn khoảng 30 phút 「vì tắc đường.」"
       },
       {
         speaker: "例2",
-        jp: "道に「迷って」、ちょっと遅れます。",
+        jp: "道に「迷【まよ】って」、ちょっと遅【おく】れます。",
         vi: "Tôi sẽ đến muộn một chút 「vì bị lạc」 đường."
       }
     ]

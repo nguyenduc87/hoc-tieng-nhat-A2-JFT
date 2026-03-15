@@ -1,8 +1,8 @@
-import { vocabList } from "./data/vocab-bai-6.js";
-import { kanjiList } from "./data/kanji-bai-6.js";
-import { grammarBai3 } from "./data/grammar-bai-6.js";
-import { listeningData } from "./data/listen-bai-6.js";
-import { readingData } from "./data/reading-bai-6.js";
+import { vocabList } from "./data/vocab-bai-8.js";
+import { kanjiList } from "./data/kanji-bai-8.js";
+import { grammarBai3 } from "./data/grammar-bai-8.js";
+import { listeningData } from "./data/listen-bai-8.js";
+import { readingData } from "./data/reading-bai-8.js";
 
 
 /* =========================
@@ -97,7 +97,7 @@ function renderGrammar(id) {
     ${g.usage ? `
     <div class="grammar-block block-usage">
       <h4>Cách dùng</h4>
-      <ul>${g.usage.map(u => `<li>${u}</li>`).join("")}</ul>
+      <ul>${g.usage.map(u => `<li>${highlight(u)}</li>`).join("")}</ul>
     </div>` : ""}
 
     ${g.structure ? `
@@ -116,7 +116,7 @@ function renderGrammar(id) {
       <div class="note-example">
         <h5>Ví dụ</h5>
         ${g.notes.examples.map((e, i) => `
-          <p class="example-jp">${i + 1}. ${addHira(highlight(e.jp))}</p>
+          <p class="example-jp">${i + 1}. ${highlight(e.jp)}</p>
           <p class="example-vi">${highlight(e.vi)}</p>
         `).join("")}
       </div>
@@ -126,7 +126,7 @@ function renderGrammar(id) {
     <div class="grammar-block block-dialogue">
       <h4>Hội thoại</h4>
       ${g.dialogue.map(d => `
-        <p><strong>${d.speaker}:</strong> ${addHira(highlight(d.jp))}</p>
+        <p><strong>${d.speaker}:</strong> ${highlight(d.jp)}</p>
         <p class="dialogue-vi"><strong>${d.speaker}:</strong> ${highlight(d.vi)}</p>
       `).join("")}
     </div>` : ""}
@@ -282,15 +282,14 @@ function renderListening() {
       </div>
       
       <div id="script-${index}" class="slide-box">
-
-        ${item.script.map(line => `<p>${addHira(line)}</p>`).join("")}
-
         ${item.image ? item.image.map(img => `
           <div class="script-img">
             <img src="${img}">
           </div>
         `).join("") : ""}
 
+        ${item.script.map(line => `<p>${addHira(line)}</p>`).join("")}
+        
       </div>
 
       <div id="trans-${index}" class="slide-box">
@@ -394,13 +393,13 @@ function renderReading() {
 
         <div class="question-box" id="readingQuestion">
             <h4>❓ Câu hỏi</h4>
-            ${item.questions.map((q, i) => `<p>${i + 1}. ${q}</p>`).join("")}
+            ${item.questions.map((q) => `<p>${addHira(q)}</p>`).join("")}
         </div>
 
         <button class="answer-btn">Xem đáp án</button>
 
         <div class="answer-box">
-            ${item.answers.map((a, i) => `<p>${i + 1}. ${a}</p>`).join("")}
+            ${item.answers.map(a => `<p>${addHira(a)}</p>`).join("")}
         </div>
     </div>
   `).join("");

@@ -1,174 +1,191 @@
 export const grammarList = [
     {
         id: 1,
-        grammar: "Nで、ナAで、イAくて",
+        grammar: "Nはどこですか",
         leftContent: {
-            image: "",
-            text: "人が多い｜にぎやか(な)",
+            image: "../images/grammar/post_office.png",
+            text: "郵便局【ゆうびんきょく】",
         },
-        question: "どうですか？この町は",
+        question: "Cách hỏi đường nào là đúng?",
         options: [
-            "人が多くて、にぎやかです。",
-            "人が多いで、にぎやかです。",
-            "人が多くて、にぎやかで。",
-            "人が多いくて、にぎやかです。"
+            "郵便局はどこですか。",
+            "郵便局をどこですか。",
+            "郵便局にどこですか。",
+            "郵便局がどこへですか。"
         ],
-        correct: "人が多くて、にぎやかです。",
-        explanation: "イ形容詞「多い」→ 多くて. ナ形容詞「にぎやか」→ にぎやかです。→ 人が多くて、にぎやかです。"
+        correct: "郵便局はどこですか。",
+        explanation: "Mẫu hỏi vị trí địa điểm cơ bản: 「Nはどこですか。」 → Bưu điện ở đâu?"
     },
     {
         id: 2,
-        grammar: "Nで、ナAで、イAくて",
+        grammar: "Nはどう行ったらいいですか",
         leftContent: {
-            image: "",
-            text: "人が親切(な)｜住みやすい",
+            image: "../images/grammar/hospital.png",
+            text: "市民【しみん】病院",
         },
-        question: "どうですか？この町は",
+        question: "Cách hỏi đường nào là đúng?",
         options: [
-            "人が親切で、住みやすいです。",
-            "人が親切くて、住みやすいです。",
-            "人が親切に、住みやすいです。",
-            "人が親切で、住みやすくです。"
+            "市民病院はどう行ったらいいですか。",
+            "市民病院をどう行ったらいいですか。",
+            "市民病院がどう行ったらいいですか。",
+            "市民病院にどう行きますかどこ。"
         ],
-        correct: "人が親切で、住みやすいです。",
-        explanation: "ナ形容詞「親切」→ 親切で. イ形容詞「住みやすい」 giữ nguyên trước です。→ 人が親切で、住みやすいです。"
+        correct: "市民病院はどう行ったらいいですか。",
+        explanation: "Dùng khi muốn hỏi cách đi: 「Nはどう行ったらいいですか。」 → Đi thế nào thì tới bệnh viện thành phố?"
     },
     {
         id: 3,
-        grammar: "Nで、ナAで、イAくて",
+        grammar: "Nに行きたいんですが",
         leftContent: {
-            image: "",
-            text: "暑い｜大変(な)",
+            image: "../images/grammar/station.png",
+            text: "駅",
         },
-        question: "どうですか？この町は",
+        question: "Cách hỏi đường nào là đúng?",
         options: [
-            "暑くて、大変です。",
-            "暑いで、大変です。",
-            "暑くて、大変で。",
-            "暑いて、大変です。"
+            "駅に行きたいんですが…。",
+            "駅を行きたいんですが。",
+            "駅が行きたいんですが。",
+            "駅にどこ行きたいんですが。"
         ],
-        correct: "暑くて、大変です。",
-        explanation: "イ形容詞「暑い」→ 暑くて. ナ形容詞「大変」→ 大変です。→ 暑くて、大変です。"
+        correct: "駅に行きたいんですが…。",
+        explanation: "「Nに行きたいんですが…」 dùng để trình bày tình huống và nhờ người khác giúp chỉ đường."
     },
 
     {
         id: 4,
-        grammar: "～て／～くて",
+        grammar: "Vて、～",
         leftContent: {
             image: "",
-            text: "古い｜きたない",
+            text: "その信号を曲がります。まっすぐ行きます。"
         },
-        question: "この建物はどうですか。",
+        question: "Hãy nói câu chỉ đường đúng bằng cách nối 2 câu.",
         options: [
-            "この建物は、古くて、きたないです。",
-            "この建物は、古いで、きたないです。",
-            "この建物は、古くて、きたないくてです。",
-            "この建物は、古いくて、きたないです。"
+            "その信号を曲がって、まっすぐ行ってください。",
+            "その信号を曲がりて、まっすぐ行きます。",
+            "その信号を曲がるて、まっすぐ行ってください。",
+            "その信号を曲がって、まっすぐ行きますて。"
         ],
-        correct: "この建物は、古くて、きたないです。",
-        explanation: "イ形容詞 nối với くて để liệt kê tính chất → 古い → 古くて. → この建物は、古くて、きたないです。"
+        correct: "その信号を曲がって、まっすぐ行ってください。",
+        explanation: "Dùng thể て để nối 2 hành động chỉ đường: 曲がります → 曲がって。"
     },
     {
         id: 5,
-        grammar: "～けど",
+        grammar: "Vて、～",
         leftContent: {
             image: "",
-            text: "古い｜きれい(な)",
+            text: "２つ目の信号を左に曲がります。１つ目の角を右に曲がります。"
         },
-        question: "この建物はどうですか。",
+        question: "Hãy nói câu chỉ đường đúng bằng cách nối 2 câu.",
         options: [
-            "この建物は、古いけど、きれいです。",
-            "この建物は、古くて、きれいです。",
-            "この建物は、古いで、きれいです。",
-            "この建物は、古いけど、きれいなです。"
+            "２つ目の信号を左に曲がって、１つ目の角を右に曲がってください。",
+            "２つ目の信号を左に曲がるて、１つ目の角を右に曲がります。",
+            "２つ目の信号を左に曲がりて、１つ目の角を右に曲がってください。",
+            "２つ目の信号を左に曲がって、１つ目の角を右に曲がりますて。"
         ],
-        correct: "この建物は、古いけど、きれいです。",
-        explanation: "「けど」 dùng để nối hai ý có sắc thái đối lập. → この建物は、古いけど、きれいです。"
+        correct: "２つ目の信号を左に曲がって、１つ目の角を右に曲がってください。",
+        explanation: "Nối 2 hành động bằng thể て: 曲がります → 曲がって。"
     },
     {
         id: 6,
-        grammar: "～て／～くて",
+        grammar: "Vて、～",
         leftContent: {
             image: "",
-            text: "小さい｜有名(な)",
+            text: "駅の前の道を渡ります。銀行とコンビニの間【あいだ】の道をまっすぐ行きます。"
         },
-        question: "この商店街はどうですか。",
+        question: "Hãy nói câu chỉ đường đúng bằng cách nối 2 câu.",
         options: [
-            "この商店街は、小さくて、有名です。",
-            "この商店街は、小さいで、有名です。",
-            "この商店街は、小さくて、有名なです。",
-            "この商店街は、小さいくて、有名です。"
+            "駅の前の道を渡って、銀行とコンビニの間の道をまっすぐ行ってください。",
+            "駅の前の道を渡るて、銀行とコンビニの間の道をまっすぐ行きます。",
+            "駅の前の道を渡りて、銀行とコンビニの間の道をまっすぐ行ってください。",
+            "駅の前の道を渡って、銀行とコンビニの間の道をまっすぐ行きますて。"
         ],
-        correct: "この商店街は、小さくて、有名です。",
-        explanation: "イ形容詞 → くて (小さい → 小さくて). ナ形容詞 bỏ な khi đứng trước です → 有名です。"
+        correct: "駅の前の道を渡って、銀行とコンビニの間の道をまっすぐ行ってください。",
+        explanation: "渡ります → 渡って để nối 2 hành động chỉ đường."
+    },
+    {
+        id: 7,
+        grammar: "Vて、～",
+        leftContent: {
+            image: "",
+            text: "Đi thẳng con đường này, rẽ phải chỗ cột đèn thứ 2. Sẽ thấy ngân hàng ABC."
+        },
+        question: "Hãy chỉ đường đến ngân hàng ABC",
+        options: [
+            "この道をまっすぐ行って、右に曲がります。ABC銀行が見えます。",
+            "この道をまっすぐ行って、１つ目の信号を右に曲がります。ABC銀行が見えます。",
+            "この道をまっすぐ行って、２つ目の信号を右に曲がってください。ABC銀行が見えます。",
+            "この道をまっすぐ行って、２つ目の信号を右に曲がって、橋を渡ってください。ABC銀行が見えます。"
+        ],
+        correct: "この道をまっすぐ行って、２つ目の信号を右に曲がってください。ABC銀行が見えます。",
+        explanation: "この道をまっすぐ行って：Đi thẳng đường này| 右に曲がってください：Hãy rẽ phải| ABC銀行が見えます：Có thể thấy ngân hàng ABC."
     },
 
     {
-        id: 7,
-        grammar: "～けど",
+        id: 8,
+        grammar: "N1じゃなくて、N2",
         leftContent: {
             image: "",
-            text: "ちょっと高い｜おしゃれ(な)",
+            text: "A: ここをまっすぐ行って、次の角を右に曲がります。<br>B: 次の角を左ですね？ <br>A: いいえ、（　　　）。"
         },
-        question: "あの店はどうですか。",
+        question: "Hãy sửa lại thông tin cho đúng.",
         options: [
-            "あの店は、ちょっと高いけど、おしゃれです。",
-            "あの店は、ちょっと高くて、おしゃれです。",
-            "あの店は、ちょっと高いで、おしゃれです。",
-            "あの店は、ちょっと高いけど、おしゃれなです。"
+            "左じゃなくて、右です。",
+            "右じゃなくて、左です。",
+            "左で、右です。",
+            "左が、右です。"
         ],
-        correct: "あの店は、ちょっと高いけど、おしゃれです。",
-        explanation: "「けど」 nối hai ý có sắc thái hơi trái nhau (đắt nhưng đẹp). → あの店は、ちょっと高いけど、おしゃれです。"
-    },
-    {
-        id: 8,
-        grammar: "Vることができます",
-        leftContent: {
-            image: "../images/grammar/yokohama.png",
-            text: "横浜では、",
-        },
-        question: "横浜では、何ができますか。",
-        options: [
-            "船に乗ることができます。",
-            "船に乗りますことができます。",
-            "船を乗ることができます。",
-            "船に乗るできます。"
-        ],
-        correct: "船に乗ることができます。",
-        explanation: "V辞書形 + ことができます dùng để nói khả năng có thể làm. → 横浜では、船に乗ることができます。"
+        correct: "左じゃなくて、右です。",
+        explanation: "Dùng mẫu N1じゃなくて、N2 để sửa lại thông tin: không phải rẽ trái mà rẽ phải."
     },
     {
         id: 9,
-        grammar: "Vることができます",
+        grammar: "N1じゃなくて、N2",
         leftContent: {
-            image: "../images/grammar/tenboudai.png",
-            text: "ビルの展望台から、",
+            image: "",
+            text: "A: この先に、公園があります。郵便局は、そのすぐ横にあります。<br> B: ええと、交番の横【よこ】ですか？<br>A: いいえ、（　　　）。"
         },
-        question: "ビルの展望台（てんぼうだい）から、何ができますか。",
+        question: "Hãy sửa lại thông tin cho đúng.",
         options: [
-            "町を見渡すことができます。",
-            "町が見渡すことができます。",
-            "町を見渡しますことができます。",
-            "町を見渡すできます。"
+            "交番じゃなくて、公園の横です。",
+            "公園じゃなくて、交番の横です。",
+            "交番で、公園の横です。",
+            "交番が、公園の横です。"
         ],
-        correct: "町を見渡すことができます。",
-        explanation: "見渡す nghĩa là nhìn bao quát toàn cảnh. Mẫu: Vる + ことができます → ビルの展望台から、町を見渡すことができます。"
+        correct: "交番じゃなくて、公園の横です。",
+        explanation: "Phủ định thông tin sai rồi đưa thông tin đúng: không phải cạnh đồn cảnh sát mà là cạnh công viên."
     },
     {
         id: 10,
-        grammar: "Vることができます",
+        grammar: "N1じゃなくて、N2",
         leftContent: {
-            image: "../images/grammar/rotenfuro.png",
-            text: "この温泉では、",
+            image: "",
+            text: "A: この橋を渡って、まっすぐ行って、赤いビルの３階にあります。<br> B: はい、黒いビルの４階ですね？<br> A: いいえ、（　　　）。"
         },
-        question: "この温泉では、何ができますか。",
+        question: "Hãy sửa lại thông tin cho đúng.",
         options: [
-            "露天風呂（ろてんぶろ）に入ることができます。",
-            "露天風呂（ろてんぶろ）を入ることができます。",
-            "露天風呂（ろてんぶろ）に入りますことができます。",
-            "露天風呂（ろてんぶろ）に入るできます。"
+            "黒いビルの４階じゃなくて、赤いビルの３階です。",
+            "赤いビルの３階じゃなくて、黒いビルの４階です。",
+            "黒いビルで、赤いビルの３階です。",
+            "黒いビルが、赤いビルの３階です。"
         ],
-        correct: "露天風呂（ろてんぶろ）に入ることができます。",
-        explanation: "V辞書形 + ことができます diễn tả có thể làm. → この温泉では、露天風呂に入ることができます。"
+        correct: "黒いビルの４階じゃなくて、赤いビルの３階です。",
+        explanation: "Dùng N1じゃなくて、N2 để đính chính: không phải tầng 4 tòa nhà màu đen mà là tầng 3 tòa nhà màu đỏ."
     },
+    {
+        id: 11,
+        grammar: "N1じゃなくて、N2",
+        leftContent: {
+            image: "",
+            text: "A: Tại Nhật bạn đang làm ở nhà hàng hả?<br> B: Không, không phải nhà hàng mà là ở siêu thị"
+        },
+        question: "Dịch sang tiếng Nhật nào là đúng:",
+        options: [
+            "A: 日本では、レストランで働いていますか？<br> B：いいえ、レストランじゃなくて、スーパーです。",
+            "A: 日本では、レストランで働いていますか？<br> B：いいえ、スーパーじゃなくて、レストランです。",
+            "A: 日本では、ホテルで働いていますか？<br> B：いいえ、レストランじゃなくて、スーパーです。",
+            "A: 日本では、ホテルで働いていますか？<br> B：いいえ、スーパーじゃなくて、レストランです。",
+        ],
+        correct: "A: 日本では、レストランで働いていますか？<br> B：いいえ、レストランじゃなくて、スーパーです。",
+        explanation: "Dùng N1じゃなくて、N2 để đính chính: không phải nhà hàng mà là siêu thị."
+    }
 ];

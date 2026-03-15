@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
+    font-family: "Hiragino Kaku Gothic Pro", "Yu Gothic", Arial, sans-serif;
     background: #f4f6f9;
 }
 
@@ -28,11 +29,17 @@ body {
 
 /* QUESTION CARD */
 .question-card {
-    background: white;
+    background:
+    linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
+    url("https://images.unsplash.com/photo-1522383225653-ed111181a951");
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .question-title {
@@ -41,8 +48,10 @@ body {
 }
 
 .question-header {
-    margin-bottom: 10px;
-    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
 }
 
 .question-number {
@@ -62,13 +71,22 @@ body {
 }
 
 .answers button {
-    padding: 12px;
-    border-radius: 8px;
-    border: none;
-    background: #fde4cc;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 2px solid #eec79a;
+    background: linear-gradient(180deg, #fff9f3, #ffe6cc);
+    font-size: 16px;
     cursor: pointer;
-    font-size: 15px;
-    transition: 0.2s;
+    transition: all .25s;
+}
+
+.answers button:hover {
+
+    transform: translateY(-3px);
+
+    background: linear-gradient(180deg, #fff3dc, #ffd4a8);
+
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .answers button.selected {
@@ -191,8 +209,11 @@ body {
 .left-text {
     font-size: 18px;
     line-height: 1.6;
-    background: #f5f7fa;
+    padding: 6px 7px;
+    background: #fdf7f7;
     border-radius: 10px;
+    border-left: 3px solid #0f3057;
+    border-bottom: 2px solid #0f3057;
     width: 100%;
 }
 
@@ -207,6 +228,27 @@ body {
     text-align: left;
     font-size: 16px;
     padding: 10px;
+}
+
+/* Tô chữ đỏ */
+.red-text {
+    color: #d93025;
+}
+
+/* Phiên âm hira  */
+ruby {
+    font-size: 16px;
+    line-height: 2.2;
+}
+
+rb {
+    letter-spacing: 0px;
+}
+
+rt {
+    font-size: 10px;
+    color: #d93025;
+    letter-spacing: 0px;
 }
 
 /* Giải thích ngữ pháp */
@@ -251,33 +293,33 @@ body {
 }
 
 .active-nav {
-  background: #0f3057;
+    background: #0f3057;
 }
 
 .submit-btn {
-  display: block;
-  margin: 15px auto;
-  padding: 12px 40px;
-  font-size: 16px;
-  border: none;
-  border-radius: 10px;
-  background: #2d89ef;
-  color: white;
-  cursor: pointer;
+    display: block;
+    margin: 15px auto;
+    padding: 12px 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background: #2d89ef;
+    color: white;
+    cursor: pointer;
 }
 
 #resultBox {
-  text-align: center;
-  margin: 20px 0;
+    text-align: center;
+    margin: 20px 0;
 }
 
 #retryBtn {
-  padding: 10px 25px;
-  border: none;
-  border-radius: 8px;
-  background: #ff9800;
-  color: white;
-  cursor: pointer;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    background: #ff9800;
+    color: white;
+    cursor: pointer;
 }
 
 /* NAV SAU SUBMIT */
@@ -294,6 +336,22 @@ body {
 .q-grid button.nav-unanswered {
     background: #8a8989;
     color: white;
+}
+
+/* Hieu ung Sakura */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("https://www.transparenttextures.com/patterns/sakura.png");
+
+    opacity: 0.15;
+
+    pointer-events: none;
 }
 
 /* =========================

@@ -133,11 +133,11 @@ export const vocabList = [
     exampleVi: "Có tai nạn trên đường."
   },
   {
-    jp: "止まる",
+    jp: "が止まる",
     hira: "とまる",
     vi: "Dừng",
-    example: "バスが駅で止まりました。",
-    exampleVi: "Xe buýt đã dừng ở nhà ga."
+    example: "事故で電車が止まりました。",
+    exampleVi: "Vì tai nạn nên xe điện dừng lại."
   },
   {
     jp: "連絡する",

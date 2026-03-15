@@ -12,7 +12,7 @@
    TABS
 ========================= */
 
-.grammar-tabs {
+/* .grammar-tabs {
     position: sticky;
     top: 110px;
     z-index: 50;
@@ -41,6 +41,51 @@
     background: #ff6b6b;
     color: white;
     font-weight: 600;
+} */
+
+.grammar-tabs {
+    position: sticky;
+    top: 110px;
+    z-index: 50;
+
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+    background: #f9fafb;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+/* Tab */
+.grammar-tab {
+    padding: 8px 18px;
+    border-radius: 999px;
+
+    background: #f1f3f5;
+    color: #555;
+    font-size: 14px;
+    font-weight: 500;
+
+    cursor: pointer;
+
+    transition: all 0.25s ease;
+}
+
+/* Hover */
+.grammar-tab:hover {
+    background: #ffe3e3;
+    color: #ff5a5a;
+    transform: translateY(-1px);
+}
+
+/* Active */
+.grammar-tab.active {
+    background: linear-gradient(135deg,#ff6b6b,#ff8787);
+    color: white;
+    font-weight: 600;
+
+    box-shadow: 0 6px 16px rgba(255,107,107,0.35);
 }
 
 /* =========================
