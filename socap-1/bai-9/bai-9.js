@@ -80,7 +80,7 @@ function renderGrammar(id) {
         <div class="summary-row">
           <div class="summary-left">${item.label}</div>
           <div class="summary-right">
-            <div class="summary-jp">${highlight(item.example)}</div>
+            <div class="summary-jp">${addHira(highlight(item.example))}</div>
             <div class="summary-vi">${highlight(item.vi)}</div>
           </div>
         </div>

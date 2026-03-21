@@ -1,304 +1,329 @@
 export const grammarList = [
     {
         id: 1,
-        grammar: "もうVました",
+        grammar: "① Nで（Cách thức / Phương tiện）",
         leftContent: {
-            image: "",
+            image: "../images/grammar/01-01.png",
             text: [
-                "A：新しいスーパー、もう行きましたか？",
-                "B：はい、（＿＿）／いえ、（＿＿）",
+                "どうやって日本語を勉強しましたか？",
+                "➡日本語学校＿＿＿勉強しました。",
             ]
         },
         question:
-            "Chọn câu trả lời phù hợp.",
+            "（＿＿）Chọn câu đúng",
         options: [
-            "行きました／まだです",
-            "行きます／まだです",
-            "行きました／行きませんです",
-            "行きました／ないです",
+            "で",
+            "に",
+            "は",
+            "を",
         ],
-        correct: "行きました／まだです",
-        explanation: "もうVました dùng để nói hành động đã hoàn thành <br> Khi hỏi もうV-ましたか？: nếu đã làm → はい、V-ました。<br>Nếu chưa làm → いいえ、まだです。"
+        correct: "で",
+        explanation: "Nで（Cách thức/phương tiện）.<br> Câu hỏi là học bằng cách nào. -> Học bằng cách là tại trường."
     },
     {
         id: 2,
-        grammar: "もうVました",
+        grammar: "① Nで（Cách thức / Phương tiện）",
         leftContent: {
-            image: "",
+            image: "../images/grammar/01-02.png",
             text: [
-                "A：ポートタワー、もう登りましたか？",
-                "B：はい、（＿＿＿）。"
+                "どうやってアニメを見ますか？",
+                "➡パソコン＿＿＿見ます。",
             ]
         },
-        question: "Chọn câu trả lời phù hợp.",
+        question:
+            "（＿＿）Chọn câu đúng",
         options: [
-            "登りました",
-            "登ります",
-            "登りませんでした",
-            "登りません",
+            "で",
+            "に",
+            "は",
+            "を",
         ],
-        correct: "登りました",
-        explanation: "もうVました dùng để nói hành động đã hoàn thành <br> Khi hỏi もうV-ましたか？: nếu đã làm → はい、V-ました。<br>Nếu chưa làm → いいえ、まだです。"
+        correct: "で",
+        explanation: "Nで（Cách thức/phương tiện）.<br> Xem anime bằng máy tính → dùng パソコンで。"
     },
     {
         id: 3,
-        grammar: "もうVました",
+        grammar: "① Nで（Cách thức / Phương tiện）",
         leftContent: {
-            image: "",
+            image: "../images/grammar/01-03.png",
             text: [
-                "A：お土産、（買う → ＿＿＿）？",
-                "B：はい、買いました。"
+                "どうやってニュースを読みますか？",
+                "➡アプリ＿＿＿読みます。",
             ]
         },
-        question: "Chọn câu trả lời phù hợp.",
+        question:
+            "（＿＿）Chọn câu đúng",
         options: [
-            "もう買いましたか",
-            "買いましたか",
-            "もう買いませんでしたか",
-            "もう買いますか",
+            "で",
+            "に",
+            "は",
+            "を",
         ],
-        correct: "もう買いましたか",
-        explanation: "もうVました dùng để nói hành động đã hoàn thành <br> Khi hỏi もうV-ましたか？: nếu đã làm → はい、V-ました。<br>Nếu chưa làm → いいえ、まだです。"
+        correct: "で",
+        explanation: "Nで（Cách thức/phương tiện）.<br> Đọc bằng app → アプリで。"
     },
 
     {
         id: 4,
-        grammar: "V-たことがあります",
+        grammar: "② N1は N2が ナAです / イAです",
         leftContent: {
             image: "",
             text: [
-                "A：牛丼を食べる →（＿＿＿＿＿）？"
+                "英語｜発音＝おもしろい",
+                "➡（　　　　　　　　　　　）。"
             ]
         },
-        question: "Dùng mẫu「～たことがありますか」",
+        question: "Chọn câu đúng",
         options: [
-            "食べたことがありますか？",
-            "食べますか？",
-            "食べた？",
-            "食べることがありますか？"
+            "英語は発音がおもしろいです",
+            "英語が発音はおもしろいです",
+            "英語は発音をおもしろいです",
+            "英語で発音がおもしろいです"
         ],
-        correct: "食べたことがありますか？",
-        explanation: "Mẫu 「V-たことがありますか」 dùng để hỏi trải nghiệm chưa.<br>牛丼を食べる → 牛丼を食べたことがありますか。<br>VN: Bạn đã từng ăn cơm bò (gyudon) chưa?"
+        correct: "英語は発音がおもしろいです",
+        explanation: "Mẫu N1はN2がイAです → Tiếng Anh thì phát âm thú vị."
     },
     {
         id: 5,
-        grammar: "V-たことがあります",
+        grammar: "② N1は N2が ナAです / イAです",
         leftContent: {
             image: "",
             text: [
-                "A：船に乗る →（＿＿＿＿＿）？"
+                "ミャンマー語｜文字＝かわいい",
+                "➡（　　　　　　　　　　　）。"
             ]
         },
-        question: "Dùng mẫu 「～たことがありますか」",
+        question: "Chọn câu đúng",
         options: [
-            "乗りますか？",
-            "乗ったことがありますか？",
-            "乗ることがありますか？",
-            "乗りましたか？"
+            "ミャンマー語は文字がかわいいです",
+            "ミャンマー語が文字はかわいいです",
+            "ミャンマー語は文字をかわいいです",
+            "ミャンマー語で文字がかわいいです"
         ],
-        correct: "乗ったことがありますか？",
-        explanation: "V-た + ことがありますか dùng để hỏi trải nghiệm chưa.<br>船に乗る → 船に乗ったことがありますか。<br>VN: Bạn đã từng đi tàu/thuyền chưa?"
+        correct: "ミャンマー語は文字がかわいいです",
+        explanation: "Mẫu N1はN2がイAです → Tiếng Myanmar thì chữ viết dễ thương."
     },
     {
         id: 6,
-        grammar: "V-たことがあります",
+        grammar: "② N1は N2が ナAです / イAです",
         leftContent: {
             image: "",
             text: [
-                "A：温泉に入る →（＿＿＿＿＿）？"
+                "タイ語｜読む＝難しい",
+                "➡（　　　　　　　　　　　）。"
             ]
         },
-        question: "Dùng mẫu 「～たことがありますか」",
+        question: "Chọn câu đúng",
         options: [
-            "入りますか？",
-            "入ることがありますか？",
-            "入ったことがありますか？",
-            "入りましたか？"
+            "タイ語は読むが難しいです",
+            "タイ語は読むのが難しいです",
+            "タイ語が読むのは難しいです",
+            "タイ語で読むのが難しいです"
         ],
-        correct: "入ったことがありますか？",
-        explanation: "Mẫu hỏi trải nghiệm chưa: V-たことがありますか。<br>温泉に入る → 温泉に入ったことがありますか。<br>VN: Bạn đã từng tắm suối nước nóng chưa?"
+        correct: "タイ語は読むのが難しいです",
+        explanation: "Động từ → Vる + のが + イAです → Việc đọc tiếng Thái thì khó."
     },
 
     {
         id: 7,
-        grammar: "V-に 行きませんか",
+        grammar: "③ N1は、～。（でも、）N2は、～。",
         leftContent: {
-            image: "../images/grammar/panda.png",
+            image: "",
             text: [
-                "A：パンダを見る →（＿＿＿＿＿）？"
+                "話す＝得意(な)｜読む＝苦手(な)",
+                "➡（　　　　　　　　　　　）。"
             ]
         },
-        question: "Dùng mẫu 「V-に行きませんか」",
+        question: "Chọn câu đúng",
         options: [
-            "パンダを見ますか？",
-            "パンダを見に行きませんか？",
-            "パンダを見に行きます。",
-            "パンダを見たいですか？"
+            "話す は苦手です。でも、読む は得意です",
+            "話す は得意です。でも、読む は苦手です",
+            "話す のが得意です。でも、読む のが苦手です",
+            "話す が得意です。でも、読む が苦手です"
         ],
-        correct: "パンダを見に行きませんか？",
-        explanation: "Mẫu 「V-に行きませんか」 dùng để rủ ai đó đi làm gì.<br>見る → 見に行きませんか。<br>パンダを見に行きませんか。<br>VN: Bạn đi xem gấu trúc không?"
+        correct: "話すのが得意です。でも、読むのが苦手です",
+        explanation: "So sánh đối lập: Vる + のは + ナAです。"
     },
-
     {
         id: 8,
-        grammar: "V-に 行きませんか",
+        grammar: "③ N1は、～。（でも、）N2は、～。",
         leftContent: {
-            image: "../images/grammar/eiga.png",
+            image: "",
             text: [
-                "A：コンサートを聞く →（＿＿＿＿＿）？"
+                "ベトナム語｜発音【はつおん】＝とても難しい｜文法＝難しくない",
+                "➡（　　　　　　　　　　　）。"
             ]
         },
-        question: "Dùng mẫu 「V-に行きませんか」",
+        question: "Chọn câu đúng",
         options: [
-            "コンサートを聞きませんか？",
-            "コンサートを聞きに行きませんか？",
-            "コンサートを聞きに行きますか？",
-            "コンサートを聞きたいですか？"
+            "ベトナム語 は発音 は とても難しいです。でも、文法 は 難しくないです",
+            "ベトナム語 は発音 が とても難しいです。でも、文法 は 難しくないです",
+            "ベトナム語 が発音 は とても難しいです。でも、文法 が 難しくないです",
+            "ベトナム語 は発音 を とても難しいです。でも、文法 を 難しくないです"
         ],
-        correct: "コンサートを聞きに行きませんか？",
-        explanation: "Vます + に + 行きませんか dùng để rủ đi làm gì.<br>聞く → 聞きに行きませんか。<br>コンサートを聞きに行きませんか。<br>VN: Bạn đi nghe hòa nhạc không?"
+        correct: "ベトナム語は発音がとても難しいです。でも、文法は難しくないです",
+        explanation: "N1はN2がイAです。でも、N3はイAです（phủ định）。"
     },
-
     {
         id: 9,
-        grammar: "V-に 行きませんか",
+        grammar: "③ N1は、～。（でも、）N2は、～。",
         leftContent: {
-            image: "../images/grammar/nomu.png",
+            image: "",
             text: [
-                "A：飲む →（＿＿＿＿＿）？"
+                "モンゴル語｜文法＝日本語と似【に】ている｜文字＝ぜんぜん違【ちが】う",
+                "➡（　　　　　　　　　　　）。"
             ]
         },
-        question: "Dùng mẫu「V-に行きませんか」",
+        question: "Chọn câu đúng",
         options: [
-            "飲みませんか？",
-            "飲みに行きませんか？",
-            "飲みに行きますか？",
-            "飲みたいですか？"
+            "モンゴル語 は 文法 は 日本語と似ています。でも、文字 は ぜんぜん違います",
+            "モンゴル語 は 文法 が 日本語と似ています。でも、文字 は ぜんぜん違います",
+            "モンゴル語 が 文法 は 日本語と似ています。でも、文字 が ぜんぜん違います",
+            "モンゴル語 は 文法 を 日本語と似ています。でも、文字 を ぜんぜん違います"
         ],
-        correct: "飲みに行きませんか？",
-        explanation: "Mẫu rủ đi làm gì: Vます + に行きませんか。<br>飲む → 飲みに行きませんか。<br>VN: Bạn đi uống nước không?"
+        correct: "モンゴル語は文法が日本語と似ています。でも、文字はぜんぜん違います",
+        explanation: "So sánh đối lập: N1はN2が～です。でも、N3は～です。"
     },
 
     {
         id: 10,
-        grammar: "Nの前に / Nのあとで",
+        grammar: "④ Vて もらえませんか？",
         leftContent: {
             image: "",
             text: [
-                "A：学校 → みんなで飲みに行く",
-                "→（＿＿＿＿＿）、みんなで飲みに行きませんか？"
+                "その教科書【きょうかしょ】、ちょっと見せてください。",
+                "➡（　　　　　　　　　　　）？"
             ]
         },
-        question: "Chọn câu phù hợp với thứ tự sự kiện.",
+        question: "Chọn câu lịch sự cao nhất",
         options: [
-            "学校のあとで",
-            "学校の前に",
-            "学校で",
-            "学校へ"
+            "ちょっと見せてもらえませんか",
+            "ちょっと見せてもらいますか",
+            "ちょっと見せてくれませんか",
+            "ちょっと見せてもらえます"
         ],
-        correct: "学校のあとで",
-        explanation: "Mẫu 「Nのあとで」 dùng để nói sau khi làm việc gì.<br>学校 → みんなで飲みに行く<br>→ 学校のあとで、みんなで飲みに行きませんか。<br>VN: Sau khi tan học, chúng ta đi uống cùng nhau nhé?"
+        correct: "ちょっと見せてもらえませんか",
+        explanation: "Đổi từ ～てください → ～てもらえませんか（cách nói lịch sự hơn khi nhờ vả）。"
     },
-
     {
         id: 11,
-        grammar: "Nの前に / Nのあとで",
+        grammar: "④ Vて もらえませんか？",
         leftContent: {
             image: "",
             text: [
-                "A：飲み物を買う → 映画",
-                "→（＿＿＿＿＿）、飲み物を買いましょう。"
+                "もう少し簡単【かんたん】なことばで言ってください。",
+                "➡（　　　　　　　　　　　）？"
             ]
         },
-        question: "Chọn câu phù hợp với thứ tự sự kiện.",
+        question: "Chọn câu lịch sự cao nhất",
         options: [
-            "映画のあとで",
-            "映画の前に",
-            "映画へ",
-            "映画で"
+            "言ってもらえませんか",
+            "言いますか",
+            "言ってもらいますか",
+            "言ってくださいか"
         ],
-        correct: "映画の前に",
-        explanation: "Mẫu 「Nの前に」 dùng để nói trước khi làm việc gì.<br>映画の前に、飲み物を買いましょう。<br>VN: Trước khi xem phim, chúng ta mua đồ uống nhé."
+        correct: "言ってもらえませんか",
+        explanation: "～てもらえませんか: nhờ ai đó làm gì (lịch sự)."
     },
-
     {
         id: 12,
-        grammar: "Nの前に / Nのあとで",
+        grammar: "④ Vて もらえませんか？",
         leftContent: {
             image: "",
             text: [
-                "A：トイレ → コンサート",
-                "→（＿＿＿＿＿）、ちょっとトイレに行きますね。"
+                "そのことば、紙【かみ】に書いてください。",
+                "➡（　　　　　　　　　　　）？"
             ]
         },
-        question: "Chọn câu phù hợp với thứ tự sự kiện.",
+        question: "Chọn câu lịch sự cao nhất",
         options: [
-            "コンサートのあとで",
-            "コンサートの前に",
-            "コンサートへ",
-            "コンサートで"
+            "書いてもらえませんか",
+            "書きますか",
+            "書いてもらいますか",
+            "書いてくださいか"
         ],
-        correct: "コンサートの前に",
-        explanation: "「Nの前に」 dùng để nói trước một sự kiện.<br>コンサートの前に、ちょっとトイレに行きますね。<br>VN: Trước buổi hòa nhạc, tôi đi vệ sinh một chút."
+        correct: "書いてもらえませんか",
+        explanation: "Cấu trúc nhờ vả lịch sự: Vて + もらえませんか。"
     },
-
     {
         id: 13,
-        grammar: "V-たいんですが",
+        grammar: "④ Vて もらえませんか？",
         leftContent: {
             image: "",
             text: [
-                "A：すみません、ちょっと（休む → ＿＿＿＿）…。"
+                "もういちど、ゆっくり説明してください。",
+                "➡（　　　　　　　　　　　）？"
             ]
         },
-        question: "Chọn câu diễn đạt nguyện vọng đúng.",
+        question: "Chọn câu lịch sự cao nhất",
         options: [
-            "休みたいんですが",
-            "休みますんですが",
-            "休みたいですか",
-            "休みましたんですが"
+            "説明してもらえませんか",
+            "説明しますか",
+            "説明してもらいますか",
+            "説明してくださいか"
         ],
-        correct: "休みたいんですが",
-        explanation: "Mẫu 「V-たいんですが」 dùng để nói mong muốn một cách lịch sự, thường để mở đầu cho lời đề nghị hoặc xin phép.<br>休む → 休みたいんですが。<br>VN: Xin lỗi, tôi muốn nghỉ một chút..."
+        correct: "説明してもらえませんか",
+        explanation: "Dùng để nhờ vả lịch sự trong hội thoại."
     },
 
     {
         id: 14,
-        grammar: "V-たいんですが",
+        grammar: "⑤ V方",
         leftContent: {
             image: "",
             text: [
-                "A：食事の前に、お金を（おろす →  ＿＿＿＿）…。"
+                "日本語、どうやって教えますか？",
+                "➡日本語の（　　　）を勉強したいです。"
             ]
         },
-        question: "Chọn câu diễn đạt nguyện vọng đúng.",
+        question: "（＿＿）Chọn đáp án đúng",
         options: [
-            "おろしますんですが",
-            "おろしたいんですが",
-            "おろしますか",
-            "おろしましたんですが"
+            "教え方",
+            "教える方",
+            "教えます方",
+            "教えること"
         ],
-        correct: "おろしたいんですが",
-        explanation: "「V-たいんですが」 diễn đạt mong muốn trước khi nhờ hoặc hỏi thêm thông tin.<br>おろす → おろしたいんですが。<br>VN: Trước khi ăn, tôi muốn rút tiền..."
+        correct: "教え方",
+        explanation: "Vます → bỏます + 方 → 教え方（cách dạy）"
     },
-
     {
         id: 15,
-        grammar: "V-たいんですが",
+        grammar: "⑤ V方",
         leftContent: {
             image: "",
             text: [
-                "A：京都に（旅行する →  ＿＿＿＿）、どの季節がおすすめですか？"
+                "このことば、どうやって発音しますか？",
+                "➡このことばの発音の（　　　）を教えてください。"
             ]
         },
-        question: "Chọn câu diễn đạt nguyện vọng đúng.",
+        question: "（＿＿）Chọn đáp án đúng",
         options: [
-            "旅行しますんですが",
-            "旅行したいんですが",
-            "旅行しましたか",
-            "旅行したんです"
+            "しかた",
+            "しかた方",
+            "し方",
+            "しかたする"
         ],
-        correct: "旅行したいんですが",
-        explanation: "Mẫu 「V-たいんですが」 thường dùng để nêu mong muốn rồi hỏi thêm thông tin.<br>京都に旅行したいんですが、どの季節がおすすめですか？<br>VN: Tôi muốn đi du lịch Kyoto, mùa nào được khuyên nên đi?"
+        correct: "しかた",
+        explanation: "する → しかた（cách làm）→ 発音のしかた（cách phát âm）"
+    },
+    {
+        id: 16,
+        grammar: "⑤ V方",
+        leftContent: {
+            image: "",
+            text: [
+                "このアプリ、どうやって使いますか？",
+                "➡このアプリの（　　　）を説明してください。"
+            ]
+        },
+        question: "（＿＿）Chọn đáp án đúng",
+        options: [
+            "使い方",
+            "使う方",
+            "使います方",
+            "使うこと"
+        ],
+        correct: "使い方",
+        explanation: "使います → 使い + 方 → 使い方（cách sử dụng）"
     }
 ];

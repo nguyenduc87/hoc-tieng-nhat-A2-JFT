@@ -6,28 +6,28 @@ export const grammarBai3 = [
     summaryList: [
       {
         label: "① Nで <Cách thức>",
-        example: "アニメで日本語を勉強しました。",
-        vi: "Tôi đã học tiếng Nhật bằng (thông qua) Anime."
+        example: "アニメ「で」日本語を勉強しました。",
+        vi: "Tôi đã học tiếng Nhật 「bằng (thông qua)」 Anime."
       },
       {
-        label: "② N1 は N2 が ナA-です／イA-いです / Nは V-るのが ナA-です／イA-いです",
-        example: "日本語は文字が難しいです。／日本語は話すのが大変です。",
-        vi: "Tiếng Nhật thì chữ viết khó. / Tiếng Nhật thì việc nói rất vất vả."
+        label: "② N1 は N2 が Aです <br> Nは V-るのが Aです",
+        example: "日本語「は」文字【もじ】「が」難しいです。<br>英語「は」話す「のが」大変です。",
+        vi: "Tiếng Nhật thì「chữ viết khó」. <br> Tiếng Anh thì 「việc nói」 rất vất vả."
       },
       {
         label: "③ N1 は、～。 (でも、) N2 は、～。 <So sánh>",
-        example: "日本語は、読むのは少し難しいです。でも、会話は得意です。",
+        example: "日本語「は」、読むのは少し難しいです。「でも」、会話は得意【とくい】です。",
         vi: "Tiếng Nhật thì việc đọc hơi khó. Nhưng hội thoại thì tôi giỏi."
       },
       {
         label: "④ V-てもらえませんか？",
-        example: "日本語をチェックしてもらえませんか？",
-        vi: "Bạn có thể kiểm tra giúp tôi tiếng Nhật được không?"
+        example: "日本語をチェック「してもらえませんか？」",
+        vi: "Bạn 「có thể」 kiểm tra giúp tôi tiếng Nhật được không?"
       },
       {
         label: "⑤ V-方",
-        example: "この書類の書き方がよくわかりません。",
-        vi: "Tôi không rõ cách viết của loại hồ sơ này."
+        example: "この書類【しょるい】の「書き方【かた】」がよくわかりません。",
+        vi: "Tôi không rõ 「cách viết」 của loại hồ sơ này."
       }
     ]
   },
@@ -48,12 +48,12 @@ export const grammarBai3 = [
       ],
       examples: [
         {
-          jp: "アニメで日本語を勉強しました。",
-          vi: "Tôi đã học tiếng Nhật bằng phim hoạt hình."
+          jp: "アニメ「で」日本語を勉強しました。",
+          vi: "Tôi đã học tiếng Nhật 「bằng」 phim hoạt hình."
         },
         {
-          jp: "バスで会社に行きます。",
-          vi: "Tôi đến công ty bằng xe buýt."
+          jp: "バス「で」会社に行きます。",
+          vi: "Tôi đến công ty 「bằng」 xe buýt."
         }
       ]
     },
@@ -65,23 +65,23 @@ export const grammarBai3 = [
       },
       {
         speaker: "B",
-        jp: "日本語学校で勉強しました。",
+        jp: "日本語学校「で」勉強しました。",
         vi: "Tôi đã học ở trường tiếng Nhật."
       },
       {
         speaker: "C",
-        jp: "私はネットで勉強しました。",
+        jp: "私はネット「で」勉強しました。",
         vi: "Tôi đã học bằng internet."
       },
       {
         speaker: "A",
-        jp: "どうやって日本語を勉強しましたか？",
-        vi: "Bạn đã học tiếng Nhật bằng cách nào?"
+        jp: "「どうやって」日本語を勉強しましたか？",
+        vi: "Bạn đã học tiếng Nhật 「bằng cách nào?」"
       },
       {
         speaker: "B",
-        jp: "アプリで勉強しました。",
-        vi: "Tôi đã học bằng ứng dụng."
+        jp: "アプリ「で」勉強しました。",
+        vi: "Tôi đã học 「bằng」 ứng dụng."
       }
     ]
   },
@@ -89,7 +89,7 @@ export const grammarBai3 = [
   {
     id: "2",
     tab: "Mẫu 2",
-    title: "② N1 は N2 が ナAです / イAいです<br> N は V-るの が ナAです / イAいです",
+    title: "② N1 は N2 が Aです <br> Nは V-るのが Aです",
     usage: [
       "Dùng để diễn tả 「đánh giá / cảm nhận」 về một đặc điểm của sự vật, sự việc.",
       "N1 là chủ đề, N2 là yếu tố được đánh giá.",
