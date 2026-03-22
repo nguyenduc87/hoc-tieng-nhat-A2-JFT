@@ -1,88 +1,101 @@
 export const listeningData = [
   {
     title: "Audio 1 : kiku1",
-    audio: "audio/Y_[09-01]_kiku1.mp3",
+    audio: "audio/Y_[10-01]_kiku1.mp3",
     script: [
-      "A：どこで日本語を勉強しましたか？",
-      "B：日本語学校で勉強しました。",
-      "A：どれぐらい勉強しましたか？",
-      "B：１年ぐらいです。",
-      "A：そうですか。"
+      "A：すみません。",
+      "B：はい。",
+      "A：日本語教室【きょうしつ】に参加【さんか】したいんですが……。いつありますか?",
+      "B：日本語教室ですね? 水曜日の教室と、土曜日の教室があります。",
+      "A：何時からですか?",
+      "B：水曜日は夜【よる】の7時から8時半、土曜日は朝の10時から11時半です。",
+      "A：じゃあ、夜のクラスがいいです。"
     ],
     image: [
-      "images/listen/09-01.png",
+      "images/listen/10-01.png"
     ],
     translation: [
-      "A: Bạn đã học tiếng Nhật ở đâu?",
-      "B: Tôi học ở trường tiếng Nhật.",
-      "A: Bạn đã học bao lâu?",
-      "B: Khoảng một năm.",
-      "A: Vậy à."
+      "A: Xin lỗi.",
+      "B: Vâng.",
+      "A: Tôi muốn tham gia lớp học tiếng Nhật… Lớp học được tổ chức khi nào?",
+      "B: Lớp tiếng Nhật phải không? Có lớp vào thứ Tư và lớp vào thứ Bảy.",
+      "A: Mấy giờ bắt đầu?",
+      "B: Thứ Tư từ 7 giờ tối đến 8 giờ rưỡi, thứ Bảy từ 10 giờ sáng đến 11 giờ rưỡi.",
+      "A: Vậy thì tôi chọn lớp buổi tối."
     ]
+
   },
   {
     title: "Audio 2 : kiku2",
-    audio: "audio/Y_[09-02]_kiku2.mp3",
+    audio: "audio/Y_[10-02]_kiku2.mp3",
     script: [
-      "A：日本語、上手ね。",
-      "B：いいえ、まだまだです。",
-      "A：どこで勉強したの？",
-      "B：アニメで勉強しました。日本のアニメをたくさん見ました。",
-      "A：へー。"
+      "A：すみません。合気道【あいきどう】をやってみたいんですが……。",
+      "B：あ、合気道教室ですね。",
+      "A：まだ、空【あ】いていますか?",
+      "B：だいじょうぶですよ。",
+      "A：えーと、合気道の服は必要【ひつよう】ですか?",
+      "B：服ですか? 最初【さいしょ】はTシャツでもだいじょうぶですよ。あとは先生に聞いてください。"
     ],
     image: [
-      "images/listen/09-01.png",
+      "images/listen/10-01.png"
     ],
     translation: [
-      "A: Tiếng Nhật của bạn giỏi quá.",
-      "B: Không, vẫn còn kém lắm.",
-      "A: Bạn học ở đâu vậy?",
-      "B: Tôi học qua anime. Tôi đã xem rất nhiều anime Nhật.",
-      "A: Thế à."
+      "A: Xin lỗi. Tôi muốn thử tập Aikido…",
+      "B: À, lớp Aikido phải không?",
+      "A: Còn chỗ trống không?",
+      "B: Không sao đâu, vẫn còn.",
+      "A: Ừm, có cần mặc võ phục không?",
+      "B: Võ phục à? Lúc đầu mặc áo thun cũng được. Sau đó hãy hỏi thầy giáo."
     ]
+
   },
   {
     title: "Audio 3 : kiku3",
-    audio: "audio/Y_[09-03]_kiku3.mp3",
+    audio: "audio/Y_[10-03]_kiku3.mp3",
     script: [
-      "A：日本語できますか？",
-      "B：はい、少し。",
-      "A：どこで勉強しましたか？",
-      "B：高校で、２年間勉強しました。",
-      "A：そうですか。"
+      "A：すみません。この料理教室に参加したいんですが……。",
+      "B：料理教室ですね。少々お待ちください。",
+      "A：あ、金曜日のクラスは、もういっぱいです。木曜日のクラスでもいいですか？",
+      "B：はい、だいじょうぶです。",
+      "A：あのう、いくらですか？",
+      "B：１回800円払【はら】ってください。"
     ],
     image: [
-      "images/listen/09-01.png",
+      "images/listen/10-01.png"
     ],
     translation: [
-      "A: Bạn có biết tiếng Nhật không?",
-      "B: Vâng, một chút.",
-      "A: Bạn đã học ở đâu?",
-      "B: Tôi học ở trường cấp ba, trong 2 năm.",
-      "A: Vậy à."
+      "A: Xin lỗi. Tôi muốn tham gia lớp học nấu ăn…",
+      "B: Lớp nấu ăn phải không? Xin vui lòng chờ một chút.",
+      "A: À, lớp thứ Sáu đã kín chỗ rồi. Lớp thứ Năm cũng được chứ?",
+      "B: Vâng, không sao đâu.",
+      "A: À, học phí là bao nhiêu?",
+      "B: Mỗi buổi hãy trả 800 yên."
     ]
+
   },
   {
     title: "Audio 4 : kiku4",
-    audio: "audio/Y_[09-04]_kiku4.mp3",
+    audio: "audio/Y_[10-04]_kiku4.mp3",
     script: [
-      "A：どこで日本語を勉強しましたか？",
-      "B：自分で勉強しました。",
-      "A：自分で？",
-      "B：はい、本で勉強しました。",
-      "A：すごいですね。",
-      "B：いえ、そんなことないです。"
+      "A：すみません。私は書道【しょどう】に興味【きょうみ】があります。",
+      "A：書道【しょどう】教室に参加してみたいんですが……。",
+      "B：体験【たいけん】教室ですか？それとも毎週のコースですか？",
+      "A：体験【たいけん】教室です。いつありますか？",
+      "B：次は5月14日の日曜日です。",
+      "A：そうですか。道具【どうぐ】は必要ですか？",
+      "B：全部【ぜんぶ】こちらで用意【ようい】しますから、だいじょうぶですよ。"
     ],
     image: [
-      "images/listen/09-01.png",
+      "images/listen/10-01.png"
     ],
     translation: [
-      "A: Bạn đã học tiếng Nhật ở đâu?",
-      "B: Tôi tự học.",
-      "A: Tự học sao?",
-      "B: Vâng, tôi học bằng sách.",
-      "A: Giỏi thật đấy.",
-      "B: Không, không có gì đâu."
+      "A: Xin lỗi. Tôi có hứng thú với thư pháp.",
+      "A: Tôi muốn thử tham gia lớp học thư pháp…",
+      "B: Là lớp trải nghiệm à? Hay là khóa học hàng tuần?",
+      "A: Là lớp trải nghiệm. Khi nào được tổ chức?",
+      "B: Buổi tiếp theo là Chủ Nhật, ngày 14 tháng 5.",
+      "A: Vậy à. Có cần chuẩn bị dụng cụ không?",
+      "B: Tất cả sẽ được chuẩn bị ở đây, nên không sao đâu."
     ]
   },
   {
@@ -242,7 +255,7 @@ export const listeningData = [
       "A：そうですか。",
       "B：日本語は文法が簡単です。モンゴル語と似ていますから。",
       "A：へー。",
-      "B：でも、話すのが大変です。",
+      "B：管、話すのが大変です。",
       "A：そうなんですか。"
     ],
 
@@ -398,7 +411,7 @@ export const listeningData = [
     script: [
       "A：あのう、すみません。",
       "B：はい。",
-      "A：私のメール、日本語をチェックしてもらえませんか？ちょっと自信【じしん】がありません。",
+      "A：私のメール、日本語をチェックしてもらえませんか？ちょっと自信がありません。",
       "B：いいですよ。えーと……。"
     ],
 
