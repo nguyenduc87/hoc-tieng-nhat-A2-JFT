@@ -171,17 +171,16 @@ export const grammarBai3 = [
   {
     id: "4",
     tab: "Mẫu 4",
-    title: "④ Hỏi lại",
+    title: "④ Hỏi lại (Có nghĩa là gì?)",
     usage: [
       "Dùng để hỏi lại ý nghĩa của một từ hoặc cụm từ khi chưa hiểu.",
-      "Thường bắt đầu bằng cách xin lỗi lịch sự rồi hỏi: すみません、～はどういう意味【いみ】ですか？"
+      "Thường bắt đầu bằng すみません　Vd: すみません、～はどういう意味【いみ】ですか？"
     ],
     structure: "すみません、Nはどういう意味ですか？",
     notes: {
       points: [
         "Cách nói lịch sự để xác nhận lại nghĩa của từ.",
-        "Có thể dùng trong lớp học hoặc khi giao tiếp hằng ngày.",
-        "どういう意味ですか có nghĩa là “có nghĩa là gì?”."
+        "どういう意味ですか : “có nghĩa là gì?”."
       ],
       examples: [
         {

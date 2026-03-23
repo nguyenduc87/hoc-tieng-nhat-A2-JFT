@@ -371,7 +371,7 @@ export const listeningData = [
     translation: [
       "1. Ở gần trường trung học Kojima. → 近く",
       "2. Ở đèn giao thông tiếp theo ______ rồi rẽ trái. → を／曲がって",
-      "3. Ở phía trước ______ có một ngôi nhà lớn màu trắng. → 行くと／あります",
+      "3. Ở phía trước ______ có một ngôi nhà lớn màu trắng. → に／あります",
       "4. Ở góc đó ______ rồi rẽ phải. → を／曲がって"
     ]
   },

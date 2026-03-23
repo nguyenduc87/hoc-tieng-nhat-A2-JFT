@@ -120,7 +120,7 @@ export const grammarBai3 = [
       },
       {
         speaker: "B",
-        jp: "「文字【もじ】」が難しいですが、面白【おもし】いです。",
+        jp: "「文字【もじ】」が難しいですが、面白【おもしろ】いです。",
         vi: "Chữ khó nhưng thú vị."
       },
       {
