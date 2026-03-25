@@ -1,146 +1,146 @@
 export const listeningData = [
   {
-    title: "Audio 1 : kiku1",
-    audio: "audio/Y_[10-01]_kiku1.mp3",
+    title: "Audio 1 : kotoba1",
+    audio: "audio/Y_[11-01]_kotoba1.mp3",
     script: [
-      "A：すみません。",
-      "B：はい。",
-      "A：日本語教室【きょうしつ】に参加【さんか】したいんですが……。いつありますか?",
-      "B：日本語教室ですね? 水曜日の教室と、土曜日の教室があります。",
-      "A：何時からですか?",
-      "B：水曜日は夜【よる】の7時から8時半、土曜日は朝の10時から11時半です。",
-      "A：じゃあ、夜のクラスがいいです。"
+      "a. 肉 - 牛肉・豚肉【ぶたにく】・鶏肉【とりにく】・ソーセージ",
+      "b. 野菜（やさい）",
+      "c. シーフード - 魚・エビ・イカ・ホタテ",
+      "d. 果物（くだもの） - りんご・バナナ",
+      "e. 焼きそば（やきそば）",
+      "f. おにぎり",
+      "g. 焼肉【やきにく】のたれ・ソース（やきにくのたれ・ソース）",
+      "h. お菓子（おかし）",
+      "i. ソフトドリンク（お茶・ジュース）",
+      "j. お酒（さけ） - ビール・ワイン・日本酒【にほんしゅ】・焼酎【しょうちゅう】",
+      "k. コップ",
+      "l. お皿（おさら）",
+      "m. わりばし",
+      "n. ごみ袋【ぶくろ】"
     ],
     image: [
-      "images/listen/10-01.png"
+      "images/listen/11-01.png"
     ],
     translation: [
-      "A: Xin lỗi.",
-      "B: Vâng.",
-      "A: Tôi muốn tham gia lớp học tiếng Nhật… Lớp học được tổ chức khi nào?",
-      "B: Lớp tiếng Nhật phải không? Có lớp vào thứ Tư và lớp vào thứ Bảy.",
-      "A: Mấy giờ bắt đầu?",
-      "B: Thứ Tư từ 7 giờ tối đến 8 giờ rưỡi, thứ Bảy từ 10 giờ sáng đến 11 giờ rưỡi.",
-      "A: Vậy thì tôi chọn lớp buổi tối."
+      "a. Thịt – thịt bò, thịt heo, thịt gà, xúc xích",
+      "b. Rau",
+      "c. Hải sản – cá, tôm, mực, sò điệp",
+      "d. Trái cây – táo, chuối",
+      "e. Mì xào Yakisoba",
+      "f. Cơm nắm",
+      "g. Nước sốt thịt nướng / sốt",
+      "h. Bánh kẹo, đồ ngọt",
+      "i. Nước giải khát – trà, nước trái cây",
+      "j. Rượu – bia, rượu vang, sake, shochu",
+      "k. Cốc",
+      "l. Đĩa",
+      "m. Đũa dùng một lần",
+      "n. Túi Rác"
     ]
 
   },
   {
-    title: "Audio 2 : kiku2",
-    audio: "audio/Y_[10-02]_kiku2.mp3",
+    title: "Audio 2 : kotoba2",
+    audio: "audio/Y_[11-02]_kotoba2.mp3",
     script: [
-      "A：すみません。合気道【あいきどう】をやってみたいんですが……。",
-      "B：あ、合気道教室ですね。",
-      "A：まだ、空【あ】いていますか?",
-      "B：だいじょうぶですよ。",
-      "A：えーと、合気道の服は必要【ひつよう】ですか?",
-      "B：服ですか? 最初【さいしょ】はTシャツでもだいじょうぶですよ。あとは先生に聞いてください。"
+      "1.肉と野菜を買います",
+      "2.果物【くだもの】とお菓子【かし】を買います",
+      "3.ソフトドリンクとお酒を買います",
+      "4.お皿【さら】をわりばしを買います",
+      "5.魚と豚肉【ぶたにく】を買います",
+      "6.コップとゴミ袋【ぶくろ】を買います",
+      "7.焼【や】きそばとおにぎりを作ります",
     ],
     image: [
-      "images/listen/10-01.png"
+      ""
     ],
     translation: [
-      "A: Xin lỗi. Tôi muốn thử tập Aikido…",
-      "B: À, lớp Aikido phải không?",
-      "A: Còn chỗ trống không?",
-      "B: Không sao đâu, vẫn còn.",
-      "A: Ừm, có cần mặc võ phục không?",
-      "B: Võ phục à? Lúc đầu mặc áo thun cũng được. Sau đó hãy hỏi thầy giáo."
+      "1. Tôi mua thịt và rau.",
+      "2. Tôi mua trái cây và bánh kẹo.",
+      "3. Tôi mua nước ngọt và rượu.",
+      "4. Tôi mua đĩa và đũa dùng một lần.",
+      "5. Tôi mua cá và thịt heo.",
+      "6. Tôi mua cốc và túi rác.",
+      "7. Tôi làm yakisoba và cơm nắm."
     ]
-
   },
   {
-    title: "Audio 3 : kiku3",
-    audio: "audio/Y_[10-03]_kiku3.mp3",
+    title: "Audio 3 : kiku1",
+    audio: "audio/Y_[11-03]_kiku1.mp3",
     script: [
-      "A：すみません。この料理教室に参加したいんですが……。",
-      "B：料理教室ですね。少々お待ちください。",
-      "A：あ、金曜日のクラスは、もういっぱいです。木曜日のクラスでもいいですか？",
-      "B：はい、だいじょうぶです。",
-      "A：あのう、いくらですか？",
-      "B：１回800円払【はら】ってください。"
+      "長谷川【はせがわ】：来週のバーベキューですけど、準備【じゅんび】はどうしますか？",
+      "長谷川【はせがわ】：だれが何を持って行きますか？",
+      "湯【Yu】：肉と野菜は、私が買って行きますよ。",
+      "マルコ：湯【Yu】さん、いいですか？私も手伝いましょうか？",
+      "湯【Yu】：だいじょうぶです。"
     ],
     image: [
-      "images/listen/10-01.png"
+      ""
     ],
     translation: [
-      "A: Xin lỗi. Tôi muốn tham gia lớp học nấu ăn…",
-      "B: Lớp nấu ăn phải không? Xin vui lòng chờ một chút.",
-      "A: À, lớp thứ Sáu đã kín chỗ rồi. Lớp thứ Năm cũng được chứ?",
-      "B: Vâng, không sao đâu.",
-      "A: À, học phí là bao nhiêu?",
-      "B: Mỗi buổi hãy trả 800 yên."
+      "Hasegawa: Tuần sau có tiệc nướng, chúng ta chuẩn bị thế nào?",
+      "Hasegawa: Ai sẽ mang gì đến?",
+      "Yu: Thịt và rau thì tôi sẽ mua mang đến.",
+      "Marco: Yu, được chứ? Tôi cũng giúp nhé?",
+      "Yu: Không sao đâu."
     ]
-
   },
   {
-    title: "Audio 4 : kiku4",
-    audio: "audio/Y_[10-04]_kiku4.mp3",
+    title: "Audio 4 : kiku2",
+    audio: "audio/Y_[11-04]_kiku2.mp3",
     script: [
-      "A：すみません。私は書道【しょどう】に興味【きょうみ】があります。",
-      "A：書道【しょどう】教室に参加してみたいんですが……。",
-      "B：体験【たいけん】教室ですか？それとも毎週のコースですか？",
-      "A：体験【たいけん】教室です。いつありますか？",
-      "B：次は5月14日の日曜日です。",
-      "A：そうですか。道具【どうぐ】は必要ですか？",
-      "B：全部【ぜんぶ】こちらで用意【ようい】しますから、だいじょうぶですよ。"
+      "湯【Yu】：じゃあ、マルコさんは飲み物をお願いします。",
+      "マルコ：いいですよ。ビールとワインでいいですか？",
+      "ノイ：あのう、すみません。私はお酒がだめですから……",
+      "マルコ：あ、じゃあ、お茶も買って行きますね。",
+      "ノイ：ありがとうございます。"
     ],
     image: [
-      "images/listen/10-01.png"
+      ""
     ],
     translation: [
-      "A: Xin lỗi. Tôi có hứng thú với thư pháp.",
-      "A: Tôi muốn thử tham gia lớp học thư pháp…",
-      "B: Là lớp trải nghiệm à? Hay là khóa học hàng tuần?",
-      "A: Là lớp trải nghiệm. Khi nào được tổ chức?",
-      "B: Buổi tiếp theo là Chủ Nhật, ngày 14 tháng 5.",
-      "A: Vậy à. Có cần chuẩn bị dụng cụ không?",
-      "B: Tất cả sẽ được chuẩn bị ở đây, nên không sao đâu."
+      "Yu: Vậy thì, Marco mang đồ uống nhé.",
+      "Marco: Được thôi. Bia và rượu vang có được không?",
+      "Noi: À, xin lỗi. Tôi không uống được rượu…",
+      "Marco: À, vậy thì tôi sẽ mua thêm trà mang đến.",
+      "Noi: Cảm ơn bạn."
     ]
   },
   {
-    title: "Audio 5 : katachi",
-    audio: "audio/Y_[09-05]_katachi.mp3",
+    title: "Audio 5 : kiku3",
+    audio: "audio/Y_[11-05]_kiku3.mp3",
     script: [
-      "A：＿＿＿＿＿日本語を勉強しましたか？",
-      "B：＿＿＿＿＿日本語学校で勉強しました。",
-      "A：アニメ＿＿＿＿＿勉強しました。",
-      "B：自分＿＿＿＿＿勉強しました。",
-      "A：＿＿＿＿＿勉強しましたか？",
-      "B：＿＿＿＿＿です。",
-      "A：高校で、＿＿＿＿＿勉強しました。"
+      "長谷川【はせがわ】：じゃあ、私はおにぎりを作って行きますね。",
+      "楊：いいですねえ。じゃあ、長谷川【はせがわ】さんはおにぎりをお願いします。",
+      "マルコ：コップやお皿【さら】は、どうしますか？",
+      "長谷川【はせがわ】：それは、バーベキュー場【ば】にありますから、だいじょうぶです。"
     ],
-
     translation: [
-      "1. Bạn đã học tiếng Nhật ở đâu? → どこで",
-      "2. Tôi học ở trường tiếng Nhật. → はい",
-      "3. Tôi học qua anime. → で",
-      "4. Tôi tự học. → で",
-      "5. Bạn đã học ở đâu? → どこで",
-      "6. Đúng vậy. → そう",
-      "7. Tôi học ở trường cấp ba, trong 2 năm. → ２年間"
+      "Hasegawa: Vậy thì, tôi sẽ làm cơm nắm mang đến nhé.",
+      "Yang: Hay quá. Vậy thì Hasegawa chuẩn bị cơm nắm nhé.",
+      "Marco: Còn cốc và đĩa thì sao?",
+      "Hasegawa: Ở chỗ tổ chức tiệc nướng có sẵn rồi, không sao đâu."
     ]
+
   },
   {
-    title: "Audio 6 : kiku6",
-    audio: "audio/Y_[09-06]_hanasu.mp3",
+    title: "Audio 6 : kiku4",
+    audio: "audio/Y_[11-06]_kiku4.mp3",
     script: [
-      "A：日本語できますか？",
-      "B：はい、少し。",
-      "A：どこで勉強しましたか？",
-      "B：日本語学校／アニメで勉強しました。",
-      "A：どれぐらい勉強しましたか？",
-      "B：１年ぐらいです。"
+      "ノイ：私は、何を持って行きましょうか？",
+      "長谷川：じゃあ、ノイさん、デザートはどうですか？",
+      "ノイ：そうですねえ。じゃあ、バナナを持って行きます。焼いて食べましょう。",
+      "長谷川：え、バナナ？焼くんですか？",
+      "ノイ：はい。おいしいですよ。"
     ],
-
     translation: [
-      "A: Bạn có biết tiếng Nhật không?",
-      "B: Vâng, một chút.",
-      "A: Bạn đã học ở đâu?",
-      "B: Tôi học ở trường tiếng Nhật / qua anime.",
-      "A: Bạn đã học bao lâu?",
-      "B: Khoảng một năm."
+      "Noi: Tôi sẽ mang gì đến đây?",
+      "Hasegawa: Vậy thì, Noi mang món tráng miệng nhé?",
+      "Noi: Ừ nhỉ. Vậy tôi sẽ mang chuối. Nướng lên rồi ăn.",
+      "Hasegawa: Hả, chuối à? Nướng sao?",
+      "Noi: Vâng. Ngon lắm đó."
     ]
+
   },
   {
     title: "Audio 7 : kotoba1",
@@ -226,37 +226,82 @@ export const listeningData = [
     ]
   },
   {
-    title: "Audio 10 : kiku2",
-    audio: "audio/Y_[09-10]_kiku2.mp3",
+    title: "Audio 10 : kaiwa",
+    audio: "audio/Y_[11-10]_kaiwa.mp3",
     script: [
-      "A: 日本語の勉強はどうですか？",
-      "B: とてもおもしろいです。",
-      "A: 難しくないですか？",
-      "B: 読むのは少し難しいです。でも、会話は得意です。",
-      "A: そうですか。",
+      "中村：じゃあ、何を買って行きましょうか？",
+      "張：そうですねえ……。",
+      "中村：何が食べたいですか？",
+      "張：何でもいいです。",
+      "マリアナ：私は肉がいいです！",
+      "中村：じゃあ、からあげを買って行きましょう。",
+      "-------------------------------------------",
+      "マリアナ：うーん。焼き鳥もいいですねえ。",
+      "中村：焼き鳥も買いますか？塩とたれ、どっちがいいですか？",
+      "張：塩のほうがいいです。",
+      "中村：じゃあ、塩にしましょう。",
+      "-------------------------------------------",
+      "中村：飲み物は何がいいですか？",
+      "マリアナ：お茶がいいです。",
+      "中村：お茶、いろいろありますね。どれがいいですか？",
+      "マリアナ：ウーロン茶にしましょう。",
+      "張：お酒もいいですか？",
+      "中村：いいですよ。",
+      "張：じゃあ、ビール。",
+      "-------------------------------------------",
+      "中村：デザートはどうしますか？",
+      "マリアナ：あそこでケーキ、売ってますよ。買って行きましょう。",
+      "中村：チョコレートケーキとチーズケーキ、どっちがいいですか？",
+      "張：私はどっちでもいいです。",
+      "マリアナ：じゃあ、両方買いましょう！"
     ],
     image: [
-      "",
+      "images/listen/11-10.png",
+      "images/listen/11-10-1.png",
     ],
     translation: [
-      "A: Việc học tiếng Nhật thế nào?",
-      "B: Rất thú vị.",
-      "A: Không khó sao?",
-      "B: Đọc thì hơi khó một chút. Nhưng hội thoại thì tôi tự tin/mạnh về.",
-      "A: Thế à.",
+      "1. Vậy thì chúng ta mua gì mang đi nhỉ?",
+      "2. Ừm, để xem…",
+      "3. Bạn muốn ăn gì?",
+      "4. Gì cũng được.",
+      "5. Tôi thì muốn ăn thịt!",
+      "6. Vậy thì mình mua gà rán mang đi nhé.",
+      "-------------------------------------------",
+      "1. Ừm, yakitori cũng ngon nhỉ.",
+      "2. Có mua yakitori không? Muối hay sốt, bạn thích loại nào?",
+      "3. Tôi thích muối hơn.",
+      "4. Vậy thì chọn muối nhé.",
+      "-------------------------------------------",
+      "1. Đồ uống thì bạn muốn gì?",
+      "2. Tôi muốn uống trà.",
+      "3. Có nhiều loại trà nhỉ. Bạn chọn loại nào?",
+      "4. Chọn trà ô long nhé.",
+      "5. Uống rượu cũng được không?",
+      "6. Được chứ.",
+      "7. Vậy thì bia.",
+      "-------------------------------------------",
+      "1. Tráng miệng thì sao nhỉ?",
+      "2. Ở kia có bán bánh đó. Mình mua mang đi nhé.",
+      "3. Bánh chocolate và bánh phô mai, bạn thích loại nào?",
+      "4. Tôi cái nào cũng được.",
+      "5. Vậy thì mua cả hai nhé!"
     ]
   },
   {
-    title: "Audio 11 : kiku3",
-    audio: "audio/Y_[09-11]_kiku3.mp3",
+    title: "Audio 11 : katachi",
+    audio: "audio/Y_[11-11]_katachi.mp3",
     script: [
-      "A：日本語の勉強はどうですか？ 難しくないですか。",
-      "B：だいじょうぶです。難しくないです。",
-      "A：そうですか。",
-      "B：日本語は文法が簡単です。モンゴル語と似ていますから。",
-      "A：へー。",
-      "B：管、話すのが大変です。",
-      "A：そうなんですか。"
+      "A：焼き鳥も買いますか？　塩＿＿＿たれ、＿＿＿＿＿＿＿がいいですか？",
+      "B：塩＿＿＿＿＿＿＿いいです。",
+      "　",
+      "A：チョコレートケーキ＿＿＿＿＿＿＿チーズケーキ、＿＿＿＿＿＿＿がいいですか？",
+      "B：私は＿＿＿＿＿＿＿いいです。",
+      "　",
+      "A：何が食べたいですか？",
+      "B：＿＿＿＿＿＿＿いいです。",
+      "　",
+      "A：お茶、いろいろありますね。＿＿＿＿＿＿＿がいいですか？",
+      "B：ウーロン茶にしましょう。"
     ],
 
     translation: [
@@ -270,228 +315,239 @@ export const listeningData = [
     ]
   },
   {
-    title: "Audio 12 : kiku4",
-    audio: "audio/Y_[09-12]_kiku4.mp3",
+    title: "Audio 12 : hanasu1-1",
+    audio: "audio/Y_[11-12]_hanasu1-1.mp3",
     script: [
-      "A：日本語の勉強はどうですか？",
-      "B：まあまあです。",
-      "A：まあまあ？",
-      "B：私は日本語の発音が苦手です。ベトナム語とぜんぜん違いますから。",
-      "A：そうなんですか。",
-      "B：でも、漢字はおもしろいです。たくさん覚えたいです。",
-      "A：そうですか。"
+      "何が食べたいですか？",
+      "私は肉がいいです。",
     ],
-
     translation: [
-      "1. Việc học tiếng Nhật thế nào rồi?",
-      "2. Cũng bình thường thôi ạ.",
-      "3. Bình thường thôi sao?",
-      "4. Tôi kém về phát âm tiếng Nhật. Vì nó hoàn toàn khác với tiếng Việt.",
-      "5. Vậy hả?",
-      "6. Nhưng mà, chữ Kanji thì thú vị. Tôi muốn nhớ thật nhiều chữ.",
-      "7. Vậy à."
+      "Bạn muốn ăn gì?",
+      "Tôi thích ăn thịt."
     ]
   },
   {
-    title: "Audio 13 : katachi1",
-    audio: "audio/Y_[09-13]_katachi1.mp3",
+    title: "Audio 13 : hanasu1-2",
+    audio: "audio/Y_[11-13]_hanasu1-2.mp3",
     script: [
-      "日本語____文字____難しいです。",
-      "(日本語は)話す____が____大変です。",
-      "日本語____文法____モンゴル語と________________。",
-      "日本語____発音____ベトナム語とぜんぜん________________。"
+      "飲み物は何がいいですか？",
+      "何でもいいです。",
     ],
 
     translation: [
-      "1. Tiếng Nhật thì chữ viết khó. → は / が",
-      "2. (Tiếng Nhật thì) việc nói vất vả. → の / 大変",
-      "3. Tiếng Nhật thì ngữ pháp giống với tiếng Mông Cổ. → は / が / 似ています",
-      "4. Tiếng Nhật thì phát âm hoàn toàn khác với tiếng Việt. → は / が / 違います"
+      "Bạn muốn uống gì?",
+      "Cái gì cũng được."
     ]
   },
   {
-    title: "Audio 14 : katachi2",
-    audio: "audio/Y_[09-14]_katachi2.mp3",
+    title: "Audio 14 : hanasu2",
+    audio: "audio/Y_[11-14]_hanasu2.mp3",
     script: [
-      "読むの____少し難しいです。でも、会話____得意【とくい】です。",
+      "チョコレートケーキ と チーズケーキ、どっちがいいですか？",
+      "チョコレートケーキ のほうがいいです。"
     ],
 
     translation: [
-      "Việc đọc thì hơi khó. Nhưng mà, đàm thoại thì tự tin giỏi.",
+      "Bạn thích bánh sô-cô-la hay bánh phô mai hơn?",
+      "Tôi thích bánh sô-cô-la hơn.",
     ]
   },
   {
-    title: "Audio 15 : hanasu1",
-    audio: "audio/Y_[09-15]_hanasu1.mp3",
+    title: "Audio 15 : kotoba1",
+    audio: "audio/Y_[11-15]_kotoba1.mp3",
     script: [
-      "A：日本語の勉強はどうですか？",
-      "B：大変です。",
-      "A：そうですか。",
-      "B：日本語は文字【もじ】が難しいです。"
+      "エビ",
+      "カニ",
+      "卵【たまご】",
+      "ピーナッツ／落花生【らっかせい】",
+      "そば／そば粉【そばこ】",
+      "小麦／小麦粉【こむぎ／こむぎこ】",
+      "乳製品【にゅうせいひん】（牛乳・バター・チーズ・ヨーグルト）"
     ],
 
     translation: [
-      "1. Việc học tiếng Nhật của bạn thế nào rồi?",
-      "2. Vất vả lắm ạ.",
-      "3. Vậy à.",
-      "4. Tiếng Nhật thì chữ viết khó."
+      "1. Tôm",
+      "2. Cua",
+      "3. Trứng",
+      "4. Đậu phộng",
+      "5. Kiều mạch / bột kiều mạch",
+      "6. Lúa mì / bột mì",
+      "7. Sản phẩm từ sữa (sữa, bơ, phô mai, sữa chua)"
     ]
   },
   {
-    title: "Audio 16 : hanasu2",
-    audio: "audio/Y_[09-16]_hanasu2.mp3",
+    title: "Audio 16 : kotoba2",
+    audio: "audio/Y_[11-16]_kotoba2.mp3",
     script: [
-      "A：日本語の勉強はどうですか？",
-      "B：話すのは簡単【かんたん】です。でも、読むのは難しいです。",
-      "A：そうですか。",
+      "1. 卵【たまご】のアレルギーです",
+      "2. 乳製品【にゅうせいひん】のアレルギーです",
+      "3. エビのアレルギーです",
+      "4. 小麦【こむぎ】のアレルギーです",
+      "5. ピーナッツのアレルギーです",
+      "6. カニのアレルギーです",
+      "7. 牛乳のアレルギーです",
+      "8. そばのアレルギーです",
     ],
-
     translation: [
-      "1. Việc học tiếng Nhật của bạn thế nào rồi?",
-      "2. Việc nói thì đơn giản. Nhưng việc đọc thì khó.",
-      "3. Vậy à."
+      "1. Tôi bị dị ứng trứng.",
+      "2. Tôi bị dị ứng sản phẩm từ sữa.",
+      "3. Tôi bị dị ứng tôm.",
+      "4. Tôi bị dị ứng lúa mì.",
+      "5. Tôi bị dị ứng đậu phộng.",
+      "6. Tôi bị dị ứng cua.",
+      "7. Tôi bị dị ứng sữa.",
+      "8. Tôi bị dị ứng kiều mạch (mì soba)."
     ]
   },
   {
-    title: "Audio 17 : hanasu3-1",
-    audio: "audio/Y_[09-17]_hanasu3-1.mp3",
+    title: "Audio 17 : kiku1",
+    audio: "audio/Y_[11-17]_kiku1.mp3",
     script: [
-      "A：日本語の勉強はどうですか？",
-      "B：簡単【かんたん】。",
-      "A：日本語は文法【ぶんぽう】がモンゴル語と似ています。",
-      "B：そうなんですか。"
+      "A：さあ、どうぞ。",
+      "B：あのう、この料理、卵を使ってますか？",
+      "A：卵？これは使ってませんよ。",
+      "B：あ、じゃあ、だいじょうぶです。いただきます！"
     ],
-
     translation: [
-      "1. Việc học tiếng Nhật của bạn thế nào rồi?",
-      "2. Đơn giản lắm.",
-      "3. Ngữ pháp tiếng Nhật thì giống với tiếng Mông Cổ.",
-      "4. Vậy hả?"
+      "A: Nào, mời bạn.",
+      "B: À, món ăn này có dùng trứng không?",
+      "A: Trứng à? Món này không dùng trứng đâu.",
+      "B: Vậy thì không sao. Tôi xin phép ăn nhé!"
     ]
+
   },
   {
-    title: "Audio 18 : hanasu3-2",
-    audio: "audio/Y_[09-18]_hanasu3-2.mp3",
+    title: "Audio 18 : kiku2",
+    audio: "audio/Y_[11-18]_kiku2.mp3",
     script: [
-      "A：日本語の勉強はどうですか？",
-      "B：難しいです。",
-      "A：日本語は発音【はつおん】がベトナム語とぜんぜん違【ちが】います。",
-      "B：そうなんですか。"
+      "A：よかったら、ピザ、どう？",
+      "B：このピザ、エビが入ってますか？",
+      "A：エビ、入ってるよ。",
+      "B：じゃあ、私はだめです。エビのアレルギーですから。",
+      "A：そうなんだ……。"
     ],
-
     translation: [
-      "1. Đấu vật thế nào?",
-      "2. Tuy là lần đầu nhưng rất thú vị.",
-      "3. Vậy à. Thế thì tốt quá.",
-      "4. Thật sự rất tuyệt. Tôi muốn xem lại lần nữa."
+      "A: Nếu được thì ăn pizza nhé?",
+      "B: Pizza này có tôm không?",
+      "A: Có tôm đó.",
+      "B: Vậy thì tôi không ăn được. Vì tôi bị dị ứng tôm.",
+      "A: Ra vậy…"
     ]
   },
   {
-    title: "Audio 19 : kiku1",
-    audio: "audio/Y_[09-19]_kiku1.mp3",
+    title: "Audio 19 : kiku3",
+    audio: "audio/Y_[11-19]_kiku3.mp3",
     script: [
-      "A：あのう、すみません。",
-      "B：はい、何ですか？",
-      "A：この漢字【かんじ】がわかりません。読み方を教えてもらえませんか？",
-      "B：これですか？「いとう」です。",
-      "A：ああ、いとうさんですね。ありがとうございます。"
+      "A：すみません。このお刺身【さしみ】、明日までもちますか？",
+      "B：あ、お刺身【さしみ】は、今日中【きょうじゅう】に食べてください。",
+      "A：そうですか。明日はだめですか？",
+      "B：ちょっと無理【むり】ですね。"
     ],
-
     translation: [
-      "1. Xin lỗi, cho tôi hỏi một chút.",
-      "2. Vâng, có chuyện gì vậy?",
-      "3. Tôi không biết chữ Kanji này. Bạn có thể chỉ cho tôi cách đọc được không?",
-      "4. Cái này hả? Là 'Ito'.",
-      "5. À, là anh/chị Ito nhỉ. Tôi cảm ơn bạn nhiều."
+      "A: Xin lỗi. Món sashimi này để đến ngày mai được không?",
+      "B: À, sashimi thì hãy ăn trong hôm nay nhé.",
+      "A: Vậy à. Ngày mai không được sao?",
+      "B: Hơi khó đấy."
     ]
+
   },
   {
-    title: "Audio 20 : kiku2",
-    audio: "audio/Y_[09-20]_kiku2.mp3",
+    title: "Audio 20 : kiku4",
+    audio: "audio/Y_[11-20]_kiku4.mp3",
     script: [
-      "A：あのう、すみません。",
-      "B：はい。",
-      "A：私のメール、日本語をチェックしてもらえませんか？ちょっと自信がありません。",
-      "B：いいですよ。えーと……。"
-    ],
-
-    translation: [
-      "1. Xin lỗi, cho tôi hỏi một chút.",
-      "2. Vâng.",
-      "3. Bạn có thể kiểm tra giúp tôi tiếng Nhật trong email này không? Tôi hơi thiếu tự tin một chút.",
-      "4. Được chứ. Để xem nào..."
-    ]
-  },
-  {
-    title: "Audio 21 : kiku3",
-    audio: "audio/Y_[09-21]_kiku3.mp3",
-    script: [
-      "A：すみません。この書類の書き方がよくわかりません。",
-      "A：もう一度説明してもらえませんか？",
-      "B：えーと、これはですねえ……。"
-    ],
-
-    translation: [
-      "1. Xin lỗi. Tôi không hiểu rõ cách viết loại hồ sơ này.",
-      "2. Bạn có thể giải thích lại một lần nữa giúp tôi được không?",
-      "3. Ừm, cái này thì là..."
-    ]
-  },
-  {
-    title: "Audio 22 : kiku4",
-    audio: "audio/Y_[09-22]_kiku4.mp3",
-    script: [
-      "A：すみません。",
-      "B：はい。",
-      "A：それ、新しい教科書ですか？",
+      "A：すみません。このラーメン、ハラルですか？",
       "B：そうですよ。",
-      "A：ちょっと、見せてもらえませんか？",
-      "B：どうぞ。"
+      "A：あ、よかった。",
+      "B：このコーナーの商品は、すべてハラルですよ。",
+      "A：へー、そうなんですか。"
     ],
-
     translation: [
-      "1. Xin lỗi.",
-      "2. Vâng.",
-      "3. Đó là cuốn sách giáo khoa mới phải không?",
-      "4. Đúng vậy đó.",
-      "5. Bạn có thể cho tôi xem một chút được không?",
-      "6. Xin mời."
+      "A: Xin lỗi. Món ramen này có phải halal không?",
+      "B: Đúng vậy.",
+      "A: À, tốt quá.",
+      "B: Các sản phẩm ở khu này đều là halal.",
+      "A: Ồ, ra vậy."
+    ]
+
+  },
+  {
+    title: "Audio 21 : katachi",
+    audio: "audio/Y_[11-21]_katachi.mp3",
+    script: [
+      "この料理、卵を＿＿＿＿ますか？",
+      "このピザ、エビが＿＿＿＿ますか？",
+      "このラーメン、ハラル＿＿＿＿か？",
+      "このお刺身、明日まで＿＿＿＿か？"
+    ],
+    translation: [
+      "1. Món ăn này có dùng trứng không? → 卵を使ってますか",
+      "2. Pizza này có tôm không? → エビが入ってますか",
+      "3. Món ramen này có phải halal không? → ハラルですか",
+      "4. Sashimi này để được đến ngày mai không? → 明日までもちますか"
     ]
   },
   {
-    title: "Audio 23 : katachi",
-    audio: "audio/Y_[09-23]_katachi.mp3",
+    title: "Audio 22 : hanasu1-1",
+    audio: "audio/Y_[11-22]_hanasu1-1.mp3",
     script: [
-      "この漢字がわかりません。________方を教えて________________？",
-      "私のメール、日本語をチェックして________________？",
-      "この書類の________方がよくわかりません。",
-      "もう一度説明して________________？",
-      "(新しい教科書) ちょっと見せて________________？"
+      "すみません、この料理【りょうり】、卵【たまご】を使ってますか？",
+      "使ってませんよ。",
     ],
-
     translation: [
-      "1. Tôi không biết chữ Kanji này. Bạn chỉ giúp tôi cách đọc được không? → 読み / もらえませんか",
-      "2. Bạn có thể kiểm tra giúp tôi tiếng Nhật trong email được không? → もらえませんか",
-      "3. Tôi không hiểu rõ cách viết loại hồ sơ này. → 書き",
-      "4. Bạn có thể giải thích lại một lần nữa giúp tôi được không? → もらえませんか",
-      "5. (Sách giáo khoa mới) Bạn có thể cho tôi xem một chút được không? → もらえませんか"
+      "Xin lỗi, món này có dùng trứng không?",
+      "Không dùng đâu."
     ]
   },
   {
-    title: "Audio 24 : hanasu",
-    audio: "audio/Y_[09-24]_hanasu.mp3",
+    title: "Audio 23 : hanasu1-2",
+    audio: "audio/Y_[11-23]_hanasu1-2.mp3",
     script: [
-      "A：あのう、すみません。",
-      "B：はい、何ですか？",
-      "A：この漢字がわかりません。読み方を教えてもらえませんか？",
-      "B：いいですよ。"
+      "すみません、このピザ、エビが入ってますか？",
+      "入ってませんよ。",
     ],
-
     translation: [
-      "1. Xin lỗi, cho tôi hỏi một chút.",
-      "2. Vâng, có chuyện gì vậy?",
-      "3. Tôi không biết chữ Kanji này. Bạn có thể chỉ giúp tôi cách đọc được không?",
-      "4. Được chứ."
+      "Xin lỗi, pizza này có tôm không?",
+      "Không có đâu."
+    ]
+  },
+  {
+    title: "Audio 24 : hanasu1-3",
+    audio: "audio/Y_[11-24]_hanasu1-3.mp3",
+    script: [
+      "- すみません、このラーメン、ハラルですか？",
+      "ハラルですよ。",
+    ],
+    translation: [
+      "Xin lỗi, món ramen này có phải halal không?",
+      "Đúng rồi, là halal hợp đạo hồi."
+    ]
+  },
+  {
+    title: "Audio 25 : hanasu2-1",
+    audio: "audio/Y_[11-25]_hanasu2-1.mp3",
+    script: [
+      "このお刺身【さしみ】、明日まで持ちますか？",
+      "はい、だいじょうぶです。",
+      "　",
+      "Gốc từ: 「持つ（もつ）」",
+      "Nghĩa gốc: cầm, giữ",
+      "Nhưng trong ngữ cảnh đồ ăn → nghĩa là “giữ được bao lâu / có để được không (không hỏng)”",
+    ],
+    translation: [
+      "Món sashimi này để đến ngày mai có được không?",
+      "Vâng, vẫn ổn."
+    ]
+  },
+  {
+    title: "Audio 26 : hanasu2-2",
+    audio: "audio/Y_[11-26]_hanasu2-2.mp3",
+    script: [
+      "このお菓子、どのぐらいもちますか？",
+      "明日までです。",
+    ],
+    translation: [
+      "Bánh này để được khoảng bao lâu?",
+      "Đến ngày mai."
     ]
   },
 ];

@@ -559,28 +559,32 @@ export const vocabList = [
     hira: "めいしょう",
     vi: "tên gọi",
     example: "商品の名称を確認してください。",
-    exampleVi: "Hãy kiểm tra tên gọi của sản phẩm."
+    exampleVi: "Hãy kiểm tra tên gọi của sản phẩm.",
+    skip: true
   },
   {
     jp: "原材料名",
     hira: "げんざいりょうめい",
     vi: "thành phần nguyên liệu",
     example: "原材料名はラベルに書いてあります。",
-    exampleVi: "Thành phần nguyên liệu được ghi trên nhãn."
+    exampleVi: "Thành phần nguyên liệu được ghi trên nhãn.",
+    skip: true
   },
   {
     jp: "殺菌方法",
     hira: "さっきんほうほう",
     vi: "phương pháp khử trùng",
     example: "殺菌方法を説明します。",
-    exampleVi: "Giải thích phương pháp khử trùng."
+    exampleVi: "Giải thích phương pháp khử trùng.",
+    skip: true
   },
   {
     jp: "内容量",
     hira: "ないようりょう",
     vi: "khối lượng tịnh",
     example: "内容量は500グラムです。",
-    exampleVi: "Khối lượng tịnh là 500 gram."
+    exampleVi: "Khối lượng tịnh là 500 gram.",
+    skip: true
   },
   {
     jp: "賞味期限",
@@ -601,21 +605,24 @@ export const vocabList = [
     hira: "はんばいしゃ",
     vi: "người bán",
     example: "販売者の名前が書いてあります。",
-    exampleVi: "Tên người bán được ghi trên nhãn."
+    exampleVi: "Tên người bán được ghi trên nhãn.",
+    skip: true
   },
   {
     jp: "本品",
     hira: "ほんぴん",
     vi: "sản phẩm này",
     example: "本品は日本製です。",
-    exampleVi: "Sản phẩm này được sản xuất tại Nhật."
+    exampleVi: "Sản phẩm này được sản xuất tại Nhật.",
+    skip: true
   },
   {
     jp: "含まれる",
     hira: "ふくまれる",
     vi: "bao gồm",
     example: "この食品には卵が含まれています。",
-    exampleVi: "Thực phẩm này có chứa trứng."
+    exampleVi: "Thực phẩm này có chứa trứng.",
+    skip: true
   },
   {
     jp: "アレルギー物質",
@@ -645,7 +652,8 @@ export const vocabList = [
     hira: "せいぞうしゃ",
     vi: "nhà sản xuất",
     example: "製造者の名前がラベルに書いてあります。",
-    exampleVi: "Tên nhà sản xuất được ghi trên nhãn."
+    exampleVi: "Tên nhà sản xuất được ghi trên nhãn.",
+    skip: true
   },
   {
     jp: "チョコレート",
@@ -659,6 +667,7 @@ export const vocabList = [
     hira: "ひんもく",
     vi: "thành phần / hạng mục",
     example: "この商品には27品目が含まれています。",
-    exampleVi: "Sản phẩm này có chứa 27 thành phần."
+    exampleVi: "Sản phẩm này có chứa 27 thành phần.",
+    skip: true
   }
 ];

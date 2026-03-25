@@ -220,29 +220,108 @@ export const listeningData = [
     title: "Audio 9 : kaiwa",
     audio: "audio/Y_[10-09]_kaiwa.mp3",
     script: [
+      "岩本（いわもと）：お名前（なまえ）は？",
+      "プイ：プイです。",
+      "岩本：プイさん、お国（くに）は？",
+      "プイ：タイです。",
+      "岩本：母語（ぼご）は？",
+      "プイ：すみません。「ぼご」は、どういう意味（いみ）ですか？",
+      "岩本：あ、「母語（ぼご）」は、子どものときからいつも使っていることばです。",
+      "mother tongue です。",
+      "プイ：ああ、タイ語です。",
+      "岩本：英語はできますか？",
+      "プイ：少し、できます。",
+      "岩本：そうですか。日本語は、前に、どこで勉強しましたか？",
+      "プイ：高校のとき、少し勉強しました。",
+      "それから、国の日本語学校で半年、勉強しました。",
+      "岩本：どんなとき、日本語を使いますか？",
+      "プイ：仕事のとき、会社の人と少し話します。あと、ときどきテレビを見ます。",
+      "岩本：ここでは、どんなことを勉強したいですか？",
+      "プイ：もっと会話を勉強したいです。日本人とたくさん話したいです。",
+      "日本人の友だちがほしいです。",
+      "岩本：そうですか。わかりました。"
     ],
     translation: [
+      "Iwamoto: Tên bạn là gì?",
+      "Pui: Tôi là Pui.",
+      "Iwamoto: Pui-san, đất nước của bạn là gì?",
+      "Pui: Thái Lan.",
+      "Iwamoto: Tiếng mẹ đẻ của bạn là gì?",
+      "Pui: Xin lỗi, “bogo” nghĩa là gì?",
+      "Iwamoto: À, “bogo” là ngôn ngữ bạn luôn dùng từ khi còn nhỏ.",
+      "Nó có nghĩa là “tiếng mẹ đẻ”.",
+      "Pui: À, là tiếng Thái.",
+      "Iwamoto: Bạn có biết tiếng Anh không?",
+      "Pui: Biết một chút.",
+      "Iwamoto: Vậy à. Trước đây bạn học tiếng Nhật ở đâu?",
+      "Pui: Khi học cấp ba, tôi học một chút.",
+      "Sau đó, tôi học nửa năm ở trường tiếng Nhật trong nước.",
+      "Iwamoto: Bạn dùng tiếng Nhật khi nào?",
+      "Pui: Khi làm việc, tôi nói chuyện một chút với đồng nghiệp. Ngoài ra, thỉnh thoảng tôi xem TV.",
+      "Iwamoto: Ở đây bạn muốn học gì?",
+      "Pui: Tôi muốn học thêm về hội thoại. Tôi muốn nói chuyện nhiều với người Nhật.",
+      "Tôi muốn có bạn bè người Nhật.",
+      "Iwamoto: Vậy à. Tôi hiểu rồi."
     ]
   },
   {
     title: "Audio 10 : katachi",
     audio: "audio/Y_[10-10]_katachi.mp3",
     script: [
+      "A：母語は？",
+      "B：すみません。「ぼご」は、＿＿＿＿＿。",
+      "A：あ、「母語」は、子どもの時からいつも使っていることばです。",
+      "　",
+      "高校＿＿＿＿、少し勉強しました。",
+      "仕事＿＿＿＿、会社の人と少し話します。",
     ],
     image: [
       "",
     ],
     translation: [
+      "A: Tiếng mẹ đẻ của bạn là gì?",
+      "B: Xin lỗi, 'bogo' có ý nghĩa là gì ạ? -> という意味ですか？",
+      " ",
+      "Khi học cấp ba, tôi đã học một chút.　-> のとき",
+      "Khi làm việc, tôi nói chuyện một chút với đồng nghiệp.　-> のとき"
+
     ]
   },
   {
     title: "Audio 11 : hanasu",
     audio: "audio/Y_[10-11]_hanasu.mp3",
     script: [
+      "A：お名前は？",
+      "B：プイです。",
+      "A：お国は？",
+      "B：タイです",
+      "A：母語は何ですか？",
+      "B:タイ語です",
+      "A：英語ができますか？",
+      "B:少しできます。",
+      "A:日本語は、前に、どこで勉強しましたか？",
+      "B:日本語学校で半年、勉強しました。",
+      "A:どんなとき、日本語を使いますか？",
+      "B:会社の時、会社の人と少し話します。あと、ときどきテレビを見ます",
+      "A:ここでは、どんなことを勉強したいですか？",
+      "B:会話を勉強したいです。"
     ],
 
     translation: [
+      "A: Tên bạn là gì?",
+      "B: Tôi là Pui.",
+      "A: Bạn đến từ nước nào?",
+      "B: Tôi đến từ Thái Lan.",
+      "A: Tiếng mẹ đẻ của bạn là gì?",
+      "B: Là tiếng Thái.",
+      "A: Bạn có biết tiếng Anh không?",
+      "B: Tôi biết một chút.",
+      "A: Trước đây bạn đã học tiếng Nhật ở đâu?",
+      "B: Tôi đã học ở trường tiếng Nhật trong 6 tháng.",
+      "A: Khi nào bạn sử dụng tiếng Nhật?",
+      "B: Khi ở công ty, tôi nói chuyện một chút với đồng nghiệp. Ngoài ra, thỉnh thoảng tôi xem TV.",
+      "A: Ở đây bạn muốn học những gì?",
+      "B: Tôi muốn học hội thoại."
     ]
   },
-  
 ];
