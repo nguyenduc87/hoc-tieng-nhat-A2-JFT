@@ -110,7 +110,7 @@ function renderGrammar(id) {
     <div class="grammar-block block-note">
       <h4>Lưu ý</h4>
       <ul>
-        ${g.notes.points.map(p => `<li>${p}</li>`).join("")}
+        ${g.notes.points.map(p => `<li>${highlight(p)}</li>`).join("")}
       </ul>
 
       <div class="note-example">

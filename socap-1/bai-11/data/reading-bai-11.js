@@ -20,7 +20,7 @@ export const readingData = [
       "Món ăn trông hơi cay, nhưng để trẻ con cũng ăn được nên không cay và ngon. Nếu thích thì mọi người hãy thử ăn nhé."
     ],
     vocab: [
-      { jp: "仲間【なかま】", vn: "nhà văn hóa cộng đồng" },
+      { jp: "仲間【なかま】", vn: "Chung hội, chung thuyền (đồng đội)" },
       { jp: "サラダ", vn: "Salad" },
 
     ],

@@ -1,47 +1,36 @@
 export const listeningData = [
   {
     title: "Audio 1 : kotoba1",
-    audio: "audio/Y_[11-01]_kotoba1.mp3",
+    audio: "audio/Y_[12-01]_kotoba1.mp3",
     script: [
-      "a. 肉 - 牛肉・豚肉【ぶたにく】・鶏肉【とりにく】・ソーセージ",
-      "b. 野菜（やさい）",
-      "c. シーフード - 魚・エビ・イカ・ホタテ",
-      "d. 果物（くだもの） - りんご・バナナ",
-      "e. 焼きそば（やきそば）",
-      "f. おにぎり",
-      "g. 焼肉【やきにく】のたれ・ソース（やきにくのたれ・ソース）",
-      "h. お菓子（おかし）",
-      "i. ソフトドリンク（お茶・ジュース）",
-      "j. お酒（さけ） - ビール・ワイン・日本酒【にほんしゅ】・焼酎【しょうちゅう】",
-      "k. コップ",
-      "l. お皿（おさら）",
-      "m. わりばし",
-      "n. ごみ袋【ぶくろ】"
+      "a. 甘い（あまい） - Ngọt",
+      "b. 辛い（からい） - Cay",
+      "c. すっぱい - Chua",
+      "d. しょっぱい - Mặn",
+      "e. 苦い（にがい） - Đắng",
+      "f. 味がこい（あじがこい） - Vị đậm",
+      "g. 味がうすい（あじがうすい） - Vị nhạt",
+      "h. おいしい - Ngon",
+      "i. まずい - Dở"
     ],
     image: [
-      "images/listen/11-01.png"
+      ""
     ],
     translation: [
-      "a. Thịt – thịt bò, thịt heo, thịt gà, xúc xích",
-      "b. Rau",
-      "c. Hải sản – cá, tôm, mực, sò điệp",
-      "d. Trái cây – táo, chuối",
-      "e. Mì xào Yakisoba",
-      "f. Cơm nắm",
-      "g. Nước sốt thịt nướng / sốt",
-      "h. Bánh kẹo, đồ ngọt",
-      "i. Nước giải khát – trà, nước trái cây",
-      "j. Rượu – bia, rượu vang, sake, shochu",
-      "k. Cốc",
-      "l. Đĩa",
-      "m. Đũa dùng một lần",
-      "n. Túi Rác"
+      "a. Ngọt",
+      "b. Cay",
+      "c. Chua",
+      "d. Mặn",
+      "e. Đắng",
+      "f. Vị đậm",
+      "g. Vị nhạt",
+      "h. Ngon",
+      "i. Dở"
     ]
-
   },
   {
     title: "Audio 2 : kotoba2",
-    audio: "audio/Y_[11-02]_kotoba2.mp3",
+    audio: "audio/Y_[12-02]_kotoba2.mp3",
     script: [
       "1.肉と野菜を買います",
       "2.果物【くだもの】とお菓子【かし】を買います",

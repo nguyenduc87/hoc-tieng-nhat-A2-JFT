@@ -379,16 +379,23 @@ export const vocabList = [
   {
     jp: "ピーナッツ",
     hira: "ピーナッツ",
-    vi: "hạt lạc",
-    example: "ピーナッツにアレルギーがあります。",
-    exampleVi: "Tôi bị dị ứng với lạc.",
+    vi: "đậu phộng (dùng trong giao tiếp)",
+    example: "ピーナッツバター。",
+    exampleVi: "Bơ đậu phộng.",
+  },
+  {
+    jp: "カシューナッツ",
+    hira: "カシューナッツ",
+    vi: "hạt điều (dùng trong giao tiếp)",
+    example: "カシューナッツを食べます。",
+    exampleVi: "Ăn hạt điều.",
   },
   {
     jp: "落花生",
     hira: "らっかせい",
-    vi: "hạt lạc",
-    example: "落花生を食べました。",
-    exampleVi: "Tôi đã ăn lạc.",
+    vi: "đậu phộng (dùng trong nhãn hiệu, y tế)",
+    example: "落花生アレルギー。",
+    exampleVi: "Dị ứng đậu phộng.",
     skip: true
   },
   {

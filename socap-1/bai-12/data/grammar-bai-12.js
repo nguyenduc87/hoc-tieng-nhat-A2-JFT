@@ -219,7 +219,8 @@ export const grammarBai3 = [
     usage: [
       "Phân biệt giữa động từ tự động và tha động từ trong tiếng Nhật.",
       "「Tự động từ」 diễn tả sự việc 「xảy ra không có chủ ý rõ ràng.」",
-      "Tha động từ diễn tả hành động có chủ ý của người thực hiện."
+      "Tha động từ diễn tả hành động có chủ ý của người thực hiện.",
+      "Danh sách Tự/ Tha động <a href='./list-tu-dong-tu/list.html'>click xem tại đây</a>"
     ],
     structure: "Tự động từ + て います / Tha động từ + ます",
     notes: {
@@ -239,11 +240,11 @@ export const grammarBai3 = [
           vi: "Thỉnh thoảng tôi cũng cho cả bạch quả vào nữa."
         },
         {
-          jp: "ドアが閉まっています。",
+          jp: "ドア「が」閉まっています。-> Tự động từ: N が V",
           vi: "Cửa đang đóng."
         },
         {
-          jp: "ドアを閉めます。",
+          jp: "ドア「を」閉めます。-> Tha động từ:(Người が) N を V",
           vi: "Tôi sẽ đóng cửa."
         }
       ]
@@ -258,6 +259,53 @@ export const grammarBai3 = [
         speaker: "B",
         jp: "鶏肉やエビなどが入っています。銀杏も入れましたよ。",
         vi: "Có thịt gà, tôm… Tôi cũng đã cho thêm bạch quả nữa."
+      }
+    ]
+  },
+  {
+    id: "6",
+    tab: "Mẫu 6",
+    title: "⑥ イA-くないですか?",
+    usage: [
+      "Dùng để xác nhận xem điều bản thân đang lo lắng có ổn hay không.",
+      "Thường dùng khi muốn hỏi lịch sự, thể hiện sự quan tâm đến người nghe.",
+    ],
+    structure: "イA-くないですか?",
+    notes: {
+      points: [
+        "Thể hiện sự quan tâm, lịch sự, và xác nhận tình trạng của đối phương.",
+        "Ví dụ: 「味は、うすくないですか？ (Vị không nhạt chứ ạ?)」.",
+        "Có thể thay tính từ để dùng trong nhiều tình huống khác: <br>「難しくないですか？」, <br>「寒くないですか？」, <br>「高くないですか？」.",
+      ],
+      examples: [
+        {
+          jp: "味は、「うすくないですか？」",
+          vi: "Vị không bị nhạt chứ ạ?"
+        },
+        {
+          jp: "この漢字、「難しくないですか？」",
+          vi: "Chữ Hán này không khó chứ ạ?"
+        },
+        {
+          jp: "この部屋、「寒くないですか？」",
+          vi: "Phòng này không lạnh chứ ạ?"
+        },
+        {
+          jp: "わさび、「辛【から】くないですか？」",
+          vi: "Wasabi không cay chứ ạ?"
+        }
+      ]
+    },
+    dialogue: [
+      {
+        speaker: "A",
+        jp: "わさび、辛くないですか？",
+        vi: "Wasabi không cay chứ ạ?"
+      },
+      {
+        speaker: "B",
+        jp: "だいじょうぶです。わさび、大好きですから。",
+        vi: "Không sao. Vì tôi rất thích wasabi."
       }
     ]
   }
