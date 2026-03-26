@@ -1,97 +1,28 @@
 export const readingData = [
   {
-    title: "📖 Bài đọc: ときわだより 第321号",
+    title: "📖 Bài đọc: 会社の仲間【なかま】とバーベキューの準備【じゅんび】",
 
     image1: [
-      "images/reading/01.png",
+      "",
     ],
 
     conversation: [
-      "（１）料理教室 ― 秋と冬の旬【しゅん】を味【あじ】わう",
-      "🔹木曜コース：毎月第3木曜日（全4回）、10:00～13:00",
-      "🔹金曜コース：毎月第2金曜日（全4回）、17:30～20:30",
-      "・ 場所：ときわ公民館【こうみんかん】 3階 調理室【ちょうりしつ】",
-      "・ 費用【ひよう】：800円 × 4回（各24人、先着順【せんちゃくじゅん】）",
-      "・ 問【と】い合【あ】わせ：ときわ公民館【こうみんかん】（Tel 023-XXXX-XXXX）",
-      "　",
-      "（２）書道【しょどう】教室 ― 美しい文字【もじ】を身【み】につけてみませんか？",
-      "【日時【にちじ】】毎週日曜日 13:00～17:00",
-      "【場所】：ときわ公民館 1階 教室",
-      "【費用】：月額【げつがく】 3000円（テキスト代含【だいふく】む）",
-      "　※道具【どうぐ】は各自お持ちください",
-      "小【しょう】学生から大人【おとな】まで、20名以上【いじょう】の方が参加されています。",
-      "一度、見学【けんがく】にいらしてください。",
-      "問【と】い合【あ】わせ・申込【もうしこ】み：中山（Tel 023-XXXX-XXXX）",
-      "※外国人向【がいこくじんむ】け、体験教室【たいけんきょうしつ】もあります。",
-      "👉There are trial lesson for non-Japanese residents.",
-      "　",
-      "（３）合気道【あいきどう】体験教室",
-      "日時：9月15日、22日、29日（日曜日）",
-      "　　①10：00～11：00",
-      "　　②11：15～12：15",
-      "1回完結【かい　かんけつ】のクラスです。どのクラスに来てもかまいません。",
-      "場所：ときわ公民館【こうみんかん】　1階　教育室【きょういくしつ】",
-      "服装【ふくそう】：スポーツウェアなど動【うご】きやすい服装",
-      "　　　（道着【どうぎ】は必要【ひつよう】ありません）",
-      "費用：無料",
-      "問い合わせ：小宮道場【こみやどうば】...",
-      "　",
-      "（４）日本語教室",
-      "日時：毎週土曜日　10：00～11：30",
-      "場所：ときわ公民館【こうみんかん】2階　教室",
-      "費用：無料（コピー代がかかります）",
-      "問い合わせ：国際交流【こくさいこうりゅう】センター...",
+      "来週、会社の仲間【なかま】とバーベキューをします。私はサラダを作って行きます。。友だちは肉と野菜を買って来ます。",
+      "デザートはチョコレートケーキとチーズケーキがあります。みんなで「どっちがいいですか？」と聞きましたが、私はチョコレートケーキのほうがいいです。",
+      "飲み物は何でもいいです。コーヒーでも紅茶でも、何でもいいです。",
+      "料理は少し辛そうですが、子どもも食べられるように、辛くなくておいしいです。よかったら、みんなも食べてみてください。",
     ],
 
     translate: [
-      "（1）Lớp học nấu ăn ― Thưởng thức nguyên liệu theo mùa thu và đông",
-      "🔹Khóa thứ Năm: Thứ Năm tuần thứ 3 mỗi tháng (tổng 4 buổi), 10:00～13:00",
-      "🔹Khóa thứ Sáu: Thứ Sáu tuần thứ 2 mỗi tháng (tổng 4 buổi), 17:30～20:30",
-      "・ Địa điểm: Trung tâm cộng đồng Tokiwa, tầng 3, phòng nấu ăn",
-      "・ Chi phí: 800 yên × 4 buổi (mỗi lớp 24 người, ưu tiên người đăng ký trước)",
-      "・ Liên hệ: Trung tâm cộng đồng Tokiwa (Tel 023-XXXX-XXXX)",
-      "",
-      "（2）Lớp thư pháp ― Bạn có muốn rèn luyện chữ viết đẹp không?",
-      "【Thời gian】Chủ nhật hàng tuần 13:00～17:00",
-      "【Địa điểm】: Trung tâm cộng đồng Tokiwa, tầng 1, phòng học",
-      "【Chi phí】: 3000 yên/tháng (đã bao gồm tiền tài liệu)",
-      "※ Dụng cụ vui lòng tự mang theo",
-      "Từ học sinh tiểu học đến người lớn, có hơn 20 người đang tham gia.",
-      "Hãy thử đến tham quan một lần nhé.",
-      "Liên hệ / đăng ký: Nakayama (Tel 023-XXXX-XXXX)",
-      "※ Có lớp học trải nghiệm dành cho người nước ngoài.",
-      "👉Có các buổi học thử dành cho người không phải người Nhật.",
-      "",
-      "（3）Lớp trải nghiệm Aikido",
-      "Thời gian: ngày 15, 22, 29 tháng 9 (Chủ nhật)",
-      "　　①10:00～11:00",
-      "　　②11:15～12:15",
-      "Đây là lớp học hoàn thành trong 1 buổi. Bạn có thể tham gia bất kỳ buổi nào.",
-      "Địa điểm: Trung tâm cộng đồng Tokiwa, tầng 1, phòng thể chất",
-      "Trang phục: Đồ thể thao hoặc trang phục dễ vận động",
-      "　　　(Không cần mặc võ phục)",
-      "Chi phí: Miễn phí",
-      "Liên hệ: Võ đường Komiya...",
-      "",
-      "（4）Lớp học tiếng Nhật",
-      "Thời gian: Thứ Bảy hàng tuần 10:00～11:30",
-      "Địa điểm: Trung tâm cộng đồng Tokiwa, tầng 2, phòng học",
-      "Chi phí: Miễn phí (có tính phí photocopy)",
-      "Liên hệ: Trung tâm giao lưu quốc tế..."
+      "Tuần sau, tôi sẽ cùng đồng nghiệp trong công ty đi ăn tiệc nướng. Tôi sẽ làm salad mang đến. Bạn tôi sẽ mua thịt và rau mang đến.",
+      "Có món tráng miệng là bánh sô-cô-la và bánh phô mai. Mọi người hỏi 'cái nào thì tốt hơn?', nhưng tôi thì thích bánh sô-cô-la hơn.",
+      "Đồ uống thì cái gì cũng được. Cà phê hay trà đều được, cái gì cũng được.",
+      "Món ăn trông hơi cay, nhưng để trẻ con cũng ăn được nên không cay và ngon. Nếu thích thì mọi người hãy thử ăn nhé."
     ],
-
     vocab: [
-      { jp: "公民館【こうみんかん】", vn: "nhà văn hóa cộng đồng" },
-      { jp: "教室案内【教室案内】", vn: "thông tin lớp học" },
-      { jp: "先着順【せんちゃくじゅん】", vn: "Đăng ký trước" },
-      { jp: "身【み】をつける", vn: "học được, tiếp thu, rèn luyện, trang bị (về kỹ năng, kiến thức)" },
-      { jp: "月額【げつがく】", vn: "số tiền mỗi tháng" },
-      { jp: "含む【ふくむ】", vn: "bao gồm" },
-      { jp: "20名以上【20めい いじょう】", vn: "20 người trở lên" },
-      { jp: "外国人向け【がいこくじん むけ】", vn: "hướng tới đối tượng" },
-      { jp: "服装【ふくそう】", vn: "trang phục" },
-      { jp: "国際流会【こくさい りゅうかい】", vn: "giao lưu quốc tế" },
-      
+      { jp: "仲間【なかま】", vn: "nhà văn hóa cộng đồng" },
+      { jp: "サラダ", vn: "Salad" },
+
     ],
 
     image2: [
@@ -99,29 +30,11 @@ export const readingData = [
     ],
 
     questions: [
-      "①書道教室について、わかることはどれですか？",
-      "1. だれでもすぐ参加できる",
-      "2. 道具を借りることができます",
-      "3. 子どもだけが参加できます",
-      "4. 自分で道具を持っていかなければなりません",
-      "　",
-      "②料理教室について、正しいものはどれですか？",
-      "① 1回だけ参加できます",
-      "② 1回800円だけ払えばいいです",
-      "③ 同じ曜日に4回参加する必要があります",
-      "④ 毎週行われています"
+      
     ],
 
     answers: [
-      "Câu ①",
-      "4",
-      "「道具は各自お持ちください」とあるので、自分で持っていく必要があります。",
-      "Vì ghi 'mỗi người tự mang dụng cụ', nên phải tự mang theo.",
-      "　",
-      "Câu ②",
-      "2",
-      "料理教室は「全4回」と書いてあるので、同じコースで4回参加します。",
-      "Vì ghi 'tổng 4 buổi', nên phải tham gia đủ 4 buổi theo cùng khóa."
+      
     ]
   }
 ];

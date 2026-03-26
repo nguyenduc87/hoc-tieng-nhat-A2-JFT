@@ -2,27 +2,37 @@ export const grammarBai3 = [
   {
     id: "summary",
     tab: "Tóm tắt",
-    title: "Bài 11： – Tôi sẽ mua rau và thịt đến",
+    title: "Bài 12： Cơm hộp trong ngon nhỉ.",
     summaryList: [
       {
-        label: "① V-て 行きます／来ます",
-        example: "肉と野菜は、私が「買って行きます」よ。",
-        vi: "Thịt và rau thì tôi sẽ 「mua mang đến」."
+        label: "① ナA- / イA - そうです",
+        example: "そのお弁当、「おいしそうですね。」",
+        vi: "Cơm hộp của bạn 「trông ngon nhỉ」."
       },
       {
-        label: "② N1とN2(と)、どっちがいいですか？ / S。どれがいいですか？",
-        example: "チョコレートケーキとチーズケーキ、「どっちがいいですか」？ ",
-        vi: "Bánh sô-cô-la và bánh phô mai, 「cái nào thì tốt hơn?」"
+        label: "② ナA- / イA - そうな N",
+        example: "それ、「辛【から】そうな料理」ですね。",
+        vi: "Đó là món ăn 「trông có vẻ cay nhỉ」."
       },
       {
-        label: "③ Nのほうがいいです",
-        example: "塩【しお】「のほうがいいです」。",
-        vi: "Muối thì 「tốt hơn.」"
+        label: "③ イA-くて、～ / イA-くなくて、～",
+        example: "この卵焼【たまごや】き、「甘くて」、おいしいですね。 / 茶碗蒸【Chawan-mushi】し、「甘くなくて」、おいしいですよ。",
+        vi: "Món trứng cuộn này ngọt và ngon nhỉ. / Chawanmushi không ngọt mà vẫn ngon đấy."
       },
       {
-        label: "④ [từ nghi vấn]でもいいです",
-        example: "A：「何が」食べたいですか？ B：何でもいいです。",
-        vi: "A: Bạn muốn ăn gì? B: Ăn gì cũng được."
+        label: "④ V-てみます",
+        example: "よかったら、この卵焼【たまごや】き、「食べてみて」ください。",
+        vi: "Nếu được thì hãy 「thử ăn」 món trứng cuộn này nhé."
+      },
+      {
+        label: "⑤ Tự động từ / Tha động từ",
+        example: "鶏肉【とりにく】とか、エビとか、きのことかが入ってます。ときどき、銀杏【ぎんなん】も入れますよ。",
+        vi: "Có thịt gà, tôm, nấm… thỉnh thoảng cũng cho thêm hạt ngân hạnh."
+      },
+      {
+        label: "⑥ イA-くないですか?",
+        example: "味【あじ】は、「うすくない」ですか?",
+        vi: "Vị có nhạt quá không?"
       }
     ]
   },
@@ -30,45 +40,46 @@ export const grammarBai3 = [
   {
     id: "1",
     tab: "Mẫu 1",
-    title: "① V-て行きます／来ます",
+    title: "① ～そうです",
     usage: [
-      "Làm V trước tiên, rồi cứ thế đi/ đến nơi khác."
+      "Diễn đạt ấn tượng chủ quan dựa trên quan sát bên ngoài."
     ],
-    structure: "V-て行きます／来ます",
+    structure: "ナA - イA - そうです",
     notes: {
       points: [
-        "Động từ được chia ở thể て rồi kết hợp với 行く/来る.",
-        "Từ hay dùng: 持って行く（Mang đi）、買って行く（mua mang đi）、作って行く（làm mang đi）"
+        "Nếu là tính từ đuôi イ thì bỏ い, nếu là tính từ đuôi ナ thì bỏ な rồi thêm ～そうです.",
+        "Dùng để nhận xét trực giác từ bề ngoài, ví dụ: おいしそう (có vẻ ngon), 辛そう (có vẻ cay), すっぱそう (có vẻ chua).",
+        "Cũng kết hợp với tính từ đuôi ナ như 元気そうです (có vẻ khỏe mạnh), 大変そうです (có vẻ vất vả)."
       ],
       examples: [
         {
-          jp: "肉と野菜は、私が「買って行きます」よ。",
-          vi: "Thịt và rau thì tôi sẽ 「mua mang đến.」"
+          jp: "そのお弁当、「おいしそう」ですね。",
+          vi: "Cơm hộp của bạn 「trông」 ngon nhỉ."
         },
         {
-          jp: "明日のパーティー、私はデザートを「持って行きます」。",
-          vi: "Ngày mai, tôi sẽ 「mang」 món tráng miệng 「tới」 bữa tiệc."
+          jp: "「おいしそう」なお弁当です。",
+          vi: "Cơm hộp đó, 「có vẻ」 ngon nhỉ."
         },
         {
-          jp: "自国の料理を「作って来ました」。どうぞ、食べてください。",
-          vi: "Tôi đã 「nấu và mang đến」 món ăn đặc sản của đất nước tôi. Xin mời dùng thử."
+          jp: "このみかんは、「すっぱそう」ですね。",
+          vi: "Quả quýt này 「trông có vẻ」 chua nhỉ."
         },
         {
-          jp: "飲み物を「買って来ました」よ。",
-          vi: "Tôi đã 「mua nước mang đến」 rồi."
+          jp: "彼は「元気そう」です。",
+          vi: "Anh ấy 「trông có vẻ」 khỏe mạnh."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "バーベキューのとき、何を「持って行きますか」？",
-        vi: "Trong buổi tiệc nướng, bạn sẽ mang gì đến?"
+        jp: "この料理、「辛そう」ですね。",
+        vi: "Món ăn này 「trông có vẻ」 cay nhỉ."
       },
       {
         speaker: "B",
-        jp: "私はサラダを「作って行きます」。",
-        vi: "Tôi sẽ làm salad mang đến."
+        jp: "ええ、でも食べてみないと分【わ】かりませんね。",
+        vi: "Ừ, nhưng không ăn thử thì không biết chắc được."
       }
     ]
   },
@@ -76,38 +87,36 @@ export const grammarBai3 = [
   {
     id: "2",
     tab: "Mẫu 2",
-    title: "② N1とN2(と)、どっちがいいですか？ <br>　　　　　　S。どれがいいですか？",
+    title: "② ～そうなN",
     usage: [
-      "Dùng để hỏi người khác chọn cái nào trong số những thứ được đưa ra.",
-      "2 lựa chọn thì dùng どっち.",
-      "3 lựa chọn trở lên thì dùng どれ."
+      "～そうです cũng có thể bổ nghĩa cho danh từ, khi đó dùng ～そうなN.",
     ],
-    structure: "N1とN2(と)、どっちがいいですか？ <br> S。どれがいいですか？",
+    structure: "ナA- / イA- ～そうなN",
     notes: {
       points: [
-        "どっち là cách nói thân mật của どちら.",
+        "Ví dụ: それ、辛そうな料理ですね ≈ その料理、辛そうですね."
       ],
       examples: [
         {
-          jp: "チョコレートケーキとチーズケーキ、「どっちがいいですか？」",
-          vi: "Bạn thích bánh sô-cô-la hay bánh phô mai hơn?"
+          jp: "それ、辛そうな料理ですね。",
+          vi: "Món đó trông có vẻ cay nhỉ."
         },
         {
-          jp: "お茶、いろいろありますね。「どれがいいですか？」",
-          vi: "Có nhiều loại trà quá nhỉ. Bạn thích loại nào?"
+          jp: "おいしそうなケーキですね。",
+          vi: "Chiếc bánh trông ngon nhỉ."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "飲み物はコーヒーと紅茶、「どっちがいいですか？」",
-        vi: "Đồ uống thì cà phê hay trà, bạn thích cái nào?"
+        jp: "その料理、辛そうですね。",
+        vi: "Món ăn đó trông có vẻ cay nhỉ."
       },
       {
         speaker: "B",
-        jp: "紅茶のほうがいいです。",
-        vi: "Tôi thích trà hơn."
+        jp: "ええ、でも食べてみないと分かりませんね。",
+        vi: "Ừ, nhưng không ăn thử thì không biết chắc được."
       }
     ]
   },
@@ -115,92 +124,140 @@ export const grammarBai3 = [
   {
     id: "3",
     tab: "Mẫu 3",
-    title: "③ Nのほうがいいです",
+    title: "③ イA-くて、～／イA-くなくて、～",
     usage: [
-      "Dùng để diễn đạt sự lựa chọn hoặc sở thích giữa hai thứ.",
-      "N là thứ người nói đã chọn.",
-      "Có thể lược bỏ のほうが thành Nがいいです."
+      "Dùng để nối các tính từ hoặc diễn đạt lý do cho mệnh đề sau.",
+      "～くて dùng với tính từ đuôi イ ở dạng khẳng định.",
+      "～くなくて dùng với tính từ đuôi イ ở dạng phủ định."
     ],
-    structure: "Nのほうがいいです / Nがいいです",
+    structure: "イA-くて、～／イA-くなくて、～",
     notes: {
       points: [
-        "Trong hội thoại thân mật, có thể nói Nがいいです thay cho Nのほうがいいです."
+        "Trong bài 5 đã học ～くて để liệt kê nhiều tính từ.",
+        "Ngoài chức năng liệt kê, ～くて còn diễn đạt lý do cho mệnh đề phía sau.",
+        "Dạng phủ định là ～くなくて, cũng dùng để nêu lý do."
       ],
       examples: [
         {
-          jp: "塩【しお】「のほうがいいです。」",
-          vi: "Tôi thích dùng muối hơn."
+          jp: "この卵焼き、「甘くて」、おいしいですね。",
+          vi: "Món trứng cuộn này ngọt nên ngon nhỉ."
         },
         {
-          jp: "肉と魚、「どっちがいいですか？」",
-          vi: "Bạn thích thịt hay cá hơn?"
+          jp: "茶碗蒸【chawan-mushi】し、「甘くなくて」、おいしいですよ。",
+          vi: "Món chawanmushi không ngọt đâu nên ngon lắm."
         },
         {
-          jp: "肉が「いいです。」",
-          vi: "Tôi thích thịt hơn."
+          jp: "梅干【うめぼし】しはすっぱくて、苦手です。",
+          vi: "Món mơ muối thì chua nên tôi không thích."
         },
         {
-          jp: "日本「のほうがいいです。」",
-          vi: "Tôi thích ở Nhật hơn."
+          jp: "この料理は辛くなくて、子どもも食べることができます。",
+          vi: "Món này không cay nên trẻ con cũng ăn được."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "旅行は海と山、どっちがいいですか？",
-        vi: "Đi du lịch thì biển hay núi, bạn thích cái nào hơn?"
+        jp: "このさしみ、高くて、買うことができません。",
+        vi: "Món sashimi này đắt quá nên tôi không mua được."
       },
       {
         speaker: "B",
-        jp: "山のほうがいいです。",
-        vi: "Tôi thích núi hơn."
+        jp: "この家、場所がよくて、高いです。",
+        vi: "Ngôi nhà này vị trí tốt nên giá cao."
       }
     ]
   },
   {
     id: "4",
     tab: "Mẫu 4",
-    title: "④ [từ nghi vấn]でもいいです",
+    title: "④ V-てみます",
     usage: [
-      "Dùng để diễn đạt rằng người nói 「không có sở thích hay mong muốn đặc biệt.」",
-      "Thường dùng 「khi được hỏi lựa chọn」, nhưng câu 「trả lời là 'cái gì cũng được'」."
+      "Dùng khi thử làm một hành động nào đó lần đầu để biết nó như thế nào.",
+      "Thường dùng để diễn đạt ý định thử trải nghiệm hoặc khuyến khích người khác thử."
     ],
-    structure: "[từ nghi vấn] + でもいいです",
+    structure: "V-てみます",
     notes: {
       points: [
-        "Biểu thị sự không có sở thích hay mong muốn cụ thể.",
-        "Có nhiều biến thể: <br>何でも (cái gì cũng), <br>どっちでも (cái nào cũng), <br>いつでも (lúc nào cũng), <br>だれでも (ai cũng), <br>どこでも (ở đâu cũng), <br>いくつでも (bao nhiêu cũng)."
+        "Động từ được chia ở thể て rồi kết hợp với みます.",
+        "Dùng khi muốn thử làm một việc để biết kết quả hoặc cảm giác.",
+        "Ví dụ: 食べてみます (ăn thử), 飲んでみます (uống thử), してみます (thử làm), やってみます (thử làm thử)."
       ],
       examples: [
         {
-          jp: "A：何が食べたいですか？",
-          vi: "A: Bạn muốn ăn gì?"
+          jp: "よかったら、この卵焼き、「食べてみて」ください。",
+          vi: "Nếu thích thì bạn hãy 「ăn thử」 miếng trứng cuộn này nhé."
         },
         {
-          jp: "B：「何でもいいです。」",
-          vi: "B: Ăn gì cũng được."
+          jp: "くつを「はいてみます。」",
+          vi: "Tôi sẽ thử mang giày."
         },
         {
-          jp: "チョコレートケーキとチーズケーキ、どっちがいいですか？",
-          vi: "Bạn thích bánh sô-cô-la hay bánh phô mai hơn?"
-        },
-        {
-          jp: "「どっちでもいいです。」",
-          vi: "Cái nào cũng được."
+          jp: "新しいゲームを「してみます。」",
+          vi: "Tôi sẽ thử chơi trò chơi mới."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "旅行は海と山、どっちがいいですか？",
-        vi: "Đi du lịch thì biển hay núi, bạn thích cái nào hơn?"
+        jp: "この料理、「食べてみませんか？」",
+        vi: "Bạn có muốn thử ăn món này không?"
       },
       {
         speaker: "B",
-        jp: "「どっちでもいいです。」",
-        vi: "Cái nào cũng được."
+        jp: "ええ、「食べてみます。」",
+        vi: "Ừ, tôi sẽ thử ăn."
+      }
+    ]
+  },
+  {
+    id: "5",
+    tab: "Mẫu 5",
+    title: "⑤ Tự động từ / Tha động từ",
+    usage: [
+      "Phân biệt giữa động từ tự động và tha động từ trong tiếng Nhật.",
+      "「Tự động từ」 diễn tả sự việc 「xảy ra không có chủ ý rõ ràng.」",
+      "Tha động từ diễn tả hành động có chủ ý của người thực hiện."
+    ],
+    structure: "Tự động từ + て います / Tha động từ + ます",
+    notes: {
+      points: [
+        "Tự động từ: 雨が降る (trời mưa), ドアが閉まる (cửa đóng), 入る (vào).",
+        "Tha động từ: ご飯を食べる (ăn cơm), ドアを閉める (đóng cửa), 入れる (cho vào).",
+        "Cấu trúc ～が入っています dùng để mô tả trạng thái món ăn có nguyên liệu gì.",
+        "Cấu trúc ～を入れます thể hiện hành động có chủ ý cho nguyên liệu vào món ăn."
+      ],
+      examples: [
+        {
+          jp: "鶏肉【とりにく】とか、エビとか、きのことかが入ってます。",
+          vi: "Món này có thịt gà, tôm, nấm."
+        },
+        {
+          jp: "ときどき、銀杏も入れますよ。",
+          vi: "Thỉnh thoảng tôi cũng cho cả bạch quả vào nữa."
+        },
+        {
+          jp: "ドアが閉まっています。",
+          vi: "Cửa đang đóng."
+        },
+        {
+          jp: "ドアを閉めます。",
+          vi: "Tôi sẽ đóng cửa."
+        }
+      ]
+    },
+    dialogue: [
+      {
+        speaker: "A",
+        jp: "この料理、何が入っていますか？",
+        vi: "Món này có những nguyên liệu gì vậy?"
+      },
+      {
+        speaker: "B",
+        jp: "鶏肉やエビなどが入っています。銀杏も入れましたよ。",
+        vi: "Có thịt gà, tôm… Tôi cũng đã cho thêm bạch quả nữa."
       }
     ]
   }

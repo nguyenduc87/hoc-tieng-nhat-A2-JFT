@@ -137,7 +137,7 @@ export const grammarBai3 = [
   },
 
   {
-    id: 3,
+    id: "3",
     tab: "Mẫu 3",
     title: "③ N1は～。(でも) N2は～。＜So sánh 対比＞",
     usage: [
@@ -189,7 +189,7 @@ export const grammarBai3 = [
   },
 
   {
-    id: 4,
+    id: "4",
     tab: "Mẫu 4",
     title: "④ V-てもらえませんか？",
     usage: [
@@ -240,7 +240,7 @@ export const grammarBai3 = [
     ]
   },
   {
-    id: 5,
+    id: "5",
     tab: "Mẫu 5",
     title: "⑤ V-方（かた）",
     usage: [
