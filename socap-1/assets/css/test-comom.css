@@ -26,6 +26,46 @@ body {
     flex: 2;
 }
 
+/* Hai lựa chọn trong (.../...) */
+.stylish-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px 0;
+  background: #fdfdfd;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.choice-btn {
+  margin: 0 5px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background: #e0f7fa;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.choice-btn:hover {
+  background: #80deea;
+}
+
+.option-btn {
+  margin: 5px 0;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.option-btn:hover {
+  background: #f0f0f0;
+}
+
+
+
 /* QUESTION CARD */
 .question-card {
     background:

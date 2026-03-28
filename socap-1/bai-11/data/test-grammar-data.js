@@ -1,12 +1,14 @@
 export const grammarList = [
     {
         id: 1,
-        grammar: "① Nで（Cách thức / Phương tiện）",
+        grammar: "① Vて　行きます／来ます",
         leftContent: {
-            image: "../images/grammar/01-01.png",
+            image: "",
             text: [
-                "どうやって日本語を勉強しましたか？",
-                "➡日本語学校＿＿＿勉強しました。",
+                "A: 家で、おすしを（作って来ました／作って行きました）。みなさん、どうぞ。",
+                "B: すごい！ありがとうございます。",
+                "C: 飲み物もほしいですね。自動販売機で、お茶を（飲んで来ます／買って来ます）ね。",
+                "A: だいじょうぶですよ。お茶も（持って来ました／持って行きました）。はい、どうぞ。"
             ]
         },
         question:
@@ -286,44 +288,5 @@ export const grammarList = [
         correct: "教え方",
         explanation: "Vます → bỏます + 方 → 教え方（cách dạy）"
     },
-    {
-        id: 15,
-        grammar: "⑤ V方",
-        leftContent: {
-            image: "",
-            text: [
-                "このことば、どうやって発音しますか？",
-                "➡このことばの発音の（　　　）を教えてください。"
-            ]
-        },
-        question: "（＿＿）Chọn đáp án đúng",
-        options: [
-            "しかた",
-            "しかた方",
-            "し方",
-            "しかたする"
-        ],
-        correct: "しかた",
-        explanation: "する → しかた（cách làm）→ 発音のしかた（cách phát âm）"
-    },
-    {
-        id: 16,
-        grammar: "⑤ V方",
-        leftContent: {
-            image: "",
-            text: [
-                "このアプリ、どうやって使いますか？",
-                "➡このアプリの（　　　）を説明してください。"
-            ]
-        },
-        question: "（＿＿）Chọn đáp án đúng",
-        options: [
-            "使い方",
-            "使う方",
-            "使います方",
-            "使うこと"
-        ],
-        correct: "使い方",
-        explanation: "使います → 使い + 方 → 使い方（cách sử dụng）"
-    }
+    
 ];
