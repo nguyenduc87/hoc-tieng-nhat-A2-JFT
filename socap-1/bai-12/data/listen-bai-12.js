@@ -14,7 +14,7 @@ export const listeningData = [
       "i. まずい - Dở"
     ],
     image: [
-      ""
+      "images/listen/12-01.png",
     ],
     translation: [
       "a. Ngọt",
@@ -32,30 +32,34 @@ export const listeningData = [
     title: "Audio 2 : kotoba2",
     audio: "audio/Y_[12-02]_kotoba2.mp3",
     script: [
-      "1.肉と野菜を買います",
-      "2.果物【くだもの】とお菓子【かし】を買います",
-      "3.ソフトドリンクとお酒を買います",
-      "4.お皿【さら】をわりばしを買います",
-      "5.魚と豚肉【ぶたにく】を買います",
-      "6.コップとゴミ袋【ぶくろ】を買います",
-      "7.焼【や】きそばとおにぎりを作ります",
+      "1.おいしいですね",
+      "2.味がうすいですね",
+      "3.しょっぱいですね",
+      "4.辛いですね",
+      "5.にがいですね",
+      "6.甘いですね",
+      "7.すっぱいですね",
+      "8.味がこいですね",
+      "9.まずいですね",
     ],
     image: [
       ""
     ],
     translation: [
-      "1. Tôi mua thịt và rau.",
-      "2. Tôi mua trái cây và bánh kẹo.",
-      "3. Tôi mua nước ngọt và rượu.",
-      "4. Tôi mua đĩa và đũa dùng một lần.",
-      "5. Tôi mua cá và thịt heo.",
-      "6. Tôi mua cốc và túi rác.",
-      "7. Tôi làm yakisoba và cơm nắm."
+      "1. Ngon quá nhỉ",
+      "2. Vị hơi nhạt nhỉ",
+      "3. Mặn quá nhỉ",
+      "4. Cay quá nhỉ",
+      "5. Đắng nhỉ",
+      "6. Ngọt nhỉ",
+      "7. Chua nhỉ",
+      "8. Vị đậm nhỉ",
+      "9. Dở quá nhỉ"
     ]
   },
   {
     title: "Audio 3 : kiku1",
-    audio: "audio/Y_[11-03]_kiku1.mp3",
+    audio: "audio/Y_[12-03]_kiku1.mp3",
     script: [
       "長谷川【はせがわ】：来週のバーベキューですけど、準備【じゅんび】はどうしますか？",
       "長谷川【はせがわ】：だれが何を持って行きますか？",

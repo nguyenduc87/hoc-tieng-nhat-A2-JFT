@@ -5,288 +5,239 @@ export const grammarList = [
         leftContent: {
             image: "",
             text: [
-                "A: 家で、おすしを（作って来ました／作って行きました）。みなさん、どうぞ。",
-                "B: すごい！ありがとうございます。",
-                "C: 飲み物もほしいですね。自動販売機で、お茶を（飲んで来ます／買って来ます）ね。",
-                "A: だいじょうぶですよ。お茶も（持って来ました／持って行きました）。はい、どうぞ。"
+                "家で、おすしを（＿＿＿）。みなさん、どうぞ。",
+                "➡（＿＿＿）",
             ]
         },
         question:
-            "（＿＿）Chọn câu đúng",
+            "V-て行きます／来ます Chọn cách nói đúng",
         options: [
-            "で",
-            "に",
-            "は",
-            "を",
+            "作って来ました",
+            "作って行きました",
+            "持っていました",
+            "来ました",
         ],
-        correct: "で",
-        explanation: "Nで（Cách thức/phương tiện）.<br> Câu hỏi là học bằng cách nào. -> Học bằng cách là tại trường."
+        correct: "作って来ました",
+        explanation: "V-て行きます／来ます。Làm món Sushi mang đến. Xin mời!"
     },
     {
         id: 2,
-        grammar: "① Nで（Cách thức / Phương tiện）",
+        grammar: "① Vて　行きます／来ます",
         leftContent: {
-            image: "../images/grammar/01-02.png",
+            image: "",
             text: [
-                "どうやってアニメを見ますか？",
-                "➡パソコン＿＿＿見ます。",
+                "飲み物もほしいですね。自動販売機で、お茶を（＿＿＿）ね。",
+                "➡（＿＿＿）",
             ]
         },
         question:
-            "（＿＿）Chọn câu đúng",
+            "V-て行きます／来ます Chọn cách nói đúng",
         options: [
-            "で",
-            "に",
-            "は",
-            "を",
+            "買って来ます",
+            "飲んで来ます",
+            "持っていました",
+            "買いました",
         ],
-        correct: "で",
-        explanation: "Nで（Cách thức/phương tiện）.<br> Xem anime bằng máy tính → dùng パソコンで。"
+        correct: "買って来ます",
+        explanation: "V-て行きます／来ます。Ra máy bán hàng tự động mua trà rồi mang về đây."
     },
     {
         id: 3,
-        grammar: "① Nで（Cách thức / Phương tiện）",
+        grammar: "① Vて　行きます／来ます",
         leftContent: {
-            image: "../images/grammar/01-03.png",
+            image: "",
             text: [
-                "どうやってニュースを読みますか？",
-                "➡アプリ＿＿＿読みます。",
+                "昼ご飯、外で（＿＿＿）ね。",
+                "➡（＿＿＿）",
             ]
         },
         question:
-            "（＿＿）Chọn câu đúng",
+            "V-て行きます／来ます Chọn cách nói đúng",
         options: [
-            "で",
-            "に",
-            "は",
-            "を",
+            "食べて来ます",
+            "持って来ます",
+            "持っていました",
+            "買いました",
         ],
-        correct: "で",
-        explanation: "Nで（Cách thức/phương tiện）.<br> Đọc bằng app → アプリで。"
+        correct: "食べて来ます",
+        explanation: "Khi nói “昼ご飯、外で食べて来ます”, người nói muốn diễn đạt rằng họ sẽ ra ngoài ăn trưa, sau đó quay lại chỗ hiện tại."
     },
 
     {
         id: 4,
-        grammar: "② N1は N2が ナAです / イAです",
+        grammar: "② N1とN2(と)、どっちがいいですか？ <br>　　　　　　S。どれがいいですか？",
         leftContent: {
             image: "",
             text: [
-                "英語｜発音＝おもしろい",
-                "➡（　　　　　　　　　　　）。"
+                "ラーメン｜うどん",
+                "➡Nói どっち hay どれ"
             ]
         },
-        question: "Chọn câu đúng",
+        question: "N1とN2(と)、どっちがいいですか？ <br>　　　　　　S。どれがいいですか？",
         options: [
-            "英語は発音がおもしろいです",
-            "英語が発音はおもしろいです",
-            "英語は発音をおもしろいです",
-            "英語で発音がおもしろいです"
+            "どっち",
+            "どれ",
         ],
-        correct: "英語は発音がおもしろいです",
-        explanation: "Mẫu N1はN2がイAです → Tiếng Anh thì phát âm thú vị."
+        correct: "どっち",
+        explanation: "2 lựa chọn thì dùng どっち <br> 3 lựa chọn trở lên thì dùng どれ."
     },
     {
         id: 5,
-        grammar: "② N1は N2が ナAです / イAです",
+        grammar: "② N1とN2(と)、どっちがいいですか？ <br>　　　　　　S。どれがいいですか？",
         leftContent: {
             image: "",
             text: [
-                "ミャンマー語｜文字＝かわいい",
-                "➡（　　　　　　　　　　　）。"
+                "ビール｜日本酒｜ワイン",
+                "➡Nói どっち hay どれ"
             ]
         },
-        question: "Chọn câu đúng",
+        question: "N1とN2(と)、どっちがいいですか？ <br>　　　　　　S。どれがいいですか？",
         options: [
-            "ミャンマー語は文字がかわいいです",
-            "ミャンマー語が文字はかわいいです",
-            "ミャンマー語は文字をかわいいです",
-            "ミャンマー語で文字がかわいいです"
+            "どっち",
+            "どれ",
         ],
-        correct: "ミャンマー語は文字がかわいいです",
-        explanation: "Mẫu N1はN2がイAです → Tiếng Myanmar thì chữ viết dễ thương."
+        correct: "どれ",
+        explanation: "2 lựa chọn thì dùng どっち <br> 3 lựa chọn trở lên thì dùng どれ."
     },
     {
         id: 6,
-        grammar: "② N1は N2が ナAです / イAです",
+        grammar: "② N1とN2(と)、どっちがいいですか？ <br>　　　　　　S。どれがいいですか？",
         leftContent: {
             image: "",
             text: [
-                "タイ語｜読む＝難しい",
-                "➡（　　　　　　　　　　　）。"
+                "肉｜魚｜エビ｜イカ",
+                "➡Nói どっち hay どれ"
             ]
         },
-        question: "Chọn câu đúng",
+        question: "N1とN2(と)、どっちがいいですか？ <br>　　　　　　S。どれがいいですか？",
         options: [
-            "タイ語は読むが難しいです",
-            "タイ語は読むのが難しいです",
-            "タイ語が読むのは難しいです",
-            "タイ語で読むのが難しいです"
+            "どっち",
+            "どれ",
         ],
-        correct: "タイ語は読むのが難しいです",
-        explanation: "Động từ → Vる + のが + イAです → Việc đọc tiếng Thái thì khó."
+        correct: "どれ",
+        explanation: "2 lựa chọn thì dùng どっち <br> 3 lựa chọn trở lên thì dùng どれ."
     },
 
     {
         id: 7,
-        grammar: "③ N1は、～。（でも、）N2は、～。",
+        grammar: "③ N のほうが いいです。",
         leftContent: {
             image: "",
             text: [
-                "話す＝得意(な)｜読む＝苦手(な)",
-                "➡（　　　　　　　　　　　）。"
+                "焼き鳥は、塩とたれ、どっちがいいですか",
+                "➡ Chọn 塩【しお】 thì sẽ nói thế nào?"
             ]
         },
-        question: "Chọn câu đúng",
+        question: "N のほうが いいです。Chọn câu đúng",
         options: [
-            "話す は苦手です。でも、読む は得意です",
-            "話す は得意です。でも、読む は苦手です",
-            "話す のが得意です。でも、読む のが苦手です",
-            "話す が得意です。でも、読む が苦手です"
+            "塩のほうがいいです",
+            "塩のほがいいです",
+            "塩ほうがいいです",
+            "塩です",
         ],
-        correct: "話すのが得意です。でも、読むのが苦手です",
-        explanation: "So sánh đối lập: Vる + のは + ナAです。"
+        correct: "塩のほうがいいです",
+        explanation: "Chọn Muối. Dùng để diễn đạt sự lựa chọn hoặc sở thích giữa hai thứ."
     },
     {
         id: 8,
-        grammar: "③ N1は、～。（でも、）N2は、～。",
+        grammar: "③ N のほうが いいです。",
         leftContent: {
             image: "",
             text: [
-                "ベトナム語｜発音【はつおん】＝とても難しい｜文法＝難しくない",
-                "➡（　　　　　　　　　　　）。"
+                "今日のお昼、牛丼とカレー、どっちがいいですか",
+                "➡ Chọn 牛丼【ぎゅうどん】 thì sẽ nói thế nào?"
             ]
         },
-        question: "Chọn câu đúng",
+        question: "N のほうが いいです。Chọn câu đúng",
         options: [
-            "ベトナム語 は発音 は とても難しいです。でも、文法 は 難しくないです",
-            "ベトナム語 は発音 が とても難しいです。でも、文法 は 難しくないです",
-            "ベトナム語 が発音 は とても難しいです。でも、文法 が 難しくないです",
-            "ベトナム語 は発音 を とても難しいです。でも、文法 を 難しくないです"
+            "牛丼がいいです",
+            "牛丼ですです",
+            "カレーがいいです",
+            "カレーです",
         ],
-        correct: "ベトナム語は発音がとても難しいです。でも、文法は難しくないです",
-        explanation: "N1はN2がイAです。でも、N3はイAです（phủ định）。"
+        correct: "牛丼がいいです",
+        explanation: "Chọn cơm bò. N のほうが いいです　Hoặc Nがいいです."
     },
     {
         id: 9,
-        grammar: "③ N1は、～。（でも、）N2は、～。",
+        grammar: "③ N のほうが いいです。",
         leftContent: {
             image: "",
             text: [
-                "モンゴル語｜文法＝日本語と似【に】ている｜文字＝ぜんぜん違【ちが】う",
-                "➡（　　　　　　　　　　　）。"
+                "牛乳とココナッツミルク、どっちがいいですか",
+                "➡ Chọn ココナッツミルク thì sẽ nói thế nào?"
             ]
         },
-        question: "Chọn câu đúng",
+        question: "N のほうが いいです。Chọn câu đúng",
         options: [
-            "モンゴル語 は 文法 は 日本語と似ています。でも、文字 は ぜんぜん違います",
-            "モンゴル語 は 文法 が 日本語と似ています。でも、文字 は ぜんぜん違います",
-            "モンゴル語 が 文法 は 日本語と似ています。でも、文字 が ぜんぜん違います",
-            "モンゴル語 は 文法 を 日本語と似ています。でも、文字 を ぜんぜん違います"
+            "ココナッツミルク が いいです",
+            "ココナッツミルク です",
+            "牛乳 が いいです",
+            "牛乳 です",
         ],
-        correct: "モンゴル語は文法が日本語と似ています。でも、文字はぜんぜん違います",
-        explanation: "So sánh đối lập: N1はN2が～です。でも、N3は～です。"
+        correct: "ココナッツミルク が いいです",
+        explanation: "Chọn sữa dừa. N のほうが いいです　Hoặc Nがいいです."
     },
 
     {
         id: 10,
-        grammar: "④ Vて もらえませんか？",
+        grammar: "④ [từ nghi vấn]でもいいです",
         leftContent: {
             image: "",
             text: [
-                "その教科書【きょうかしょ】、ちょっと見せてください。",
-                "➡（　　　　　　　　　　　）？"
+                "A：何が食べたいいですか。",
+                "B：➡ 「Cái gì cũng được」"
             ]
         },
-        question: "Chọn câu lịch sự cao nhất",
+        question: "Chọn cách nói phù hợp cho B",
         options: [
-            "ちょっと見せてもらえませんか",
-            "ちょっと見せてもらいますか",
-            "ちょっと見せてくれませんか",
-            "ちょっと見せてもらえます"
+            "何でもいいです",
+            "どのでもいいです",
+            "はい、食べます",
+            "いいえ、食べません",
         ],
-        correct: "ちょっと見せてもらえませんか",
-        explanation: "Đổi từ ～てください → ～てもらえませんか（cách nói lịch sự hơn khi nhờ vả）。"
+        correct: "何でもいいです",
+        explanation: "Dùng để diễn đạt rằng người nói 「không có sở thích hay mong muốn đặc biệt.」"
     },
     {
         id: 11,
-        grammar: "④ Vて もらえませんか？",
+        grammar: "④ [từ nghi vấn]でもいいです",
         leftContent: {
             image: "",
             text: [
-                "もう少し簡単【かんたん】なことばで言ってください。",
-                "➡（　　　　　　　　　　　）？"
+                "A：コーヒーと紅茶【こうちゃ】、どっちがいいですか",
+                "B：➡ 「Cái nào cũng được」"
             ]
         },
-        question: "Chọn câu lịch sự cao nhất",
+        question: "Chọn cách nói phù hợp cho B",
         options: [
-            "言ってもらえませんか",
-            "言いますか",
-            "言ってもらいますか",
-            "言ってくださいか"
+            "どっちでもいいです",
+            "これがいいです",
+            "はい、コーヒーです",
+            "いいえ、紅茶じゃないです",
         ],
-        correct: "言ってもらえませんか",
-        explanation: "～てもらえませんか: nhờ ai đó làm gì (lịch sự)."
+        correct: "どっちでもいいです",
+        explanation: "Dùng để diễn đạt rằng người nói 「không có sở thích hay mong muốn đặc biệt.」"
     },
     {
         id: 12,
-        grammar: "④ Vて もらえませんか？",
+        grammar: "④ [từ nghi vấn]でもいいです",
         leftContent: {
             image: "",
             text: [
-                "そのことば、紙【かみ】に書いてください。",
-                "➡（　　　　　　　　　　　）？"
+                "A：動物園、いつ行きますか",
+                "B：➡ 「Khi nào cũng được」"
             ]
         },
-        question: "Chọn câu lịch sự cao nhất",
+        question: "Chọn cách nói phù hợp cho B",
         options: [
-            "書いてもらえませんか",
-            "書きますか",
-            "書いてもらいますか",
-            "書いてくださいか"
+            "いつでもいいです",
+            "明日です",
+            "はい、行きます",
+            "いいえ、行きません",
         ],
-        correct: "書いてもらえませんか",
-        explanation: "Cấu trúc nhờ vả lịch sự: Vて + もらえませんか。"
-    },
-    {
-        id: 13,
-        grammar: "④ Vて もらえませんか？",
-        leftContent: {
-            image: "",
-            text: [
-                "もういちど、ゆっくり説明してください。",
-                "➡（　　　　　　　　　　　）？"
-            ]
-        },
-        question: "Chọn câu lịch sự cao nhất",
-        options: [
-            "説明してもらえませんか",
-            "説明しますか",
-            "説明してもらいますか",
-            "説明してくださいか"
-        ],
-        correct: "説明してもらえませんか",
-        explanation: "Dùng để nhờ vả lịch sự trong hội thoại."
-    },
-
-    {
-        id: 14,
-        grammar: "⑤ V方",
-        leftContent: {
-            image: "",
-            text: [
-                "日本語、どうやって教えますか？",
-                "➡日本語の（　　　）を勉強したいです。"
-            ]
-        },
-        question: "（＿＿）Chọn đáp án đúng",
-        options: [
-            "教え方",
-            "教える方",
-            "教えます方",
-            "教えること"
-        ],
-        correct: "教え方",
-        explanation: "Vます → bỏます + 方 → 教え方（cách dạy）"
+        correct: "いつでもいいです",
+        explanation: "Khi nào cũng được. Dùng để diễn đạt rằng người nói 「không có sở thích hay mong muốn đặc biệt.」"
     },
     
 ];
