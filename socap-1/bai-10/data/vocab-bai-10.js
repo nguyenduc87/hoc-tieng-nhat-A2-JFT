@@ -366,9 +366,9 @@ export const vocabList = [
   {
     jp: "用意する",
     hira: "よういする",
-    vi: "chuẩn bị",
-    example: "資料を用意します。",
-    exampleVi: "Chuẩn bị tài liệu."
+    vi: "chuẩn bị (những việc cần thiết cụ thể, trước mắt)",
+    example: "お茶を用意してください。",
+    exampleVi: "Chuẩn bị trà cho khách."
   },
   {
     jp: "もっと",

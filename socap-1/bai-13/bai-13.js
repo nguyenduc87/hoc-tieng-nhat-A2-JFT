@@ -1,8 +1,8 @@
-import { vocabList } from "./data/vocab-bai-12.js";
-import { kanjiList } from "./data/kanji-bai-12.js";
-import { grammarBai3 } from "./data/grammar-bai-12.js";
-import { listeningData } from "./data/listen-bai-12.js";
-import { readingData } from "./data/reading-bai-12.js";
+import { vocabList } from "./data/vocab-bai-13.js";
+import { kanjiList } from "./data/kanji-bai-13.js";
+import { grammarBai3 } from "./data/grammar-bai-13.js";
+import { listeningData } from "./data/listen-bai-13.js";
+import { readingData } from "./data/reading-bai-13.js";
 
 
 /* =========================

@@ -2,37 +2,32 @@ export const grammarBai3 = [
   {
     id: "summary",
     tab: "Tóm tắt",
-    title: "Bài 12： Cơm hộp trong ngon nhỉ.",
+    title: "Bài 13： Máy photocopy này dùng thế nào?",
     summaryList: [
       {
-        label: "① ナA- / イA - そうです",
-        example: "そのお弁当、「おいしそうですね。」",
-        vi: "Cơm hộp của bạn 「trông ngon nhỉ」."
+        label: "① ～んですが…",
+        example: "会議室の電気がつかないんですが…。",
+        vi: "Đèn phòng họp không sáng (tôi phải làm sao bây giờ)..."
       },
       {
-        label: "② ナA- / イA - そうな N",
-        example: "それ、「辛【から】そうな料理」ですね。",
-        vi: "Đó là món ăn 「trông có vẻ cay nhỉ」."
+        label: "② V-そうです",
+        example: "どのぐらいかかりそうですか？",
+        vi: "Có vẻ sẽ mất khoảng bao lâu nữa?"
       },
       {
-        label: "③ イA-くて、～ / イA-くなくて、～",
-        example: "この卵焼【たまごや】き、「甘くて」、おいしいですね。 / 茶碗蒸【Chawan-mushi】し、「甘くなくて」、おいしいですよ。",
-        vi: "Món trứng cuộn này ngọt và ngon nhỉ. / Chawanmushi không ngọt mà vẫn ngon đấy."
+        label: "③ V-たいとき、～",
+        example: "両面コピーしたいときは、どうすればいいですか？",
+        vi: "Khi muốn photocopy hai mặt thì tôi nên làm thế nào?"
       },
       {
-        label: "④ V-てみます",
-        example: "よかったら、この卵焼【たまごや】き、「食べてみて」ください。",
-        vi: "Nếu được thì hãy 「thử ăn」 món trứng cuộn này nhé."
+        label: "④ V-ると、～",
+        example: "このスタートボタンを押すと、コピーが始まります。",
+        vi: "Hễ ấn nút Start này thì máy sẽ bắt đầu copy."
       },
       {
-        label: "⑤ Tự động từ / Tha động từ",
-        example: "鶏肉【とりにく】とか、エビとか、きのことかが入ってます。ときどき、銀杏【ぎんなん】も入れますよ。",
-        vi: "Có thịt gà, tôm, nấm… thỉnh thoảng cũng cho thêm hạt ngân hạnh."
-      },
-      {
-        label: "⑥ イA-くないですか?",
-        example: "味【あじ】は、「うすくない」ですか?",
-        vi: "Vị có nhạt quá không?"
+        label: "⑤ はい、【câu phủ định】 / いいえ、【câu khẳng định】",
+        example: "A：コピー機、使ったことないですか？ \nB：はい、ないです。",
+        vi: "Vâng, [câu phủ định] / Không, [câu khẳng định] (Cách trả lời câu hỏi phủ định).\nA: Bạn chưa dùng máy photocopy bao giờ à? \nB: Vâng, tôi chưa dùng."
       }
     ]
   },
