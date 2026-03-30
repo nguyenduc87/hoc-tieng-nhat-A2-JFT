@@ -1,14 +1,94 @@
 const data = [
-    { auto: "開く（あく）", trans: "開ける（あける）", vi: "mở" },
-    { auto: "閉まる（しまる）", trans: "閉める（しめる）", vi: "đóng" },
-    { auto: "つく", trans: "つける", vi: "bật" },
-    { auto: "消える（きえる）", trans: "消す（けす）", vi: "tắt" },
-    { auto: "始まる（はじまる）", trans: "始める（はじめる）", vi: "bắt đầu" },
-    { auto: "終わる（おわる）", trans: "終える（おえる）", vi: "kết thúc" },
-    { auto: "入る（はいる）", trans: "入れる（いれる）", vi: "vào / cho vào" },
-    { auto: "出る（でる）", trans: "出す（だす）", vi: "ra / lấy ra" },
-    { auto: "止まる（とまる）", trans: "止める（とめる）", vi: "dừng" },
-    { auto: "落ちる（おちる）", trans: "落とす（おとす）", vi: "rơi / làm rơi" }
+    {
+        auto: "開く（あく）",
+        trans: "開ける（あける）",
+        vi: "mở",
+        exAuto: "ドアが開きます",
+        exAutoVi: "Cửa tự mở",
+        exTrans: "ドアを開けます",
+        exTransVi: "Mở cửa"
+    },
+    {
+        auto: "閉まる（しまる）",
+        trans: "閉める（しめる）",
+        vi: "đóng",
+        exAuto: "ドアが閉まります",
+        exAutoVi: "Cửa tự đóng",
+        exTrans: "ドアを閉めます",
+        exTransVi: "Đóng cửa"
+    },
+    {
+        auto: "つく",
+        trans: "つける",
+        vi: "bật",
+        exAuto: "電気がつきました",
+        exAutoVi: "Đèn tự bật",
+        exTrans: "電気をつけました",
+        exTransVi: "Bật đèn"
+    },
+    {
+        auto: "消える（きえる）",
+        trans: "消す（けす）",
+        vi: "tắt",
+        exAuto: "電気が消えました",
+        exAutoVi: "Đèn tự tắt",
+        exTrans: "電気を消しました",
+        exTransVi: "Tắt đèn"
+    },
+    {
+        auto: "始まる（はじまる）",
+        trans: "始める（はじめる）",
+        vi: "bắt đầu",
+        exAuto: "授業が始まります",
+        exAutoVi: "Buổi học bắt đầu",
+        exTrans: "授業を始めます",
+        exTransVi: "Bắt đầu buổi học"
+    },
+    {
+        auto: "終わる（おわる）",
+        trans: "終える（おえる）",
+        vi: "kết thúc",
+        exAuto: "仕事が終わりました",
+        exAutoVi: "Công việc kết thúc",
+        exTrans: "仕事を終えました",
+        exTransVi: "Hoàn thành công việc"
+    },
+    {
+        auto: "入る（はいる）",
+        trans: "入れる（いれる）",
+        vi: "vào / cho vào",
+        exAuto: "人が部屋に入りました",
+        exAutoVi: "Người vào phòng",
+        exTrans: "水をコップに入れます",
+        exTransVi: "Cho nước vào cốc"
+    },
+    {
+        auto: "出る（でる）",
+        trans: "出す（だす）",
+        vi: "ra / lấy ra",
+        exAuto: "学生が教室から出ました",
+        exAutoVi: "Học sinh ra khỏi lớp",
+        exTrans: "かばんから本を出します",
+        exTransVi: "Lấy sách ra khỏi cặp"
+    },
+    {
+        auto: "止まる（とまる）",
+        trans: "止める（とめる）",
+        vi: "dừng",
+        exAuto: "バスが止まりました",
+        exAutoVi: "Xe buýt dừng lại",
+        exTrans: "車を止めます",
+        exTransVi: "Dừng xe"
+    },
+    {
+        auto: "落ちる（おちる）",
+        trans: "落とす（おとす）",
+        vi: "rơi / làm rơi",
+        exAuto: "りんごが落ちました",
+        exAutoVi: "Táo rơi",
+        exTrans: "りんごを落としました",
+        exTransVi: "Làm rơi táo"
+    }
 ];
 
 const tbody = document.getElementById("table-body");
@@ -64,27 +144,36 @@ function generateQuiz() {
         div.className = "quiz-item";
 
         div.innerHTML = `
-      <p><b>${index + 1}. ${question}</b></p>
+            <div class="card">
+                <div class="question">
+                <b>${index + 1}. ${question}</b>
+                </div>
 
-      <!-- chọn loại -->
-      <label><input type="radio" name="type${index}" value="auto">Tự động từ</label>
-      <label><input type="radio" name="type${index}" value="trans">Tha động từ</label>
+                <!-- chọn loại -->
+                <div class="btn-group type-group" data-q="${index}">
+                <button data-value="auto">Tự động từ</button>
+                <button data-value="trans">Tha động từ</button>
+                </div>
 
-      <br>
+                <!-- chọn nghĩa -->
+                <div class="btn-group mean-group" data-q="${index}">
+                ${meanings.map(m => `
+                    <button data-value="${m}">${m}</button>
+                `).join("")}
+                </div>
 
-      <!-- chọn nghĩa -->
-      ${meanings.map(m => `
-        <label>
-          <input type="radio" name="mean${index}" value="${m}">
-          ${m}
-        </label>
-      `).join("")}
+                <!-- ví dụ -->
+                <div class="example">
+                    <p>🟢Tự:  ${item.exAuto}（${item.exAutoVi}）</p>
+                    <p>🟠Tha:  ${item.exTrans}（${item.exTransVi}）</p>
+                </div>
 
-      <input type="hidden" id="typeAns${index}" value="${correctType}">
-      <input type="hidden" id="meanAns${index}" value="${item.vi}">
+                <input type="hidden" id="typeAns${index}" value="${correctType}">
+                <input type="hidden" id="meanAns${index}" value="${item.vi}">
 
-      <div class="explain" id="exp${index}"></div>
-    `;
+                <div class="explain" id="exp${index}"></div>
+            </div>
+        `;
 
         quizDiv.appendChild(div);
     });
@@ -97,32 +186,60 @@ function submitQuiz() {
         const typeAns = document.getElementById(`typeAns${i}`).value;
         const meanAns = document.getElementById(`meanAns${i}`).value;
 
-        const typeUser = document.querySelector(`input[name="type${i}"]:checked`);
-        const meanUser = document.querySelector(`input[name="mean${i}"]:checked`);
+        // lấy button đã chọn
+        const typeUser = document.querySelector(
+            `.type-group[data-q="${i}"] .active`
+        );
 
-        let correct = true;
-
-        if (!typeUser || typeUser.value !== typeAns) correct = false;
-        if (!meanUser || meanUser.value !== meanAns) correct = false;
+        const meanUser = document.querySelector(
+            `.mean-group[data-q="${i}"] .active`
+        );
 
         const exp = document.getElementById(`exp${i}`);
 
+        let correct = true;
+
+        // chưa chọn
+        if (!typeUser || !meanUser) {
+            exp.innerHTML = "⚠️ Bạn chưa chọn đủ đáp án";
+            exp.className = "explain wrong";
+            continue;
+        }
+
+        // check đúng sai
+        if (typeUser.dataset.value !== typeAns) correct = false;
+        if (meanUser.dataset.value !== meanAns) correct = false;
+
         if (correct) {
             score++;
-            exp.innerHTML = `✅ Đúng`;
+            exp.innerHTML = "✅ Đúng";
             exp.className = "explain correct";
         } else {
             exp.innerHTML = `
-        ❌ Sai → ${typeAns === "auto" ? "Tự động từ" : "Tha động từ"} | Nghĩa: ${meanAns}
-      `;
+                ❌ Sai <br>
+                → Loại đúng: ${typeAns === "auto" ? "Tự động từ" : "Tha động từ"}<br>
+                → Nghĩa: ${meanAns}
+            `;
             exp.className = "explain wrong";
         }
     }
 
     document.getElementById("result").innerText =
         `🎯 Bạn đúng ${score}/10 câu`;
-
 }
+
+
+document.addEventListener("click", function (e) {
+    if (e.target.tagName === "BUTTON" && e.target.dataset.value) {
+        const group = e.target.parentElement;
+
+        group.querySelectorAll("button").forEach(btn =>
+            btn.classList.remove("active")
+        );
+
+        e.target.classList.add("active");
+    }
+});
 
 // load
 generateQuiz();

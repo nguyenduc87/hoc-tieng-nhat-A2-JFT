@@ -217,7 +217,7 @@ export const grammarBai3 = [
     tab: "Mẫu 5",
     title: "⑤ Tự động từ / Tha động từ",
     usage: [
-      "Phân biệt giữa động từ tự động và tha động từ trong tiếng Nhật.",
+      "~が：Tự động từ. ~を：Tha động từ",
       "「Tự động từ」 diễn tả sự việc 「xảy ra không có chủ ý rõ ràng.」",
       "Tha động từ diễn tả hành động có chủ ý của người thực hiện.",
       "Danh sách Tự/ Tha động <a href='./list-tu-dong-tu/list.html'>click xem tại đây</a>"
@@ -225,10 +225,10 @@ export const grammarBai3 = [
     structure: "Tự động từ + て います / Tha động từ + ます",
     notes: {
       points: [
-        "Tự động từ: 雨が降る (trời mưa), ドアが閉【し】まる (cửa đóng), 入る (vào).",
-        "Tha động từ: ご飯を食べる (ăn cơm), ドアを閉【し】める (đóng cửa), 入れる (cho vào).",
-        "Cấu trúc ～が入っています dùng để mô tả trạng thái món ăn có nguyên liệu gì.",
-        "Cấu trúc ～を入れます thể hiện hành động có chủ ý cho nguyên liệu vào món ăn."
+        "Tự động từ: 雨が降る (trời mưa), ドア「が」閉【し】まる (cửa đóng), 入る (vào).",
+        "Tha động từ: ご飯を食べる (ăn cơm), ドア「を」閉【し】める (đóng cửa), 入れる (cho vào).",
+        "Cấu trúc ～「が」入っています dùng để mô tả trạng thái món ăn có nguyên liệu gì.",
+        "Cấu trúc ～「を」入れます thể hiện hành động có chủ ý cho nguyên liệu vào món ăn."
       ],
       examples: [
         {

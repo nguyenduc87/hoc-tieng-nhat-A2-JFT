@@ -29,7 +29,7 @@ h2 {
 
 .jp-table td {
     padding: 12px;
-    text-align: center;
+    /* text-align: center; */
     border-bottom: 1px solid #eee;
 }
 
@@ -95,4 +95,48 @@ h2 {
 
 .wrong {
   color: red;
+}
+
+.card {
+  padding: 15px;
+  border-radius: 12px;
+  background: #fff;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+}
+
+.question {
+  margin-bottom: 10px;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-group button {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-group button:hover {
+  background: #d0ebff;
+}
+
+.btn-group button.active {
+  background: #2c7be5;
+  color: white;
+}
+
+.example {
+  font-size: 13px;
+  background: #f8f9fa;
+  padding: 8px;
+  border-radius: 6px;
 }
