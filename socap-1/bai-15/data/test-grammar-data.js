@@ -1,66 +1,66 @@
 export const grammarList = [
     {
         id: 1,
-        grammar: "① Aい・Aな+そうです",
+        grammar: "① Nで（Cách thức / Phương tiện）",
         leftContent: {
-            image: "",
+            image: "../images/grammar/01-01.png",
             text: [
-                "これは、私の国の料理です。",
-                "へー、すごく（辛【から】い→＿＿＿）ですね",
+                "どうやって日本語を勉強しましたか？",
+                "➡日本語学校＿＿＿勉強しました。",
             ]
         },
         question:
-            "Dùng Aい・Aな+そうです",
+            "（＿＿）Chọn câu đúng",
         options: [
-            "辛そう",
-            "辛いそう",
-            "辛くない",
-            "辛い",
+            "で",
+            "に",
+            "は",
+            "を",
         ],
-        correct: "辛そう",
-        explanation: "Diễn đạt ấn tượng chủ quan dựa trên quan sát bên ngoài."
+        correct: "で",
+        explanation: "Nで（Cách thức/phương tiện）.<br> Câu hỏi là học bằng cách nào. -> Học bằng cách là tại trường."
     },
     {
         id: 2,
         grammar: "① Nで（Cách thức / Phương tiện）",
         leftContent: {
-            image: "",
+            image: "../images/grammar/01-02.png",
             text: [
-                "すき焼き、できましたよ。",
-                "わあ、（おいしい＿＿＿）。",
+                "どうやってアニメを見ますか？",
+                "➡パソコン＿＿＿見ます。",
             ]
         },
         question:
-            "Dùng Aい・Aな+そうです",
+            "（＿＿）Chọn câu đúng",
         options: [
-            "おいしそう",
-            "おいしいそう",
-            "おいしいです",
-            "おいしそうな",
+            "で",
+            "に",
+            "は",
+            "を",
         ],
-        correct: "おいしそう",
-        explanation: "Diễn đạt ấn tượng chủ quan dựa trên quan sát bên ngoài."
+        correct: "で",
+        explanation: "Nで（Cách thức/phương tiện）.<br> Xem anime bằng máy tính → dùng パソコンで。"
     },
     {
         id: 3,
         grammar: "① Nで（Cách thức / Phương tiện）",
         leftContent: {
-            image: "",
+            image: "../images/grammar/01-03.png",
             text: [
-                "このみかん、まだ（すっぱい＿＿＿）ですね。",
-                "そうですね。でも、こっちのみかんは、もう（大丈夫＿＿＿）ですよ。",
+                "どうやってニュースを読みますか？",
+                "➡アプリ＿＿＿読みます。",
             ]
         },
         question:
-            "Dùng Aい・Aな+そうです",
+            "（＿＿）Chọn câu đúng",
         options: [
-            "すっぱそう",
-            "すっぱい",
-            "すっぱいそう",
-            "すっぱいです",
+            "で",
+            "に",
+            "は",
+            "を",
         ],
-        correct: "すっぱそう",
-        explanation: "Diễn đạt ấn tượng chủ quan dựa trên quan sát bên ngoài."
+        correct: "で",
+        explanation: "Nで（Cách thức/phương tiện）.<br> Đọc bằng app → アプリで。"
     },
 
     {

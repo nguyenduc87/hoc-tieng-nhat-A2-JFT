@@ -50,7 +50,7 @@ export const grammarBai3 = [
           vi: "Ngày mai, tôi sẽ 「mang」 món tráng miệng 「tới」 bữa tiệc."
         },
         {
-          jp: "自国の料理を「作って来ました」。どうぞ、食べてください。",
+          jp: "自国【じこく】の料理を「作って来ました」。どうぞ、食べてください。",
           vi: "Tôi đã 「nấu và mang đến」 món ăn đặc sản của đất nước tôi. Xin mời dùng thử."
         },
         {

@@ -446,7 +446,7 @@ export const vocabList = [
   {
     jp: "～列（3列）",
     hira: "れつ（さんれつ）",
-    vi: "Hàng (3 hàng)",
+    vi: "Cột, hàng (3 hàng)",
     example: "3列に並んで待ってください。",
     exampleVi: "Vui lòng xếp thành 3 hàng và chờ đợi."
   },
