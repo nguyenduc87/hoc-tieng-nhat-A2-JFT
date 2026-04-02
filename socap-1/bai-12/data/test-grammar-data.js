@@ -22,7 +22,7 @@ export const grammarList = [
     },
     {
         id: 2,
-        grammar: "① Nで（Cách thức / Phương tiện）",
+        grammar: "① Aい・Aな+そうです",
         leftContent: {
             image: "",
             text: [
@@ -43,7 +43,7 @@ export const grammarList = [
     },
     {
         id: 3,
-        grammar: "① Nで（Cách thức / Phương tiện）",
+        grammar: "① Aい・Aな+そうです",
         leftContent: {
             image: "",
             text: [
@@ -65,265 +65,258 @@ export const grammarList = [
 
     {
         id: 4,
-        grammar: "② N1は N2が ナAです / イAです",
+        grammar: "② Aい・Aな+そうN",
         leftContent: {
             image: "",
             text: [
-                "英語｜発音＝おもしろい",
-                "➡（　　　　　　　　　　　）。"
+                "この料理、辛そうですね",
+                "➡＿＿＿ですね。"
             ]
         },
-        question: "Chọn câu đúng",
+        question: "Dùng Aい・Aな+そうN",
         options: [
-            "英語は発音がおもしろいです",
-            "英語が発音はおもしろいです",
-            "英語は発音をおもしろいです",
-            "英語で発音がおもしろいです"
+            "辛そうな料理",
+            "辛そう料理",
+            "辛いそうな料理",
+            "料理が辛いです",
         ],
-        correct: "英語は発音がおもしろいです",
-        explanation: "Mẫu N1はN2がイAです → Tiếng Anh thì phát âm thú vị."
+        correct: "辛そうな料理",
+        explanation: "Dùng Aい・Aな+そうN dùng để bổ nghĩa cho danh từ そうなN"
     },
     {
         id: 5,
-        grammar: "② N1は N2が ナAです / イAです",
+        grammar: "② Aい・Aな+そうN",
         leftContent: {
             image: "",
             text: [
-                "ミャンマー語｜文字＝かわいい",
-                "➡（　　　　　　　　　　　）。"
+                "すき焼き、おいしそうですね",
+                "→＿＿＿ですね。"
             ]
         },
-        question: "Chọn câu đúng",
+        question: "Dùng Aい・Aな+そうN",
         options: [
-            "ミャンマー語は文字がかわいいです",
-            "ミャンマー語が文字はかわいいです",
-            "ミャンマー語は文字をかわいいです",
-            "ミャンマー語で文字がかわいいです"
+            "おいしそうなすき焼き",
+            "おいしいなすき焼き",
+            "おいしいすき焼き",
+            "おいしい",
         ],
-        correct: "ミャンマー語は文字がかわいいです",
-        explanation: "Mẫu N1はN2がイAです → Tiếng Myanmar thì chữ viết dễ thương."
+        correct: "おいしそうなすき焼き",
+        explanation: "Dùng Aい・Aな+そうN dùng để bổ nghĩa cho danh từ そうなN"
     },
     {
         id: 6,
-        grammar: "② N1は N2が ナAです / イAです",
+        grammar: "② Aい・Aな+そうN",
         leftContent: {
             image: "",
             text: [
-                "タイ語｜読む＝難しい",
-                "➡（　　　　　　　　　　　）。"
+                "このお弁当、子どもが好きそうですね",
+                "→＿＿＿ですね。"
             ]
         },
-        question: "Chọn câu đúng",
+        question: "Dùng Aい・Aな+そうN",
         options: [
-            "タイ語は読むが難しいです",
-            "タイ語は読むのが難しいです",
-            "タイ語が読むのは難しいです",
-            "タイ語で読むのが難しいです"
+            "子どもが好きそうなお弁当",
+            "子どもが好き",
+            "子どもが好きなお弁当",
+            "お弁当が好き",
         ],
-        correct: "タイ語は読むのが難しいです",
-        explanation: "Động từ → Vる + のが + イAです → Việc đọc tiếng Thái thì khó."
+        correct: "子どもが好きそうなお弁当",
+        explanation: "Dùng Aい・Aな+そうN dùng để bổ nghĩa cho danh từ そうなN"
     },
 
     {
         id: 7,
-        grammar: "③ N1は、～。（でも、）N2は、～。",
+        grammar: "③ イA-くて、～ / イA-くなくて、～",
         leftContent: {
             image: "",
             text: [
-                "話す＝得意(な)｜読む＝苦手(な)",
-                "➡（　　　　　　　　　　　）。"
+                "この卵焼き、甘いです。おいしいです",
+                "→この卵焼き、＿＿＿＿。"
             ]
         },
-        question: "Chọn câu đúng",
+        question: "Dùng イA-くて、～ / イA-くなくて、～",
         options: [
-            "話す は苦手です。でも、読む は得意です",
-            "話す は得意です。でも、読む は苦手です",
-            "話す のが得意です。でも、読む のが苦手です",
-            "話す が得意です。でも、読む が苦手です"
+            "甘くておいしいです",
+            "甘いくておいしいです",
+            "おいしいです",
+            "甘くないです",
         ],
-        correct: "話すのが得意です。でも、読むのが苦手です",
-        explanation: "So sánh đối lập: Vる + のは + ナAです。"
+        correct: "甘くておいしいです",
+        explanation: "Dùng để 「nối các tính từ」 hoặc 「diễn đạt lý do cho mệnh đề sau.」"
     },
     {
         id: 8,
-        grammar: "③ N1は、～。（でも、）N2は、～。",
+        grammar: "③ イA-くて、～ / イA-くなくて、～",
         leftContent: {
             image: "",
             text: [
-                "ベトナム語｜発音【はつおん】＝とても難しい｜文法＝難しくない",
-                "➡（　　　　　　　　　　　）。"
+                "このスープ、味がうすいです。いまいちです",
+                "→このスープ、味が＿＿＿＿。"
             ]
         },
-        question: "Chọn câu đúng",
+        question: "Dùng イA-くて、～ / イA-くなくて、～",
         options: [
-            "ベトナム語 は発音 は とても難しいです。でも、文法 は 難しくないです",
-            "ベトナム語 は発音 が とても難しいです。でも、文法 は 難しくないです",
-            "ベトナム語 が発音 は とても難しいです。でも、文法 が 難しくないです",
-            "ベトナム語 は発音 を とても難しいです。でも、文法 を 難しくないです"
+            "うすくて、いまいちです",
+            "うすい、いまいちです",
+            "うすく、いまいちです",
+            "うすいくて、いまいちです",
         ],
-        correct: "ベトナム語は発音がとても難しいです。でも、文法は難しくないです",
-        explanation: "N1はN2がイAです。でも、N3はイAです（phủ định）。"
+        correct: "うすくて、いまいちです",
+        explanation: "Dùng để 「nối các tính từ」 hoặc 「diễn đạt lý do cho mệnh đề sau.」"
     },
     {
         id: 9,
-        grammar: "③ N1は、～。（でも、）N2は、～。",
+        grammar: "③ イA-くて、～ / イA-くなくて、～",
         leftContent: {
             image: "",
             text: [
-                "モンゴル語｜文法＝日本語と似【に】ている｜文字＝ぜんぜん違【ちが】う",
-                "➡（　　　　　　　　　　　）。"
+                "このコーヒー、あまり苦くないです。おいしいです",
+                "→このコーヒー、＿＿＿＿。"
             ]
         },
-        question: "Chọn câu đúng",
+        question: "Dùng イA-くて、～ / イA-くなくて、～",
         options: [
-            "モンゴル語 は 文法 は 日本語と似ています。でも、文字 は ぜんぜん違います",
-            "モンゴル語 は 文法 が 日本語と似ています。でも、文字 は ぜんぜん違います",
-            "モンゴル語 が 文法 は 日本語と似ています。でも、文字 が ぜんぜん違います",
-            "モンゴル語 は 文法 を 日本語と似ています。でも、文字 を ぜんぜん違います"
+            "あまり苦くなくて、おいしいです",
+            "あまり苦くて、おいしいです",
+            "あまり苦い、おいしいです",
+            "あまり苦くない、おいしいです",
         ],
-        correct: "モンゴル語は文法が日本語と似ています。でも、文字はぜんぜん違います",
-        explanation: "So sánh đối lập: N1はN2が～です。でも、N3は～です。"
+        correct: "あまり苦くなくて、おいしいです",
+        explanation: "Dùng để 「nối các tính từ」 hoặc 「diễn đạt lý do cho mệnh đề sau.」"
     },
 
     {
         id: 10,
-        grammar: "④ Vて もらえませんか？",
+        grammar: "④ Vて みます",
         leftContent: {
             image: "",
             text: [
-                "その教科書【きょうかしょ】、ちょっと見せてください。",
-                "➡（　　　　　　　　　　　）？"
+                "日本酒、飲む？",
+                "→少し、＿＿＿＿"
             ]
         },
         question: "Chọn câu lịch sự cao nhất",
         options: [
-            "ちょっと見せてもらえませんか",
-            "ちょっと見せてもらいますか",
-            "ちょっと見せてくれませんか",
-            "ちょっと見せてもらえます"
+            "飲んでみます",
+            "飲んでます",
+            "飲みます",
+            "飲みますか",
         ],
-        correct: "ちょっと見せてもらえませんか",
-        explanation: "Đổi từ ～てください → ～てもらえませんか（cách nói lịch sự hơn khi nhờ vả）。"
+        correct: "飲んでみます",
+        explanation: "Vて みます（cách nói làm thử hành động gì đó）。"
     },
     {
         id: 11,
-        grammar: "④ Vて もらえませんか？",
+        grammar: "④ Vて みます",
         leftContent: {
             image: "",
             text: [
-                "もう少し簡単【かんたん】なことばで言ってください。",
-                "➡（　　　　　　　　　　　）？"
+                "日本酒、飲む？",
+                "→少し、＿＿＿＿"
             ]
         },
         question: "Chọn câu lịch sự cao nhất",
         options: [
-            "言ってもらえませんか",
-            "言いますか",
-            "言ってもらいますか",
-            "言ってくださいか"
+            "飲んでみます",
+            "飲んでます",
+            "飲みます",
+            "飲みますか",
         ],
-        correct: "言ってもらえませんか",
-        explanation: "～てもらえませんか: nhờ ai đó làm gì (lịch sự)."
+        correct: "飲んでみます",
+        explanation: "Vて みます（cách nói làm thử hành động gì đó）。"
     },
     {
         id: 12,
-        grammar: "④ Vて もらえませんか？",
+        grammar: "④ Vて みます",
         leftContent: {
             image: "",
             text: [
-                "そのことば、紙【かみ】に書いてください。",
-                "➡（　　　　　　　　　　　）？"
+                "ちょっと、味がうすいでうね",
+                "もっと、さとうを（入れる→＿＿＿＿）"
             ]
         },
         question: "Chọn câu lịch sự cao nhất",
         options: [
-            "書いてもらえませんか",
-            "書きますか",
-            "書いてもらいますか",
-            "書いてくださいか"
+            "入れて見ましょうか",
+            "入れて見まません",
+            "入れ、見ましょうか",
+            "入れます",
         ],
-        correct: "書いてもらえませんか",
-        explanation: "Cấu trúc nhờ vả lịch sự: Vて + もらえませんか。"
+        correct: "入れて見ましょうか",
+        explanation: "Vて みます（cách nói làm thử hành động gì đó）。"
     },
     {
         id: 13,
-        grammar: "④ Vて もらえませんか？",
+        grammar: "④ Vて みます",
         leftContent: {
             image: "",
             text: [
-                "もういちど、ゆっくり説明してください。",
-                "➡（　　　　　　　　　　　）？"
+                "新しい居酒屋、今度、みんなで＿＿＿＿ませんか？",
+                "飲みに行く→"
             ]
         },
         question: "Chọn câu lịch sự cao nhất",
         options: [
-            "説明してもらえませんか",
-            "説明しますか",
-            "説明してもらいますか",
-            "説明してくださいか"
+            "飲みに行ってみ",
+            "飲み行ってみ",
+            "飲みます行ってみ",
+            "飲んで行きます",
         ],
-        correct: "説明してもらえませんか",
-        explanation: "Dùng để nhờ vả lịch sự trong hội thoại."
+        correct: "飲みに行ってみ",
+        explanation: "Vて みます（cách nói làm thử hành động gì đó）。"
     },
-
     {
         id: 14,
-        grammar: "⑤ V方",
+        grammar: "⑤ Tự động từ - tha động từ",
         leftContent: {
             image: "",
             text: [
-                "日本語、どうやって教えますか？",
-                "➡日本語の（　　　）を勉強したいです。"
+                "このピザ、エビが＿＿＿＿か？",
+                "入れて／入って"
             ]
         },
         question: "（＿＿）Chọn đáp án đúng",
         options: [
-            "教え方",
-            "教える方",
-            "教えます方",
-            "教えること"
+            "入って",
+            "入れて",
         ],
-        correct: "教え方",
-        explanation: "Vます → bỏます + 方 → 教え方（cách dạy）"
+        correct: "入って",
+        explanation: "入れる：Tha động từ, 入る：Tự động từ. <br> Pizza này, con tôm có được bỏ vào ko?"
     },
     {
         id: 15,
-        grammar: "⑤ V方",
+        grammar: "⑤ Tự động từ - tha động từ",
         leftContent: {
             image: "",
             text: [
-                "このことば、どうやって発音しますか？",
-                "➡このことばの発音の（　　　）を教えてください。"
+                "お茶、＿＿＿ましょうか？",
+                "いれ／はいり"
             ]
         },
         question: "（＿＿）Chọn đáp án đúng",
         options: [
-            "しかた",
-            "しかた方",
-            "し方",
-            "しかたする"
+            "いれ",
+            "はいり",
         ],
-        correct: "しかた",
-        explanation: "する → しかた（cách làm）→ 発音のしかた（cách phát âm）"
+        correct: "いれ",
+        explanation: "入れる：Tha động từ, 入る：Tự động từ. <br> Tôi pha trà nhé?"
     },
     {
         id: 16,
-        grammar: "⑤ V方",
+        grammar: "⑤ Tự động từ - tha động từ",
         leftContent: {
             image: "",
             text: [
-                "このアプリ、どうやって使いますか？",
-                "➡このアプリの（　　　）を説明してください。"
+                "バーベキュー、次は何を＿＿＿ましょうか？",
+                "焼き／焼け"
             ]
         },
         question: "（＿＿）Chọn đáp án đúng",
         options: [
-            "使い方",
-            "使う方",
-            "使います方",
-            "使うこと"
+            "焼き",
+            "焼け",
         ],
-        correct: "使い方",
-        explanation: "使います → 使い + 方 → 使い方（cách sử dụng）"
-    }
+        correct: "焼き",
+        explanation: "焼く：Tha động từ, 焼ける：Tự động từ. <br> BBQ, lần sau sẽ nướng gì?"
+    },
 ];
