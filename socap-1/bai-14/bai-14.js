@@ -165,51 +165,83 @@ tabsEl.addEventListener("click", e => {
 /* =========================
    LISTEN
 ========================= */
+
 function setupListeningLayout() {
   const container = document.getElementById("listenContainer");
 
-  // Tạo wrapper 2 cột
   const wrapper = document.createElement("div");
   wrapper.className = "listening-layout";
 
   const sidebar = document.createElement("aside");
   sidebar.className = "listening-sidebar";
   sidebar.innerHTML = `
-    <h3>Nghe</h3>
-    <ul id="listeningMenu"></ul>
+    <h3>🎧 Nghe</h3>
+
+    <input type="text" id="searchAudio" placeholder="Tìm audio..." />
+
+    <div id="listeningMenu"></div>
   `;
 
   const content = document.createElement("div");
   content.className = "listening-content";
 
-  // Di chuyển listenContainer vào content
   container.parentNode.insertBefore(wrapper, container);
   wrapper.appendChild(sidebar);
   wrapper.appendChild(content);
   content.appendChild(container);
 }
 
+function groupByType(data) {
+  const groups = {};
 
-function renderListeningMenu() {
+  data.forEach(item => {
+    let type = "Khác";
+
+    if (item.title.includes("kiku")) type = "Kiku (nghe)";
+    else if (item.title.includes("kaiwa")) type = "Kaiwa (hội thoại)";
+    else if (item.title.includes("hanasu")) type = "Hanasu (nói)";
+    else if (item.title.includes("katachi")) type = "Katachi (mẫu)";
+
+    if (!groups[type]) groups[type] = [];
+    groups[type].push(item);
+  });
+
+  return groups;
+}
+
+function renderListeningMenu(filter = "") {
   const menu = document.getElementById("listeningMenu");
   menu.innerHTML = "";
 
-  listeningData.forEach((item, index) => {
-    const li = document.createElement("li");
+  const groups = groupByType(listeningData);
 
-    li.innerHTML = `
-      <a href="#audio-${index}" 
-         data-index="${index}" 
-         class="${index === 0 ? "active" : ""}">
-        ${item.title}
-      </a>
-    `;
+  Object.keys(groups).forEach(groupName => {
+    const groupDiv = document.createElement("div");
+    groupDiv.className = "menu-group";
 
-    menu.appendChild(li);
+    groupDiv.innerHTML = `<h4>${groupName}</h4>`;
+
+    const ul = document.createElement("ul");
+
+    groups[groupName].forEach((item, index) => {
+      if (!item.title.toLowerCase().includes(filter.toLowerCase())) return;
+
+      const globalIndex = listeningData.indexOf(item);
+
+      const li = document.createElement("li");
+      li.innerHTML = `
+        <a href="#audio-${globalIndex}">
+          ${item.title}
+        </a>
+      `;
+      ul.appendChild(li);
+    });
+
+    groupDiv.appendChild(ul);
+    menu.appendChild(groupDiv);
   });
 
   setActiveOnClick();
-  setActiveOnScroll();
 }
 
 
@@ -229,18 +261,20 @@ function setActiveOnScroll() {
   const links = document.querySelectorAll("#listeningMenu a");
 
   window.addEventListener("scroll", () => {
-    let current = "";
+    let currentId = "";
 
     sections.forEach(section => {
-      const sectionTop = section.offsetTop - 120;
-      if (window.scrollY >= sectionTop) {
-        current = section.getAttribute("id");
+      const rect = section.getBoundingClientRect();
+
+      if (rect.top <= 150 && rect.bottom >= 150) {
+        currentId = section.id;
       }
     });
 
     links.forEach(link => {
       link.classList.remove("active");
-      if (link.getAttribute("href") === `#${current}`) {
+
+      if (link.getAttribute("href") === `#${currentId}`) {
         link.classList.add("active");
       }
     });
@@ -350,6 +384,15 @@ function initAudioPlayers() {
 
   });
 }
+
+
+document.addEventListener("input", function (e) {
+  if (e.target.id === "searchAudio") {
+    renderListeningMenu(e.target.value);
+  }
+});
+
+
 /* =========================
    READING
 ========================= */
@@ -429,6 +472,7 @@ renderListening();
 setupListeningLayout();
 renderListeningMenu();
 initAudioPlayers();
+setActiveOnScroll();
 
 
 

@@ -251,11 +251,11 @@ export const grammarList = [
         leftContent: {
             image: "",
             text: [
-                "新しい居酒屋、今度、みんなで＿＿＿＿ませんか？",
+                "新しい居酒屋【いざかや】、今度、みんなで＿＿＿＿ませんか？",
                 "飲みに行く→"
             ]
         },
-        question: "Chọn câu lịch sự cao nhất",
+        question: "Vて みます",
         options: [
             "飲みに行ってみ",
             "飲み行ってみ",

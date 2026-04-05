@@ -2,32 +2,37 @@ export const grammarBai3 = [
   {
     id: "summary",
     tab: "Tóm tắt",
-    title: "Bài 13： Máy photocopy này dùng thế nào?",
+    title: "Bài 14： Tôi xin nghỉ có được không ạ?",
     summaryList: [
       {
-        label: "① ～んですが…",
-        example: "会議室の電気がつかないんですが…。",
-        vi: "Đèn phòng họp không sáng (tôi phải làm sao bây giờ)..."
+        label: "① Nで、～／ナA-で、～／イA-くて、～／V-て、～",
+        example: "道が混んでいて、ぜんぜん動きません。",
+        vi: "Vì đường đông nên xe không nhúc nhích được. (Nguyên nhân / Lý do)"
       },
       {
-        label: "② V-そうです",
-        example: "どのぐらいかかりそうですか？",
-        vi: "Có vẻ sẽ mất khoảng bao lâu nữa?"
+        label: "② S1。それで、S2",
+        example: "これから病院に行きます。それで、少し遅刻します。",
+        vi: "Tôi sẽ đi bệnh viện. Vì vậy tôi sẽ hơi muộn."
       },
       {
-        label: "③ V-たいとき、～",
-        example: "両面コピーしたいときは、どうすればいいですか？",
-        vi: "Khi muốn photocopy hai mặt thì tôi nên làm thế nào?"
+        label: "③ V-てもいいですか？",
+        example: "トイレに行って来てもいいですか？",
+        vi: "Tôi đi vệ sinh có được không?"
       },
       {
-        label: "④ V-ると、～",
-        example: "このスタートボタンを押すと、コピーが始まります。",
-        vi: "Hễ ấn nút Start này thì máy sẽ bắt đầu copy."
+        label: "④ V-てもいいでしょうか？",
+        example: "明日の午後、早退してもいいでしょうか？",
+        vi: "Chiều mai tôi về sớm có được không?"
       },
       {
-        label: "⑤ はい、【câu phủ định】 / いいえ、【câu khẳng định】",
-        example: "A：コピー機、使ったことないですか？ \nB：はい、ないです。",
-        vi: "Vâng, [câu phủ định] / Không, [câu khẳng định] (Cách trả lời câu hỏi phủ định).\nA: Bạn chưa dùng máy photocopy bao giờ à? \nB: Vâng, tôi chưa dùng."
+        label: "⑤ V-なければなりません",
+        example: "ちょっと、役所に行かなければならないんです。",
+        vi: "Tôi phải đi đến cơ quan hành chính một chút."
+      },
+      {
+        label: "⑥ ～んです①",
+        example: "東京から、国の友だちが来るんです。",
+        vi: "Bạn từ quê sẽ đến Tokyo. (Giải thích tình huống)"
       }
     ]
   },

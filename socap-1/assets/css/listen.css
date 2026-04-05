@@ -10,16 +10,6 @@
   align-items: flex-start;
 }
 
-.listening-sidebar {
-  width: 240px;
-  position: sticky;
-  top: 120px;
-  background: #fff;
-  padding: 16px;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-}
-
 .listening-sidebar h3 {
   margin-bottom: 12px;
 }
@@ -188,6 +178,69 @@ html {
   pointer-events: auto;
 }
 
+/* ------------------------------------------- */
+.listening-sidebar {
+  width: 260px;
+
+  position: sticky;
+  top: 100px; /* chỉnh theo header thực tế */
+
+  height: calc(100vh - 100px); /* QUAN TRỌNG */
+  overflow-y: auto;
+
+  padding: 12px;
+  background: #f7f7f7;
+  border-right: 1px solid #ddd;
+}
+
+.listening-sidebar h3 {
+  margin-bottom: 10px;
+}
+
+#searchAudio {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.menu-group {
+  margin-bottom: 15px;
+}
+
+.menu-group h4 {
+  font-size: 14px;
+  margin: 8px 0;
+  color: #666;
+}
+
+.menu-group ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-group li {
+  margin: 4px 0;
+}
+
+.menu-group a {
+  display: block;
+  padding: 6px 8px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.menu-group a:hover {
+  background: #e0e0e0;
+}
+
+.menu-group a.active {
+  background: #333;
+  color: #fff;
+}
 
 /* ===== MOBILE SIDEBAR FIX ===== */
 @media (max-width:1023px){
