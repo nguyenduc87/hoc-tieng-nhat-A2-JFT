@@ -1,175 +1,130 @@
 export const listeningData = [
   {
-    title: "Audio 1 : kotoba1",
-    audio: "audio/Y_[12-01]_kotoba1.mp3",
+    title: "Audio 1 : kiku1",
+    audio: "audio/Y_[13-01]_kiku1.mp3",
     script: [
-      "a. 甘い（あまい） - Ngọt",
-      "b. 辛い（からい） - Cay",
-      "c. すっぱい - Chua",
-      "d. しょっぱい - Mặn",
-      "e. 苦い（にがい） - Đắng",
-      "f. 味がこい（あじがこい） - Vị đậm",
-      "g. 味がうすい（あじがうすい） - Vị nhạt",
-      "h. おいしい - Ngon",
-      "i. まずい - Dở"
+      "A：あのう、トイレットペーパーがなくなったんですが……。",
+      "B：あ、そう？ じゃあ、倉庫にあるから、取って来てくれる？"
     ],
     image: [
-      "images/listen/12-01.png",
+      "",
     ],
     translation: [
-      "a. Ngọt",
-      "b. Cay",
-      "c. Chua",
-      "d. Mặn",
-      "e. Đắng",
-      "f. Vị đậm",
-      "g. Vị nhạt",
-      "h. Ngon",
-      "i. Dở"
+      "A: Ơ… giấy vệ sinh hết rồi…",
+      "B: Ồ, vậy à? Thế thì trong kho có, bạn đi lấy giúp nhé?"
     ]
   },
   {
-    title: "Audio 2 : kotoba2",
-    audio: "audio/Y_[12-02]_kotoba2.mp3",
+    title: "Audio 2 : kiku2",
+    audio: "audio/Y_[13-02]_kiku2.mp3",
     script: [
-      "1.おいしいですね",
-      "2.味がうすいですね",
-      "3.しょっぱいですね",
-      "4.辛いですね",
-      "5.にがいですね",
-      "6.甘いですね",
-      "7.すっぱいですね",
-      "8.味がこいですね",
-      "9.まずいですね",
+      "A：すみません、コーヒーマシーンから変な音がするんですが……。",
+      "B：本当？ じゃあ、業者に電話してくれる？"
     ],
     image: [
-      "images/listen/12-01.png",
+      "",
     ],
     translation: [
-      "1. Ngon quá nhỉ",
-      "2. Vị hơi nhạt nhỉ",
-      "3. Mặn quá nhỉ",
-      "4. Cay quá nhỉ",
-      "5. Đắng nhỉ",
-      "6. Ngọt nhỉ",
-      "7. Chua nhỉ",
-      "8. Vị đậm nhỉ",
-      "9. Dở quá nhỉ"
+      "A: Xin lỗi, máy pha cà phê phát ra tiếng lạ…",
+      "B: Thật sao? Vậy thì gọi cho bên kỹ thuật giúp nhé?"
     ]
   },
   {
-    title: "Audio 3 : kiku1",
-    audio: "audio/Y_[12-03]_kiku1.mp3",
+    title: "Audio 3 : kiku3",
+    audio: "audio/Y_[13-03]_kiku3.mp3",
     script: [
-      "A：そのお弁当、おいしそうですね。",
-      "B：あ、これですか？　おいしいですよ。駅前のコンビニで買いました。",
-      "A：へー。じゃ、今度、買ってみます。"
+      "A：パソコンが動かないんですが……。",
+      "B：うーん、とりあえず、再起動してみて。"
     ],
     image: [
-      "images/listen/12-03.png",
+      "",
     ],
     translation: [
-      "A: Hộp cơm đó trông ngon quá.",
-      "B: À, cái này hả? Ngon lắm đó. Tôi mua ở cửa hàng tiện lợi trước ga.",
-      "A: Vậy à. Lần tới tôi sẽ thử mua."
+      "A: Máy tính không hoạt động…",
+      "B: Ừm, trước hết thử khởi động lại đi."
     ]
   },
   {
-    title: "Audio 4 : kiku2",
-    audio: "audio/Y_[12-04]_kiku2.mp3",
+    title: "Audio 4 : kiku4",
+    audio: "audio/Y_[13-04]_kiku4.mp3",
     script: [
-      "A：わー、それ、辛そうな料理ですね。",
-      "B：これですか？　私の国のカレーです。あまり辛くないですよ。",
-      "A：そうなんですか。"
+      "A：あのう、すみません、会議室の電気がつかないんですが……。",
+      "B：じゃあ、管理室に連絡してください。"
     ],
     image: [
-      "images/listen/12-03.png",
+      "",
     ],
     translation: [
-      "A: Ôi, món đó trông cay nhỉ.",
-      "B: Cái này hả? Đây là cà ri của nước tôi. Không cay lắm đâu.",
-      "A: Vậy à."
+      "A: Ơ… xin lỗi, đèn trong phòng họp không bật được…",
+      "B: Vậy thì hãy liên hệ với phòng quản lý nhé."
     ]
   },
   {
-    title: "Audio 5 : kiku3",
-    audio: "audio/Y_[12-05]_kiku3.mp3",
+    title: "Audio 5 : katachi",
+    audio: "audio/Y_[13-05]_katachi.mp3",
     script: [
-      "A：それ、何ですか？",
-      "B：これ？　これは、チョコレートバニラクリームラテ。",
-      "A：へー、甘そうですね。"
+      "トイレットペーパーがなくなった＿＿＿＿＿＿＿＿＿＿＿。",
+      "変な音がする＿＿＿＿＿＿＿＿＿＿＿。",
+      "パソコンが動かない＿＿＿＿＿＿＿＿＿＿＿。",
+      "電気がつかない＿＿＿＿＿＿＿＿＿＿＿。"
     ],
     image: [
-      "images/listen/12-03.png",
+      "",
     ],
     translation: [
-      "A: Cái đó là gì vậy?",
-      "B: Cái này hả? Đây là latte kem vani sô-cô-la.",
-      "A: Ồ, trông có vẻ ngọt nhỉ."
+      "Giấy vệ sinh đã hết。→んですが",
+      "Có tiếng lạ。→んですが",
+      "Máy tính không hoạt động。→んですが",
+      "Đèn không bật được… (Mang sắc thái sự cố, trục trặc.)。→んですが"
     ]
-
   },
   {
-    title: "Audio 6 : kiku4",
-    audio: "audio/Y_[12-06]_kiku4.mp3",
+    title: "Audio 6 : hanasu",
+    audio: "audio/Y_[13-06]_hanasu.mp3",
     script: [
-      "A：みかん、１つどう？　うちの庭【にわ】でとれたのよ。",
-      "B：じゃあ、いただきます。でも、まだ、ちょっとすっぱそうですね。",
-      "A：そんなことないわよ。甘いわよ。",
-      "B：あ、本当だ。甘い。"
+      "A：電気がつかないんですが……。",
+      "B：業者に電話してください。",
     ],
     image: [
-      "images/listen/12-03.png",
+      "",
     ],
     translation: [
-      "A: Ăn một quả quýt nhé? Hái từ vườn nhà tôi đó.",
-      "B: Vậy tôi xin nhé. Nhưng trông có vẻ hơi chua.",
-      "A: Không đâu. Ngọt lắm.",
-      "B: À, đúng rồi. Ngọt thật."
+      "A: Đèn không bật được…",
+      "B: Hãy gọi cho bên kỹ thuật."
     ]
   },
   {
-    title: "Audio 7 : katachi",
-    audio: "audio/Y_[12-07]_katachi.mp3",
+    title: "Audio 7 : kiku1",
+    audio: "audio/Y_[13-07]_kiku1.mp3",
     script: [
-      "1. そのお弁当、おいし＿＿＿＿ですね。",
-      "2. あ、これですか？＿＿＿＿ですよ。",
-      "3. それ、辛＿＿＿＿料理ですね。",
-      "4. 私の国のカレーです。あまり＿＿＿＿ですよ。",
-      "5. へー、甘＿＿＿＿ですね。",
-      "6. まだ、ちょっとすっぱ＿＿＿＿ですね。"
+      "A：どう？　だいじょうぶ？",
+      "B：はい、だいじょうぶです。",
+      "A：そう。わからないこと、ある？",
+      "B：いえ、ありません。"
     ],
     translation: [
-      "1. Hộp cơm đó trông ngon＿＿＿＿. → おいしそう",
-      "2. À, cái này hả? Ngon＿＿＿＿. → おいしいですよ",
-      "3. Món đó trông cay＿＿＿＿. → 辛そう",
-      "4. Đây là cà ri nước tôi. Không cay＿＿＿＿. → 辛くないですよ",
-      "5. Ồ, trông ngọt＿＿＿＿. → 甘そう",
-      "6. Vẫn hơi chua＿＿＿＿. → すっぱそう"
+      "A: Thế nào? Ổn chứ?",
+      "B: Vâng, tôi ổn.",
+      "A: Vậy à. Có điều gì không hiểu không?",
+      "B: Không, không có."
     ]
   },
   {
-    title: "Audio 8 : hanasu1",
-    audio: "audio/Y_[11-08]_hanasu1.mp3",
+    title: "Audio 8 : kiku2",
+    audio: "audio/Y_[13-08]_kiku2.mp3",
     script: [
-      "らいしゅうのバーベキュー、",
-      "だれが何を持って行きますか？",
-      "　",
-      "私は 肉と野菜 を買って行きます。",
-      "私は、何を持って行きましょうか？",
-      "　",
-      "じゃあ、飲み物 をお願いします。",
-      "わかりました。",
+      "A：どうですか？",
+      "B：あのう、すみません。",
+      "A：はい。",
+      "B：このやり方がよくわからないんですが……。",
+      "A：ああ、これはですね……。"
     ],
     translation: [
-      "1. Buổi BBQ tuần sau,",
-      "2. ai sẽ mang gì đi?",
-      "　",
-      "4. Tôi sẽ làm cơm nắm mang đi.",
-      "5. Tôi nên mang gì đây?",
-      "　",
-      "7. Vậy thì đồ uống thì sao?",
-      "8. Tôi hiểu rồi."
+      "A: Thế nào?",
+      "B: Ơ… xin lỗi.",
+      "A: Vâng.",
+      "B: Tôi không rõ cách làm này lắm…",
+      "A: À, cái này thì là như thế này…"
     ]
   },
   {

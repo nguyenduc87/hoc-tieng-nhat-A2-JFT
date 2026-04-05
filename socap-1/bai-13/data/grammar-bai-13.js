@@ -6,22 +6,22 @@ export const grammarBai3 = [
     summaryList: [
       {
         label: "① ～んですが…",
-        example: "会議室の電気がつかないんですが…。",
+        example: "会議室の電気が「つかないんですが…。」",
         vi: "Đèn phòng họp không sáng (tôi phải làm sao bây giờ)..."
       },
       {
         label: "② V-そうです",
-        example: "どのぐらいかかりそうですか？",
+        example: "どのぐらい「かかりそう」ですか？",
         vi: "Có vẻ sẽ mất khoảng bao lâu nữa?"
       },
       {
         label: "③ V-たいとき、～",
-        example: "両面コピーしたいときは、どうすればいいですか？",
+        example: "両面コピー「したいとき」は、どうすればいいですか？",
         vi: "Khi muốn photocopy hai mặt thì tôi nên làm thế nào?"
       },
       {
         label: "④ V-ると、～",
-        example: "このスタートボタンを押すと、コピーが始まります。",
+        example: "このスタートボタンを「押すと」、コピーが始まります。",
         vi: "Hễ ấn nút Start này thì máy sẽ bắt đầu copy."
       },
       {
@@ -49,8 +49,8 @@ export const grammarBai3 = [
       ],
       examples: [
         {
-          jp: "会議室の電気がつかないんですが…。",
-          vi: "Đèn phòng họp không sáng ạ."
+          jp: "会議室【かいぎしつ】の電気がつかないんですが…。",
+          vi: "Đèn phòng họp không bật được ạ."
         }
       ]
     },
@@ -58,11 +58,11 @@ export const grammarBai3 = [
       {
         speaker: "A",
         jp: "会議室の電気がつかないんですが…。",
-        vi: "Đèn phòng họp không sáng ạ."
+        vi: "Đèn phòng họp không bật được ạ."
       },
       {
         speaker: "B",
-        jp: "そうですか。では、事務所に連絡してください。",
+        jp: "そうですか。では、事務所【じむしょ】に連絡【れんらく】してください。",
         vi: "Vậy à. Thế thì hãy liên hệ với văn phòng nhé."
       }
     ]
@@ -71,36 +71,38 @@ export const grammarBai3 = [
   {
     id: "2",
     tab: "Mẫu 2",
-    title: "② ～そうなN",
+    title: "② V-そうです",
     usage: [
-      "～そうです cũng có thể bổ nghĩa cho danh từ, khi đó dùng ～そうなN.",
+      "Dùng để diễn đạt dự đoán, phỏng đoán về hành động hoặc tình trạng dựa trên tình hình, tiến triển."
     ],
-    structure: "ナA- / イA- ～そうなN",
+    structure: "V-ます → bỏ ます + そうです",
     notes: {
       points: [
-        "Ví dụ: それ、辛そうな料理ですね ≈ その料理、辛そうですね."
+        "Có thể dùng để hỏi đáp về tiến độ công việc.",
+        "Ở bài 12 đã học cách kết hợp với tính từ (おいしそうです). Trong bài này học cách kết hợp với động từ thể ます bằng cách bỏ ます.",
+        "Khi dự đoán thời gian cần thiết, thêm で sau khoảng thời gian: 10分ぐらいで (trong khoảng 10 phút)."
       ],
       examples: [
         {
-          jp: "それ、辛そうな料理ですね。",
-          vi: "Món đó trông có vẻ cay nhỉ."
+          jp: "あと10分ぐらいで「終わりそう」です。",
+          vi: "Có vẻ sẽ kết thúc sau khoảng 10 phút nữa."
         },
         {
-          jp: "おいしそうなケーキですね。",
-          vi: "Chiếc bánh trông ngon nhỉ."
+          jp: "明日、一日中雨が「降りそう」です。",
+          vi: "Ngày mai, trời có vẻ mưa cả ngày."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "その料理、辛そうですね。",
-        vi: "Món ăn đó trông có vẻ cay nhỉ."
+        jp: "1人で、できますか？",
+        vi: "Bạn có làm được một mình không?"
       },
       {
         speaker: "B",
-        jp: "ええ、でも食べてみないと分かりませんね。",
-        vi: "Ừ, nhưng không ăn thử thì không biết chắc được."
+        jp: "はい、だいじょうぶです。",
+        vi: "Vâng, không vấn đề gì ạ."
       }
     ]
   },
@@ -108,189 +110,134 @@ export const grammarBai3 = [
   {
     id: "3",
     tab: "Mẫu 3",
-    title: "③ イA-くて、～／イA-くなくて、～",
+    title: "③ V-たいとき、～",
     usage: [
-      "Dùng để nối các tính từ hoặc diễn đạt lý do cho mệnh đề sau.",
-      "～くて dùng với tính từ đuôi イ ở dạng khẳng định.",
-      "～くなくて dùng với tính từ đuôi イ ở dạng phủ định."
+      "Dùng để diễn đạt nguyện vọng muốn làm một hành động nào đó và xin lời khuyên từ đối phương."
     ],
-    structure: "イA-くて、～／イA-くなくて、～",
+    structure: "V-ます → bỏ ます + たいとき、～",
     notes: {
       points: [
-        "Trong bài 5 đã học ～くて để liệt kê nhiều tính từ.",
-        "Ngoài chức năng liệt kê, ～くて còn diễn đạt lý do cho mệnh đề phía sau.",
-        "Dạng phủ định là ～くなくて, cũng dùng để nêu lý do."
+        "Ở bài 10 đã học ～とき để chỉ thời điểm (高校のとき 少し日本語を勉強しました).",
+        "Trong bài này, cấu trúc V-たいとき,どうすればいいですか? dùng để trình bày mong muốn và hỏi cách thực hiện.",
+        "Cụm từ どうすればいいですか? (Tôi phải làm thế nào?) được dùng như một mẫu câu cố định."
       ],
       examples: [
         {
-          jp: "この卵焼き、「甘くて」、おいしいですね。",
-          vi: "Món trứng cuộn này ngọt nên ngon nhỉ."
+          jp: "両面【りょうめん】コピー「したいとき」は、どうすればいいですか？",
+          vi: "Tôi muốn photocopy 2 mặt thì phải làm thế nào?"
         },
         {
-          jp: "茶碗蒸【chawan-mushi】し、「甘くなくて」、おいしいですよ。",
-          vi: "Món chawanmushi không ngọt đâu nên ngon lắm."
-        },
-        {
-          jp: "梅干【うめぼし】しはすっぱくて、苦手です。",
-          vi: "Món mơ muối thì chua nên tôi không thích."
-        },
-        {
-          jp: "この料理は辛くなくて、子どもも食べることができます。",
-          vi: "Món này không cay nên trẻ con cũng ăn được."
+          jp: "拡大【かくだい】コピー「したいとき」は、どうすればいいですか？",
+          vi: "Tôi muốn photocopy phóng to thì phải làm thế nào?"
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "このさしみ、高くて、買うことができません。",
-        vi: "Món sashimi này đắt quá nên tôi không mua được."
+        jp: "拡大コピーしたいときは、どうすればいいですか？",
+        vi: "Tôi muốn photocopy phóng to thì phải làm thế nào?"
       },
       {
         speaker: "B",
-        jp: "この家、場所がよくて、高いです。",
-        vi: "Ngôi nhà này vị trí tốt nên giá cao."
+        jp: "このボタンを押してください。",
+        vi: "Hãy ấn nút này."
       }
     ]
   },
+
   {
     id: "4",
     tab: "Mẫu 4",
-    title: "④ V-てみます",
+    title: "④ V-ると、～",
     usage: [
-      "Dùng khi thử làm một hành động nào đó lần đầu để biết nó như thế nào.",
-      "Thường dùng để diễn đạt ý định thử trải nghiệm hoặc khuyến khích người khác thử."
+      "Dùng để diễn đạt kết quả tự nhiên xảy ra sau một hành động nào đó.",
+      "Thường dùng khi giải thích cách sử dụng máy móc, dụng cụ."
     ],
-    structure: "V-てみます",
+    structure: "V-る + と、～",
     notes: {
       points: [
-        "Động từ được chia ở thể て rồi kết hợp với みます.",
-        "Dùng khi muốn thử làm một việc để biết kết quả hoặc cảm giác.",
-        "Ví dụ: 食べてみます (ăn thử), 飲んでみます (uống thử), してみます (thử làm), やってみます (thử làm thử)."
+        "～と kết hợp với động từ ở thể từ điển.",
+        "Diễn đạt sự việc xảy ra như kết quả của một hành động.",
+        "Ví dụ: Ấn nút thì máy sẽ hoạt động."
       ],
       examples: [
         {
-          jp: "よかったら、この卵焼き、「食べてみて」ください。",
-          vi: "Nếu thích thì bạn hãy 「ăn thử」 miếng trứng cuộn này nhé."
+          jp: "春に「来ると」、色々な花が咲【さ】きます。",
+          vi: "Đến vào mùa xuân thì nhiều loại hoa sẽ nở."
         },
         {
-          jp: "くつを「はいてみます。」",
-          vi: "Tôi sẽ thử mang giày."
+          jp: "このスタートボタンを「押【お】すと」、コピーが始まります。",
+          vi: "Ấn nút start thì sẽ bắt đầu photocopy."
         },
         {
-          jp: "新しいゲームを「してみます。」",
-          vi: "Tôi sẽ thử chơi trò chơi mới."
+          jp: "このボタンを「押【お】すと」、カラーコピーができます。",
+          vi: "Ấn nút này thì có thể photocopy màu."
+        },
+        {
+          jp: "このトイレは、ここに手【て】を「かざすと」、水が流【なが】れます。",
+          vi: "Ở nhà vệ sinh này, che tay vào đây thì nước sẽ xả ra."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "この料理、「食べてみませんか？」",
-        vi: "Bạn có muốn thử ăn món này không?"
+        jp: "このボタンを押【お】すと、カラーコピーができます。",
+        vi: "Ấn nút này thì có thể photocopy màu."
       },
       {
         speaker: "B",
-        jp: "ええ、「食べてみます。」",
-        vi: "Ừ, tôi sẽ thử ăn."
+        jp: "はい、そうです。簡単ですね。",
+        vi: "Vâng, đúng vậy. Đơn giản nhỉ."
       }
     ]
   },
+
   {
     id: "5",
     tab: "Mẫu 5",
-    title: "⑤ Tự động từ / Tha động từ",
+    title: "⑤ Trả lời với はい／いいえ",
     usage: [
-      "Phân biệt giữa động từ tự động và tha động từ trong tiếng Nhật.",
-      "「Tự động từ」 diễn tả sự việc 「xảy ra không có chủ ý rõ ràng.」",
-      "Tha động từ diễn tả hành động có chủ ý của người thực hiện.",
-      "Danh sách Tự/ Tha động <a href='./list-tu-dong-tu/list.html'>click xem tại đây</a>"
+      "Khi câu hỏi là phủ định, nếu đúng thì trả lời はい + phủ định, nếu sai thì trả lời いいえ + khẳng định."
     ],
-    structure: "Tự động từ + て います / Tha động từ + ます",
+    structure: "はい + phủ định文 ／ いいえ + khẳng định文",
     notes: {
       points: [
-        "Tự động từ: 雨が降る (trời mưa), ドアが閉【し】まる (cửa đóng), 入る (vào).",
-        "Tha động từ: ご飯を食べる (ăn cơm), ドアを閉【し】める (đóng cửa), 入れる (cho vào).",
-        "Cấu trúc ～が入っています dùng để mô tả trạng thái món ăn có nguyên liệu gì.",
-        "Cấu trúc ～を入れます thể hiện hành động có chủ ý cho nguyên liệu vào món ăn."
+        "Ví dụ: コピー機、使ったことないですか？ → はい、ないです。",
+        "Nếu thực tế là đã dùng, thì trả lời: いいえ、あります。"
       ],
       examples: [
         {
-          jp: "鶏肉【とりにく】とか、エビとか、きのことか「が入ってます」。",
-          vi: "Món này có thịt gà, tôm, nấm."
+          jp: "この機械【きかい】、前に使ったことないですか？",
+          vi: "Cái máy này, trước đây bạn chưa từng dùng à?"
         },
         {
-          jp: "ときどき、銀杏【ぎんなん】も「入れます」よ。",
-          vi: "Thỉnh thoảng tôi cũng cho cả bạch quả vào nữa."
+          jp: "はい、使ったことありません。",
+          vi: "Vâng, tôi chưa từng dùng."
         },
         {
-          jp: "ドア「が」閉【し】まっています。-> Tự động từ: N が Vています",
-          vi: "Cửa đang đóng."
-        },
-        {
-          jp: "ドア「を」閉めます。-> Tha động từ:(Người が) N を Vています",
-          vi: "Tôi sẽ đóng cửa."
+          jp: "いいえ、前に一度使ったことがあります。",
+          vi: "Không. Tôi từng dùng một lần rồi."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "この料理、何が入っていますか？",
-        vi: "Món này có những nguyên liệu gì vậy?"
+        jp: "コピー機、使ったことないですか？",
+        vi: "Bạn chưa từng sử dụng máy photocopy à?"
       },
       {
         speaker: "B",
-        jp: "鶏肉やエビなどが入っています。銀杏も入れましたよ。",
-        vi: "Có thịt gà, tôm… Tôi cũng đã cho thêm bạch quả nữa."
+        jp: "はい、ないです。",
+        vi: "Vâng, tôi chưa ạ."
+      },
+      {
+        speaker: "C",
+        jp: "いいえ、あります。",
+        vi: "Không, tôi đã từng dùng rồi."
       }
     ]
   },
-  {
-    id: "6",
-    tab: "Mẫu 6",
-    title: "⑥ イA-くないですか?",
-    usage: [
-      "Dùng để xác nhận xem điều bản thân đang lo lắng có ổn hay không.",
-      "Thường dùng khi muốn hỏi lịch sự, thể hiện sự quan tâm đến người nghe.",
-    ],
-    structure: "イA-くないですか?",
-    notes: {
-      points: [
-        "Thể hiện sự quan tâm, lịch sự, và xác nhận tình trạng của đối phương.",
-        "Ví dụ: 「味は、うすくないですか？ (Vị không nhạt chứ ạ?)」.",
-        "Có thể thay tính từ để dùng trong nhiều tình huống khác: <br>「難しくないですか？」, <br>「寒くないですか？」, <br>「高くないですか？」.",
-      ],
-      examples: [
-        {
-          jp: "味は、「うすくないですか？」",
-          vi: "Vị không bị nhạt chứ ạ?"
-        },
-        {
-          jp: "この漢字、「難しくないですか？」",
-          vi: "Chữ Hán này không khó chứ ạ?"
-        },
-        {
-          jp: "この部屋、「寒くないですか？」",
-          vi: "Phòng này không lạnh chứ ạ?"
-        },
-        {
-          jp: "わさび、「辛【から】くないですか？」",
-          vi: "Wasabi không cay chứ ạ?"
-        }
-      ]
-    },
-    dialogue: [
-      {
-        speaker: "A",
-        jp: "わさび、辛くないですか？",
-        vi: "Wasabi không cay chứ ạ?"
-      },
-      {
-        speaker: "B",
-        jp: "だいじょうぶです。わさび、大好きですから。",
-        vi: "Không sao. Vì tôi rất thích wasabi."
-      }
-    ]
-  }
 ];

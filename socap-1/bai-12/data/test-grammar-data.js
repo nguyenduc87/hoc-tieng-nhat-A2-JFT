@@ -189,13 +189,13 @@ export const grammarList = [
         id: 10,
         grammar: "④ Vて みます",
         leftContent: {
-            image: "",
+            image: "../images/grammar/12-01.png",
             text: [
                 "日本酒、飲む？",
                 "→少し、＿＿＿＿"
             ]
         },
-        question: "Chọn câu lịch sự cao nhất",
+        question: "Vて みます",
         options: [
             "飲んでみます",
             "飲んでます",
@@ -209,33 +209,33 @@ export const grammarList = [
         id: 11,
         grammar: "④ Vて みます",
         leftContent: {
-            image: "",
+            image: "../images/grammar/12-11.png",
             text: [
-                "日本酒、飲む？",
-                "→少し、＿＿＿＿"
+                "日本料理、何が食べたい？",
+                "→私は、（すき焼きを食べる＿＿＿＿たいです。"
             ]
         },
-        question: "Chọn câu lịch sự cao nhất",
+        question: "Vて みます",
         options: [
-            "飲んでみます",
-            "飲んでます",
-            "飲みます",
-            "飲みますか",
+            "食べてみ",
+            "食べます",
+            "食べてみます",
+            "食べてみました",
         ],
-        correct: "飲んでみます",
+        correct: "食べてみ",
         explanation: "Vて みます（cách nói làm thử hành động gì đó）。"
     },
     {
         id: 12,
         grammar: "④ Vて みます",
         leftContent: {
-            image: "",
+            image: "../images/grammar/12-12.png",
             text: [
                 "ちょっと、味がうすいでうね",
                 "もっと、さとうを（入れる→＿＿＿＿）"
             ]
         },
-        question: "Chọn câu lịch sự cao nhất",
+        question: "Vて みます",
         options: [
             "入れて見ましょうか",
             "入れて見まません",
