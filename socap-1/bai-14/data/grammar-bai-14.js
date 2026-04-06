@@ -6,69 +6,79 @@ export const grammarBai3 = [
     summaryList: [
       {
         label: "① Nで、～／ナA-で、～／イA-くて、～／V-て、～",
-        example: "道が混んでいて、ぜんぜん動きません。",
-        vi: "Vì đường đông nên xe không nhúc nhích được. (Nguyên nhân / Lý do)"
+        example: "道が「混【こ】んでいて」、ぜんぜん動きません。",
+        vi: "「Vì」 đường đông nên xe không nhúc nhích được. 「(Nguyên nhân / Lý do)」"
       },
       {
         label: "② S1。それで、S2",
-        example: "これから病院に行きます。それで、少し遅刻します。",
-        vi: "Tôi sẽ đi bệnh viện. Vì vậy tôi sẽ hơi muộn."
+        example: "これから病院に行きます。「それで」、少し遅刻【ちこく】します。",
+        vi: "Tôi sẽ đi bệnh viện. 「Vì vậy」 tôi sẽ hơi muộn."
       },
       {
         label: "③ V-てもいいですか？",
-        example: "トイレに行って来てもいいですか？",
-        vi: "Tôi đi vệ sinh có được không?"
+        example: "トイレに「行って来てもいいですか？」",
+        vi: "Tôi 「xin phép」 đi vệ sinh có được không?"
       },
       {
         label: "④ V-てもいいでしょうか？",
-        example: "明日の午後、早退してもいいでしょうか？",
-        vi: "Chiều mai tôi về sớm có được không?"
+        example: "明日の午後、「早退【そうたい】してもいいでしょうか」？",
+        vi: "Chiều mai tôi 「xin phép」 về sớm có được không?"
       },
       {
         label: "⑤ V-なければなりません",
-        example: "ちょっと、役所に行かなければならないんです。",
-        vi: "Tôi phải đi đến cơ quan hành chính một chút."
+        example: "ちょっと、役所に「行かなければならないんです。」",
+        vi: "Tôi 「phải đi」 đến cơ quan hành chính một chút."
       },
       {
         label: "⑥ ～んです①",
-        example: "東京から、国の友だちが来るんです。",
-        vi: "Bạn từ quê sẽ đến Tokyo. (Giải thích tình huống)"
+        example: "東京から、国の友だちが「来るんです。」",
+        vi: "Bạn từ quê sẽ đến Tokyo. 「(Giải thích tình huống)」"
       }
     ]
   },
 
   {
-    id: 1,
+    id: "1",
     tab: "Mẫu 1",
-    title: "① ～んですが…",
+    title: "① Nで / ナA-で / イA-くて / V-て Nguyên nhân / Lý do",
     usage: [
-      "Diễn đạt tình hình của bản thân và hỏi đối phương cách xử lý."
+      "Sử dụng để nối 2 câu, trong đó vế trước biểu thị nguyên nhân, lý do của vế sau."
     ],
-    structure: "V（辞書形／タ形／ナイ形）＋んですが…",
+    structure: "Nで / ナA-で / イA-くて / V-て",
     notes: {
       points: [
-        "Đây là cách nói để giải thích tình huống và mong đối phương đưa ra chỉ dẫn.",
-        "Trong các bài trước (Bài 8, Bài 10) đã có cấu trúc V-たいんですが…, V-てみたいんですが…。",
-        "Ở đây mở rộng với thể từ điển, thể た, thể ない của động từ.",
-        "Thể ナイ của động từ là dạng phủ định, kết thúc bằng đuôi ない."
+        "Nếu là danh từ: sử dụng Nで (Ví dụ: 事故で - do tai nạn).",
+        "Nếu là tính từ đuôi ナ: sử dụng ～で (Ví dụ: 仕事が大変で - vì công việc vất vả).",
+        "Nếu là tính từ đuôi イ: sử dụng ～くて (Ví dụ: 体の具合が悪くて - vì không khỏe).",
+        "Nếu là động từ: sử dụng thể て (Ví dụ: 道が混んでいて - vì đường đông).",
+        "Cấu trúc này cũng thường dùng khi trình bày lý do để xin lỗi."
       ],
       examples: [
         {
-          jp: "会議室の電気がつかないんですが…。",
-          vi: "Đèn phòng họp không sáng ạ."
+          jp: "道が混【こ】んでいて、ぜんぜん動きません。",
+          vi: "Đường đông nên các phương tiện hoàn toàn không di chuyển."
+        },
+        {
+          jp: "「事故で」、電車が遅れています。",
+          vi: "Do tai nạn nên tàu điện đến muộn."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "会議室の電気がつかないんですが…。",
-        vi: "Đèn phòng họp không sáng ạ."
+        jp: "昨日は、休んですみませんでした。",
+        vi: "Tôi xin lỗi vì đã nghỉ ngày hôm qua."
       },
       {
         speaker: "B",
-        jp: "そうですか。では、事務所に連絡してください。",
-        vi: "Vậy à. Thế thì hãy liên hệ với văn phòng nhé."
+        jp: "どうしたんですか。",
+        vi: "Có chuyện gì vậy?"
+      },
+      {
+        speaker: "A",
+        jp: "体の具合が悪くて、動けませんでした。",
+        vi: "Vì trong người không khỏe nên tôi không cử động được."
       }
     ]
   },
@@ -76,36 +86,36 @@ export const grammarBai3 = [
   {
     id: "2",
     tab: "Mẫu 2",
-    title: "② ～そうなN",
+    title: "② S1。それで、S2",
     usage: [
-      "～そうです cũng có thể bổ nghĩa cho danh từ, khi đó dùng ～そうなN.",
+      "Dùng để trình bày nguyên nhân, lý do. Sử dụng liên từ 'それで' để biểu thị mối quan hệ giữa hai câu."
     ],
-    structure: "ナA- / イA- ～そうなN",
+    structure: "S1。それで、S2",
     notes: {
       points: [
-        "Ví dụ: それ、辛そうな料理ですね ≈ その料理、辛そうですね."
+        "Vế S1 thể hiện nguyên nhân, lý do dẫn đến kết quả ở vế S2."
       ],
       examples: [
         {
-          jp: "それ、辛そうな料理ですね。",
-          vi: "Món đó trông có vẻ cay nhỉ."
+          jp: "これから病院【びょういん】に行きます。「それで」、少し遅刻【ちこく】します。",
+          vi: "Bây giờ tôi sẽ đi bệnh viện. Vì vậy tôi sẽ đến muộn một chút."
         },
         {
-          jp: "おいしそうなケーキですね。",
-          vi: "Chiếc bánh trông ngon nhỉ."
+          jp: "家に財布【さいふ】を忘【わす】れました. これから取りに帰ります。「それで」、少し遅れます。",
+          vi: "Tôi đã quên ví ở nhà. Bây giờ tôi sẽ về lấy. Vì vậy tôi sẽ đến muộn một chút."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "その料理、辛そうですね。",
-        vi: "Món ăn đó trông có vẻ cay nhỉ."
+        jp: "すみません。昨日から熱【ねつ】があります。それで、今日は1日休みたいんですが…。",
+        vi: "Xin lỗi, tôi bị sốt từ hôm qua. Vì vậy hôm nay tôi muốn nghỉ một ngày ạ."
       },
       {
         speaker: "B",
-        jp: "ええ、でも食べてみないと分かりませんね。",
-        vi: "Ừ, nhưng không ăn thử thì không biết chắc được."
+        jp: "わかりました。お大事【だいじ】に。",
+        vi: "Tôi hiểu rồi. Chúc bạn chóng khỏe nhé."
       }
     ]
   },
@@ -113,189 +123,171 @@ export const grammarBai3 = [
   {
     id: "3",
     tab: "Mẫu 3",
-    title: "③ イA-くて、～／イA-くなくて、～",
+    title: "③ V- てもいいですか？",
     usage: [
-      "Dùng để nối các tính từ hoặc diễn đạt lý do cho mệnh đề sau.",
-      "～くて dùng với tính từ đuôi イ ở dạng khẳng định.",
-      "～くなくて dùng với tính từ đuôi イ ở dạng phủ định."
+      "Đây là cách nói dùng để xin phép thực hiện một hành động nào đó."
     ],
-    structure: "イA-くて、～／イA-くなくて、～",
+    structure: "V- てもいいですか？",
     notes: {
       points: [
-        "Trong bài 5 đã học ～くて để liệt kê nhiều tính từ.",
-        "Ngoài chức năng liệt kê, ～くて còn diễn đạt lý do cho mệnh đề phía sau.",
-        "Dạng phủ định là ～くなくて, cũng dùng để nêu lý do."
+        "Để cho phép, thường sử dụng các mẫu như: <br> どうぞ (Mời bạn/Cứ tự nhiên), <br> わかりました (Tôi hiểu rồi), <br> いいですよ (Được chứ/Được ạ)."
       ],
       examples: [
         {
-          jp: "この卵焼き、「甘くて」、おいしいですね。",
-          vi: "Món trứng cuộn này ngọt nên ngon nhỉ."
+          jp: "トイレに「行って来てもいいですか？」",
+          vi: "Tôi đi vệ sinh có được không?"
         },
         {
-          jp: "茶碗蒸【chawan-mushi】し、「甘くなくて」、おいしいですよ。",
-          vi: "Món chawanmushi không ngọt đâu nên ngon lắm."
+          jp: "食べてもいいですか。",
+          vi: "Tôi ăn có được không?"
         },
         {
-          jp: "梅干【うめぼし】しはすっぱくて、苦手です。",
-          vi: "Món mơ muối thì chua nên tôi không thích."
-        },
-        {
-          jp: "この料理は辛くなくて、子どもも食べることができます。",
-          vi: "Món này không cay nên trẻ con cũng ăn được."
+          jp: "言ってもいいですか。",
+          vi: "Tôi nói có được không?"
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "このさしみ、高くて、買うことができません。",
-        vi: "Món sashimi này đắt quá nên tôi không mua được."
+        jp: "あのう, ちょっと休憩【きゅうけい】してもいいですか？",
+        vi: "Dạ, tôi nghỉ giải lao một chút có được không?"
       },
       {
         speaker: "B",
-        jp: "この家、場所がよくて、高いです。",
-        vi: "Ngôi nhà này vị trí tốt nên giá cao."
+        jp: "どうぞ。",
+        vi: "Bạn cứ tự nhiên."
+      },
+      {
+        speaker: "A",
+        jp: "ちょっと、質問【しつもん】してもいいですか？",
+        vi: "Tôi đặt câu hỏi có được không ạ?"
+      },
+      {
+        speaker: "B",
+        jp: "すみませんが、あとにしてもらえませんか？「（Từ chối khéo）」",
+        vi: "Xin lỗi, bạn 「có thể để sau」 có được không?"
       }
     ]
   },
+
   {
     id: "4",
     tab: "Mẫu 4",
-    title: "④ V-てみます",
+    title: "④ V- てもいいでしょうか？",
     usage: [
-      "Dùng khi thử làm một hành động nào đó lần đầu để biết nó như thế nào.",
-      "Thường dùng để diễn đạt ý định thử trải nghiệm hoặc khuyến khích người khác thử."
+      "Đây là cách nói lịch sự hơn của cấu trúc '～てもいいですか？'.",
     ],
-    structure: "V-てみます",
+    structure: "V- てもいいでしょうか？",
     notes: {
       points: [
-        "Động từ được chia ở thể て rồi kết hợp với みます.",
-        "Dùng khi muốn thử làm một việc để biết kết quả hoặc cảm giác.",
-        "Ví dụ: 食べてみます (ăn thử), 飲んでみます (uống thử), してみます (thử làm), やってみます (thử làm thử)."
+        "Phần cuối câu '～「ですか？」' được biến đổi thành '～「でしょうか？」' để tăng mức độ trang trọng, lễ phép.",
+        "Thường dùng khi 「xin phép cấp trên, người lớn tuổi」 hoặc trong các 「tình huống trang trọng.」"
       ],
       examples: [
         {
-          jp: "よかったら、この卵焼き、「食べてみて」ください。",
-          vi: "Nếu thích thì bạn hãy 「ăn thử」 miếng trứng cuộn này nhé."
-        },
-        {
-          jp: "くつを「はいてみます。」",
-          vi: "Tôi sẽ thử mang giày."
-        },
-        {
-          jp: "新しいゲームを「してみます。」",
-          vi: "Tôi sẽ thử chơi trò chơi mới."
+          jp: "明日の午後、「早退【そうたい】してもいいでしょうか？」",
+          vi: "Chiều mai tôi về sớm có được không ạ?"
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "この料理、「食べてみませんか？」",
-        vi: "Bạn có muốn thử ăn món này không?"
+        jp: "すみません. ちょっと質問【しつもん】してもいいでしょうか？",
+        vi: "Xin lỗi, tôi hỏi một chút có được không ạ?"
       },
       {
         speaker: "B",
-        jp: "ええ、「食べてみます。」",
-        vi: "Ừ, tôi sẽ thử ăn."
+        jp: "はい、何ですか？",
+        vi: "Vâng, có việc gì vậy?"
       }
     ]
   },
+
   {
     id: "5",
     tab: "Mẫu 5",
-    title: "⑤ Tự động từ / Tha động từ",
+    title: "⑤ ～なければなりません",
     usage: [
-      "Phân biệt giữa động từ tự động và tha động từ trong tiếng Nhật.",
-      "「Tự động từ」 diễn tả sự việc 「xảy ra không có chủ ý rõ ràng.」",
-      "Tha động từ diễn tả hành động có chủ ý của người thực hiện.",
-      "Danh sách Tự/ Tha động <a href='./list-tu-dong-tu/list.html'>click xem tại đây</a>"
+      "Diễn đạt việc dù thế nào cũng phải làm, không liên quan đến ý chí hay nguyện vọng cá nhân.",
+      "Thường dùng để trình bày lý do khi xin nghỉ hoặc về sớm."
     ],
-    structure: "Tự động từ + て います / Tha động từ + ます",
+    structure: "V-ない (bỏ ない) + なければなりません",
     notes: {
       points: [
-        "Tự động từ: 雨が降る (trời mưa), ドアが閉【し】まる (cửa đóng), 入る (vào).",
-        "Tha động từ: ご飯を食べる (ăn cơm), ドアを閉【し】める (đóng cửa), 入れる (cho vào).",
-        "Cấu trúc ～が入っています dùng để mô tả trạng thái món ăn có nguyên liệu gì.",
-        "Cấu trúc ～を入れます thể hiện hành động có chủ ý cho nguyên liệu vào món ăn."
+        "Khi muốn giải thích lý do, người ta thường thêm ～んです thành: ～なければならないんです (Xem lại mẫu số 1).",
+        "Cấu trúc này nhấn mạnh vào nghĩa vụ hoặc tình huống bắt buộc phải thực hiện."
       ],
       examples: [
         {
-          jp: "鶏肉【とりにく】とか、エビとか、きのことか「が入ってます」。",
-          vi: "Món này có thịt gà, tôm, nấm."
+          jp: "ちょっと、役所【やくしょ】に「行かなければならないんです。」",
+          vi: "Tôi 「phải đi」 đến cơ quan hành chính một chút."
         },
         {
-          jp: "ときどき、銀杏【ぎんなん】も「入れます」よ。",
-          vi: "Thỉnh thoảng tôi cũng cho cả bạch quả vào nữa."
-        },
-        {
-          jp: "ドア「が」閉【し】まっています。-> Tự động từ: N が Vています",
-          vi: "Cửa đang đóng."
-        },
-        {
-          jp: "ドア「を」閉めます。-> Tha động từ:(Người が) N を Vています",
-          vi: "Tôi sẽ đóng cửa."
+          jp: "今日はガスの点検【てんけん】があって、午前中【ごぜんちゅう】は家に「いなければなりません。」",
+          vi: "Hôm nay có kiểm tra ga nên buổi sáng tôi 「phải ở nhà.」"
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "この料理、何が入っていますか？",
-        vi: "Món này có những nguyên liệu gì vậy?"
+        jp: "すみません。明日の午後、早退【そうたい】してもいいでしょうか？",
+        vi: "Xin lỗi, chiều mai tôi về sớm có được không ạ?"
+      },
+      {
+        speaker: "A",
+        jp: "病院【びょういん】に「行かなければならないんです。」",
+        vi: "Vì tôi 「phải đi」 đến bệnh viện."
       },
       {
         speaker: "B",
-        jp: "鶏肉やエビなどが入っています。銀杏も入れましたよ。",
-        vi: "Có thịt gà, tôm… Tôi cũng đã cho thêm bạch quả nữa."
+        jp: "わかりました。",
+        vi: "Tôi hiểu rồi."
       }
     ]
   },
+
   {
     id: "6",
     tab: "Mẫu 6",
-    title: "⑥ イA-くないですか?",
+    title: "⑥ ～んです ①",
     usage: [
-      "Dùng để xác nhận xem điều bản thân đang lo lắng có ổn hay không.",
-      "Thường dùng khi muốn hỏi lịch sự, thể hiện sự quan tâm đến người nghe.",
+      "Dùng để 「giải thích tình hình」 hoặc 「trình bày lý do với đối phương」 (ví dụ như khi xin nghỉ hoặc về sớm)."
     ],
-    structure: "イA-くないですか?",
+    structure: "V (Thể từ điển)／V なければならない  + んです",
     notes: {
       points: [
-        "Thể hiện sự quan tâm, lịch sự, và xác nhận tình trạng của đối phương.",
-        "Ví dụ: 「味は、うすくないですか？ (Vị không nhạt chứ ạ?)」.",
-        "Có thể thay tính từ để dùng trong nhiều tình huống khác: <br>「難しくないですか？」, <br>「寒くないですか？」, <br>「高くないですか？」.",
+        "Đây là cách nói để 「giải thích tình hình.」 Trong bài này, nó được dùng để đưa ra 「lý do cho việc xin phép.」",
+        "Khác với cấu trúc '～んですが…' (dùng để yêu cầu sự hỗ trợ), mẫu này 「không có 'が…' ở cuối câu.」",
+        "Có thể kết hợp với thể từ điển của động từ hoặc đi sau cấu trúc '～なければならない'.",
+        "Ví dụ: '来るんです' (từ thể từ điển 来る) hoặc '行かなければならないんです'."
       ],
       examples: [
         {
-          jp: "味は、「うすくないですか？」",
-          vi: "Vị không bị nhạt chứ ạ?"
-        },
-        {
-          jp: "この漢字、「難しくないですか？」",
-          vi: "Chữ Hán này không khó chứ ạ?"
-        },
-        {
-          jp: "この部屋、「寒くないですか？」",
-          vi: "Phòng này không lạnh chứ ạ?"
-        },
-        {
-          jp: "わさび、「辛【から】くないですか？」",
-          vi: "Wasabi không cay chứ ạ?"
+          jp: "東京から、国の友だちが「来るんです。」",
+          vi: "Một người bạn ở nước tôi sẽ từ Tokyo đến đây."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "わさび、辛くないですか？",
-        vi: "Wasabi không cay chứ ạ?"
+        jp: "すみません。来週の月曜日、お休みを「取ってもいいでしょうか？」",
+        vi: "Xin lỗi, thứ hai tuần sau tôi 「xin phép」 nghỉ có được không ạ?"
+      },
+      {
+        speaker: "A",
+        jp: "市役所に「行かなければならないんです。」",
+        vi: "「Vì tôi phải đi」 đến cơ quan hành chính."
       },
       {
         speaker: "B",
-        jp: "だいじょうぶです。わさび、大好きですから。",
-        vi: "Không sao. Vì tôi rất thích wasabi."
+        jp: "わかりました。",
+        vi: "Tôi hiểu rồi."
       }
     ]
   }
+
 ];

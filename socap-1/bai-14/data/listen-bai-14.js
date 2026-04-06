@@ -1,524 +1,447 @@
 export const listeningData = [
   {
-    title: "Audio 1 : kotoba1",
-    audio: "audio/Y_[12-01]_kotoba1.mp3",
+    title: "Audio 1 : kiku1",
+    audio: "audio/Y_[14-01]_kiku1.mp3",
     script: [
-      "a. 甘い（あまい） - Ngọt",
-      "b. 辛い（からい） - Cay",
-      "c. すっぱい - Chua",
-      "d. しょっぱい - Mặn",
-      "e. 苦い（にがい） - Đắng",
-      "f. 味がこい（あじがこい） - Vị đậm",
-      "g. 味がうすい（あじがうすい） - Vị nhạt",
-      "h. おいしい - Ngon",
-      "i. まずい - Dở"
+      "会社の人：はい、北浦和フーズです。",
+      "アニサ：もしもし、あのう、アニサです。",
+      "会社の人：ああ、アニサさん。",
+      "アニサ：すみません. 家に財布【さいふ】を忘れました。これから取りに帰ります。それで、少し遅れます。",
+      "会社の人：ああ、わかりました。",
+      "(あとで)",
+      "アニサ：おはようございます。遅くなって、申し訳ありません。"
     ],
     image: [
-      "images/listen/12-01.png",
+      "",
     ],
     translation: [
-      "a. Ngọt",
-      "b. Cay",
-      "c. Chua",
-      "d. Mặn",
-      "e. Đắng",
-      "f. Vị đậm",
-      "g. Vị nhạt",
-      "h. Ngon",
-      "i. Dở"
+      "Người ở công ty: Vâng, Kita-Urawa Foods xin nghe.",
+      "Anisa: A lô, vâng, tôi là Anisa đây ạ.",
+      "Người ở công ty: À, chị Anisa.",
+      "Anisa: Xin lỗi, tôi để quên ví ở nhà rồi. Bây giờ tôi sẽ về lấy. Vì vậy, tôi sẽ đến muộn một chút ạ.",
+      "Người ở công ty: À, tôi hiểu rồi.",
+      "(Sau đó)",
+      "Anisa: Chào buổi sáng. Tôi xin lỗi vì đã đến muộn."
     ]
   },
   {
-    title: "Audio 2 : kotoba2",
-    audio: "audio/Y_[12-02]_kotoba2.mp3",
+    title: "Audio 2 : kiku2",
+    audio: "audio/Y_[14-02]_kiku2.mp3",
     script: [
-      "1.おいしいですね",
-      "2.味がうすいですね",
-      "3.しょっぱいですね",
-      "4.辛いですね",
-      "5.にがいですね",
-      "6.甘いですね",
-      "7.すっぱいですね",
-      "8.味がこいですね",
-      "9.まずいですね",
+      "ミゲル：もしもし、ミゲルです。",
+      "会社の人：あ、ミゲルさん。",
+      "ミゲル：今、バスの中です。道が混んでいて、ぜんぜん動きません。",
+      "会社の人：そうですか。",
+      "ミゲル：すみませんが、今日は遅くなりそうです. みなさんに伝えてください。",
+      "会社の人：わかりました。"
     ],
     image: [
-      "images/listen/12-01.png",
+      "",
     ],
     translation: [
-      "1. Ngon quá nhỉ",
-      "2. Vị hơi nhạt nhỉ",
-      "3. Mặn quá nhỉ",
-      "4. Cay quá nhỉ",
-      "5. Đắng nhỉ",
-      "6. Ngọt nhỉ",
-      "7. Chua nhỉ",
-      "8. Vị đậm nhỉ",
-      "9. Dở quá nhỉ"
+      "Miguel: A lô, tôi là Miguel đây ạ.",
+      "Người ở công ty: À, anh Miguel.",
+      "Miguel: Bây giờ tôi đang ở trên xe buýt. Vì đường đông nên xe hoàn toàn không nhúc nhích được.",
+      "Người ở công ty: Vậy à.",
+      "Miguel: Xin lỗi nhưng có vẻ hôm nay tôi sẽ đến muộn. Nhờ anh/chị nhắn lại với mọi người giúp tôi.",
+      "Người ở công ty: Được rồi, tôi hiểu rồi."
     ]
   },
   {
-    title: "Audio 3 : kiku1",
-    audio: "audio/Y_[12-03]_kiku1.mp3",
+    title: "Audio 3 : kiku3",
+    audio: "audio/Y_[14-03]_kiku3.mp3",
     script: [
-      "A：そのお弁当、おいしそうですね。",
-      "B：あ、これですか？　おいしいですよ。駅前のコンビニで買いました。",
-      "A：へー。じゃ、今度、買ってみます。"
+      "フエン：えっと、フエンです。",
+      "あのう、昨日からせきがひどくて、これから病院に行きます。",
+      "それで、少し遅刻します。",
+      "会社の人：わかりました。",
+      "フエン：またあとで、連絡します。"
     ],
     image: [
-      "images/listen/12-03.png",
+      "",
     ],
     translation: [
-      "A: Hộp cơm đó trông ngon quá.",
-      "B: À, cái này hả? Ngon lắm đó. Tôi mua ở cửa hàng tiện lợi trước ga.",
-      "A: Vậy à. Lần tới tôi sẽ thử mua."
+      "Fuen: À, tôi là Fuen đây ạ.",
+      "Dạ, từ hôm qua tôi bị ho nặng, nên bây giờ tôi sẽ đi bệnh viện.",
+      "Vì vậy, tôi sẽ đi làm muộn một chút ạ.",
+      "Người ở công ty: Tôi rõ rồi.",
+      "Fuen: Tôi sẽ liên lạc lại sau ạ."
     ]
   },
   {
-    title: "Audio 4 : kiku2",
-    audio: "audio/Y_[12-04]_kiku2.mp3",
+    title: "Audio 4 : kiku4",
+    audio: "audio/Y_[14-04]_kiku4.mp3",
     script: [
-      "A：わー、それ、辛そうな料理ですね。",
-      "B：これですか？　私の国のカレーです。あまり辛くないですよ。",
-      "A：そうなんですか。"
+      "王【オウ】：おはようございます。王【オウ】です。",
+      "田村【たむら】：田村【たむら】です。王さん、どうしましたか？",
+      "王：熱【ねつ】があります. それで、今日は1日、休みたいんですが……。",
+      "田村：そうですか。わかりました。ゆっくり休んでください。",
+      "(次の日)",
+      "王：昨日は、休んですみませんでした。"
     ],
     image: [
-      "images/listen/12-03.png",
+      "",
     ],
     translation: [
-      "A: Ôi, món đó trông cay nhỉ.",
-      "B: Cái này hả? Đây là cà ri của nước tôi. Không cay lắm đâu.",
-      "A: Vậy à."
+      "Vương: Chào buổi sáng. Tôi là Vương đây ạ.",
+      "Tamura: Tôi là Tamura đây. Anh Vương, có chuyện gì vậy?",
+      "Vương: Tôi bị sốt. Vì vậy, hôm nay tôi muốn xin nghỉ một ngày ạ...",
+      "Tamura: Vậy à. Tôi rõ rồi. Anh hãy nghỉ ngơi cho khỏe nhé.",
+      "(Ngày hôm sau)",
+      "Vương: Hôm qua tôi xin lỗi vì đã nghỉ."
     ]
   },
   {
-    title: "Audio 5 : kiku3",
-    audio: "audio/Y_[12-05]_kiku3.mp3",
+    title: "Audio 5 : katachi",
+    audio: "audio/Y_[14-05]_katachi.mp3",
     script: [
-      "A：それ、何ですか？",
-      "B：これ？　これは、チョコレートバニラクリームラテ。",
-      "A：へー、甘そうですね。"
-    ],
-    image: [
-      "images/listen/12-03.png",
+      "家に財布【さいふ】を忘れました。これから取りに帰ります。＿＿＿＿、少し遅れます。",
+      "道が混んでい＿＿＿＿、ぜんぜん動きません。",
+      "昨日からせきがひど＿＿＿＿、これから病院【びょういん】に行きます。＿＿＿＿、少し遅刻【ちこく】します。",
+      "おはようございます。＿＿＿＿、申し訳ありません。",
+      "昨日は＿＿＿＿、すみませんでした。",
     ],
     translation: [
-      "A: Cái đó là gì vậy?",
-      "B: Cái này hả? Đây là latte kem vani sô-cô-la.",
-      "A: Ồ, trông có vẻ ngọt nhỉ."
-    ]
+      "1. Tôi quên ví ở nhà. Giờ phải về lấy. Vì vậy, sẽ hơi trễ. (Đáp án: それで)",
+      "2. Đường đang kẹt nên hoàn toàn không di chuyển được. (Đáp án: て)",
+      "3. Từ hôm qua tôi bị ho nặng, nên giờ phải đi bệnh viện. Vì vậy, sẽ hơi trễ. (Đáp án: くて / それで)",
+      "4. Xin chào buổi sáng. Xin lỗi vì đã đến trễ. (Đáp án: 遅くなって)",
+      "5. Hôm qua tôi đã nghỉ làm, xin lỗi. (Đáp án: 休んで)",
+    ],
+  },
+  {
+    title: "Audio 6 : hanasu1",
+    audio: "audio/Y_[14-06]_hanasu1.mp3",
+    script: [
+      "もしもし、フエンです。",
+      "あ、フエンさん。",
+      "せきがひどくて、病院に行きます。",
+      "それで、少し遅れます。／遅くなります。／遅刻します。",
+      "そうですか。",
+      "みなさんに伝えてください。",
+      "わかりました。",
+      "　",
+      "…あとで……………………………………",
+      "遅れて、すみません。",
+    ],
+    translation: [
+      "A: Alo, tôi là Phuên.",
+      "B: À, Phuên-san.",
+      "A: Tôi bị ho nặng nên phải đi bệnh viện.",
+      "A: Vì vậy, tôi sẽ đến muộn / đến trễ / bị trễ giờ.",
+      "B: Vậy à.",
+      "B: Hãy truyền đạt lại cho mọi người nhé.",
+      "A: Tôi hiểu rồi.",
+      "　",
+      "…Sau đó……………………………………",
+      "A: Xin lỗi vì đã đến muộn.",
+    ],
+  },
+  {
+    title: "Audio 7 : hanasu2",
+    audio: "audio/Y_[14-07]_hanasu2.mp3",
+    script: [
+      "もしもし、フエンです。",
+      "あ、フエンさん。",
+      "熱があります。",
+      "それで、今日は１日休みたいんですが...。",
+      "そうですか。",
+      "みなさんに伝えてください。",
+      "わかりました。",
+      "　",
+      "…あとで……………………………………",
+      "昨日は、休んですみませんでした。",
+    ],
+    translation: [
+      "A: Alo, tôi là Phuên.",
+      "B: À, Phuên-san.",
+      "A: Tôi bị sốt.",
+      "A: Vì vậy, hôm nay tôi muốn nghỉ cả ngày...",
+      "B: Vậy à.",
+      "B: Hãy truyền đạt lại cho mọi người nhé.",
+      "A: Tôi hiểu rồi.",
+      "　",
+      "…Sau đó……………………………………",
+      "A: Xin lỗi vì hôm qua đã nghỉ.",
+    ],
 
   },
   {
-    title: "Audio 6 : kiku4",
-    audio: "audio/Y_[12-06]_kiku4.mp3",
+    title: "Audio 8 : kiku1",
+    audio: "audio/Y_[14-08]_kiku1.mp3",
     script: [
-      "A：みかん、１つどう？　うちの庭【にわ】でとれたのよ。",
-      "B：じゃあ、いただきます。でも、まだ、ちょっとすっぱそうですね。",
-      "A：そんなことないわよ。甘いわよ。",
-      "B：あ、本当だ。甘い。"
-    ],
-    image: [
-      "images/listen/12-03.png",
+      "あのう、ちょっとトイレに行って来てもいいですか？",
+      "どうぞ。",
     ],
     translation: [
-      "A: Ăn một quả quýt nhé? Hái từ vườn nhà tôi đó.",
-      "B: Vậy tôi xin nhé. Nhưng trông có vẻ hơi chua.",
-      "A: Không đâu. Ngọt lắm.",
-      "B: À, đúng rồi. Ngọt thật."
-    ]
+      "A: Xin lỗi, tôi đi vệ sinh một chút được không?",
+      "B: Vâng, mời bạn.",
+    ],
   },
   {
-    title: "Audio 7 : katachi",
-    audio: "audio/Y_[12-07]_katachi.mp3",
+    title: "Audio 9 : kiku2",
+    audio: "audio/Y_[14-09]_kiku2.mp3",
     script: [
-      "1. そのお弁当、おいし＿＿＿＿ですね。",
-      "2. あ、これですか？＿＿＿＿ですよ。",
-      "3. それ、辛＿＿＿＿料理ですね。",
-      "4. 私の国のカレーです。あまり＿＿＿＿ですよ。",
-      "5. へー、甘＿＿＿＿ですね。",
-      "6. まだ、ちょっとすっぱ＿＿＿＿ですね。"
+      "あのう、ちょっと飲み物を買って来てもいいですか？",
+      "え、今？　あとにして。",
     ],
     translation: [
-      "1. Hộp cơm đó trông ngon＿＿＿＿. → おいしそう",
-      "2. À, cái này hả? Ngon＿＿＿＿. → おいしいですよ",
-      "3. Món đó trông cay＿＿＿＿. → 辛そう",
-      "4. Đây là cà ri nước tôi. Không cay＿＿＿＿. → 辛くないですよ",
-      "5. Ồ, trông ngọt＿＿＿＿. → 甘そう",
-      "6. Vẫn hơi chua＿＿＿＿. → すっぱそう"
-    ]
+      "A: Xin lỗi, tôi đi mua chút đồ uống được không?",
+      "B: Hả, bây giờ à? Để sau đi.",
+    ],
+
   },
   {
-    title: "Audio 8 : hanasu1",
-    audio: "audio/Y_[11-08]_hanasu1.mp3",
+    title: "Audio 10 : kiku3",
+    audio: "audio/Y_[14-10]_kiku3.mp3",
     script: [
-      "らいしゅうのバーベキュー、",
-      "だれが何を持って行きますか？",
-      "　",
-      "私は 肉と野菜 を買って行きます。",
-      "私は、何を持って行きましょうか？",
-      "　",
-      "じゃあ、飲み物 をお願いします。",
+      "じゃあ、今から休憩【きゅうけい】。",
+      "ちょっと外でたばこを吸って来てもいいですか？",
+      "ああ、いいよ。",
+    ],
+    translation: [
+      "A: Vậy thì, nghỉ giải lao từ bây giờ.",
+      "B: Tôi ra ngoài hút thuốc một chút được không?",
+      "A: Ừ, được.",
+    ],
+
+  },
+  {
+    title: "Audio 11 : kiku4",
+    audio: "audio/Y_[14-11]_kiku4.mp3",
+    script: [
+      "あのう、すみません。今、お祈【いの】りに行ってもいいですか？15分で戻【もど】ります。",
       "わかりました。",
     ],
     translation: [
-      "1. Buổi BBQ tuần sau,",
-      "2. ai sẽ mang gì đi?",
-      "　",
-      "4. Tôi sẽ làm cơm nắm mang đi.",
-      "5. Tôi nên mang gì đây?",
-      "　",
-      "7. Vậy thì đồ uống thì sao?",
-      "8. Tôi hiểu rồi."
-    ]
+      "A: Xin lỗi, bây giờ tôi đi cầu nguyện được không? Tôi sẽ quay lại sau 15 phút.",
+      "B: Tôi hiểu rồi.",
+    ],
   },
   {
-    title: "Audio 9 : hanasu2",
-    audio: "audio/Y_[11-09]_hanasu2.mp3",
+    title: "Audio 12 : katachi",
+    audio: "audio/Y_[14-12]_katachi.mp3",
     script: [
-      "らいしゅうのバーベキュー、",
-      "だれが何を持って行きますか？",
-      "　",
-      "私は おにぎり を作って行きます。",
-      "私は、何を持って行きましょうか？",
-      "　",
-      "じゃあ、飲み物 はどうですか？",
-      "わかりました。",
+      "トイレに行って来＿＿＿＿＿＿＿＿＿＿＿＿？",
+      "飲み物を買って来＿＿＿＿＿＿＿＿＿＿＿＿？",
+      "外でたばこを吸って来＿＿＿＿＿＿＿＿＿＿＿＿？",
+      "今、お祈【いの】りに行っ＿＿＿＿＿＿＿＿＿＿＿＿？",
     ],
     translation: [
-      "1. Buổi BBQ tuần sau,",
-      "2. ai sẽ mang gì đi?",
-      "　",
-      "4. Tôi sẽ làm cơm nắm mang đi.",
-      "5. Tôi nên mang gì đây?",
-      "　",
-      "7. Vậy thì đồ uống thì sao?",
-      "8. Tôi hiểu rồi."
-    ]
-  },
-  {
-    title: "Audio 10 : kaiwa",
-    audio: "audio/Y_[11-10]_kaiwa.mp3",
-    script: [
-      "中村：じゃあ、何を買って行きましょうか？",
-      "張：そうですねえ……。",
-      "中村：何が食べたいですか？",
-      "張：何でもいいです。",
-      "マリアナ：私は肉がいいです！",
-      "中村：じゃあ、からあげを買って行きましょう。",
-      "-------------------------------------------",
-      "マリアナ：うーん。焼き鳥もいいですねえ。",
-      "中村：焼き鳥も買いますか？塩とたれ、どっちがいいですか？",
-      "張：塩のほうがいいです。",
-      "中村：じゃあ、塩にしましょう。",
-      "-------------------------------------------",
-      "中村：飲み物は何がいいですか？",
-      "マリアナ：お茶がいいです。",
-      "中村：お茶、いろいろありますね。どれがいいですか？",
-      "マリアナ：ウーロン茶にしましょう。",
-      "張：お酒もいいですか？",
-      "中村：いいですよ。",
-      "張：じゃあ、ビール。",
-      "-------------------------------------------",
-      "中村：デザートはどうしますか？",
-      "マリアナ：あそこでケーキ、売ってますよ。買って行きましょう。",
-      "中村：チョコレートケーキとチーズケーキ、どっちがいいですか？",
-      "張：私はどっちでもいいです。",
-      "マリアナ：じゃあ、両方買いましょう！"
+      "1. Đi vệ sinh rồi quay lại được không? →　来てもいいですか",
+      "2. Đi mua đồ uống rồi quay lại được không? →　来てもいいですか",
+      "3. Ra ngoài hút thuốc rồi quay lại được không? →　来てもいいですか",
+      "4. Bây giờ đi cầu nguyện rồi quay lại được không? →　行ってもいいですか",
     ],
-    image: [
-      "images/listen/11-10.png",
-      "images/listen/11-10-1.png",
-    ],
-    translation: [
-      "1. Vậy thì chúng ta mua gì mang đi nhỉ?",
-      "2. Ừm, để xem…",
-      "3. Bạn muốn ăn gì?",
-      "4. Gì cũng được.",
-      "5. Tôi thì muốn ăn thịt!",
-      "6. Vậy thì mình mua gà rán mang đi nhé.",
-      "-------------------------------------------",
-      "1. Ừm, yakitori cũng ngon nhỉ.",
-      "2. Có mua yakitori không? Muối hay sốt, bạn thích loại nào?",
-      "3. Tôi thích muối hơn.",
-      "4. Vậy thì chọn muối nhé.",
-      "-------------------------------------------",
-      "1. Đồ uống thì bạn muốn gì?",
-      "2. Tôi muốn uống trà.",
-      "3. Có nhiều loại trà nhỉ. Bạn chọn loại nào?",
-      "4. Chọn trà ô long nhé.",
-      "5. Uống rượu cũng được không?",
-      "6. Được chứ.",
-      "7. Vậy thì bia.",
-      "-------------------------------------------",
-      "1. Tráng miệng thì sao nhỉ?",
-      "2. Ở kia có bán bánh đó. Mình mua mang đi nhé.",
-      "3. Bánh chocolate và bánh phô mai, bạn thích loại nào?",
-      "4. Tôi cái nào cũng được.",
-      "5. Vậy thì mua cả hai nhé!"
-    ]
-  },
-  {
-    title: "Audio 11 : katachi",
-    audio: "audio/Y_[11-11]_katachi.mp3",
-    script: [
-      "A：焼き鳥も買いますか？　塩＿＿＿たれ、＿＿＿＿＿＿＿がいいですか？",
-      "B：塩＿＿＿＿＿＿＿いいです。",
-      "　",
-      "A：チョコレートケーキ＿＿＿＿＿＿＿チーズケーキ、＿＿＿＿＿＿＿がいいですか？",
-      "B：私は＿＿＿＿＿＿＿いいです。",
-      "　",
-      "A：何が食べたいですか？",
-      "B：＿＿＿＿＿＿＿いいです。",
-      "　",
-      "A：お茶、いろいろありますね。＿＿＿＿＿＿＿がいいですか？",
-      "B：ウーロン茶にしましょう。"
-    ],
-
-    translation: [
-      "1. Việc học tiếng Nhật thế nào? Có khó không?",
-      "2. Không sao đâu. Không khó lắm.",
-      "3. Vậy à.",
-      "4. Tiếng Nhật thì ngữ pháp đơn giản. Vì nó giống với tiếng Mông Cổ.",
-      "5. Ồ.",
-      "6. Nhưng mà, việc nói thì vất vả lắm.",
-      "7. Vậy hả?"
-    ]
-  },
-  {
-    title: "Audio 12 : hanasu1-1",
-    audio: "audio/Y_[11-12]_hanasu1-1.mp3",
-    script: [
-      "何が食べたいですか？",
-      "私は肉がいいです。",
-    ],
-    translation: [
-      "Bạn muốn ăn gì?",
-      "Tôi thích ăn thịt."
-    ]
-  },
-  {
-    title: "Audio 13 : hanasu1-2",
-    audio: "audio/Y_[11-13]_hanasu1-2.mp3",
-    script: [
-      "飲み物は何がいいですか？",
-      "何でもいいです。",
-    ],
-
-    translation: [
-      "Bạn muốn uống gì?",
-      "Cái gì cũng được."
-    ]
-  },
-  {
-    title: "Audio 14 : hanasu2",
-    audio: "audio/Y_[11-14]_hanasu2.mp3",
-    script: [
-      "チョコレートケーキ と チーズケーキ、どっちがいいですか？",
-      "チョコレートケーキ のほうがいいです。"
-    ],
-
-    translation: [
-      "Bạn thích bánh sô-cô-la hay bánh phô mai hơn?",
-      "Tôi thích bánh sô-cô-la hơn.",
-    ]
-  },
-  {
-    title: "Audio 15 : kotoba1",
-    audio: "audio/Y_[11-15]_kotoba1.mp3",
-    script: [
-      "エビ",
-      "カニ",
-      "卵【たまご】",
-      "ピーナッツ／落花生【らっかせい】",
-      "そば／そば粉【そばこ】",
-      "小麦／小麦粉【こむぎ／こむぎこ】",
-      "乳製品【にゅうせいひん】（牛乳・バター・チーズ・ヨーグルト）"
-    ],
-
-    translation: [
-      "1. Tôm",
-      "2. Cua",
-      "3. Trứng",
-      "4. Đậu phộng",
-      "5. Kiều mạch / bột kiều mạch",
-      "6. Lúa mì / bột mì",
-      "7. Sản phẩm từ sữa (sữa, bơ, phô mai, sữa chua)"
-    ]
-  },
-  {
-    title: "Audio 16 : kotoba2",
-    audio: "audio/Y_[11-16]_kotoba2.mp3",
-    script: [
-      "1. 卵【たまご】のアレルギーです",
-      "2. 乳製品【にゅうせいひん】のアレルギーです",
-      "3. エビのアレルギーです",
-      "4. 小麦【こむぎ】のアレルギーです",
-      "5. ピーナッツのアレルギーです",
-      "6. カニのアレルギーです",
-      "7. 牛乳のアレルギーです",
-      "8. そばのアレルギーです",
-    ],
-    translation: [
-      "1. Tôi bị dị ứng trứng.",
-      "2. Tôi bị dị ứng sản phẩm từ sữa.",
-      "3. Tôi bị dị ứng tôm.",
-      "4. Tôi bị dị ứng lúa mì.",
-      "5. Tôi bị dị ứng đậu phộng.",
-      "6. Tôi bị dị ứng cua.",
-      "7. Tôi bị dị ứng sữa.",
-      "8. Tôi bị dị ứng kiều mạch (mì soba)."
-    ]
-  },
-  {
-    title: "Audio 17 : kiku1",
-    audio: "audio/Y_[11-17]_kiku1.mp3",
-    script: [
-      "A：さあ、どうぞ。",
-      "B：あのう、この料理、卵を使ってますか？",
-      "A：卵？これは使ってませんよ。",
-      "B：あ、じゃあ、だいじょうぶです。いただきます！"
-    ],
-    translation: [
-      "A: Nào, mời bạn.",
-      "B: À, món ăn này có dùng trứng không?",
-      "A: Trứng à? Món này không dùng trứng đâu.",
-      "B: Vậy thì không sao. Tôi xin phép ăn nhé!"
-    ]
 
   },
   {
-    title: "Audio 18 : kiku2",
-    audio: "audio/Y_[11-18]_kiku2.mp3",
+    title: "Audio 13 : hanasu",
+    audio: "audio/Y_[14-13]_hanasu.mp3",
     script: [
-      "A：よかったら、ピザ、どう？",
-      "B：このピザ、エビが入ってますか？",
-      "A：エビ、入ってるよ。",
-      "B：じゃあ、私はだめです。エビのアレルギーですから。",
-      "A：そうなんだ……。"
+      "あのう、すみません。",
+      "はい。",
+      "飲み物を買って来てもいいですか？",
+      "どうぞ",
     ],
     translation: [
-      "A: Nếu được thì ăn pizza nhé?",
-      "B: Pizza này có tôm không?",
-      "A: Có tôm đó.",
-      "B: Vậy thì tôi không ăn được. Vì tôi bị dị ứng tôm.",
-      "A: Ra vậy…"
-    ]
+      "A: Xin lỗi.",
+      "B: Vâng?",
+      "A: Tôi đi mua chút đồ uống rồi quay lại được không?",
+      "B: Vâng, mời bạn.",
+    ],
   },
   {
-    title: "Audio 19 : kiku3",
-    audio: "audio/Y_[11-19]_kiku3.mp3",
+    title: "Audio 14 : kaiwa1",
+    audio: "audio/Y_[14-14]_kaiwa1.mp3",
     script: [
-      "A：すみません。このお刺身【さしみ】、明日までもちますか？",
-      "B：あ、お刺身【さしみ】は、今日中【きょうじゅう】に食べてください。",
-      "A：そうですか。明日はだめですか？",
-      "B：ちょっと無理【むり】ですね。"
+      "バンク：社長、ちょっと、いいでしょうか？",
+      "社長：はい、バンクさん、何ですか？",
+      "バンク：あのう、明日の午後、早退【そうたい】してもいいでしょうか？",
+      "　　　ちょっと、役所【やくしょ】に行かなければならないんです。",
+      "社長：わかりました。だいじょうぶですよ。",
+      "バンク：ありがとうございます。",
+      "------------------------------",
+      "（早退した次の日）",
+      "------------------------------",
+      "バンク：昨日は、早く帰ってすみませんでした。",
+      "社長：用事【ようじ】は済【す】みましたか？",
+      "バンク：はい。",
     ],
     translation: [
-      "A: Xin lỗi. Món sashimi này để đến ngày mai được không?",
-      "B: À, sashimi thì hãy ăn trong hôm nay nhé.",
-      "A: Vậy à. Ngày mai không được sao?",
-      "B: Hơi khó đấy."
-    ]
+      "Bank: Thưa giám đốc, tôi có thể làm phiền một chút không?",
+      "Giám đốc: Vâng, Bank-san, có chuyện gì vậy?",
+      "Bank: Ngày mai buổi chiều tôi có thể xin về sớm được không?",
+      "　　　Tôi phải đi đến cơ quan hành chính.",
+      "Giám đốc: Tôi hiểu rồi. Không sao đâu.",
+      "Bank: Cảm ơn ngài.",
+      "------------------------------",
+      "(Ngày hôm sau khi đã về sớm)",
+      "------------------------------",
+      "Bank: Xin lỗi vì hôm qua tôi đã về sớm.",
+      "Giám đốc: Công việc đã giải quyết xong chưa?",
+      "Bank: Vâng.",
+    ],
+  },
+  {
+    title: "Audio 15 : kaiwa2",
+    audio: "audio/Y_[14-15]_kaiwa2.mp3",
+    script: [
+      "モニカ：主任【しゅにん】、あのう、すみません。",
+      "主任：ああ、モニカさん、どうしましたか？",
+      "モニカ：ええと、来月２０日の月曜日、休みを取ってもいいでしょうか？",
+      "　　　東京から、国の友だちが来るんです。",
+      "　　　できたら、町を案内したくて……。",
+      "主任：そうですか。ちょっと待ってくださいね。",
+      "　　　……あ、別【べつ】にかまいませんよ。",
+      "モニカ：ありがとうございます。",
+      "------------------------------",
+      "（休んだ次の日）",
+      "------------------------------",
+      "モニカ：昨日は、お休み、ありがとうございました。",
+      "主任：ああ。楽しかったですか？",
+      "モニカ：はい。",
+    ],
+    translation: [
+      "Monika: Thưa trưởng nhóm, xin lỗi.",
+      "Trưởng nhóm: À, Monika-san, có chuyện gì vậy?",
+      "Monika: À, thứ Hai ngày 20 tháng sau, tôi có thể xin nghỉ được không?",
+      "　　　Bạn từ quê nhà sẽ đến Tokyo.",
+      "　　　Nếu có thể, tôi muốn dẫn bạn đi tham quan thành phố…",
+      "Trưởng nhóm: Vậy à. Xin chờ một chút nhé.",
+      "　　　…À, không vấn đề gì đâu.",
+      "Monika: Cảm ơn anh.",
+      "------------------------------",
+      "(Ngày hôm sau khi đã nghỉ)",
+      "------------------------------",
+      "Monika: Cảm ơn vì cho tôi nghỉ hôm qua.",
+      "Trưởng nhóm: À. Có vui không?",
+      "Monika: Vâng.",
+    ],
+  },
+  {
+    title: "Audio 16 : katachi",
+    audio: "audio/Y_[14-16]_katachi.mp3",
+    script: [
+      "明日の午後、早退しても＿＿＿＿＿？",
+      "来月２０日の月曜日、休みを取っても＿＿＿＿＿？",
+      "ちょっと、役所に行か＿＿＿＿＿。",
+      "東京から、国の友だちが来る＿＿＿＿＿。",
+    ],
+    translation: [
+      "1. Ngày mai buổi chiều, tôi xin về sớm có được không?　→いいでしょうか",
+      "2. Thứ Hai ngày 20 tháng sau, tôi xin nghỉ có được không?　→いいでしょうか",
+      "3. Tôi phải đi đến cơ quan hành chính.　→行かなければならないんです",
+      "4. Bạn bè từ quê tôi sẽ đến Tokyo.　→来るんです",
+    ],
+  },
+  {
+    title: "Audio 17 : hanasu1",
+    audio: "audio/Y_[14-17]_hanasu1.mp3",
+    script: [
+      "ちょっと、いいでしょうか？",
+      "はい、どうしましたか？",
+      "明日の午後、早退【そたい】してもいいでしょうか？",
+      "役所【やくしょ】に行かなければならないんです。",
+      "わかりました。だいじょうぶですよ。",
+      "ありがとうございます。",
+      "..........あとで",
+      "昨日は、早く帰ってすみませんでした。"
+    ],
+    translation: [
+      "A: Xin lỗi, tôi có thể làm phiền một chút không?",
+      "B: Vâng, có chuyện gì vậy?",
+      "A: Chiều mai tôi có thể xin về sớm được không?",
+      "A: Tôi phải đi đến cơ quan hành chính.",
+      "B: Tôi hiểu rồi. Không sao đâu.",
+      "A: Cảm ơn ạ.",
+      "..........Sau đó",
+      "A: Xin lỗi vì hôm qua tôi đã về sớm.",
+    ],
+  },
+  {
+    title: "Audio 18 : hanasu2",
+    audio: "audio/Y_[14-18]_hanasu2.mp3",
+    script: [
+      "あのう、すみません。",
+      "はい、どうしましたか？",
+      "月曜日、休みを取ってもいいでしょうか？",
+      "友だちが来るんです。",
+      "別にかまいませんよ。",
+      "ありがとうございます。",
+      "..........あとで",
+      "お休み、ありがとうございます。",
+    ],
+    translation: [
+      "A: Xin lỗi.",
+      "B: Vâng, có chuyện gì vậy?",
+      "A: Thứ Hai tôi có thể xin nghỉ được không?",
+      "A: Bạn tôi sẽ đến.",
+      "B: Không vấn đề gì đâu.",
+      "A: Cảm ơn ạ.",
+      "..........Sau đó",
+      "A: Cảm ơn vì đã cho tôi nghỉ hôm qua.",
+    ],
+  },
+  {
+    title: "Audio 19 : kiku",
+    audio: "audio/Y_[14-19]_kiku.mp3",
+    script: [
+      "Ａ：お休みを取るときには、休暇届【きゅうかとどけ】を出してください。このフォームです。",
+      "Ｂ：えっと、どこに何を書きますか？",
+      "Ａ：いちばん上の「所属【しょぞく】」のところには、自分【じぶん】の所属【しょぞく】チームの名前を書いてください。",
+      "Ｂ：じゃあ、私は「総務【そうむ】」ですね。",
+      "Ａ：はい。それから、その下の「氏名」のところに名前を書きます。",
+      "Ｂ：はい。",
+      "Ａ：それから、名前の横【よこ】にハンコを押してください。あ、ハンコ、持ってますか？",
+      "Ｂ：はい、作りました。",
+      "Ａ：そうですか。で、「期間【きかん】」のところは、いつからいつまで何日間休みたいかを書きます。",
+      "Ｂ：はい。",
+      "Ａ：その下の「理由【りゆう】」ですが、普通【ふつう】の休みのときは、「私用【しよう】」と書いてください。",
+      "Ｂ：しよう？",
+      "Ａ：「私」という漢字に、「用事【ようじ】」の「用【よう】」です。",
+      "Ｂ：はい。",
+      "Ａ：それから、ここに休み中【ちゅう】の連絡先を書いてください。",
+      "Ｂ：えーと、いちばん下は何ですか？",
+      "Ａ：「備考【びこう】」のところは、普通【ふつう】の休みのときは、何【なに】もいりません。",
+      "Ｂ：わかりました。いつまでに出しますか？",
+      "Ａ：休みの前【まえ】の日【ひ】までに出【だ】してください。",
+      "----------------------------------------------------------",
+      "所属【しょぞく】：Bộ phận",
+      "休暇届【きゅうかとどけ】：Đơn xin nghỉ phép",
+      "ハンコ：Con dấu",
+      "フォーム：Form mẫu",
+      "総務【そうむ】：Tổng vụ (phòng hành chánh nhân sự)",
+      "理由【りゆう】：Lý do",
+      "普通【ふつう】：Thông thường",
+      "私用【しよう】：Việc cá nhân",
+      "期間【きかん】：Khoảng thời gian",
+      "出【だ】す：Nộp",
+      "備考【びこう】：Chú thích",
+      "いる： Cần → いらない：Không cần"
+    ],
 
-  },
-  {
-    title: "Audio 20 : kiku4",
-    audio: "audio/Y_[11-20]_kiku4.mp3",
-    script: [
-      "A：すみません。このラーメン、ハラルですか？",
-      "B：そうですよ。",
-      "A：あ、よかった。",
-      "B：このコーナーの商品は、すべてハラルですよ。",
-      "A：へー、そうなんですか。"
-    ],
     translation: [
-      "A: Xin lỗi. Món ramen này có phải halal không?",
-      "B: Đúng vậy.",
-      "A: À, tốt quá.",
-      "B: Các sản phẩm ở khu này đều là halal.",
-      "A: Ồ, ra vậy."
-    ]
+      "A: Khi xin nghỉ, hãy nộp đơn xin nghỉ phép. Đây là mẫu đơn.",
+      "B: Ờ… Vậy tôi phải viết gì ở đâu?",
+      "A: Ở phần trên cùng “所属” thì viết tên nhóm/phòng ban của mình.",
+      "B: Vậy thì tôi sẽ viết “Tổng vụ”.",
+      "A: Đúng rồi. Sau đó, ở phần “氏名” thì viết tên.",
+      "B: Vâng.",
+      "A: Rồi bên cạnh tên thì đóng dấu. À, bạn có con dấu không?",
+      "B: Vâng, tôi đã làm rồi.",
+      "A: Vậy à. Còn ở phần “期間” thì ghi từ ngày nào đến ngày nào, muốn nghỉ bao nhiêu ngày.",
+      "B: Vâng.",
+      "A: Ở phần dưới 'Lý do', khi nghỉ bình thường thì hãy viết '私用' (việc riêng).",
+      "B: 'Shou' ạ?",
+      "A: Là chữ '私' (tôi) và chữ '用' trong '用事' (công việc).",
+      "B: Vâng.",
+      "A: Sau đó, ở đây hãy viết thông tin liên lạc trong thời gian nghỉ.",
+      "B: Ờ… phần dưới cùng là gì vậy?",
+      "A: Ở mục '備考' (ghi chú), khi nghỉ bình thường thì không cần viết gì cả.",
+      "B: Tôi hiểu rồi. Vậy phải nộp trước khi nào?",
+      "A: Hãy nộp trước ngày nghỉ một ngày.",
+    ],
+  },
 
-  },
-  {
-    title: "Audio 21 : katachi",
-    audio: "audio/Y_[11-21]_katachi.mp3",
-    script: [
-      "この料理、卵を＿＿＿＿ますか？",
-      "このピザ、エビが＿＿＿＿ますか？",
-      "このラーメン、ハラル＿＿＿＿か？",
-      "このお刺身、明日まで＿＿＿＿か？"
-    ],
-    translation: [
-      "1. Món ăn này có dùng trứng không? → 卵を使ってますか",
-      "2. Pizza này có tôm không? → エビが入ってますか",
-      "3. Món ramen này có phải halal không? → ハラルですか",
-      "4. Sashimi này để được đến ngày mai không? → 明日までもちますか"
-    ]
-  },
-  {
-    title: "Audio 22 : hanasu1-1",
-    audio: "audio/Y_[11-22]_hanasu1-1.mp3",
-    script: [
-      "すみません、この料理【りょうり】、卵【たまご】を使ってますか？",
-      "使ってませんよ。",
-    ],
-    translation: [
-      "Xin lỗi, món này có dùng trứng không?",
-      "Không dùng đâu."
-    ]
-  },
-  {
-    title: "Audio 23 : hanasu1-2",
-    audio: "audio/Y_[11-23]_hanasu1-2.mp3",
-    script: [
-      "すみません、このピザ、エビが入ってますか？",
-      "入ってませんよ。",
-    ],
-    translation: [
-      "Xin lỗi, pizza này có tôm không?",
-      "Không có đâu."
-    ]
-  },
-  {
-    title: "Audio 24 : hanasu1-3",
-    audio: "audio/Y_[11-24]_hanasu1-3.mp3",
-    script: [
-      "- すみません、このラーメン、ハラルですか？",
-      "ハラルですよ。",
-    ],
-    translation: [
-      "Xin lỗi, món ramen này có phải halal không?",
-      "Đúng rồi, là halal hợp đạo hồi."
-    ]
-  },
-  {
-    title: "Audio 25 : hanasu2-1",
-    audio: "audio/Y_[11-25]_hanasu2-1.mp3",
-    script: [
-      "このお刺身【さしみ】、明日まで持ちますか？",
-      "はい、だいじょうぶです。",
-      "　",
-      "Gốc từ: 「持つ（もつ）」",
-      "Nghĩa gốc: cầm, giữ",
-      "Nhưng trong ngữ cảnh đồ ăn → nghĩa là “giữ được bao lâu / có để được không (không hỏng)”",
-    ],
-    translation: [
-      "Món sashimi này để đến ngày mai có được không?",
-      "Vâng, vẫn ổn."
-    ]
-  },
-  {
-    title: "Audio 26 : hanasu2-2",
-    audio: "audio/Y_[11-26]_hanasu2-2.mp3",
-    script: [
-      "このお菓子、どのぐらいもちますか？",
-      "明日までです。",
-    ],
-    translation: [
-      "Bánh này để được khoảng bao lâu?",
-      "Đến ngày mai."
-    ]
-  },
 ];

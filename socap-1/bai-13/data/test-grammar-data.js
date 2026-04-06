@@ -301,7 +301,7 @@ export const grammarList = [
             "いいえ",
         ],
         correct: "はい",
-        explanation: "Nếu đúng thì trả lời はい、Sai thì trả lời いいえ. <br> máy tính không chạy hả. <br> Vâng, Chưa có nguồn điện"
+        explanation: "Nếu đúng thì trả lời はい、Sai thì trả lời いいえ. <br> Máy tính không chạy hả. <br> Vâng, không có nguồn điện"
     },
     {
         id: 16,
@@ -309,7 +309,7 @@ export const grammarList = [
         leftContent: {
             image: "",
             text: [
-                "A：その仕事、まだまだ時間がかかりそうですか？",
+                "A：その仕事、まだ時間がかかりそうですか？",
                 "B：（はい／いいえ）、もうすぐ終わります。"
             ]
         },
