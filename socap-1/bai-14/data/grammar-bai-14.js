@@ -219,7 +219,7 @@ export const grammarBai3 = [
         "Khi muốn giải thích lý do, người ta thường thêm ～んです thành: ～なければならないんです (Xem lại mẫu số 1).",
         "Cấu trúc này nhấn mạnh vào nghĩa vụ hoặc tình huống bắt buộc phải thực hiện."
       ],
-      examples: [
+      examples: [ 
         {
           jp: "ちょっと、役所【やくしょ】に「行かなければならないんです。」",
           vi: "Tôi 「phải đi」 đến cơ quan hành chính một chút."

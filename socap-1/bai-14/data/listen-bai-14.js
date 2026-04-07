@@ -420,7 +420,6 @@ export const listeningData = [
       "備考【びこう】：Chú thích",
       "いる： Cần → いらない：Không cần"
     ],
-
     translation: [
       "A: Khi xin nghỉ, hãy nộp đơn xin nghỉ phép. Đây là mẫu đơn.",
       "B: Ờ… Vậy tôi phải viết gì ở đâu?",

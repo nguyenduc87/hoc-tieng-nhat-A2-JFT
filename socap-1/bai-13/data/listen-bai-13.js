@@ -19,7 +19,7 @@ export const listeningData = [
     audio: "audio/Y_[13-02]_kiku2.mp3",
     script: [
       "A：すみません、コーヒーマシーンから変な音がするんですが……。",
-      "B：本当？ じゃあ、業者に電話してくれる？"
+      "B：本当？ じゃあ、業者【ぎょうしゃ】に電話してくれる？"
     ],
     image: [
       "",
