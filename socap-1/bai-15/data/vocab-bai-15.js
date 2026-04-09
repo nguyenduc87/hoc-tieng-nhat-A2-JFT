@@ -499,7 +499,7 @@ export const vocabList = [
     jp: "抑える",
     hira: "おさえる",
     vi: "Trị / Kiềm chế",
-    example: "痛みを抑える薬です。",
+    example: "これは、痛みを抑える薬です。",
     exampleVi: "Đây là thuốc trị đau."
   },
   {
