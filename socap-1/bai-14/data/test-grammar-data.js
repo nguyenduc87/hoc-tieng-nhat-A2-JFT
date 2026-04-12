@@ -1,66 +1,66 @@
 export const grammarList = [
     {
         id: 1,
-        grammar: "① Nで（Cách thức / Phương tiện）",
+        grammar: "① Nで / ナA-で / イA-くて / V-て Nguyên nhân / Lý do",
         leftContent: {
-            image: "../images/grammar/01-01.png",
+            image: "",
             text: [
-                "どうやって日本語を勉強しましたか？",
-                "➡日本語学校＿＿＿勉強しました。",
+                "せきがひどいです。これから病院に行きます",
+                "➡せきが＿＿＿、これから病院に行きます。",
             ]
         },
         question:
-            "（＿＿）Chọn câu đúng",
+            "Nで / ナA-で / イA-くて / V-て Nguyên nhân / Lý do",
         options: [
-            "で",
-            "に",
-            "は",
-            "を",
+            "ひどくて",
+            "ひどい",
+            "ひどいくて",
+            "ひどいです",
         ],
-        correct: "で",
-        explanation: "Nで（Cách thức/phương tiện）.<br> Câu hỏi là học bằng cách nào. -> Học bằng cách là tại trường."
+        correct: "ひどくて",
+        explanation: "Nで / ナA-で / イA-くて / V-て Nguyên nhân / Lý do. -> Vì ho nhiều quá nên bây giờ tôi đi bệnh viện."
     },
     {
         id: 2,
-        grammar: "① Nで（Cách thức / Phương tiện）",
+        grammar: "① Nで / ナA-で / イA-くて / V-て Nguyên nhân / Lý do",
         leftContent: {
-            image: "../images/grammar/01-02.png",
+            image: "",
             text: [
-                "どうやってアニメを見ますか？",
-                "➡パソコン＿＿＿見ます。",
+                "道が複雑です。よくわかりません。",
+                "➡道が＿＿＿、よくわかりません。",
             ]
         },
         question:
-            "（＿＿）Chọn câu đúng",
+            "Nで / ナA-で / イA-くて / V-て Nguyên nhân / Lý do",
         options: [
-            "で",
-            "に",
-            "は",
-            "を",
+            "複雑で",
+            "複雑です",
+            "複雑",
+            "とても複雑",
         ],
-        correct: "で",
-        explanation: "Nで（Cách thức/phương tiện）.<br> Xem anime bằng máy tính → dùng パソコンで。"
+        correct: "複雑で",
+        explanation: "Nで / ナA-で / イA-くて / V-て Nguyên nhân / Lý do. -> Vì đường xá phức tạp nên tôi không rõ."
     },
     {
         id: 3,
-        grammar: "① Nで（Cách thức / Phương tiện）",
+        grammar: "① Nで / ナA-で / イA-くて / V-て Nguyên nhân / Lý do",
         leftContent: {
-            image: "../images/grammar/01-03.png",
+            image: "",
             text: [
-                "どうやってニュースを読みますか？",
-                "➡アプリ＿＿＿読みます。",
+                "財布を忘れました。これから家に取りに帰ります。",
+                "➡財布を＿＿＿、これから家に取りに帰ります。",
             ]
         },
         question:
-            "（＿＿）Chọn câu đúng",
+            "Nで / ナA-で / イA-くて / V-て Nguyên nhân / Lý do",
         options: [
-            "で",
-            "に",
-            "は",
-            "を",
+            "忘れます",
+            "忘れて",
+            "忘れ",
+            "忘れる",
         ],
-        correct: "で",
-        explanation: "Nで（Cách thức/phương tiện）.<br> Đọc bằng app → アプリで。"
+        correct: "忘れて",
+        explanation: "Nで / ナA-で / イA-くて / V-て Nguyên nhân / Lý do. -> Vì quên ví nên bây giờ trở về lấy."
     },
 
     {

@@ -273,13 +273,6 @@ export const vocabList = [
     exampleVi: "Xin hãy mở miệng."
   },
   {
-    jp: "インフルエンザ",
-    hira: "インフルエンザ",
-    vi: "Cúm",
-    example: "インフルエンザにかかりました。",
-    exampleVi: "Tôi bị cúm."
-  },
-  {
     jp: "検査する",
     hira: "けんさする",
     vi: "Kiểm tra",
