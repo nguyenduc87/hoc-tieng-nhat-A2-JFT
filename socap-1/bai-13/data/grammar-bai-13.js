@@ -6,7 +6,7 @@ export const grammarBai3 = [
     summaryList: [
       {
         label: "① ～んですが…",
-        example: "会議室の電気が「つかないんですが…。」",
+        example: "会議室【かいぎしつ】の電気が「つかないんですが…。」",
         vi: "Đèn phòng họp không sáng (tôi phải làm sao bây giờ)..."
       },
       {
@@ -16,17 +16,17 @@ export const grammarBai3 = [
       },
       {
         label: "③ V-たいとき、～",
-        example: "両面コピー「したいとき」は、どうすればいいですか？",
+        example: "両面【りょうめん】コピー「したいとき」は、どうすればいいですか？",
         vi: "Khi muốn photocopy hai mặt thì tôi nên làm thế nào?"
       },
       {
         label: "④ V-ると、～",
-        example: "このスタートボタンを「押すと」、コピーが始まります。",
+        example: "このスタートボタンを「押【お】すと」、コピーが始【はじ】まります。",
         vi: "Hễ ấn nút Start này thì máy sẽ bắt đầu copy."
       },
       {
         label: "⑤ はい、【câu phủ định】 / いいえ、【câu khẳng định】",
-        example: "A：コピー機、使ったことないですか？ \nB：はい、ないです。",
+        example: "A：コピー機【き】、使ったことないですか？ \nB：はい、ないです。",
         vi: "Vâng, [câu phủ định] / Không, [câu khẳng định] (Cách trả lời câu hỏi phủ định).\nA: Bạn chưa dùng máy photocopy bao giờ à? \nB: Vâng, tôi chưa dùng."
       }
     ]
@@ -57,7 +57,7 @@ export const grammarBai3 = [
     dialogue: [
       {
         speaker: "A",
-        jp: "会議室の電気がつかないんですが…。",
+        jp: "会議室【かいぎしつ】の電気がつかないんですが…。",
         vi: "Đèn phòng họp không bật được ạ."
       },
       {
@@ -88,7 +88,7 @@ export const grammarBai3 = [
           vi: "Có vẻ sẽ kết thúc sau khoảng 10 phút nữa."
         },
         {
-          jp: "明日、一日中雨が「降りそう」です。",
+          jp: "明日、一日中【いちにちじゅう】雨が「降【ふ】りそう」です。",
           vi: "Ngày mai, trời có vẻ mưa cả ngày."
         }
       ]
@@ -135,7 +135,7 @@ export const grammarBai3 = [
     dialogue: [
       {
         speaker: "A",
-        jp: "拡大コピーしたいときは、どうすればいいですか？",
+        jp: "拡大【かくだい】コピーしたいときは、どうすればいいですか？",
         vi: "Tôi muốn photocopy phóng to thì phải làm thế nào?"
       },
       {
@@ -167,7 +167,7 @@ export const grammarBai3 = [
           vi: "Đến vào mùa xuân thì nhiều loại hoa sẽ nở."
         },
         {
-          jp: "このスタートボタンを「押【お】すと」、コピーが始まります。",
+          jp: "このスタートボタンを「押【お】すと」、コピーが始【はじ】まります。",
           vi: "Ấn nút start thì sẽ bắt đầu photocopy."
         },
         {
@@ -188,7 +188,7 @@ export const grammarBai3 = [
       },
       {
         speaker: "B",
-        jp: "はい、そうです。簡単ですね。",
+        jp: "はい、そうです。簡単【かんたん】ですね。",
         vi: "Vâng, đúng vậy. Đơn giản nhỉ."
       }
     ]
@@ -204,12 +204,12 @@ export const grammarBai3 = [
     structure: "はい + phủ định文 ／ いいえ + khẳng định文",
     notes: {
       points: [
-        "Ví dụ: コピー機、使ったことないですか？ → はい、ないです。",
+        "Ví dụ: コピー機【き】、使ったことないですか？ → はい、ないです。",
         "Nếu thực tế là đã dùng, thì trả lời: いいえ、あります。"
       ],
       examples: [
         {
-          jp: "この機械【きかい】、前に使ったことないですか？",
+          jp: "この機械【きかい】、前【まえ】に使ったことないですか？",
           vi: "Cái máy này, trước đây bạn chưa từng dùng à?"
         },
         {
@@ -217,7 +217,7 @@ export const grammarBai3 = [
           vi: "Vâng, tôi chưa từng dùng."
         },
         {
-          jp: "いいえ、前に一度使ったことがあります。",
+          jp: "いいえ、前【まえ】に一度使ったことがあります。",
           vi: "Không. Tôi từng dùng một lần rồi."
         }
       ]

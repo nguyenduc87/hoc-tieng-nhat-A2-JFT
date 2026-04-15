@@ -2,69 +2,62 @@ export const grammarBai3 = [
   {
     id: "summary",
     tab: "Tóm tắt",
-    title: "Bài 15： Tôi bị sốt và đau họng",
+    title: "Bài 16： Tôi đang cố gắng không ăn quá nhiều",
     summaryList: [
       {
-        label: "① ～んです",
-        example: "昨日から38度【ど】の熱があって、のどがすごく「痛いんです」。",
-        vi: "Từ hôm qua tôi bị sốt 38 độ và cổ họng rất đau."
+        label: "① V-るといいです（よ）",
+        example: "よく眠【ねむ】れないときは、ぬるいお風呂にゆっくり「入【はい】るといいですよ」。",
+        vi: "Khi khó ngủ thì 「ngâm mình」 trong bồn nước ấm 「sẽ tốt」."
       },
       {
-        label: "② V-ないでください",
-        example: "今週は仕事を休んで、できるだけ人に「会わないでください」。",
-        vi: "Tuần này hãy nghỉ làm và cố gắng 「đừng gặp」 người khác."
+        label: "② V-すぎます",
+        example: "昨日、「飲みすぎました」。",
+        vi: "Hôm qua tôi đã 「uống quá nhiều」."
       },
       {
-        label: "③ V（thể thông thường）＋N①",
-        example: "こちらは、「せきを抑【おさ】える薬」です。",
-        vi: "Đây là 「thuốc để giảm ho」."
+        label: "③ V1-たり、V2-たり（します）",
+        example: "ジョギングし「たり」、ときどき家でヨガをし「たり」してます。",
+        vi: "Tôi vừa chạy bộ, vừa thỉnh thoảng tập yoga ở nhà."
       },
       {
-        label: "④ V-る前に、～ / V-たあと、～",
-        example: "１日１回、「寝る前」に飲んでください。<br> 飲むと、眠くなります。「飲んだあと」、運転しないでくださいね。",
-        vi: "Mỗi ngày uống một lần 「trước khi ngủ」.<br> Uống vào sẽ buồn ngủ, 「sau khi uống」 thì đừng lái xe."
-      },
-      {
-        label: "⑤ ～とき（に）、～",
-        example: "この薬は、痛くて「がまんできないときに」、飲んでください。",
-        vi: "Thuốc này hãy uống 「khi đau không chịu nổi」."
+        label: "④ V-るようにしています / V-ないようにしています",
+        example: "できるだけ、野菜【やさい】をたくさん「食べるようにしています」。<br>健康【けんこう】のために、「食べすぎないようにしています」。",
+        vi: "Tôi cố gắng ăn nhiều rau. Vì sức khỏe, tôi cố gắng không ăn quá nhiều."
       }
     ]
-  }
-  ,
+  },
 
   {
-    id: 1,
+    id: "1",
     tab: "Mẫu 1",
-    title: "① ～んですが…",
+    title: "① V-るといいですよ",
     usage: [
-      "Diễn đạt tình hình của bản thân và hỏi đối phương cách xử lý."
+      "Dùng để đưa ra lời khuyên nhẹ nhàng cho đối phương."
     ],
-    structure: "V（辞書形／タ形／ナイ形）＋んですが…",
+    structure: "V（辞書形）＋といいですよ",
     notes: {
       points: [
-        "Đây là cách nói để giải thích tình huống và mong đối phương đưa ra chỉ dẫn.",
-        "Trong các bài trước (Bài 8, Bài 10) đã có cấu trúc V-たいんですが…, V-てみたいんですが…。",
-        "Ở đây mở rộng với thể từ điển, thể た, thể ない của động từ.",
-        "Thể ナイ của động từ là dạng phủ định, kết thúc bằng đuôi ない."
+        "Đây là cách nói khi muốn đưa ra 「lời khuyên」 về sức khỏe hoặc sinh hoạt.",
+        "Kết hợp với thể từ điển của động từ.",
+        "Thường dùng trong hội thoại để gợi ý nhẹ nhàng, không mang tính ép buộc."
       ],
       examples: [
         {
-          jp: "会議室の電気がつかないんですが…。",
-          vi: "Đèn phòng họp không sáng ạ."
+          jp: "やわらかい料理を「食べるといいですよ」。",
+          vi: "Ăn đồ ăn mềm sẽ tốt đấy."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "会議室の電気がつかないんですが…。",
-        vi: "Đèn phòng họp không sáng ạ."
+        jp: "よく眠【ねむ】れないときは、どうすればいいですか？",
+        vi: "Khi bị khó ngủ thì nên làm gì?"
       },
       {
         speaker: "B",
-        jp: "そうですか。では、事務所に連絡してください。",
-        vi: "Vậy à. Thế thì hãy liên hệ với văn phòng nhé."
+        jp: "静かな音楽を聞くといいですよ。",
+        vi: "Nghe nhạc nhẹ sẽ tốt đấy."
       }
     ]
   },
@@ -72,36 +65,37 @@ export const grammarBai3 = [
   {
     id: "2",
     tab: "Mẫu 2",
-    title: "② ～そうなN",
+    title: "② V-すぎます",
     usage: [
-      "～そうです cũng có thể bổ nghĩa cho danh từ, khi đó dùng ～そうなN.",
+      "Diễn đạt hành động làm quá mức, thường mang nghĩa tiêu cực."
     ],
-    structure: "ナA- / イA- ～そうなN",
+    structure: "V（ます bỏ ます）＋すぎます",
     notes: {
       points: [
-        "Ví dụ: それ、辛そうな料理ですね ≈ その料理、辛そうですね."
+        "Kết hợp với động từ ở thể ます, bỏ ます rồi thêm すぎます.",
+        "Mang sắc thái tiêu cực: 「ăn quá nhiều, uống quá nhiều, làm việc quá nhiều…」"
       ],
       examples: [
         {
-          jp: "それ、辛そうな料理ですね。",
-          vi: "Món đó trông có vẻ cay nhỉ."
+          jp: "「食べすぎて」、お腹【なか】が痛いです。",
+          vi: "Tôi 「ăn quá nhiều」 nên bị đau bụng."
         },
         {
-          jp: "おいしそうなケーキですね。",
-          vi: "Chiếc bánh trông ngon nhỉ."
+          jp: "スマホの画面【がめん】を「見すぎて」、目【め】が痛くなりました。",
+          vi: "Tôi 「nhìn」 màn hình điện thoại 「quá nhiều」 nên bị đau mắt."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "その料理、辛そうですね。",
-        vi: "Món ăn đó trông có vẻ cay nhỉ."
+        jp: "昨日、「飲みすぎました」。",
+        vi: "Hôm qua tôi đã uống quá nhiều."
       },
       {
         speaker: "B",
-        jp: "ええ、でも食べてみないと分かりませんね。",
-        vi: "Ừ, nhưng không ăn thử thì không biết chắc được."
+        jp: "そうですか。体【からだ】に気【き】をつけてくださいね。",
+        vi: "Vậy à. Hãy chú ý đến sức khỏe nhé."
       }
     ]
   },
@@ -109,189 +103,83 @@ export const grammarBai3 = [
   {
     id: "3",
     tab: "Mẫu 3",
-    title: "③ イA-くて、～／イA-くなくて、～",
+    title: "③ V1-たり、V2-たり（します）",
     usage: [
-      "Dùng để nối các tính từ hoặc diễn đạt lý do cho mệnh đề sau.",
-      "～くて dùng với tính từ đuôi イ ở dạng khẳng định.",
-      "～くなくて dùng với tính từ đuôi イ ở dạng phủ định."
+      "Dùng khi muốn nêu ra một vài ví dụ tiêu biểu trong nhiều hành động."
     ],
-    structure: "イA-くて、～／イA-くなくて、～",
+    structure: "V（た形）＋り、V（た形）＋りします",
     notes: {
       points: [
-        "Trong bài 5 đã học ～くて để liệt kê nhiều tính từ.",
-        "Ngoài chức năng liệt kê, ～くて còn diễn đạt lý do cho mệnh đề phía sau.",
-        "Dạng phủ định là ～くなくて, cũng dùng để nêu lý do."
+        "Thêm り vào thể た của động từ để tạo thành ～たり.",
+        "Ở 「cuối câu」 thường dùng 「します, しています hoặc するようにしています」.",
+        "Cấu trúc này giúp câu văn tự nhiên hơn khi nói về thói quen hoặc hoạt động đa dạng."
       ],
       examples: [
         {
-          jp: "この卵焼き、「甘くて」、おいしいですね。",
-          vi: "Món trứng cuộn này ngọt nên ngon nhỉ."
+          jp: "ジョギング「したり」、ときどき家でヨガを「したり」しています。",
+          vi: "Tôi thường chạy bộ và thỉnh thoảng tập yoga ở nhà."
         },
         {
-          jp: "茶碗蒸【chawan-mushi】し、「甘くなくて」、おいしいですよ。",
-          vi: "Món chawanmushi không ngọt đâu nên ngon lắm."
-        },
-        {
-          jp: "梅干【うめぼし】しはすっぱくて、苦手です。",
-          vi: "Món mơ muối thì chua nên tôi không thích."
-        },
-        {
-          jp: "この料理は辛くなくて、子どもも食べることができます。",
-          vi: "Món này không cay nên trẻ con cũng ăn được."
+          jp: "休みは、テレビを「見たり」、音楽を「聞いたり」して、ゆっくり過ごします。",
+          vi: "Vào ngày nghỉ, tôi thư giãn bằng cách xem tivi và nghe nhạc."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "このさしみ、高くて、買うことができません。",
-        vi: "Món sashimi này đắt quá nên tôi không mua được."
+        jp: "健康【けんこう】のために、何か気【き】をつけていますか？",
+        vi: "Anh có làm gì để giữ sức khỏe không?"
       },
       {
         speaker: "B",
-        jp: "この家、場所がよくて、高いです。",
-        vi: "Ngôi nhà này vị trí tốt nên giá cao."
+        jp: "ジムに「行ったり」、ウォーキングを「したり」しています。",
+        vi: "Tôi thường đi tập gym và đi bộ."
       }
     ]
   },
+
   {
     id: "4",
     tab: "Mẫu 4",
-    title: "④ V-てみます",
+    title: "④ V-るようにしています / V-ないようにしています",
     usage: [
-      "Dùng khi thử làm một hành động nào đó lần đầu để biết nó như thế nào.",
-      "Thường dùng để diễn đạt ý định thử trải nghiệm hoặc khuyến khích người khác thử."
+      "Diễn đạt việc 「cố gắng làm」 hoặc 「cố gắng không làm」 một hành động nào đó."
     ],
-    structure: "V-てみます",
+    structure: "V（辞書形）＋ようにしています / V（ナイ形）＋ようにしています",
     notes: {
       points: [
-        "Động từ được chia ở thể て rồi kết hợp với みます.",
-        "Dùng khi muốn thử làm một việc để biết kết quả hoặc cảm giác.",
-        "Ví dụ: 食べてみます (ăn thử), 飲んでみます (uống thử), してみます (thử làm), やってみます (thử làm thử)."
+        "Thể hiện ý thức, sự chủ động của người nói trong việc duy trì thói quen hoặc hành vi.",
+        "Thường dùng trong các ngữ cảnh nói về sức khỏe, sinh hoạt, hoặc lối sống."
       ],
       examples: [
         {
-          jp: "よかったら、この卵焼き、「食べてみて」ください。",
-          vi: "Nếu thích thì bạn hãy 「ăn thử」 miếng trứng cuộn này nhé."
+          jp: "できるだけ、野菜をたくさん「食べるようにしています」。",
+          vi: "Tôi 「cố gắng ăn nhiều」 rau nhất có thể."
         },
         {
-          jp: "くつを「はいてみます。」",
-          vi: "Tôi sẽ thử mang giày."
-        },
-        {
-          jp: "新しいゲームを「してみます。」",
-          vi: "Tôi sẽ thử chơi trò chơi mới."
+          jp: "健康【けんこう】のために、「食べすぎないようにしています」。",
+          vi: "Tôi 「cố gắng không ăn quá nhiều」 để giữ sức khỏe."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "この料理、「食べてみませんか？」",
-        vi: "Bạn có muốn thử ăn món này không?"
+        jp: "健康【けんこう】のために、何か気【き】をつけていますか？",
+        vi: "Anh có làm gì để giữ sức khỏe không?"
       },
       {
         speaker: "B",
-        jp: "ええ、「食べてみます。」",
-        vi: "Ừ, tôi sẽ thử ăn."
+        jp: "私は、できるだけ、早く「寝るようにしています」。",
+        vi: "Tôi 「cố gắng đi ngủ sớm」 nhất có thể."
+      },
+      {
+        speaker: "C",
+        jp: "私は、ストレスを「ためないようにしています」。",
+        vi: "Tôi 「cố gắng để không bị」 stress."
       }
     ]
   },
-  {
-    id: "5",
-    tab: "Mẫu 5",
-    title: "⑤ Tự động từ / Tha động từ",
-    usage: [
-      "Phân biệt giữa động từ tự động và tha động từ trong tiếng Nhật.",
-      "「Tự động từ」 diễn tả sự việc 「xảy ra không có chủ ý rõ ràng.」",
-      "Tha động từ diễn tả hành động có chủ ý của người thực hiện.",
-      "Danh sách Tự/ Tha động <a href='./list-tu-dong-tu/list.html'>click xem tại đây</a>"
-    ],
-    structure: "Tự động từ + て います / Tha động từ + ます",
-    notes: {
-      points: [
-        "Tự động từ: 雨が降る (trời mưa), ドアが閉【し】まる (cửa đóng), 入る (vào).",
-        "Tha động từ: ご飯を食べる (ăn cơm), ドアを閉【し】める (đóng cửa), 入れる (cho vào).",
-        "Cấu trúc ～が入っています dùng để mô tả trạng thái món ăn có nguyên liệu gì.",
-        "Cấu trúc ～を入れます thể hiện hành động có chủ ý cho nguyên liệu vào món ăn."
-      ],
-      examples: [
-        {
-          jp: "鶏肉【とりにく】とか、エビとか、きのことか「が入ってます」。",
-          vi: "Món này có thịt gà, tôm, nấm."
-        },
-        {
-          jp: "ときどき、銀杏【ぎんなん】も「入れます」よ。",
-          vi: "Thỉnh thoảng tôi cũng cho cả bạch quả vào nữa."
-        },
-        {
-          jp: "ドア「が」閉【し】まっています。-> Tự động từ: N が Vています",
-          vi: "Cửa đang đóng."
-        },
-        {
-          jp: "ドア「を」閉めます。-> Tha động từ:(Người が) N を Vています",
-          vi: "Tôi sẽ đóng cửa."
-        }
-      ]
-    },
-    dialogue: [
-      {
-        speaker: "A",
-        jp: "この料理、何が入っていますか？",
-        vi: "Món này có những nguyên liệu gì vậy?"
-      },
-      {
-        speaker: "B",
-        jp: "鶏肉やエビなどが入っています。銀杏も入れましたよ。",
-        vi: "Có thịt gà, tôm… Tôi cũng đã cho thêm bạch quả nữa."
-      }
-    ]
-  },
-  {
-    id: "6",
-    tab: "Mẫu 6",
-    title: "⑥ イA-くないですか?",
-    usage: [
-      "Dùng để xác nhận xem điều bản thân đang lo lắng có ổn hay không.",
-      "Thường dùng khi muốn hỏi lịch sự, thể hiện sự quan tâm đến người nghe.",
-    ],
-    structure: "イA-くないですか?",
-    notes: {
-      points: [
-        "Thể hiện sự quan tâm, lịch sự, và xác nhận tình trạng của đối phương.",
-        "Ví dụ: 「味は、うすくないですか？ (Vị không nhạt chứ ạ?)」.",
-        "Có thể thay tính từ để dùng trong nhiều tình huống khác: <br>「難しくないですか？」, <br>「寒くないですか？」, <br>「高くないですか？」.",
-      ],
-      examples: [
-        {
-          jp: "味は、「うすくないですか？」",
-          vi: "Vị không bị nhạt chứ ạ?"
-        },
-        {
-          jp: "この漢字、「難しくないですか？」",
-          vi: "Chữ Hán này không khó chứ ạ?"
-        },
-        {
-          jp: "この部屋、「寒くないですか？」",
-          vi: "Phòng này không lạnh chứ ạ?"
-        },
-        {
-          jp: "わさび、「辛【から】くないですか？」",
-          vi: "Wasabi không cay chứ ạ?"
-        }
-      ]
-    },
-    dialogue: [
-      {
-        speaker: "A",
-        jp: "わさび、辛くないですか？",
-        vi: "Wasabi không cay chứ ạ?"
-      },
-      {
-        speaker: "B",
-        jp: "だいじょうぶです。わさび、大好きですから。",
-        vi: "Không sao. Vì tôi rất thích wasabi."
-      }
-    ]
-  }
+
 ];

@@ -6,7 +6,7 @@ export const grammarBai3 = [
     summaryList: [
       {
         label: "① ～んです",
-        example: "昨日から38度【ど】の熱【ねつ】があって、のどがすごく「痛いんです」。",
+        example: "昨日から38度【ど】の熱【ねつ】があって、のどがすごく「痛【いた】いんです」。",
         vi: "Từ hôm qua tôi bị sốt 38 độ và cổ họng rất đau."
       },
       {
@@ -21,12 +21,12 @@ export const grammarBai3 = [
       },
       {
         label: "④ V-る前に、～ / V-たあと、～",
-        example: "１日１回、「寝る前」に飲んでください。<br> 飲むと、眠くなります。「飲んだあと」、運転しないでくださいね。",
+        example: "１日１回、「寝【ね】る前」に飲んでください。<br> 飲むと、眠【ねむ】くなります。「飲んだあと」、運転【うんてん】しないでくださいね。",
         vi: "Mỗi ngày uống một lần 「trước khi ngủ」.<br> Uống vào sẽ buồn ngủ, 「sau khi uống」 thì đừng lái xe."
       },
       {
         label: "⑤ ～とき（に）、～",
-        example: "この薬は、痛くて「がまんできないときに」、飲んでください。",
+        example: "この薬【くすり】は、痛【いた】くて「がまんできないときに」、飲んでください。",
         vi: "Thuốc này hãy uống 「khi đau không chịu nổi」."
       }
     ]
@@ -54,7 +54,7 @@ export const grammarBai3 = [
           vi: "Bác sĩ: Hôm nay, bị làm sao vậy?"
         },
         {
-          jp: "患者【かんじゃ】：頭【あたま】が痛くて、吐【は】き気【き】がするんです",
+          jp: "患者【かんじゃ】：頭【あたま】が痛【いた】くて、吐【は】き気【き】がするんです",
           vi: "Bệnh nhân: Tôi bị đau đầu và buồn nôn"
         },
         {
@@ -71,7 +71,7 @@ export const grammarBai3 = [
       },
       {
         speaker: "B",
-        jp: "自転車が転【ころ】んだんです。",
+        jp: "自転車【じてんしゃ】が転【ころ】んだんです。",
         vi: "Tôi bị ngã xe đạp."
       },
       {
@@ -97,7 +97,7 @@ export const grammarBai3 = [
       ],
       examples: [
         {
-          jp: "今週は仕事を休んで、できるだけ人に「会わないでください」。",
+          jp: "今週は仕事を休んで、できるだけ人に「会【あ】わないでください」。",
           vi: "Tuần này hãy nghỉ làm, cố gắng đừng gặp người khác nhé."
         },
       ]
@@ -115,7 +115,7 @@ export const grammarBai3 = [
       },
       {
         speaker: "A",
-        jp: "熱がありますから、今日は、入【はい】らないでください。",
+        jp: "熱【ねつ】がありますから、今日は、入【はい】らないでください。",
         vi: "Vì bị sốt nên hôm nay đừng tắm bồn"
       },
     ]
@@ -149,11 +149,11 @@ export const grammarBai3 = [
       ],
       examples: [
         {
-          jp: "これは、何の薬ですか?",
+          jp: "これは、何の薬【くすり】ですか?",
           vi: "Đây là thuốc gì ạ?."
         },
         {
-          jp: "熱を下【さ】げる薬です。胃【い】を守【まも】る薬と一緒【いっしょ】に飲んでください",
+          jp: "熱【ねつ】を下【さ】げる薬です。胃【い】を守【まも】る薬【くすり】と一緒【いっしょ】に飲んでください",
           vi: "Thuốc hạ sốt. hãy uống chung với thuốc bảo vệ dạ dày"
         },
       ]
@@ -161,12 +161,12 @@ export const grammarBai3 = [
     dialogue: [
       {
         speaker: "A",
-        jp: "この薬はどうですか？",
+        jp: "この薬【くすり】はどうですか？",
         vi: "Thuốc này như thế nào ạ?."
       },
       {
         speaker: "B",
-        jp: "熱を下【さ】げる薬なので、体【からだ】が楽【らく】になります。",
+        jp: "熱【ねつ】を下【さ】げる薬【くすり】なので、体【からだ】が楽【らく】になります。",
         vi: "Vì là thuốc hạ sốt nên sẽ làm cơ thể trở nên dễ chịu hơn."
       }
     ]
@@ -176,7 +176,7 @@ export const grammarBai3 = [
     tab: "Mẫu 4",
     title: "④ V-る前に、～ / V-たあと、～",
     usage: [
-      "V-る前に、～：Trước khi làm V, ~",
+      "V-る前【まえ】に、～：Trước khi làm V, ~",
       "V-たあと、～：Sau khi làm V, ~",
     ],
     structure: "V-る前に、～ <br> V-たあと、～",

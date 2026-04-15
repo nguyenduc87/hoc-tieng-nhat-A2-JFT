@@ -11,7 +11,7 @@ export const grammarBai3 = [
       },
       {
         label: "② S1。それで、S2",
-        example: "これから病院に行きます。「それで」、少し遅刻【ちこく】します。",
+        example: "これから病院【びょういん】に行きます。「それで」、少し遅刻【ちこく】します。",
         vi: "Tôi sẽ đi bệnh viện. 「Vì vậy」 tôi sẽ hơi muộn."
       },
       {
@@ -26,7 +26,7 @@ export const grammarBai3 = [
       },
       {
         label: "⑤ V-なければなりません",
-        example: "ちょっと、役所に「行かなければならないんです。」",
+        example: "ちょっと、役所【しやくしょ】に「行かなければならないんです。」",
         vi: "Tôi 「phải đi」 đến cơ quan hành chính một chút."
       },
       {
@@ -55,11 +55,11 @@ export const grammarBai3 = [
       ],
       examples: [
         {
-          jp: "道が混【こ】んでいて、ぜんぜん動きません。",
+          jp: "道が混【こ】んでいて、ぜんぜん動【うご】きません。",
           vi: "Đường đông nên các phương tiện hoàn toàn không di chuyển."
         },
         {
-          jp: "「事故で」、電車が遅れています。",
+          jp: "「事故で」、電車が遅【おく】れています。",
           vi: "Do tai nạn nên tàu điện đến muộn."
         }
       ]
@@ -77,7 +77,7 @@ export const grammarBai3 = [
       },
       {
         speaker: "A",
-        jp: "体の具合が悪くて、動けませんでした。",
+        jp: "体【からだ】の具合【ぐあい】が悪【わる】くて、動【うご】けませんでした。",
         vi: "Vì trong người không khỏe nên tôi không cử động được."
       }
     ]
@@ -101,7 +101,7 @@ export const grammarBai3 = [
           vi: "Bây giờ tôi sẽ đi bệnh viện. Vì vậy tôi sẽ đến muộn một chút."
         },
         {
-          jp: "家に財布【さいふ】を忘【わす】れました. これから取りに帰ります。「それで」、少し遅れます。",
+          jp: "家に財布【さいふ】を忘【わす】れました. これから取【と】りに帰ります。「それで」、少し遅【おく】れます。",
           vi: "Tôi đã quên ví ở nhà. Bây giờ tôi sẽ về lấy. Vì vậy tôi sẽ đến muộn một chút."
         }
       ]
@@ -142,7 +142,7 @@ export const grammarBai3 = [
           vi: "Tôi ăn có được không?"
         },
         {
-          jp: "言ってもいいですか。",
+          jp: "言【い】ってもいいですか。",
           vi: "Tôi nói có được không?"
         }
       ]
@@ -279,7 +279,7 @@ export const grammarBai3 = [
       },
       {
         speaker: "A",
-        jp: "市役所に「行かなければならないんです。」",
+        jp: "市役所【しやくしょ】に「行かなければならないんです。」",
         vi: "「Vì tôi phải đi」 đến cơ quan hành chính."
       },
       {

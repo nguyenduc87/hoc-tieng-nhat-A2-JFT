@@ -6,7 +6,7 @@ export const grammarBai3 = [
     summaryList: [
       {
         label: "① ナA- / イA - そうです",
-        example: "そのお弁当、「おいしそうですね。」",
+        example: "そのお弁当【べんとう】、「おいしそうですね。」",
         vi: "Cơm hộp của bạn 「trông ngon nhỉ」."
       },
       {
@@ -53,11 +53,11 @@ export const grammarBai3 = [
       ],
       examples: [
         {
-          jp: "そのお弁当、「おいしそう」ですね。",
+          jp: "そのお弁当【べんとう】、「おいしそう」ですね。",
           vi: "Cơm hộp của bạn 「trông」 ngon nhỉ."
         },
         {
-          jp: "「おいしそう」なお弁当です。",
+          jp: "「おいしそう」なお弁当【べんとう】です。",
           vi: "Cơm hộp đó, 「có vẻ」 ngon nhỉ."
         },
         {
@@ -65,7 +65,7 @@ export const grammarBai3 = [
           vi: "Quả quýt này 「trông có vẻ」 chua nhỉ."
         },
         {
-          jp: "彼は「元気そう」です。",
+          jp: "彼【かれ】は「元気そう」です。",
           vi: "Anh ấy 「trông có vẻ」 khỏe mạnh."
         }
       ]
@@ -139,7 +139,7 @@ export const grammarBai3 = [
       ],
       examples: [
         {
-          jp: "この卵焼き、「甘くて」、おいしいですね。",
+          jp: "この卵焼【たまごや】き、「甘くて」、おいしいですね。",
           vi: "Món trứng cuộn này ngọt nên ngon nhỉ."
         },
         {
@@ -186,7 +186,7 @@ export const grammarBai3 = [
       ],
       examples: [
         {
-          jp: "よかったら、この卵焼き、「食べてみて」ください。",
+          jp: "よかったら、この卵焼【たまごや】き、「食べてみて」ください。",
           vi: "Nếu thích thì bạn hãy 「ăn thử」 miếng trứng cuộn này nhé."
         },
         {

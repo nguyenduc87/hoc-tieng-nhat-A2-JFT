@@ -126,8 +126,8 @@ export const vocabList = [
     exampleVi: "Tôi lỡ cắt vào ngón tay."
   },
   {
-    jp: "肩がこる",
-    hira: "かたがこる",
+    jp: "肩こり・肩がこる",
+    hira: "かたこり・かたがこる",
     vi: "Đau mỏi vai",
     example: "長時間パソコンを使うと肩がこります。",
     exampleVi: "Dùng máy tính lâu thì bị mỏi vai."
