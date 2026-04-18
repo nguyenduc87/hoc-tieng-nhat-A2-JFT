@@ -54,7 +54,7 @@ export const grammarBai3 = [
           vi: "Bác sĩ: Hôm nay, bị làm sao vậy?"
         },
         {
-          jp: "患者【かんじゃ】：頭【あたま】が痛【いた】くて、吐【は】き気【き】がするんです",
+          jp: "患者【かんじゃ】：頭【あたま】が痛【いた】くて、吐【は】き気【け】がするんです",
           vi: "Bệnh nhân: Tôi bị đau đầu và buồn nôn"
         },
         {

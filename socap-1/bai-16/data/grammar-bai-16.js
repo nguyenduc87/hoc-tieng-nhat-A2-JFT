@@ -120,7 +120,7 @@ export const grammarBai3 = [
           vi: "Tôi thường chạy bộ và thỉnh thoảng tập yoga ở nhà."
         },
         {
-          jp: "休みは、テレビを「見たり」、音楽を「聞いたり」して、ゆっくり過ごします。",
+          jp: "休みは、テレビを「見たり」、音楽を「聞いたり」して、ゆっくり過【す】ごします。",
           vi: "Vào ngày nghỉ, tôi thư giãn bằng cách xem tivi và nghe nhạc."
         }
       ]

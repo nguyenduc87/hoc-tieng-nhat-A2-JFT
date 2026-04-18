@@ -83,7 +83,7 @@ export const listeningData = [
     audio: "audio/Y_[13-06]_hanasu.mp3",
     script: [
       "A：電気がつかないんですが……。",
-      "B：業者に電話してください。",
+      "B：業者【ぎょうしゃ】に電話してください。",
     ],
     image: [
       "",
