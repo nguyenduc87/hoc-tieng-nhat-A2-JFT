@@ -506,7 +506,7 @@ export const vocabList = [
   {
     jp: "増える",
     hira: "ふえる",
-    vi: "Tăng lên",
+    vi: "Tăng lên (kích thước, số lượng)",
     example: "人口が増えています。",
     exampleVi: "Dân số đang tăng lên."
   },

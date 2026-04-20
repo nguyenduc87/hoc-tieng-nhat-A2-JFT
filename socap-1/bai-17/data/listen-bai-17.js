@@ -1,439 +1,484 @@
 export const listeningData = [
   {
-    title: "Audio 1 : kotoba1",
-    audio: "audio/Y_[16-01]_kotoba1.mp3",
+    title: "Audio 1 : kaiwa",
+    audio: "audio/Y_[17-01]_kaiwa.mp3",
     script: [
-      "a. 顔（かお） - Khuôn mặt",
-      "b. 頭（あたま） - Đầu",
-      "c. 鼻（はな） - Mũi",
-      "d. 歯（は） - Răng",
-      "e. 首（くび） - Cổ",
-      "f. 目（め） - Mắt",
-      "g. 耳（みみ） - Tai",
-      "h. 口（くち） - Miệng",
-      "i. 肩（かた） - Vai",
-      "j. 胸（むね） - Ngực",
-      "k. お腹（おなか） - Bụng",
-      "l. 足（あし） - Chân / Bàn chân",
-      "m. 背中（せなか） - Lưng",
-      "n. 腰（こし） - Eo / Hông",
-      "o. 腕（うで） - Cánh tay",
-      "p. 手（て） - Bàn tay",
-      "q. 指（ゆび） - Ngón tay"
+      "・玄関【げんかん】で",
+      "トアン：ごめんください。",
+      "福田【ふくだ】：はい。",
+      "福田：トアンさん、いらっしゃい。ようこそ。さ、上【あ】がって。",
+      "トアン：おじゃまします。",
+      "福田（妻【つま】）：こんにちは。",
+      "福田：うちの奥【おく】さん。こっちは息子【むすこ】のタケル。",
+      "タケル：こんにちは。",
+      "福田：こちら、トアンさん。",
+      "トアン：はじめまして。トアンです。",
+      "トアン：福田さんには、いつもお世話【せわ】になっています。",
+      "福田（妻【つま】）：こちらこそ、夫【おっと】がお世話になっています。",
+      "　",
+      "・居間【いま】で",
+      "福田：お茶【ちゃ】をどうぞ。",
+      "トアン：いただきます。",
+      "トアン：あのう、これ、ベトナムのコーヒーです。どうぞ。",
+      "福田：おお、ありがとう。",
+      "トアン：すみません。足【あし】をくずしてもいいですか？",
+      "福田：あー、どうぞ。楽【らく】にしてね。",
+      "　",
+      "・玄関【げんかん】で",
+      "トアン：今日【きょう】はごちそうさまでした。",
+      "トアン：楽【たの】しかったです。",
+      "福田：いえいえ、また来【き】てね。",
+      "福田（妻）：いつでも遊【あそ】びに来てください。",
+      "トアン：ありがとうございます。<br>",
+      "　　　　おじゃましました。",
     ],
     image: [
-      "images/listen/16-01.png",
+      "images/listen/17-01.png",
+      "images/listen/17-02.png",
     ],
     translation: [
-      "a. Khuôn mặt",
-      "b. Đầu",
-      "c. Mũi",
-      "d. Răng",
-      "e. Cổ",
-      "f. Mắt",
-      "g. Tai",
-      "h. Miệng",
-      "i. Vai",
-      "j. Ngực",
-      "k. Bụng",
-      "l. Chân / Bàn chân",
-      "m. Lưng",
-      "n. Eo / Hông",
-      "o. Cánh tay",
-      "p. Bàn tay",
-      "q. Ngón tay"
+      "1. Tại cửa trước:",
+      "Toan: Xin lỗi, có ai ở nhà không ạ?",
+      "Fukuda: Vâng.",
+      "Fukuda: Chào Toan nhé, mừng cậu đã đến. Nào, mời cậu vào nhà.",
+      "Toan: Tôi xin phép (vào nhà) ạ.",
+      "Vợ Fukuda: Chào cậu.",
+      "Fukuda: Đây là vợ tôi. Còn đây là con trai tôi, Takeru.",
+      "Takeru: Chào anh ạ.",
+      "Fukuda: Đây là anh Toan.",
+      "Toan: Rất vui được làm quen. Tôi là Toan.",
+      "Toan: Cảm ơn anh Fukuda vì lúc nào cũng giúp đỡ tôi.",
+      "Vợ Fukuda: Chính chúng tôi mới cần cảm ơn cậu, chồng tôi cũng luôn được cậu giúp đỡ.",
+      "　",
+      "2. Ở phòng khách:",
+      "Fukuda: Mời cậu dùng trà.",
+      "Toan: Tôi xin phép (dùng trà) ạ.",
+      "Toan: À, đây là cà phê Việt Nam. Xin tặng anh chị ạ.",
+      "Fukuda: Ồ, cảm ơn cậu nhiều nhé.",
+      "Toan: Xin lỗi, tôi có thể ngồi thoải mái (thay đổi tư thế chân) được không ạ?",
+      "Fukuda: À, được chứ. Cứ tự nhiên/thoải mái nhé.",
+      "　",
+      "3. Tại cửa trước:",
+      "Toan: Cảm ơn anh chị vì bữa ăn hôm nay ạ.",
+      "Toan: Tôi đã rất vui.",
+      "Fukuda: Không có gì đâu, lần sau lại đến nhé.",
+      "Vợ Fukuda: Lúc nào cũng hãy ghé chơi nhà tôi nhé.",
+      "Toan: Tôi xin cảm ơn ạ.",
+      "Toan: Tôi xin phép ra về (đã làm phiền anh chị rồi).",
     ]
   },
   {
-    title: "Audio 2 : kotoba2",
-    audio: "audio/Y_[16-02]_kotoba2.mp3",
+    title: "Audio 2 : hanasu1",
+    audio: "audio/Y_[17-02]_hanasu1.mp3",
     script: [
-      "1.頭が痛いです",
-      "2.歯が痛いです",
-      "3.目が痛いです",
-      "4.耳が痛いです",
-      "5.胸【むね】が痛いです",
-      "6.腰【こし】が痛いです",
-      "7.腕【うで】が痛いです",
-      "8.方が痛いです",
-      "9.背中【せなか】が痛いです",
-      "10.お腹【なか】が痛いです",
-      "11.足【あし】が痛いです",
+      "客：ごめんください。",
+      "主：いらっしゃい。どうぞ、上【あ】がってください。",
+      "客：おじゃまします。",
     ],
+
+    translation: [
+      "Khách: Xin lỗi, có ai ở nhà không ạ?",
+      "Chủ nhà: Chào mừng bạn! Mời bạn vào nhà.",
+      "Khách: Tôi xin phép làm phiền (vào nhà) ạ.",
+    ]
+  },
+  {
+    title: "Audio 3 : hanasu2",
+    audio: "audio/Y_[17-03]_hanasu2.mp3",
+    script: [
+      "主：お茶【ちゃ】をどうぞ。",
+      "客：いただきます。",
+      "客：これ、ベトナムのコーヒーです。どうぞ。",
+      "主：ありがとうございます。",
+    ],
+
+    translation: [
+      "Chủ nhà: Mời bạn dùng trà.",
+      "Khách: Tôi xin phép (dùng trà) ạ.",
+      "Khách: Cái này là cà phê Việt Nam. Xin tặng anh/chị ạ.",
+      "Chủ nhà: Xin cảm ơn bạn rất nhiều.",
+    ]
+  },
+  {
+    title: "Audio 4 : hanasu3",
+    audio: "audio/Y_[17-04]_hanasu3.mp3",
+    script: [
+      "客：今日【きょう】はごちそうさまでした。楽【たの】しかったです。",
+      "主：また来【き】てくださいね。",
+      "客：ありがとうございます。おじゃましました。",
+    ],
+
+    translation: [
+      "Khách: Cảm ơn anh/chị vì bữa ăn hôm nay. Tôi đã rất vui.",
+      "Chủ nhà: Lần sau lại ghé chơi nhé.",
+      "Khách: Xin cảm ơn ạ. Tôi xin phép ra về (xin lỗi vì đã làm phiền).",
+    ]
+  },
+  {
+    title: "Audio 5 : kotoba1",
+    audio: "audio/Y_[17-05]_kotoba1.mp3",
     image: [
-      "images/listen/16-01.png",
+      "images/listen/17-05.png",
+    ],
+    script: [
+      "a. コーヒー",
+      "b. お茶（おちゃ）",
+      "c. お酒（おさけ）",
+      "d. 調味料（ちょうみりょう）",
+      "e. お菓子（おかし）",
+      "f. カップ",
+      "g. キーホルダー",
+      "h. ペン",
+      "i. お守り（おまもり）",
+      "j. 絵葉書（えはがき）",
+      "k. 写真集（しゃしんしゅう）",
+      "l. 飾り（かざり）",
+      "m. 人形（にんぎょう）",
+      "n. Tシャツ",
+      "o. かばん / バッグ",
     ],
     translation: [
-      "1. Tôi bị đau đầu",
-      "2. Tôi bị đau răng",
-      "3. Tôi bị đau mắt",
-      "4. Tôi bị đau tai",
-      "5. Tôi bị đau ngực",
-      "6. Tôi bị đau lưng dưới / eo",
-      "7. Tôi bị đau tay",
-      "8. Tôi bị đau vai",
-      "9. Tôi bị đau lưng",
-      "10. Tôi bị đau bụng",
-      "11. Tôi bị đau chân"
+      "a. Cà phê",
+      "b. Trà",
+      "c. Rượu",
+      "d. Gia vị",
+      "e. Bánh kẹo",
+      "f. Cái cốc / Tách",
+      "g. Móc chìa khóa",
+      "h. Bút",
+      "i. Lá bùa",
+      "j. Bưu thiếp / Bưu ảnh",
+      "k. Tập ảnh / Album ảnh",
+      "l. Đồ trang trí",
+      "m. Búp bê",
+      "n. Áo thun (Áo phông)",
+      "o. Túi xách / Cặp",
     ]
   },
   {
-    title: "Audio 3 : kiku1",
-    audio: "audio/Y_[16-03]_kiku1.mp3",
+    title: "Audio 6 : kotoba2",
+    audio: "audio/Y_[17-06]_kotoba2.mp3",
     script: [
-      "A：プーピンさん、どうしたんですか？",
-      "B：最近【さいきん】よく眠【ねむ】れなくて、体【からだ】がだるいんです。",
-      "A：それはいけませんね。よく眠【ねむ】れないときは、ぬるいお風呂にゆっくり入るといいですよ。",
-      "B：そうですか。試【ため】してみます。"
+      "1. これバッグです。どうぞ",
+      "2. これお守【まも】りです。どうぞ",
+      "3. これお菓子【かし】とお酒です。どうぞ",
+      "4. これコーヒーとキーホルダーです。どうぞ",
+      "5. これお茶【ちゃ】と絵葉書【えはがき】です。どうぞ",
+      "6. これTシャツとペンです。どうぞ",
     ],
     translation: [
-      "A: Anh Phu Pin, có chuyện gì vậy?",
-      "B: Gần đây tôi hay mất ngủ và cơ thể mệt mỏi.",
-      "A: Thế thì không tốt rồi. Khi khó ngủ thì ngâm mình trong bồn nước ấm sẽ tốt đấy.",
-      "B: Vậy à. Tôi sẽ thử xem."
+      "1. Đây là cái túi xách. Xin mời anh/chị.",
+      "2. Đây là lá bùa. Xin mời anh/chị.",
+      "3. Đây là bánh kẹo và rượu. Xin mời anh/chị.",
+      "4. Đây là cà phê và móc chìa khóa. Xin mời anh/chị.",
+      "5. Đây là trà và bưu thiếp. Xin mời anh/chị.",
+      "6. Đây là áo thun và bút. Xin mời anh/chị.",
     ]
   },
   {
-    title: "Audio 4 : kiku2",
-    audio: "audio/Y_[16-04]_kiku2.mp3",
+    title: "Audio 7 : kiku1",
+    audio: "audio/Y_[17-07]_kiku1.mp3",
     script: [
-      "A：ホセさん、つらそうだね。",
-      "B：はい、昨日、飲みすぎました。ちょっと二日酔【ふつかよ】いなんです……。",
-      "A：えー。",
-      "B：酒井【さかい】さんは、二日酔【ふつかよ】いのときは、どうしていますか？",
-      "A：二日酔【ふつかよ】いの薬を飲むかな。けっこういいよ。",
+      "A：これ、お土産【みやげ】です。",
+      "B：あ、ありがとうございます。",
+      "A：ネパールから持って来た飾り【かざり】です。",
       "B：へー。",
-      "A：でも、寝るのがいちばんいいけどね。",
-      "B：そうですね。"
-    ],
-    translation: [
-      "A: Jose, trông anh có vẻ mệt nhỉ.",
-      "B: Vâng, hôm qua tôi uống quá nhiều. Giờ hơi bị say rượu rồi…",
-      "A: Thật à.",
-      "B: Anh Sakai, khi bị say rượu thì anh làm thế nào?",
-      "A: Tôi thường uống thuốc giải rượu. Khá hiệu quả đấy.",
-      "B: Vậy à.",
-      "A: Nhưng ngủ vẫn là cách tốt nhất.",
-      "B: Đúng vậy."
-    ]
-  },
-  {
-    title: "Audio 5 : kiku3",
-    audio: "audio/Y_[16-05]_kiku3.mp3",
-    script: [
-      "A：久保田【くぼた】さん、具合【ぐあい】が悪【わる】そうですね。だいじょうぶですか？",
-      "B：うん、肩【かた】がこって、頭が痛いのよ。",
-      "A：そうですか。温【あたた】かい飲み物を飲むといいですよ。コーヒーとかお茶とか。",
-      "B：そう。じゃあ、ちょっとコーヒー買ってくる。"
-    ],
-    translation: [
-      "A: Kubota, trông anh có vẻ không khỏe. Anh ổn chứ?",
-      "B: Ừ, tôi bị mỏi vai và đau đầu.",
-      "A: Vậy à. Uống đồ uống ấm sẽ tốt đấy. Như cà phê hoặc trà chẳng hạn.",
-      "B: Thế à. Vậy tôi đi mua chút cà phê."
-    ]
-  },
-  {
-    title: "Audio 6 : kiku4",
-    audio: "audio/Y_[16-06]_kiku4.mp3",
-    script: [
-      "A：西田さん、どうしたんですか？　だいじょうぶですか？",
-      "B：うん、最近【さいきん】、胃【い】の調子【ちょうし】が悪いんですよ。",
-      "A：ああ、大変ですね……。お腹【なか】を温【あたた】めるといいですよ。あと、マッサージも。",
-      "B：そうなんですか。やってみます。"
-    ],
-    translation: [
-      "A: Nishida, có chuyện gì vậy? Anh ổn chứ?",
-      "B: Ừ, dạo gần đây dạ dày của tôi không tốt.",
-      "A: Ôi, thật là khó chịu… Làm ấm bụng sẽ tốt đấy. Ngoài ra, massage cũng hữu ích.",
-      "B: Vậy à. Tôi sẽ thử xem."
-    ]
-  },
-  {
-    title: "Audio 7 : katachi",
-    audio: "audio/Y_[16-07]_katachi.mp3",
-    script: [
-      "A：どうした＿＿＿＿＿＿＿か？",
-      "B：最近【さいきん】よく眠【ねむ】れなくて、体がだるい＿＿＿＿＿＿＿。",
-      "よく眠【ねむ】れないときは、ぬるいお風呂にゆっくり入る＿＿＿＿＿＿＿ですよ。",
-      "温【あたた】かい飲み物を飲む＿＿＿＿＿＿＿ですよ。",
-      "お腹を温【あたた】める＿＿＿＿＿＿＿ですよ。",
-      "昨日、飲み＿＿＿＿＿＿＿ました。"
-    ],
-    translation: [
-      "A: Có chuyện gì vậy? -> んです",
-      "B: Gần đây tôi hay mất ngủ và cơ thể mệt mỏi. -> んです",
-      "Khi khó ngủ thì ngâm mình trong bồn nước ấm sẽ tốt đấy. -> といいです",
-      "Uống đồ uống ấm sẽ tốt đấy. -> といいです",
-      "Làm ấm bụng sẽ tốt đấy. -> といいです",
-      "Hôm qua tôi đã uống quá nhiều. -> すぎました"
-    ]
-  },
-  {
-    title: "Audio 8 : hanasu1",
-    audio: "audio/Y_[16-08]_hanasu1.mp3",
-    script: [
-      "どうしたんですか？",
-      "最近【さいきん】よく眠【ねむ】れなくて、体がだるいんです。",
-      "そうですか。それはいけませんね。",
-      "よく眠【ねむ】れないときは、ぬるいお風呂にゆっくり入るといいですよ。",
-      "そうですか。試【ため】してみます",
-    ],
-    translation: [
-      "Có chuyện gì vậy?",
-      "Gần đây tôi hay mất ngủ và cơ thể mệt mỏi.",
-      "Vậy à. Thế thì không tốt rồi.",
-      "Khi khó ngủ thì ngâm mình trong bồn nước ấm sẽ tốt đấy.",
-      "Vậy à. Tôi sẽ thử xem.",
-    ]
-  },
-  {
-    title: "Audio 9 : hanasu2",
-    audio: "audio/Y_[16-09]_hanasu2.mp3",
-    script: [
-      "だいじょうぶですか？",
-      "ちょっと二日酔いなんです。",
-      "大変ですね。",
-      "二日酔いのときは、薬を飲むといいですよ。",
-      "そうですか。試してみます。",
-    ],
-    translation: [
-      "Anh có ổn không?",
-      "Tôi hơi bị say rượu (do uống nhiều hôm qua)",
-      "Thật là vất vả nhỉ",
-      "Khi bị say rượu thì uống thuốc sẽ tốt đấy",
-      "Vậy à. Tôi sẽ thử xem",
-    ]
-  },
-  {
-    title: "Audio 10 : kotoba1",
-    audio: "audio/Y_[16-10]_kotoba1.mp3",
-    script: [
-      "中村：じゃあ、何を買って行きましょうか？",
-      "張：そうですねえ……。",
-      "中村：何が食べたいですか？",
-      "張：何でもいいです。",
-      "マリアナ：私は肉【にく】がいいです！",
-      "中村：じゃあ、からあげを買って行きましょう。",
-    ],
-
-    image: [
+      "A：これは、魔【ま】よけです。壁【かべ】にかけると、悪【わる】いものが入【はい】って来ません。",
+      "B：そうなんですか。",
     ],
 
     translation: [
-      "1. Vậy thì chúng ta mua gì mang đi nhỉ?",
-      "2. Ừm, để xem…",
-      "3. Bạn muốn ăn gì?",
-      "4. Gì cũng được.",
-      "5. Tôi thì muốn ăn thịt!",
-      "6. Vậy thì mình mua gà rán mang đi nhé.",
-      "-------------------------------------------",
-      "1. Ừm, yakitori cũng ngon nhỉ.",
-      "2. Có mua yakitori không? Muối hay sốt, bạn thích loại nào?",
+      "A: Đây là quà tặng ạ.",
+      "B: Ôi, tôi xin cảm ơn.",
+      "A: Đây là đồ trang trí tôi mang từ Nepal về.",
+      "B: Chà/Thế à.",
+      "A: Cái này là bùa hộ mệnh. Nếu treo lên tường thì những thứ xấu sẽ không vào nhà.",
+      "B: Vậy hả anh/chị.",
     ]
   },
   {
-    title: "Audio 11 : kotoba2",
-    audio: "audio/Y_[16-11]_kotoba2.mp3",
+    title: "Audio 8 : kiku2",
+    audio: "audio/Y_[17-08]_kiku2.mp3",
     script: [
-      "1. プールで泳ぎます",
-      "2. ヨガをします",
-      "3. ジョギングします",
-      "4. ウォーキングします",
-      "5. ジムに行きます",
-      "6. 野菜を食べます",
-      "7. たくさん寝ます",
-      "8. 早く寝ます",
-      "9. 早く起きます",
+      "A：あのう、これ、どうぞ。",
+      "B：あ、どうも。これ、何【なに】？",
+      "A：ナンプラーです。タイ料理【りょうり】に使【つか】う調味料【ちょうみりょう】です。魚から作ります。",
+      "B：へー。",
+      "A：いろいろなものにかけると、おいしいですよ。",
+      "B：ありがとう。今度【こんど】、使ってみるね。",
     ],
 
     translation: [
-      "1. Tôi đi bơi ở hồ bơi",
-      "2. Tôi tập yoga",
-      "3. Tôi chạy bộ",
-      "4. Tôi đi bộ",
-      "5. Tôi đi tập gym",
-      "6. Tôi ăn rau",
-      "7. Tôi ngủ nhiều",
-      "8. Tôi đi ngủ sớm",
-      "9. Tôi dậy sớm"
+      "A: À, cái này, xin mời anh/chị.",
+      "B: À cảm ơn. Cái này là gì vậy?",
+      "A: Là nước mắm (Nampla) ạ. Đây là gia vị dùng trong món ăn Thái, được làm từ cá.",
+      "B: Chà/Thế à.",
+      "A: Rưới lên nhiều món khác nhau sẽ ngon lắm đấy ạ.",
+      "B: Cảm ơn nhé. Lần tới tôi sẽ dùng thử.",
     ]
   },
   {
-    title: "Audio 12 : kiku1",
-    audio: "audio/Y_[16-12]_kiku1.mp3",
+    title: "Audio 9 : kiku3",
+    audio: "audio/Y_[17-09]_kiku3.mp3",
     script: [
-      "A：最近、何か運動【うんどう】してますか？",
-      "B：そうですねえ、ジョギングしたり、ときどき家でヨガをしたりしてます。",
-      "A：へー、ヨガ。",
-      "B：ええ。寝る前にヨガをすると、よく眠【ねむ】れますよ。",
-      "A：そうなんですか。"
+      "A：これ、私が作ったお菓子【かし】です。みなさん、食べてください。",
+      "B：わー、ありがとう。",
+      "A：トゥロンといいます。フィリピンではとても有名です。バナナが入【はい】っています。",
+      "B：へー。いただきます。うん、おいしい！",
     ],
+
     translation: [
-      "A: Gần đây anh có tập luyện gì không?",
-      "B: Ừ, tôi vừa chạy bộ, thỉnh thoảng tập yoga ở nhà.",
-      "A: Ồ, yoga à.",
-      "B: Vâng. Tập yoga trước khi ngủ thì sẽ dễ ngủ hơn.",
-      "A: Vậy à."
+      "A: Đây là bánh ngọt tôi tự làm. Mời mọi người ăn thử ạ.",
+      "B: Ôi, cảm ơn bạn nhé.",
+      "A: Bánh này gọi là Turon. Ở Philippines nó rất nổi tiếng. Bên trong có chuối đấy ạ.",
+      "B: Chà. Tôi xin phép thưởng thức nhé. Ừm, ngon quá!",
     ]
   },
   {
-    title: "Audio 13 : kiku2",
-    audio: "audio/Y_[16-13]_kiku2.mp3",
+    title: "Audio 10 : kiku4",
+    audio: "audio/Y_[17-10]_kiku4.mp3",
     script: [
-      "A：いつも元気ですね。何かしてるんですか？",
-      "B：うーん、特【とく】に……。",
-      "でも、毎日、朝早く起きて、夜は早く寝るようにしています。",
-      "A：へー。",
-      "B：いつもだいたい夜９時に寝ます。８時間以上、寝るようにしています。",
-      "A：いいですね。"
+      "A：先生、お酒、好きですよね？",
+      "B：うん、大好きだけど……。",
+      "A：これ、スラーソーです。カンボジアのお酒です。先生にプレゼントです。",
+      "B：え、いいの？",
+      "A：お米【こめ】から作った焼酎【しょうちゅう】です。",
+      "B：へー、焼酎【しょうちゅう】、大好き。ありがとう。",
+      "A：ちょっと強【つよ】いですから、飲みすぎないでくださいね。",
     ],
+
     translation: [
-      "A: Lúc nào anh cũng khỏe nhỉ. Anh có làm gì không?",
-      "B: Ừm, cũng không có gì đặc biệt…",
-      "Nhưng mỗi ngày tôi đều dậy sớm và cố gắng đi ngủ sớm.",
-      "A: Ồ.",
-      "B: Tôi thường ngủ lúc khoảng 9 giờ tối. Tôi cố gắng ngủ hơn 8 tiếng.",
-      "A: Tốt quá nhỉ."
+      "A: Thưa thầy, thầy thích rượu đúng không ạ?",
+      "B: Ừ, thầy rất thích nhưng mà...",
+      "A: Đây là Sra sor, một loại rượu của Campuchia. Em xin tặng thầy ạ.",
+      "B: Ồ, thầy nhận có được không?",
+      "A: Đây là rượu Shōchū làm từ gạo ạ.",
+      "B: Chà, thầy thích Shōchū lắm. Cảm ơn em nhé.",
+      "A: Vì rượu này hơi mạnh nên thầy đừng uống nhiều quá nhé.",
     ]
   },
   {
-    title: "Audio 14 : kiku3",
-    audio: "audio/Y_[16-14]_kiku3.mp3",
+    title: "Audio 11 : katachi",
+    audio: "audio/Y_[17-11]_katachi.mp3",
     script: [
-      "A：ぼくはラーメンセット。",
-      "B：私は、チキンサラダとトマトジュースにします。",
-      "A：あれ、ダイエットしてるの？",
-      "B：はい、健康【けんこう】のために、食べすぎないようにしています。",
-      "A：へー。",
-      "B：できるだけ、野菜をたくさん食べるようにしています。",
-      "A：そうなんだ。"
+      "1. ネパールから___________飾【かざ】りです。",
+      "2. タイ料理【りょうり】に___________調味料【ちょうみりょう】です。",
+      "3. 私が___________お菓子【かし】です。",
+      "4. お米【こめ】から___________焼酎【しょうちゅう】です。",
     ],
+
     translation: [
-      "A: Tôi chọn phần mì ramen.",
-      "B: Tôi thì chọn salad gà và nước ép cà chua.",
-      "A: Ủa, đang ăn kiêng hả?",
-      "B: Vâng, để tốt cho sức khỏe, tôi cố gắng không ăn quá nhiều.",
-      "A: Ồ.",
-      "B: Tôi cũng cố gắng ăn nhiều rau nhất có thể.",
-      "A: Vậy à."
+      "1. Đây là đồ trang trí mang từ Nepal về. ->持って来た",
+      "2. Đây là gia vị dùng trong món ăn Thái. ->使う",
+      "3. Đây là bánh ngọt do tôi đã làm. ->作った",
+      "4. Đây là rượu Shōchū được làm từ gạo. ->作った",
     ]
   },
   {
-    title: "Audio 15 : kiku4",
-    audio: "audio/Y_[16-15]_kiku4.mp3",
+    title: "Audio 12 : hanasu",
+    audio: "audio/Y_[17-12]_hanasu.mp3",
     script: [
-      "A：健康のために、何か気をつけていますか？",
-      "B：はい、できるだけ運動するようにしています。",
-      "ジムに行ったり、ウォーキングしたりしています。",
-      "A：すごいですね。",
-      "B：それと、お酒を飲みすぎないようにしています。",
-      "A：なるほど。"
+      "1. これ、どうぞ。タイのお土産【みやげ】です。",
+      "2. これ、何ですか？",
+      "3. ナンプラーです。／ ナンプラーといいます。",
+      "4. タイ料理【りょうり】に使う調味料【ちょうみりょう】です。",
+      "5. 魚から作ります。いろいろなものにかけると、おいしいですよ。",
+      "6. どうもありがとうございます。",
     ],
+
     translation: [
-      "A: Vì sức khỏe, anh có chú ý điều gì không?",
-      "B: Vâng, tôi cố gắng vận động nhiều nhất có thể.",
-      "Tôi đi tập gym và đi bộ.",
-      "A: Giỏi quá nhỉ.",
-      "B: Ngoài ra, tôi cũng cố gắng không uống quá nhiều rượu.",
-      "A: Ra vậy."
+      "1. Cái này, xin mời anh/chị. Đây là quà lưu niệm của Thái Lan.",
+      "2. Cái này là cái gì vậy ạ?",
+      "3. Là nước mắm (Nam Pla). / Được gọi là Nam Pla.",
+      "4. Đây là gia vị dùng trong món ăn Thái Lan.",
+      "5. Nó được làm từ cá. Rưới lên nhiều món khác nhau sẽ ngon lắm đấy.",
+      "6. Xin cảm ơn anh/chị rất nhiều.",
     ]
   },
   {
-    title: "Audio 16 : katachi",
-    audio: "audio/Y_[16-16]_katachi.mp3",
+    title: "Audio 13 : kiku1",
+    audio: "audio/Y_[17-13]_kiku1.mp3",
     script: [
-      "ジョギング＿＿＿＿＿＿＿＿＿＿、ときどき家でヨガを＿＿＿＿＿＿＿＿＿＿してます。",
-      "ジムに＿＿＿＿＿＿＿＿＿＿、ウォーキング＿＿＿＿＿＿＿＿＿＿しています。",
-      "毎日、朝早く起きて、夜は早く寝る＿＿＿＿＿＿＿＿＿＿。",
-      "できるだけ、野菜をたくさん食べる＿＿＿＿＿＿＿＿＿＿。",
-      "健康のために、食べすぎ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿。",
-      "お酒を飲みすぎ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿。"
+      "A：そのパンダのマグカップ、かわいいですね。",
+      "B：あ、ありがとうございます。",
+      "A：中国から持【も】って来たんですか？",
+      "B：はい。誕生日【たんじょうび】に、友だちにもらったんです。",
+      "A：そうですか。",
     ],
+
     translation: [
-      "Tôi vừa chạy bộ, thỉnh thoảng tập yoga ở nhà. -> したり、したり",
-      "Tôi đi tập gym và đi bộ. -> したり、したり",
-      "Mỗi ngày tôi dậy sớm và cố gắng đi ngủ sớm. -> ようにしています",
-      "Tôi cố gắng ăn nhiều rau nhất có thể. -> ようにしています",
-      "Để tốt cho sức khỏe, tôi cố gắng không ăn quá nhiều. -> ないようにしています",
-      "Tôi cố gắng không uống quá nhiều rượu. -> ないようにしています"
+      "A: Cái cốc hình gấu trúc đó đáng yêu quá nhỉ.",
+      "B: Ồ, tôi xin cảm ơn.",
+      "A: Có phải anh/chị mang từ Trung Quốc về không?",
+      "B: Vâng. Tôi đã được bạn tặng vào dịp sinh nhật đấy ạ.",
+      "A: Vậy à.",
     ]
   },
   {
-    title: "Audio 17 : hanasu1",
-    audio: "audio/Y_[16-17]_hanasu1.mp3",
+    title: "Audio 14 : kiku2",
+    audio: "audio/Y_[17-14]_kiku2.mp3",
     script: [
-      "A：健康のために、何か気をつけていますか？",
-      "B：そうですねえ……",
-      "B：ジョギングしたり、家でヨガをしたりしています。",
-      "A：そうですか。"
+      "A：そのかばん、いいね。",
+      "B：そうですか？ ありがとうございます。",
+      "A：日本で買【か】ったの？",
+      "B：これは、ミャンマーの母が作ったんです。",
+      "A：お母【か】さんが作ったの？ すごいね。",
     ],
+
     translation: [
-      "A: Vì sức khỏe, anh có chú ý điều gì không?",
-      "B: Ừm… để xem nào…",
-      "B: Tôi vừa chạy bộ, vừa tập yoga ở nhà.",
-      "A: Vậy à."
+      "A: Cái túi đó đẹp nhỉ.",
+      "B: Vậy ạ? Em cảm ơn ạ.",
+      "A: Em mua ở Nhật à?",
+      "B: Cái này là mẹ em ở Myanmar làm đấy ạ.",
+      "A: Mẹ em làm sao? Giỏi thật đấy nhỉ.",
     ]
   },
   {
-    title: "Audio 18 : hanasu2",
-    audio: "audio/Y_[16-18]_hanasu2.mp3",
+    title: "Audio 15 : kiku3",
+    audio: "audio/Y_[17-15]_kiku3.mp3",
     script: [
-      "A：健康のために、何か気をつけていますか？",
-      "B：そうですねえ……",
-      "B：できるだけ、運動するようにしています。",
-      "A：そうですか。"
+      "A：その帽子【ぼうし】、あったかそうだね。",
+      "B：いいでしょう？ これは、モンゴルの帽子です。",
+      "A：へー。モンゴルから持【も】って来【き】たの？",
+      "B：いえ、日本でネットで買【か】ったんです。",
+      "A：ふーん、おしゃれだね。",
     ],
+
     translation: [
-      "A: Vì sức khỏe, anh có chú ý điều gì không?",
-      "B: Ừm… để xem nào…",
-      "B: Tôi cố gắng vận động nhiều nhất có thể.",
-      "A: Vậy à."
+      "A: Cái mũ đó trông có vẻ ấm áp nhỉ.",
+      "B: Đẹp đúng không? Đây là mũ của Mông Cổ đấy.",
+      "A: Chà. Bạn mang từ Mông Cổ sang à?",
+      "B: Không, mình mua trên mạng ở Nhật đấy.",
+      "A: Hưm, thời trang thật đấy.",
     ]
   },
   {
-    title: "Audio 19 : hanasu3",
-    audio: "audio/Y_[16-19]_hanasu3.mp3",
+    title: "Audio 16 : kiku4",
+    audio: "audio/Y_[17-16]_kiku4.mp3",
     script: [
-      "A：健康のために、何か気をつけていますか？",
-      "B：そうですねえ……",
-      "B：食べすぎないようにしています。",
-      "A：そうですか。"
+      "A：そのピアス、すてきですね。",
+      "B：あ、これは、兄【あに】がくれたお守【まも】りです。",
+      "A：へー、お守りですか。お兄【にい】さんは、今、インドネシア？",
+      "B：はい。両親【りょうしん】といっしょに、バリに住【す】んでいます。",
+      "A：そうなんですか。",
     ],
+
     translation: [
-      "A: Vì sức khỏe, anh có chú ý điều gì không?",
-      "B: Ừm… để xem nào…",
-      "B: Tôi cố gắng không ăn quá nhiều.",
-      "A: Vậy à."
+      "A: Đôi hoa tai đó đẹp quá nhỉ.",
+      "B: À, đây là bùa hộ mệnh anh trai tặng em đấy ạ.",
+      "A: Chà, là bùa hộ mệnh sao? Anh trai em giờ đang ở Indonesia à?",
+      "B: Vâng. Anh ấy đang sống ở Bali cùng với bố mẹ em.",
+      "A: Vậy à.",
     ]
   },
   {
-    title: "Audio 20 : kiku",
-    audio: "audio/Y_[16-20]_kiku.mp3",
+    title: "Audio 17 : katachi1",
+    audio: "audio/Y_[17-17]_katachi1.mp3",
     script: [
-      "A：次【つぎ】はノロウイルスの話題【わだい】です。",
-      "B：最近【さいきん】、ノロウイルスとみられる食中毒【しょくちゅうどく】が増【ふ】えています。",
-      "B：先週は、県内【けんない】のレストランで、ノロウイルスによる食中毒【しょくちゅうどく】が発生【はっせい】しました。",
-      "B：ノロウイルスは、汚染【おせん】されたカキなどの貝を、生、または十分【じゅうぶん】に加熱【かねつ】しないで食べることが原因【げんいん】で感染【かんせん】します。",
-      "B：また、ウイルスがついた手で調理【ちょうり】したものを食べることでも感染【かんせん】します。",
-      "B：ノロウイルスに感染【かんせん】すると、腹痛【ふくつう】、おう吐【と】、下痢【げり】などを起【お】こします。",
-      "B：では、どうしたら感染【かんせん】を予防【よぼう】できるでしょうか。",
-      "B：予防【よぼう】のポイントは、手洗【てあら】いと、食品【しょくひん】の十分【じゅうぶん】な加熱【かねつ】です。",
-      "B：食事前【しょくじまえ】、トイレのあと、調理【ちょうり】の前後【ぜんご】は、石【せっ】けんで手をよく洗【あら】いましょう。",
-      "B：食品【しょくひん】は中心部【ちゅうしんぶ】まで十分【じゅうぶん】に加熱【かねつ】しましょう。"
+      "誕生日に、友達【ともだち】に＿＿＿です。",
+      "これが、兄が＿＿＿お守りです。",
     ],
     translation: [
-      "A: Tiếp theo là chủ đề về virus Norovirus.",
-      "B: Gần đây, số ca ngộ độc thực phẩm được cho là do Norovirus đang tăng lên.",
-      "B: Tuần trước, tại một nhà hàng trong tỉnh đã xảy ra ngộ độc thực phẩm do Norovirus.",
-      "B: Norovirus lây nhiễm khi ăn sò, hàu… bị nhiễm bẩn, ăn sống hoặc không được nấu chín kỹ.",
-      "B: Ngoài ra, ăn thức ăn được chế biến bằng tay có dính virus cũng có thể bị lây.",
-      "B: Khi nhiễm Norovirus sẽ gây đau bụng, nôn mửa, tiêu chảy,…",
-      "B: Vậy làm thế nào để phòng ngừa lây nhiễm?",
-      "B: Điểm quan trọng trong phòng ngừa là rửa tay và nấu chín thực phẩm đầy đủ.",
-      "B: Trước khi ăn, sau khi đi vệ sinh, trước và sau khi nấu ăn cần rửa tay bằng xà phòng.",
-      "B: Thực phẩm cần được nấu chín kỹ đến tận bên trong."
+      "Tôi đã nhận từ bạn bè vào dịp sinh nhật. -> もらったん",
+      "Đây là lá bùa anh trai đã tặng cho tôi. -> くれた"
     ]
   },
-  
+  {
+    title: "Audio 18 : katachi2-1",
+    audio: "audio/Y_[17-18]_katachi2-1.mp3",
+    script: [
+      "1. 父（ちち）",
+      "2. 母（はは）",
+      "3. 兄（あに）",
+      "4. 姉（あね）",
+      "5. 弟（おとうと）",
+      "6. 妹（いもうと）",
+      "7. 子ども（こども）",
+      "8. 息子（むすこ）",
+      "9. 娘（むすめ）",
+    ],
+    translation: [
+      "1. Bố (của mình)",
+      "2. Mẹ (của mình)",
+      "3. Anh trai (của mình)",
+      "4. Chị gái (của mình)",
+      "5. Em trai (của mình)",
+      "6. Em gái (của mình)",
+      "7. Con cái (của mình)",
+      "8. Con trai (của mình)",
+      "9. Con gái (của mình)",
+    ]
+  },
+  {
+    title: "Audio 19 : katachi2-2",
+    audio: "audio/Y_[17-19]_katachi2-2.mp3",
+    script: [
+      "1. お父さん（おとうさん）",
+      "2. お母さん（おかあさん）",
+      "3. お兄さん（おにいさん）",
+      "4. お姉さん（おねえさん）",
+      "5. 弟さん（おとうとさん）",
+      "6. 妹さん（いもうとさん）",
+      "7. お子さん（おこさん）",
+      "8. 息子さん（むすこさん）",
+      "9. 娘さん（むすめさん）",
+    ],
+
+    translation: [
+      "1. Bố (của người khác)",
+      "2. Mẹ (của người khác)",
+      "3. Anh trai (của người khác)",
+      "4. Chị gái (của người khác)",
+      "5. Em trai (của người khác)",
+      "6. Em gái (của người khác)",
+      "7. Con cái (của người khác)",
+      "8. Con trai (của người khác)",
+      "9. Con gái (của người khác)",
+    ]
+  },
+  {
+    title: "Audio 20 : hanasu1",
+    audio: "audio/Y_[17-20]_hanasu1.mp3",
+    script: [
+      "A：そのマグカップ、かわいいですね。",
+      "B：これですか？ これは、友だち【ともだち】にもらったんです。",
+      "A：そうですか。",
+    ],
+
+    translation: [
+      "A: Cái cốc đó dễ thương quá nhỉ.",
+      "B: Cái này ạ? Cái này là tôi đã nhận từ bạn mình đấy.",
+      "A: Vậy à.",
+    ]
+  },
+  {
+    title: "Audio 21 : hanasu2",
+    audio: "audio/Y_[17-21]_hanasu2.mp3",
+    script: [
+      "A：そのマグカップ、かわいいですね。",
+      "B：これですか？ これは、兄【あに】がくれたんです。",
+      "A：そうですか。",
+    ],
+
+    translation: [
+      "A: Cái cốc đó dễ thương quá nhỉ.",
+      "B: Cái này ạ? Cái này là anh trai đã tặng cho tôi đấy.",
+      "A: Vậy à.",
+    ]
+  },
+  {
+    title: "Audio 21 : hanasu3",
+    audio: "audio/Y_[17-22]_hanasu3.mp3",
+    script: [
+      "A：そのマグカップ、かわいいですね。",
+      "B：これですか？ これは、ネットで買【か】ったんです。",
+      "A：そうですか。",
+    ],
+
+    translation: [
+      "A: Cái cốc đó dễ thương quá nhỉ.",
+      "B: Cái này ạ? Cái này là tôi đã mua trên mạng đấy.",
+      "A: Vậy à.",
+    ]
+  },
 ];

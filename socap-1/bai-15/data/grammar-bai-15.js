@@ -30,8 +30,7 @@ export const grammarBai3 = [
         vi: "Thuốc này hãy uống 「khi đau không chịu nổi」."
       }
     ]
-  }
-  ,
+  },
 
   {
     id: "1",
@@ -187,15 +186,15 @@ export const grammarBai3 = [
       ],
       examples: [
         {
-          jp: "この薬はいつ飲みますか？",
+          jp: "この薬【くすり】はいつ飲みますか？",
           vi: "Thuốc này uống khi nào ạ?"
         },
         {
-          jp: "白い薬は、ご飯を「食べたあと」、飲んでください。",
+          jp: "白い薬【くすり】は、ご飯【はん】を「食べたあと」、飲んでください。",
           vi: "Viên màu trắng hãy uống sau khi ăn."
         },
         {
-          jp: "カプセル、「寝る前に」、飲んでください。",
+          jp: "カプセル、「寝【ね】る前【まえ】に」、飲んでください。",
           vi: "Viên con nhộng hãy uống trước khi đi ngủ."
         }
       ]
@@ -203,7 +202,7 @@ export const grammarBai3 = [
     dialogue: [
       {
         speaker: "A",
-        jp: "せきを抑える薬は、ご飯を食べる前に、飲みますか？",
+        jp: "せきを抑【おさ】える薬は、ご飯を食べる前に、飲みますか？",
         vi: "Thuốc trị ho, tôi uống trước khi ăn phải không ạ?"
       },
       {
@@ -233,11 +232,11 @@ export const grammarBai3 = [
       ],
       examples: [
         {
-          jp: "この薬は、いつ飲みますか？",
+          jp: "この薬【くすり】は、いつ飲みますか？",
           vi: "Thuốc này uống khi nào?"
         },
         {
-          jp: "高い熱が出【で】た「とき」、飲んでください",
+          jp: "高【たか】い熱【ねつ】が出【で】た「とき」、飲んでください",
           vi: "Hãy uống 「khi」 bị sốt cao."
         },
       ]
@@ -245,12 +244,12 @@ export const grammarBai3 = [
     dialogue: [
       {
         speaker: "A",
-        jp: "風邪をひいた「ときは」、どうしていますか？",
+        jp: "風邪【かぜ】をひいた「ときは」、どうしていますか？",
         vi: "「Khi」 bị cảm thì bạn thường làm gì?"
       },
       {
         speaker: "B",
-        jp: "水をたくさん飲んで、温【あたた】かくて、早く寝【ね】ます",
+        jp: "水をたくさん飲んで、温【あたた】かくて、早【はや】く寝【ね】ます",
         vi: "Uống nhiều nước, giữ ấm, và ngủ sớm"
       }
     ]
