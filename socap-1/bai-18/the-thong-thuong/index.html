@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+        }
+
+        h2 {
+            background: #f7e58f;
+            border-radius: 5px;
+            border-right: 3px solid #7e7d7d;
+            border-bottom: 3px solid #7e7d7d;
+            padding: 5px 10px;
+            display: inline-block;
+        }
+
+        .table-wrap {
+            overflow-x: auto;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            min-width: 700px;
+        }
+
+        th,
+        td {
+            border: 1px solid #999;
+            padding: 8px;
+            vertical-align: top;
+        }
+
+        th {
+            background: #eee;
+        }
+
+        .category {
+            text-align: center;
+            font-weight: bold;
+            background: #f5f5f5;
+        }
+
+        .negative {
+            background: #fff3cd;
+        }
+
+        .formula {
+            font-weight: bold;
+            color: #d63384;
+            margin-bottom: 5px;
+        }
+
+        .jp {
+            font-size: 15px;
+        }
+
+        .hl {
+            background: yellow;
+            font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+
+            th,
+            td {
+                font-size: 13px;
+                padding: 6px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>◆ Cách tạo câu S そうです</h2>
+
+    <div class="table-wrap">
+        <table>
+            <tr>
+                <th></th>
+                <th></th>
+                <th>Phi quá khứ</th>
+                <th>Quá khứ</th>
+            </tr>
+
+            <!-- DANH TỪ -->
+            <tr>
+                <td class="category" rowspan="2">Danh từ</td>
+                <td>Khẳng định</td>
+                <td>
+                    <div class="formula">N + だ</div>
+                    <div class="jp">誕生日<span class="hl">だ</span>そうです</div>
+                </td>
+                <td>
+                    <div class="formula">N + だった</div>
+                    <div class="jp">誕生日<span class="hl">だった</span>そうです</div>
+                </td>
+            </tr>
+
+            <tr class="negative">
+                <td>Phủ định</td>
+                <td>
+                    <div class="formula">N + じゃない</div>
+                    <div class="jp">誕生日<span class="hl">じゃない</span>そうです</div>
+                </td>
+                <td>
+                    <div class="formula">N + じゃなかった</div>
+                    <div class="jp">誕生日<span class="hl">じゃなかった</span>そうです</div>
+                </td>
+            </tr>
+
+            <!-- NA -->
+            <tr>
+                <td class="category" rowspan="2">Tính từ な</td>
+                <td>Khẳng định</td>
+                <td>
+                    <div class="formula">A(ｂỏ な) + だ</div>
+                    <div class="jp">暇<span class="hl">だ</span>そうです</div>
+                </td>
+                <td>
+                    <div class="formula">A(ｂỏ な) + だった</div>
+                    <div class="jp">暇<span class="hl">だった</span>そうです</div>
+                </td>
+            </tr>
+
+            <tr class="negative">
+                <td>Phủ định</td>
+                <td>
+                    <div class="formula">A(ｂỏ な) + じゃない</div>
+                    <div class="jp">暇<span class="hl">じゃない</span>そうです</div>
+                </td>
+                <td>
+                    <div class="formula">A(ｂỏ な) + じゃなかった</div>
+                    <div class="jp">暇<span class="hl">じゃなかった</span>そうです</div>
+                </td>
+            </tr>
+
+            <!-- I -->
+            <tr>
+                <td class="category" rowspan="2">Tính từ い</td>
+                <td>Khẳng định</td>
+                <td>
+                    <div class="formula">イA</div>
+                    <div class="jp">暑<span class="hl">い</span>そうです</div>
+                </td>
+                <td>
+                    <div class="formula">イA + かった</div>
+                    <div class="jp">暑<span class="hl">かった</span>そうです</div>
+                </td>
+            </tr>
+
+            <tr class="negative">
+                <td>Phủ định</td>
+                <td>
+                    <div class="formula">イA + くない</div>
+                    <div class="jp">暑<span class="hl">くない</span>そうです</div>
+                </td>
+                <td>
+                    <div class="formula">イA + くなかった</div>
+                    <div class="jp">暑<span class="hl">くなかった</span>そうです</div>
+                </td>
+            </tr>
+
+            <!-- ĐỘNG TỪ -->
+            <tr>
+                <td class="category" rowspan="2">Động từ</td>
+                <td>Khẳng định</td>
+                <td>
+                    <div class="formula">V-る</div>
+                    <div class="jp">行<span class="hl">く</span>そうです</div>
+                </td>
+                <td>
+                    <div class="formula">V-た</div>
+                    <div class="jp">行<span class="hl">った</span>そうです</div>
+                </td>
+            </tr>
+
+            <tr class="negative">
+                <td>Phủ định</td>
+                <td>
+                    <div class="formula">V-ない</div>
+                    <div class="jp">行<span class="hl">かない</span>そうです</div>
+                </td>
+                <td>
+                    <div class="formula">V-なかった</div>
+                    <div class="jp">行<span class="hl">かなかった</span>そうです</div>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+</body>
+
+</html>

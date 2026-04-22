@@ -15,7 +15,7 @@ export const grammarBai3 = [
         vi: "Cái cốc này, tôi 「đã nhận」 từ bạn vào dịp sinh nhật."
       },
       {
-        label: "③ 【người】に【vật】をくれます",
+        label: "③ 【Người cho】が【tôi/người phe tôi】に【vật】をくれます",
         example: "これは、兄が「くれた」お守【まも】りです。",
         vi: "Đây là lá bùa mà anh trai 「tặng (cho tôi)」."
       }
@@ -112,7 +112,7 @@ export const grammarBai3 = [
   {
     id: "3",
     tab: "Mẫu 3",
-    title: "③ 【người】に【vật】をくれます",
+    title: "③ 【Người cho】が【tôi/người phe tôi】に【vật】をくれます",
     usage: [
       "Dùng khi người khác tặng/cho mình (hoặc người thân của mình) một vật gì đó.",
       "A 「が」 「Tôi/người phe tôi」 に 「Vật」をくれます <br> Trợ từ đứng sau người tặng là 「が」",

@@ -93,9 +93,9 @@ export const vocabList = [
   {
     jp: "こちらこそ",
     hira: "こちらこそ",
-    vi: "Tôi cũng vậy.",
+    vi: "Chính tôi mới là.",
     example: "こちらこそ、よろしくお願いします。",
-    exampleVi: "Chính tôi mới là người cần được anh giúp đỡ (Tôi cũng vậy)."
+    exampleVi: "Chính tôi mới là người cần được anh giúp đỡ."
   },
   {
     jp: "ごちそうさまでした",
