@@ -391,7 +391,7 @@ const readingList = document.getElementById("readingList");
 function renderReading() {
   readingList.innerHTML = readingData.map(item => `
     <div class="reading-card">
-        <h2>${item.title}</h2>
+        <h2>${addHira(item.title)}</h2>
 
         <div class="reading-image">
           ${item.image1.map(img => `<img src="${img}">`).join("")}
