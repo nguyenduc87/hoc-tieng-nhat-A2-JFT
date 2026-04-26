@@ -191,7 +191,7 @@ export const grammarBai3 = [
       ],
       examples: [
         {
-          jp: "もっと、思い出に残るものがいい「と思【おも】います」。",
+          jp: "もっと、思【おも】い出【で】に残【のこ】るものがいい「と思【おも】います」。",
           vi: "Tôi nghĩ là nên tặng món quà gì đó có thể lưu giữ làm kỷ niệm hơn."
         }
       ]

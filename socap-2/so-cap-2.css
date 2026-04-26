@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  background: #f6f7fb;
+  color: #333;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  background: #ff4d4f;
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 20px;
+}
+
+.back-btn {
+  border: none;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  font-size: 18px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Intro */
+.intro {
+  padding: 16px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Lesson list */
+.lesson-list {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* Lesson card */
+.lesson-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.lesson-card h3 {
+  font-size: 18px;
+  color: #ff4d4f;
+  margin-bottom: 4px;
+}
+
+.lesson-card span {
+  font-size: 13px;
+  color: #666;
+}
+
+/* Touch */
+.lesson-card:active {
+  transform: scale(0.97);
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+  .lesson-list {
+    max-width: 520px;
+    margin: 0 auto;
+  }
+
+  .lesson-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 30px rgba(0,0,0,0.12);
+  }
+}

@@ -1,0 +1,416 @@
+body {
+    margin: 0;
+    font-family: "Noto Sans JP", system-ui, sans-serif;
+    background: #f4f6f9;
+}
+
+/* HEADER */
+.test-header {
+    text-align: center;
+    padding: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #0f3057;
+}
+
+/* MAIN LAYOUT */
+.test-container {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    gap: 40px;
+}
+
+/* LEFT */
+.test-left {
+    flex: 2;
+}
+
+
+/* QUESTION CARD */
+.question-card {
+    background:
+    linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
+    url("https://images.unsplash.com/photo-1522383225653-ed111181a951");
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.question-title {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.question-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.question-number {
+    background: #0f3057;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/* ANSWERS */
+.answers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.answers button {
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 2px solid #eec79a;
+    background: linear-gradient(180deg, #fff9f3, #ffe6cc);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .25s;
+}
+
+.answers button:hover {
+
+    transform: translateY(-3px);
+
+    background: linear-gradient(180deg, #fff3dc, #ffd4a8);
+
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.answers button.selected {
+    background: #0f3057;
+    color: white;
+}
+
+/* RIGHT */
+.test-right {
+    flex: 1;
+    position: sticky;
+    top: 10px;
+    align-self: flex-start;
+}
+
+.question-list {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.question-list h3 {
+    background: #0f3057;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.q-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.q-grid button {
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background: #e0e0e0;
+    cursor: pointer;
+}
+
+.q-grid button.answered {
+    background: #0f3057;
+    color: white;
+}
+
+.q-grid button.wrong {
+    background: #dc3545;
+    color: white;
+}
+
+/* RESULT */
+.result-box {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+/* Retry Button  */
+.result-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result-score {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0f3057;
+}
+
+.retry-btn {
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #0f3057, #0056b3);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.retry-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.retry-btn:active {
+    transform: scale(0.95);
+}
+
+/* ===== IMAGE GRAMMAR TEST ===== */
+
+.question-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* align-items: center; */
+}
+
+.image-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.left-image {
+    max-width: 120px;
+    border-radius: 12px;
+}
+
+.left-text {
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 6px 7px;
+    background: #fdf7f7;
+    border-radius: 10px;
+    border-left: 3px solid #0f3057;
+    border-bottom: 2px solid #0f3057;
+    width: 100%;
+}
+
+.answers.vertical {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.answers.vertical button {
+    text-align: left;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Tô chữ đỏ */
+.red-text {
+    color: #d93025;
+}
+
+/* Phiên âm hira  */
+ruby {
+    font-size: 16px;
+    line-height: 2.2;
+}
+
+rb {
+    letter-spacing: 0px;
+}
+
+rt {
+    font-size: 10px;
+    color: #d93025;
+    letter-spacing: 0px;
+}
+
+/* Giải thích ngữ pháp */
+.explanation {
+    margin-top: 15px;
+    padding: 10px;
+    background: #f1f7ff;
+    border-left: 4px solid #0f3057;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+.hidden {
+    display: none;
+}
+
+.answers button.correct {
+    background: #28a745;
+    color: white;
+}
+
+.answers button.wrong {
+    background: #dc3545;
+    color: white;
+}
+
+#questionNav.collapsed button:nth-child(n+21) {
+    display: none;
+}
+
+#questionNav {
+    transition: all 0.3s ease;
+}
+
+.toggle-nav {
+    width: 100%;
+    margin-top: 10px;
+    background: #eee;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.active-nav {
+    background: #0f3057;
+}
+
+.submit-btn {
+    display: block;
+    margin: 15px auto;
+    padding: 12px 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background: #2d89ef;
+    color: white;
+    cursor: pointer;
+}
+
+#resultBox {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#retryBtn {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    background: #ff9800;
+    color: white;
+    cursor: pointer;
+}
+
+/* NAV SAU SUBMIT */
+.q-grid button.nav-correct {
+    background: #28a745;
+    color: white;
+}
+
+.q-grid button.nav-wrong {
+    background: #dc3545;
+    color: white;
+}
+
+.q-grid button.nav-unanswered {
+    background: #8a8989;
+    color: white;
+}
+
+/* Hieu ung Sakura */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("https://www.transparenttextures.com/patterns/sakura.png");
+
+    opacity: 0.15;
+
+    pointer-events: none;
+}
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+
+    .test-container {
+        flex-direction: column;
+        padding: 0 10px;
+        gap: 10px;
+    }
+
+    .question-card {
+        scroll-margin-top: 140px;
+    }
+
+    /* Đưa question list lên trên */
+    .test-right {
+        order: -1;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: #f4f6f9;
+        padding-bottom: 8px;
+    }
+
+    .question-list {
+        padding: 5px;
+    }
+
+    .question-list h3 {
+        display: none;
+        /* Ẩn tiêu đề cho gọn */
+    }
+
+    /* Grid 10 nút mỗi dòng */
+    .q-grid {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        gap: 5px;
+    }
+
+    .q-grid button {
+        aspect-ratio: 1 / 1;
+        font-size: 13px;
+        border-radius: 5px;
+        border: solid #555 1px;
+        padding: 0;
+    }
+
+    /* Câu hỏi */
+    .answers {
+        grid-template-columns: 1fr;
+    }
+
+    .answers button {
+        font-size: 16px;
+        padding: 14px;
+    }
+}
