@@ -1,283 +1,387 @@
 export const vocabList = [
   {
-    jp: "先輩",
-    hira: "せんぱい",
-    vi: "Tiền bối",
-    example: "先輩は とても 親切です。",
-    exampleVi: "Tiền bối rất tử tế."
+    jp: "主任",
+    hira: "しゅにん",
+    vi: "Trưởng bộ phận",
+    example: "彼はわが社の主任です。",
+    exampleVi: "Anh ấy là trưởng bộ phận của công ty chúng tôi."
   },
   {
-    jp: "後輩",
-    hira: "こうはい",
-    vi: "Hậu bối",
-    example: "後輩と 一緒に 勉強します。",
-    exampleVi: "Tôi học cùng hậu bối."
+    jp: "パート",
+    hira: "パート",
+    vi: "Nhân viên bán thời gian",
+    example: "スーパーでパートをしています。",
+    exampleVi: "Tôi đang làm nhân viên bán thời gian tại siêu thị."
   },
   {
-    jp: "知り合い",
-    hira: "しりあい",
-    vi: "Người quen",
-    example: "日本に 知り合いが います。",
-    exampleVi: "Tôi có người quen ở Nhật."
+    jp: "いちばん",
+    hira: "いちばん",
+    vi: "Nhất (so sánh nhất)",
+    example: "これがいちばん安いです。",
+    exampleVi: "Cái này là rẻ nhất."
   },
   {
-    jp: "久しぶり",
-    hira: "ひさしぶり",
-    vi: "Lâu không gặp",
-    example: "久しぶりですね。",
-    exampleVi: "Lâu không gặp nhỉ."
+    jp: "長い",
+    hira: "ながい",
+    vi: "Dài",
+    example: "この道はとても長いです。",
+    exampleVi: "Con đường này rất dài."
   },
   {
-    jp: "元気",
-    hira: "げんき",
-    vi: "Khỏe, khỏe mạnh",
-    example: "元気ですか。",
-    exampleVi: "Bạn khỏe không?"
+    jp: "～出身",
+    hira: "～しゅっしん",
+    vi: "Đến từ đâu",
+    example: "私はベトナム出身です。",
+    exampleVi: "Tôi đến từ Việt Nam."
   },
   {
-    jp: "おかげさまで",
-    hira: "おかげさまで",
-    vi: "Nhờ ơn trời (mọi thứ OK)",
-    example: "おかげさまで、元気です。",
-    exampleVi: "Nhờ ơn trời, tôi khỏe."
-  },
-  {
-    jp: "半年",
-    hira: "はんとし",
-    vi: "Nửa năm",
-    example: "日本に 半年 います。",
-    exampleVi: "Tôi ở Nhật nửa năm."
-  },
-  {
-    jp: "先月",
-    hira: "せんげつ",
-    vi: "Tháng trước",
-    example: "先月 日本へ 来ました。",
-    exampleVi: "Tháng trước tôi đã đến Nhật."
-  },
-  {
-    jp: "去年",
-    hira: "きょねん",
-    vi: "Năm ngoái",
-    example: "去年 日本語を 勉強しました。",
-    exampleVi: "Năm ngoái tôi đã học tiếng Nhật."
+    jp: "手続き",
+    hira: "てつづき",
+    vi: "Thủ tục",
+    example: "銀行で手続きをします。",
+    exampleVi: "Tôi làm thủ tục tại ngân hàng."
   },
   {
     jp: "生活",
     hira: "せいかつ",
     vi: "Cuộc sống",
-    example: "日本の 生活に 慣れました。",
-    exampleVi: "Tôi đã quen cuộc sống ở Nhật."
+    example: "日本の生活に慣れましたか。",
+    exampleVi: "Bạn đã quen với cuộc sống ở Nhật chưa?"
   },
   {
-    jp: "慣れる",
-    hira: "なれる",
-    vi: "Quen, thích nghi",
-    example: "仕事に 慣れました。",
-    exampleVi: "Tôi đã quen với công việc."
+    jp: "いろいろ（な）",
+    hira: "いろいろ",
+    vi: "Nhiều",
+    example: "店にはいろいろな物があります。",
+    exampleVi: "Trong cửa hàng có rất nhiều đồ vật."
   },
   {
-    jp: "ちょうど",
-    hira: "ちょうど",
-    vi: "Vừa đúng",
-    example: "ちょうど いい です。",
-    exampleVi: "Vừa đúng rồi."
+    jp: "何でも",
+    hira: "なんでも",
+    vi: "Cái gì cũng",
+    example: "彼は何でも知っています。",
+    exampleVi: "Anh ấy cái gì cũng biết."
   },
   {
-    jp: "なんとか",
-    hira: "なんとか",
-    vi: "Bằng cách nào đó",
-    example: "なんとか なります。",
-    exampleVi: "Bằng cách nào đó ổn thôi."
+    jp: "～でよかったら",
+    hira: "～でよかったら",
+    vi: "Nếu thoải mái / Nếu ổn / Chấp nhận được",
+    example: "私でよかったら、手伝いますよ。",
+    exampleVi: "Nếu được (nếu thấy tôi giúp được gì), tôi sẽ giúp bạn."
   },
   {
-    jp: "まだ",
-    hira: "まだ",
-    vi: "Vẫn còn / chưa",
-    example: "まだ 仕事です。",
-    exampleVi: "Tôi vẫn còn việc."
+    jp: "いつでも",
+    hira: "いつでも",
+    vi: "Lúc nào cũng",
+    example: "困ったときは、いつでも電話してください。",
+    exampleVi: "Khi gặp khó khăn, hãy gọi cho tôi bất cứ lúc nào."
   },
   {
-    jp: "1年になる",
-    hira: "いちねんになる",
-    vi: "Được 1 năm rồi",
-    example: "日本に 来て 1年に なります。",
-    exampleVi: "Tôi đã đến Nhật được 1 năm."
+    jp: "担当",
+    hira: "たんとう",
+    vi: "Phụ trách",
+    example: "私は営業を担当しています。",
+    exampleVi: "Tôi đang phụ trách mảng kinh doanh."
   },
   {
-    jp: "１ヵ月",
-    hira: "いっかげつ",
-    vi: "Một tháng",
-    example: "１ヵ月 勉強しました。",
-    exampleVi: "Tôi đã học 1 tháng."
+    jp: "申す",
+    hira: "もうす",
+    vi: "được gọi là",
+    example: "田中と申します。",
+    exampleVi: "Tôi tên là Tanaka (cách nói khiêm nhường)."
   },
   {
-    jp: "先週",
-    hira: "せんしゅう",
-    vi: "Tuần trước",
-    example: "先週 休みました。",
-    exampleVi: "Tuần trước tôi đã nghỉ."
+    jp: "呼ぶ",
+    hira: "よぶ",
+    vi: "gọi",
+    example: "タクシーを呼びましょうか。",
+    exampleVi: "Để tôi gọi taxi cho bạn nhé?"
   },
   {
-    jp: "仕事",
-    hira: "しごと",
-    vi: "Công việc",
-    example: "仕事は 忙しいです。",
-    exampleVi: "Công việc rất bận."
+    jp: "一生懸命",
+    hira: "いっしょうけんめい",
+    vi: "hết sức mình",
+    example: "一生懸命勉強します。",
+    exampleVi: "Tôi sẽ học tập hết sức mình."
   },
   {
-    jp: "レストラン",
-    hira: "レストラン",
-    vi: "Nhà hàng",
-    example: "レストランで 働きます。",
-    exampleVi: "Tôi làm việc ở nhà hàng."
+    jp: "がんばる",
+    hira: "がんばる",
+    vi: "cố gắng",
+    example: "最後までがんばります。",
+    exampleVi: "Tôi sẽ cố gắng đến cùng."
   },
   {
-    jp: "ホテル",
-    hira: "ホテル",
-    vi: "Khách sạn",
-    example: "ホテルで 働いています。",
-    exampleVi: "Tôi đang làm việc ở khách sạn."
+    jp: "J-POP",
+    hira: "ジェーポップ",
+    vi: "J-POP",
+    example: "日本のJ-POPが好きです。",
+    exampleVi: "Tôi thích nhạc trẻ Nhật Bản (J-POP)."
   },
   {
-    jp: "働く",
-    hira: "はたらく",
-    vi: "Làm việc",
-    example: "日本で 働いています。",
-    exampleVi: "Tôi đang làm việc ở Nhật."
+    jp: "がんばります",
+    hira: "がんばります",
+    vi: "Tôi sẽ cố gắng.",
+    example: "明日からもっとがんばります。",
+    exampleVi: "Từ ngày mai tôi sẽ cố gắng nhiều hơn nữa."
   },
   {
-    jp: "工場",
-    hira: "こうじょう",
-    vi: "Nhà máy",
-    example: "工場で 働きます。",
-    exampleVi: "Tôi làm việc ở nhà máy."
+    jp: "方角",
+    hira: "ほうがく",
+    vi: "phương hướng",
+    example: "あの方角に山があります。",
+    exampleVi: "Có một ngọn núi ở hướng đó."
   },
   {
-    jp: "介護",
-    hira: "かいご",
-    vi: "Chăm sóc (điều dưỡng)",
-    example: "介護の 仕事です。",
-    exampleVi: "Đây là công việc chăm sóc."
+    jp: "北",
+    hira: "きた",
+    vi: "hướng bắc",
+    example: "駅の北口で待ち合わせましょう。",
+    exampleVi: "Hãy hẹn gặp nhau ở cửa bắc của nhà ga."
   },
   {
-    jp: "仕事をする",
-    hira: "しごとをする",
-    vi: "Làm việc",
-    example: "日本で 仕事を しています。",
-    exampleVi: "Tôi đang làm việc ở Nhật."
+    jp: "東",
+    hira: "ひがし",
+    vi: "hướng đông",
+    example: "太陽は東から昇ります。",
+    exampleVi: "Mặt trời mọc ở hướng đông."
   },
   {
-    jp: "野菜",
-    hira: "やさい",
-    vi: "Rau",
-    example: "野菜を 作ります。",
-    exampleVi: "Tôi trồng rau."
+    jp: "南",
+    hira: "みなみ",
+    vi: "hướng nam",
+    example: "私の部屋は南向きです。",
+    exampleVi: "Phòng của tôi hướng về phía nam."
   },
   {
-    jp: "作る",
-    hira: "つくる",
-    vi: "Làm, tạo",
-    example: "料理を 作ります。",
-    exampleVi: "Tôi làm món ăn."
+    jp: "西",
+    hira: "にし",
+    vi: "hướng tây",
+    example: "西の空が赤くなっています。",
+    exampleVi: "Bầu trời phía tây đang trở nên đỏ rực."
   },
   {
-    jp: "勉強する",
-    hira: "べんきょうする",
-    vi: "Học",
-    example: "毎日 日本語を 勉強します。",
-    exampleVi: "Tôi học tiếng Nhật mỗi ngày."
+    jp: "自然",
+    hira: "しぜん",
+    vi: "thiên nhiên",
+    example: "週末は自然の中で過ごしたいです。",
+    exampleVi: "Tôi muốn dành cuối tuần ở nơi hòa mình với thiên nhiên."
   },
   {
-    jp: "専門",
-    hira: "せんもん",
-    vi: "Chuyên môn",
-    example: "専門は IT です。",
-    exampleVi: "Chuyên môn của tôi là IT."
+    jp: "川",
+    hira: "かわ",
+    vi: "sông",
+    example: "この川はとてもきれいです。",
+    exampleVi: "Con sông này rất sạch."
   },
   {
-    jp: "通う",
-    hira: "かよう",
-    vi: "Đi lại (đều đặn)",
-    example: "学校に 通っています。",
-    exampleVi: "Tôi đi học đều đặn."
+    jp: "島",
+    hira: "しま",
+    vi: "đảo",
+    example: "日本はたくさんの島からなっています。",
+    exampleVi: "Nhật Bản bao gồm rất nhiều hòn đảo."
   },
   {
-    jp: "主婦",
-    hira: "しゅふ",
-    vi: "Nội trợ",
-    example: "母は 主婦です。",
-    exampleVi: "Mẹ là nội trợ."
+    jp: "森",
+    hira: "もり",
+    vi: "rừng",
+    example: "森の中を散歩しました。",
+    exampleVi: "Tôi đã đi dạo trong rừng."
   },
   {
-    jp: "忙しい",
-    hira: "いそがしい",
-    vi: "Bận",
-    example: "今日は 忙しいです。",
-    exampleVi: "Hôm nay tôi bận."
+    jp: "ジャングル",
+    hira: "じゃんぐる",
+    vi: "rừng nhiệt đới",
+    example: "アマゾンのジャングルは広いです。",
+    exampleVi: "Rừng nhiệt đới Amazon rất rộng lớn."
   },
   {
-    jp: "大変",
-    hira: "たいへん",
-    vi: "Vất vả",
-    example: "仕事は 大変です。",
-    exampleVi: "Công việc thật vất vả."
+    jp: "草原",
+    hira: "そうげん",
+    vi: "đồng cỏ",
+    example: "草原に羊がいます。",
+    exampleVi: "Có cừu trên đồng cỏ."
   },
   {
-    jp: "疲れる",
-    hira: "つかれる",
-    vi: "Mệt",
-    example: "とても 疲れました。",
-    exampleVi: "Tôi mệt lắm."
+    jp: "砂漠",
+    hira: "さばく",
+    vi: "sa mạc",
+    example: "砂漠はとても暑いです。",
+    exampleVi: "Sa mạc rất là nóng."
   },
   {
-    jp: "まあまあ",
-    hira: "まあまあ",
-    vi: "Tạm được",
-    example: "まあまあ です。",
-    exampleVi: "Cũng tạm được."
+    jp: "高原",
+    hira: "こうげん",
+    vi: "cao nguyên",
+    example: "夏は高原が涼しくていいです。",
+    exampleVi: "Mùa hè ở cao nguyên thì mát mẻ và dễ chịu."
   },
   {
-    jp: "楽しい",
-    hira: "たのしい",
-    vi: "Vui",
-    example: "勉強は 楽しいです。",
-    exampleVi: "Học thật vui."
+    jp: "首都",
+    hira: "しゅと",
+    vi: "thủ đô",
+    example: "日本の首都は東京です。",
+    exampleVi: "Thủ đô của Nhật Bản là Tokyo."
   },
   {
-    jp: "みんな",
-    hira: "みんな",
-    vi: "Mọi người",
-    example: "みんな 親切です。",
-    exampleVi: "Mọi người đều tử tế."
+    jp: "観光地",
+    hira: "かんこうち",
+    vi: "địa điểm tham quan",
+    example: "ここは有名な観光地です。",
+    exampleVi: "Đây là một địa điểm tham quan nổi tiếng."
   },
   {
-    jp: "親切",
-    hira: "しんせつ",
-    vi: "Tốt bụng",
-    example: "先生は 親切です。",
-    exampleVi: "Thầy giáo rất tốt bụng."
+    jp: "モンゴル",
+    hira: "もんごる",
+    vi: "Mông Cổ",
+    example: "モンゴルで馬に乗りました。",
+    exampleVi: "Tôi đã cưỡi ngựa ở Mông Cổ."
   },
   {
-    jp: "勉強になる",
-    hira: "べんきょうになる",
-    vi: "Bổ ích",
-    example: "とても 勉強に なります。",
-    exampleVi: "Rất bổ ích."
+    jp: "のんびりしている",
+    hira: "のんびりしている",
+    vi: "thong thả",
+    example: "休日は家でのんびりしています。",
+    exampleVi: "Ngày nghỉ tôi thường thong thả ở nhà."
   },
   {
-    jp: "毎日",
-    hira: "まいにち",
-    vi: "Mỗi ngày",
-    example: "毎日 日本語を 勉強します。",
-    exampleVi: "Tôi học tiếng Nhật mỗi ngày."
+    jp: "都会",
+    hira: "とかい",
+    vi: "đô thị",
+    example: "都会の生活は忙しいです。",
+    exampleVi: "Cuộc sống ở đô thị rất bận rộn."
   },
   {
-    jp: "学生",
-    hira: "がくせい",
-    vi: "Học sinh, sinh viên",
-    example: "私は 学生です。",
-    exampleVi: "Tôi là sinh viên."
+    jp: "畑",
+    hira: "はたけ",
+    vi: "đồn điền",
+    example: "畑で野菜を作っています。",
+    exampleVi: "Tôi đang trồng rau ở ruộng."
+  },
+  {
+    jp: "観光客",
+    hira: "かんこうきゃく",
+    vi: "khách du lịch",
+    example: "京都には観光客がたくさんいます。",
+    exampleVi: "Ở Kyoto có rất nhiều khách du lịch."
+  },
+  {
+    jp: "大勢",
+    hira: "おおぜい",
+    vi: "đông người",
+    example: "パーティーに大勢の人が来ました。",
+    exampleVi: "Đã có rất đông người đến bữa tiệc."
+  },
+  {
+    jp: "お客さん",
+    hira: "おきゃくさん",
+    vi: "khách",
+    example: "お客さんが来ましたよ。",
+    exampleVi: "Có khách đến kìa."
+  },
+  {
+    jp: "テント",
+    hira: "てんと",
+    vi: "lều",
+    example: "山でテントに泊まりました。",
+    exampleVi: "Tôi đã ngủ trong lều ở trên núi."
+  },
+  {
+    jp: "違います",
+    hira: "ちがいます",
+    vi: "Không phải vậy.",
+    example: "いいえ、それは違います。",
+    exampleVi: "Không, cái đó không phải vậy."
+  },
+  {
+    jp: "セブ",
+    hira: "せぶ",
+    vi: "Cebu",
+    example: "セブの海はとてもきれいです。",
+    exampleVi: "Biển ở Cebu rất đẹp.",
+    skip: true
+  },
+  {
+    jp: "ウランバートル",
+    hira: "うらんばーとる",
+    vi: "Ulaanbaatar",
+    example: "モンゴルの首都はウランバートルです。",
+    exampleVi: "Thủ đô của Mông Cổ là Ulaanbaatar.",
+    skip: true
+  },
+  {
+    jp: "ホーチミン",
+    hira: "ほーちみん",
+    vi: "Hồ Chí Minh",
+    example: "ホーチミンは活気がある街です。",
+    exampleVi: "Hồ Chí Minh là một thành phố đầy năng động.",
+    skip: true
+  },
+  {
+    jp: "自己紹介",
+    hira: "じこしょうかい",
+    vi: "giới thiệu bản thân",
+    example: "皆さんの前で自己紹介をします。",
+    exampleVi: "Tôi sẽ giới thiệu bản thân trước mặt mọi người."
+  },
+  {
+    jp: "猫",
+    hira: "ねこ",
+    vi: "con mèo",
+    example: "家で白い猫を飼っています。",
+    exampleVi: "Tôi nuôi một con mèo trắng ở nhà."
+  },
+  {
+    jp: "グループ",
+    hira: "ぐるーぷ",
+    vi: "nhóm",
+    example: "4人のグループで旅行に行きます。",
+    exampleVi: "Chúng tôi đi du lịch theo nhóm 4 người."
+  },
+  {
+    jp: "コミュニケーションする",
+    hira: "こみゅにけーしょんする",
+    vi: "giao tiếp",
+    example: "いろいろな人とコミュニケーションするのは大切です。",
+    exampleVi: "Việc giao tiếp với nhiều người khác nhau là rất quan trọng."
+  },
+  {
+    jp: "インド料理",
+    hira: "いんどりょうり",
+    vi: "món ăn Ấn Độ",
+    example: "昨日の夜はインド料理を食べました。",
+    exampleVi: "Tối qua tôi đã ăn món Ấn Độ."
+  },
+  {
+    jp: "食べ歩き",
+    hira: "たべあるき",
+    vi: "đi thưởng thức đồ ăn",
+    example: "京都で食べ歩きをするのが楽しみです。",
+    exampleVi: "Tôi rất mong chờ việc đi thưởng thức đồ ăn ở Kyoto."
+  },
+  {
+    jp: "ニックネーム",
+    hira: "にっくねーむ",
+    vi: "biệt danh",
+    example: "あなたのニックネームは何ですか。",
+    exampleVi: "Biệt danh của bạn là gì?"
+  },
+  {
+    jp: "バンコク",
+    hira: "ばんこく",
+    vi: "Bangkok",
+    example: "バンコクはタイの首都です。",
+    exampleVi: "Bangkok là thủ đô của Thái Lan."
+  },
+  {
+    jp: "アニソン",
+    hira: "あにそん",
+    vi: "ani-son (nhạc phim hoạt hình)",
+    example: "カラオケでアニソンを歌います。",
+    exampleVi: "Tôi thường hát nhạc phim hoạt hình khi đi karaoke.",
+    skip: true
   }
+
+
 ];
 
