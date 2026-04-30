@@ -1,6 +1,6 @@
 import { vocabList } from "./data/vocab-bai-1.js";
 import { kanjiList } from "./data/kanji-bai-1.js";
-import { grammarBai2 } from "./data/grammar-bai-1.js";
+import { grammarBai3 } from "./data/grammar-bai-1.js";
 import { listeningData } from "./data/listen-bai-1.js";
 import { readingData } from "./data/reading-bai-1.js";
 
@@ -11,7 +11,7 @@ import { readingData } from "./data/reading-bai-1.js";
 const vocabGrid = document.getElementById("vocabGrid");
 if (vocabGrid) {
   vocabGrid.innerHTML = vocabList.map((v, i) => `
-    <div class="card">
+    <div class="card ${v.skip ? 'skip' : ''}">
       <span class="jp">${i + 1}. ${v.jp}</span>
       <span class="hira">${v.hira}</span>
       <div class="meaning">${v.vi}</div>
@@ -45,7 +45,7 @@ const tabsEl = document.querySelector(".grammar-tabs");
 const cardEl = document.querySelector(".grammar-card");
 
 function renderTabs(activeId) {
-  tabsEl.innerHTML = grammarBai2.map(g => `
+  tabsEl.innerHTML = grammarBai3.map(g => `
     <div class="grammar-tab ${g.id === activeId ? "active" : ""}"
          data-id="${g.id}">
       ${g.tab}
@@ -57,9 +57,17 @@ function renderTabs(activeId) {
 function highlight(text) {
   return text.replace(/「(.*?)」/g, '<span class="red-text">$1</span>');
 }
+// Phiên âm hira trên kanji
+function addHira(text) {
+  return text.replace(
+    /([\p{Script=Han}々〆ヵヶ]+)【(.*?)】/gu,
+    "<ruby><rb>$1</rb><rt>$2</rt></ruby>"
+  );
+}
+
 // Render Ngữ pháp
 function renderGrammar(id) {
-  const g = grammarBai2.find(x => x.id == id);
+  const g = grammarBai3.find(x => x.id == id);
   if (!g) return;
 
   // 👉 TAB TÓM TẮT
@@ -72,7 +80,7 @@ function renderGrammar(id) {
         <div class="summary-row">
           <div class="summary-left">${item.label}</div>
           <div class="summary-right">
-            <div class="summary-jp">${highlight(item.example)}</div>
+            <div class="summary-jp">${addHira(highlight(item.example))}</div>
             <div class="summary-vi">${highlight(item.vi)}</div>
           </div>
         </div>
@@ -89,7 +97,7 @@ function renderGrammar(id) {
     ${g.usage ? `
     <div class="grammar-block block-usage">
       <h4>Cách dùng</h4>
-      <ul>${g.usage.map(u => `<li>${u}</li>`).join("")}</ul>
+      <ul>${g.usage.map(u => `<li>${highlight(u)}</li>`).join("")}</ul>
     </div>` : ""}
 
     ${g.structure ? `
@@ -102,13 +110,13 @@ function renderGrammar(id) {
     <div class="grammar-block block-note">
       <h4>Lưu ý</h4>
       <ul>
-        ${g.notes.points.map(p => `<li>${p}</li>`).join("")}
+        ${g.notes.points.map(p => `<li>${highlight(p)}</li>`).join("")}
       </ul>
 
       <div class="note-example">
         <h5>Ví dụ</h5>
         ${g.notes.examples.map((e, i) => `
-          <p class="example-jp">${i + 1}. ${highlight(e.jp)}</p>
+          <p class="example-jp">${i + 1}. ${addHira(highlight(e.jp))}</p>
           <p class="example-vi">${highlight(e.vi)}</p>
         `).join("")}
       </div>
@@ -118,7 +126,7 @@ function renderGrammar(id) {
     <div class="grammar-block block-dialogue">
       <h4>Hội thoại</h4>
       ${g.dialogue.map(d => `
-        <p><strong>${d.speaker}:</strong> ${highlight(d.jp)}</p>
+        <p><strong>${d.speaker}:</strong> ${addHira(highlight(d.jp))}</p>
         <p class="dialogue-vi"><strong>${d.speaker}:</strong> ${highlight(d.vi)}</p>
       `).join("")}
     </div>` : ""}
@@ -160,48 +168,80 @@ tabsEl.addEventListener("click", e => {
 function setupListeningLayout() {
   const container = document.getElementById("listenContainer");
 
-  // Tạo wrapper 2 cột
   const wrapper = document.createElement("div");
   wrapper.className = "listening-layout";
 
   const sidebar = document.createElement("aside");
   sidebar.className = "listening-sidebar";
   sidebar.innerHTML = `
-    <h3>Nghe</h3>
-    <ul id="listeningMenu"></ul>
+    <h3>🎧 Nghe</h3>
+
+    <input type="text" id="searchAudio" placeholder="Tìm audio..." />
+
+    <div id="listeningMenu"></div>
   `;
 
   const content = document.createElement("div");
   content.className = "listening-content";
 
-  // Di chuyển listenContainer vào content
   container.parentNode.insertBefore(wrapper, container);
   wrapper.appendChild(sidebar);
   wrapper.appendChild(content);
   content.appendChild(container);
 }
 
+function groupByType(data) {
+  const groups = {};
 
-function renderListeningMenu() {
+  data.forEach(item => {
+    let type = "Khác";
+
+    if (item.title.includes("kiku")) type = "Kiku (nghe)";
+    else if (item.title.includes("kaiwa")) type = "Kaiwa (hội thoại)";
+    else if (item.title.includes("hanasu")) type = "Hanasu (nói)";
+    else if (item.title.includes("katachi")) type = "Katachi (mẫu)";
+
+    if (!groups[type]) groups[type] = [];
+    groups[type].push(item);
+  });
+
+  return groups;
+}
+
+
+function renderListeningMenu(filter = "") {
   const menu = document.getElementById("listeningMenu");
   menu.innerHTML = "";
 
-  listeningData.forEach((item, index) => {
-    const li = document.createElement("li");
+  const groups = groupByType(listeningData);
 
-    li.innerHTML = `
-      <a href="#audio-${index}" 
-         data-index="${index}" 
-         class="${index === 0 ? "active" : ""}">
-        ${item.title}
-      </a>
-    `;
+  Object.keys(groups).forEach(groupName => {
+    const groupDiv = document.createElement("div");
+    groupDiv.className = "menu-group";
 
-    menu.appendChild(li);
+    groupDiv.innerHTML = `<h4>${groupName}</h4>`;
+
+    const ul = document.createElement("ul");
+
+    groups[groupName].forEach((item, index) => {
+      if (!item.title.toLowerCase().includes(filter.toLowerCase())) return;
+
+      const globalIndex = listeningData.indexOf(item);
+
+      const li = document.createElement("li");
+      li.innerHTML = `
+        <a href="#audio-${globalIndex}">
+          ${item.title}
+        </a>
+      `;
+      ul.appendChild(li);
+    });
+
+    groupDiv.appendChild(ul);
+    menu.appendChild(groupDiv);
   });
 
   setActiveOnClick();
-  setActiveOnScroll();
 }
 
 
@@ -272,13 +312,20 @@ function renderListening() {
         <button class="toggle-btn" data-id="script-${index}">👀 Xem script</button>
         <button class="toggle-btn" data-id="trans-${index}">VN Xem bản dịch</button>
       </div>
-
+      
       <div id="script-${index}" class="slide-box">
-        ${item.script.map(line => `<p>${line}</p>`).join("")}
+        ${item.image ? item.image.map(img => `
+          <div class="script-img">
+            <img src="${img}">
+          </div>
+        `).join("") : ""}
+
+        ${item.script.map(line => `<p>${addHira(line)}</p>`).join("")}
+        
       </div>
 
       <div id="trans-${index}" class="slide-box">
-        ${item.translation.map(line => `<p>${line}</p>`).join("")}
+        ${item.translation.map(line => `<p>${highlight(line)}</p>`).join("")}
       </div>
       
     `;
@@ -335,6 +382,7 @@ function initAudioPlayers() {
 
   });
 }
+
 /* =========================
    READING
 ========================= */
@@ -343,14 +391,14 @@ const readingList = document.getElementById("readingList");
 function renderReading() {
   readingList.innerHTML = readingData.map(item => `
     <div class="reading-card">
-        <h2>${item.title}</h2>
+        <h2>${addHira(item.title)}</h2>
 
         <div class="reading-image">
-            <img src="${item.image}" alt="reading image">
+          ${item.image1.map(img => `<img src="${img}">`).join("")}
         </div>
 
         <div class="reading-text">
-            ${item.conversation.map(line => `<p>${line}</p>`).join("")}
+            ${item.conversation.map(line => `<p>${addHira(line)}</p>`).join("")}
         </div>
 
         <div class="reading-translate-toggle">
@@ -365,22 +413,26 @@ function renderReading() {
           <p>📘Từ Vựng:</p>
             ${item.vocab.map(line => `
               <div class="vocab-item">
-              <span class="jp">${line.jp}</span> : 
+              <span class="jp">${addHira(line.jp)}</span> : 
               <span class="vn">${line.vn}</span>
               </div>
               `
   ).join("")}
         </div>
 
+        <div class="reading-image">
+          ${item.image2.map(img => `<img src="${img}">`).join("")}
+        </div>
+
         <div class="question-box" id="readingQuestion">
             <h4>❓ Câu hỏi</h4>
-            ${item.questions.map((q, i) => `<p>${i + 1}. ${q}</p>`).join("")}
+            ${item.questions.map((q) => `<p>${addHira(q)}</p>`).join("")}
         </div>
 
         <button class="answer-btn">Xem đáp án</button>
 
         <div class="answer-box">
-            ${item.answers.map((a, i) => `<p>${i + 1}. ${a}</p>`).join("")}
+            ${item.answers.map(a => `<p>${addHira(a)}</p>`).join("")}
         </div>
     </div>
   `).join("");
@@ -410,8 +462,4 @@ renderListening();
 setupListeningLayout();
 renderListeningMenu();
 initAudioPlayers();
-
-
-
-
-
+setActiveOnScroll();

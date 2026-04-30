@@ -1,82 +1,100 @@
 export const listeningData = [
   {
-    title: "Audio 1 : kaiwa1",
-    audio: "audio/Y_[01-01]_kaiwa1.mp3",
+    title: "Audio 1 : kiku1",
+    audio: "audio/Z_[01-01]_kiku1.mp3",
     script: [
-      "A：あ、お久しぶりです。",
-      "B：お久しぶりです。",
-      "A：お元気ですか？",
-      "B：はい。おかげさまで。"
+      "横田：マデさん、みんなを紹介しますね。",
+      "横田：こちらは、主任【しゅにん】の川崎【かわさき】さん。",
+      "横田：仕事のことは、川崎【かわさき】さんに聞【き】いてください。",
+      "川崎：川崎【かわさき】です。よろしくお願いします。"
     ],
     translation: [
-      "A: À, lâu rồi không gặp.",
-      "B: Lâu rồi không gặp.",
-      "A: Bạn khỏe không?",
-      "B: Vâng, nhờ ơn (mọi người) tôi vẫn khỏe."
+      "Yokota: Anh Made, tôi sẽ giới thiệu mọi người nhé.",
+      "Yokota: Đây là anh Kawasaki, trưởng bộ phận.",
+      "Yokota: Về công việc thì hãy hỏi anh Kawasaki nhé.",
+      "Kawasaki: Tôi là Kawasaki. Rất mong được giúp đỡ."
     ]
   },
   {
-    title: "Audio 2 : kaiwa2",
-    audio: "audio/Y_[01-02]_kaiwa2.mp3",
+    title: "Audio 2 : kiku2",
+    audio: "audio/Z_[01-02]_kiku2.mp3",
     script: [
-      "A：あ、久しぶり。",
-      "B：久しぶり。",
-      "A：元気？",
-      "B：うん、元気。"
+      "横田：こちらは、渡辺【わたなべ】さん。",
+      "横田：この会社では、いちばん長いです。",
+      "横田：何でも知【し】ってるから、会社のいろいろなことは、渡辺【わたなべ】さんに聞いてください。",
+      "渡辺：渡辺【わたなべ】です。私でよかったら、いつでも聞いてください。"
     ],
     translation: [
-      "A: À, lâu rồi ha.",
-      "B: Lâu rồi.",
-      "A: Khỏe không?",
-      "B: Ừ, khỏe."
+      "Yokota: Đây là chị Watanabe.",
+      "Yokota: Chị ấy là người làm ở công ty này lâu nhất.",
+      "Yokota: Vì cái gì chị ấy cũng biết, nên những việc khác nhau của công ty hãy hỏi chị Watanabe nhé.",
+      "Watanabe: Tôi là Watanabe. Nếu tôi giúp được gì thì cứ hỏi tôi bất cứ lúc nào nhé."
     ]
   },
   {
-    title: "Audio 3 : kaiwa3",
-    audio: "audio/Y_[01-03]_kaiwa3.mp3",
+    title: "Audio 3 : kiku3",
+    audio: "audio/Z_[01-03]_kiku3.mp3",
     script: [
-      "A：あ、久しぶり。",
-      "B：お久しぶりです。",
-      "A：元気？",
-      "B：はい。おかげさまで。"
+      "横田：こちらは林さん。",
+      "横田：林さんは中国出身【ちゅうごくしゅっしん】で、去年からここで働いてます。",
+      "横田：日本の生活のこととか、いろいろ聞くといいです。",
+      "林：「林【はやし】」と書いて【リン】です。よろしく。"
     ],
     translation: [
-      "A: À, lâu rồi.",
-      "B: Lâu rồi không gặp ạ.",
-      "A: Khỏe không?",
-      "B: Vâng, tôi vẫn khỏe."
+      "Yokota: Đây là anh Rin (Lin).",
+      "Yokota: Anh Rin đến từ Trung Quốc, làm việc ở đây từ năm ngoái.",
+      "Yokota: Những việc như cuộc sống ở Nhật chẳng hạn, hỏi anh ấy nhiều vào thì tốt đấy.",
+      "Rin: Viết là chữ \"Lâm\" (Hayashi) nhưng gọi là Rin. Rất vui được làm quen."
     ]
   },
   {
-    title: "Audio 4 : hanasu1",
-    audio: "audio/Y_[01-04]_hanasu1.mp3",
+    title: "Audio 4 : kiku4",
+    audio: "audio/Z_[01-04]_kiku4.mp3",
     script: [
-      "A：あ、お久しぶりです。",
-      "B：お久しぶりです。",
-      "A：お元気ですか？",
-      "B：はい。おかげさまで。"
+      "横田：それから、こちらは、パートの山下さん。",
+      "横田：山下さんは、毎日、午後3時までで、金曜日がお休み。",
+      "横田：休みとか、手続きのことは、山下さんが担当です。",
+      "山下：山下です。よろしくお願いします。"
     ],
     translation: [
-      "A: À, lâu rồi không gặp.",
-      "B: Lâu rồi không gặp.",
-      "A: Bạn có khỏe không?",
-      "B: Vâng, nhờ ơn (mọi người) tôi vẫn khỏe."
+      "Yokota: Và tiếp theo, đây là chị Yamashita, nhân viên bán thời gian.",
+      "Yokota: Chị Yamashita làm việc đến 3 giờ chiều mỗi ngày, và nghỉ vào thứ Sáu.",
+      "Yokota: Những việc như là xin nghỉ hay thủ tục thì chị Yamashita sẽ phụ trách.",
+      "Yamashita: Tôi là Yamashita. Rất mong được giúp đỡ."
     ]
   },
   {
-    title: "Audio 5 : hanasu2",
-    audio: "audio/Y_[01-05]_hanasu2.mp3",
+    title: "Audio 5 : kaiwa",
+    audio: "audio/Z_[01-05]_kaiwa.mp3",
     script: [
-      "A：あ、久しぶり。",
-      "B：久しぶり。",
-      "A：元気？",
-      "B：うん、元気。"
+      "ホア：はじめまして。",
+      "ホア：グエン・ティ・ホアと申します。",
+      "ホア：ホアと呼んでください。ホアは「花」という意味です。",
+      "ホア：ベトナムのダナンという町から来ました。",
+      "ホア：先週、日本に来たばかりです。",
+      "ホア：日本語は、日本に来る前に、1年間勉強しました。",
+      "ホア：まだ、日本のことはよくわかりませんが、一生懸命がんばります。",
+      "ホア：どうぞよろしくお願いします。",
+      "会社の人A：あのう、ベトナムでは、どんな仕事をしていましたか？",
+      "ホア：ホテルで働いていました。",
+      "会社の人B：趣味は何ですか？",
+      "ホア：趣味？ えっと、音楽を聞くことです。",
+      "ホア：J-POPが好きです。特に、Perfumeが好きです。"
     ],
     translation: [
-      "A: À, lâu rồi ha.",
-      "B: Lâu rồi.",
-      "A: Khỏe không?",
-      "B: Ừ, khỏe."
+      "Hoa: Rất vui được làm quen với mọi người.",
+      "Hoa: Tôi tên là Nguyen Thi Hoa.",
+      "Hoa: Hãy gọi tôi là Hoa. Hoa có nghĩa là 「Bông hoa」.",
+      "Hoa: Tôi đến từ một thành phố tên là Đà Nẵng ở Việt Nam.",
+      "Hoa: Tôi vừa mới đến Nhật vào tuần trước.",
+      "Hoa: Về tiếng Nhật, tôi đã học 1 năm trước khi sang Nhật.",
+      "Hoa: Tôi vẫn chưa biết nhiều về Nhật Bản, nhưng tôi sẽ cố gắng hết sức mình.",
+      "Hoa: Rất mong nhận được sự giúp đỡ của mọi người.",
+      "Người trong công ty A: Cho tôi hỏi, ở Việt Nam bạn đã làm công việc gì?",
+      "Hoa: Tôi đã làm việc tại khách sạn.",
+      "Người trong công ty B: Sở thích của bạn là gì?",
+      "Hoa: Sở thích ạ? À, là nghe nhạc.",
+      "Hoa: Tôi thích nhạc J-POP. Đặc biệt là tôi thích nhóm Perfume."
     ]
   },
   {
