@@ -1,356 +1,403 @@
 export const listeningData = [
   {
-    title: "Audio 1 : kiku1",
-    audio: "audio/Z_[01-01]_kiku1.mp3",
+    title: "Audio 1 : kotoba1",
+    audio: "audio/Z_[02-01]_kotoba1.mp3",
     script: [
-      "横田：マデさん、みんなを紹介しますね。",
-      "横田：こちらは、主任【しゅにん】の川崎【かわさき】さん。",
-      "横田：仕事のことは、川崎【かわさき】さんに聞【き】いてください。",
-      "川崎：川崎【かわさき】です。よろしくお願いします。"
+      "a. 髪が長い",
+      "b. 髪が短い",
+      "c. 背が高い",
+      "d. 座【すわ】っている（座る）",
+      "e. 立【た】っている（立つ）",
+      "f. 帽子【ぼうし】をかぶっている（かぶる）",
+      "g. ピアスをしている（する）",
+      "h. ワンピースを着ている（着る）",
+      "i. くつをはいている（はく）",
+      "j. めがねをかけている（かける）",
+      "k. ひげをはやしている（はやす）",
+      "l. ネクタイをしている（する）",
+      "m. シャツを着ている（着る）",
+      "n. ズボンをはいている（はく）",
     ],
     translation: [
-      "Yokota: Anh Made, tôi sẽ giới thiệu mọi người nhé.",
-      "Yokota: Đây là anh Kawasaki, trưởng bộ phận.",
-      "Yokota: Về công việc thì hãy hỏi anh Kawasaki nhé.",
-      "Kawasaki: Tôi là Kawasaki. Rất mong được giúp đỡ."
+      "a. Tóc dài",
+      "b. Tóc ngắn",
+      "c. Dáng cao",
+      "d. Đang ngồi",
+      "e. Đang đứng",
+      "f. Đang đội mũ",
+      "g. Đang đeo khuyên tai",
+      "h. Đang mặc váy liền thân",
+      "i. Đang đi giày",
+      "j. Đang đeo kính",
+      "k. Đang để râu",
+      "l. Đang thắt cà vạt",
+      "m. Đang mặc áo sơ mi",
+      "n. Đang mặc quần dài",
     ]
   },
   {
-    title: "Audio 2 : kiku2",
-    audio: "audio/Z_[01-02]_kiku2.mp3",
+    title: "Audio 2 : kotoba2",
+    audio: "audio/Z_[02-02]_kotoba2.mp3",
     script: [
-      "横田：こちらは、渡辺【わたなべ】さん。",
-      "横田：この会社では、いちばん長いです。",
-      "横田：何でも知【し】ってるから、会社のいろいろなことは、渡辺【わたなべ】さんに聞いてください。",
-      "渡辺：渡辺【わたなべ】です。私でよかったら、いつでも聞いてください。"
+      "1. 背【せ】が高いです。",
+      "2. 髪【かみ】が長いです。",
+      "3. 立っています。",
+      "4. 座っています。",
+      "5. 髪が短いです。",
+      "6. ひげをはやしています。",
+      "7. めがねをかけています。",
+      "8. 帽子【ぼうし】をかぶっています。",
+      "9. ピアスをしています。",
+      "10. 青いネクタイをしています。",
+      "11. 赤い靴【くつ】をはいています。",
+      "12. 白いシャツを着いています。",
+      "13. 黄色【きいろ】いワンピースを着いています。",
+      "12. 黒いズボン着ています。",
     ],
     translation: [
-      "Yokota: Đây là chị Watanabe.",
-      "Yokota: Chị ấy là người làm ở công ty này lâu nhất.",
-      "Yokota: Vì cái gì chị ấy cũng biết, nên những việc khác nhau của công ty hãy hỏi chị Watanabe nhé.",
-      "Watanabe: Tôi là Watanabe. Nếu tôi giúp được gì thì cứ hỏi tôi bất cứ lúc nào nhé."
+      "1. Dáng cao.",
+      "2. Tóc dài.",
+      "3. Đang đứng.",
+      "4. Đang ngồi.",
+      "5. Tóc ngắn.",
+      "6. Đang để râu.",
+      "7. Đang đeo kính.",
+      "8. Đang đội mũ.",
+      "9. Đang đeo khuyên tai.",
+      "10. Đang thắt cà vạt màu xanh dương.",
+      "11. Đang đi giày màu đỏ.",
+      "12. Đang mặc áo sơ mi màu trắng.",
+      "13. Đang mặc váy liền thân màu vàng.",
+      "14. Đang mặc quần dài màu đen."
     ]
   },
   {
-    title: "Audio 3 : kiku3",
-    audio: "audio/Z_[01-03]_kiku3.mp3",
+    title: "Audio 3 : kiku1",
+    audio: "audio/Z_[02-03]_kiku1.mp3",
     script: [
-      "横田：こちらは林さん。",
-      "横田：林さんは中国出身【ちゅうごくしゅっしん】で、去年からここで働いてます。",
-      "横田：日本の生活のこととか、いろいろ聞くといいです。",
-      "林：「林【はやし】」と書いて【リン】です。よろしく。"
+      "A: あのう、すみません。加藤【かとう】さん、いますか？",
+      "B: 加藤【かとう】さん？ ああ、あそこにいますよ。",
+      "A: え、どの人ですか？",
+      "B: ほら、あそこで、コピーをしてる人です。",
+      "A: ああ、わかりました。ありがとうございます。"
     ],
     translation: [
-      "Yokota: Đây là anh Rin (Lin).",
-      "Yokota: Anh Rin đến từ Trung Quốc, làm việc ở đây từ năm ngoái.",
-      "Yokota: Những việc như cuộc sống ở Nhật chẳng hạn, hỏi anh ấy nhiều vào thì tốt đấy.",
-      "Rin: Viết là chữ \"Lâm\" (Hayashi) nhưng gọi là Rin. Rất vui được làm quen."
+      "A: Xin lỗi, cho hỏi có anh Kato ở đây không ạ?",
+      "B: Anh Kato hả? À, anh ấy ở đằng kia kìa.",
+      "A: Hả, là người nào vậy ạ?",
+      "B: Nhìn kìa, là người đang đứng photocopy ở đằng kia đó.",
+      "A: À, tôi thấy rồi. Cảm ơn anh."
     ]
   },
   {
-    title: "Audio 4 : kiku4",
-    audio: "audio/Z_[01-04]_kiku4.mp3",
+    title: "Audio 4 : kiku2",
+    audio: "audio/Z_[02-04]_kiku2.mp3",
     script: [
-      "横田：それから、こちらは、パートの山下さん。",
-      "横田：山下さんは、毎日、午後3時までで、金曜日がお休み。",
-      "横田：休みとか、手続きのことは、山下さんが担当です。",
-      "山下：山下です。よろしくお願いします。"
+      "A: すみません。江口【えぐち】さんはどの人ですか？",
+      "B: あの髪【かみ】が短くて、ひげをはやしてる人です。",
+      "A: ああ、わかりました。"
     ],
     translation: [
-      "Yokota: Và tiếp theo, đây là chị Yamashita, nhân viên bán thời gian.",
-      "Yokota: Chị Yamashita làm việc đến 3 giờ chiều mỗi ngày, và nghỉ vào thứ Sáu.",
-      "Yokota: Những việc như là xin nghỉ hay thủ tục thì chị Yamashita sẽ phụ trách.",
-      "Yamashita: Tôi là Yamashita. Rất mong được giúp đỡ."
+      "A: Xin lỗi, anh Eguchi là người nào vậy ạ?",
+      "B: Là người có mái tóc ngắn và đang để râu đó.",
+      "A: À, tôi hiểu rồi."
     ]
   },
   {
-    title: "Audio 5 : kaiwa",
-    audio: "audio/Z_[01-05]_kaiwa.mp3",
+    title: "Audio 5 : kiku3",
+    audio: "audio/Z_[02-05]_kiku3.mp3",
     script: [
-      "ホア：はじめまして。",
-      "ホア：グエン・ティ・ホアと申します。",
-      "ホア：ホアと呼んでください。ホアは「花」という意味です。",
-      "ホア：ベトナムのダナンという町から来ました。",
-      "ホア：先週、日本に来たばかりです。",
-      "ホア：日本語は、日本に来る前に、1年間勉強しました。",
-      "ホア：まだ、日本のことはよくわかりませんが、一生懸命がんばります。",
-      "ホア：どうぞよろしくお願いします。",
-      "会社の人A：あのう、ベトナムでは、どんな仕事をしていましたか？",
-      "ホア：ホテルで働いていました。",
-      "会社の人B：趣味は何ですか？",
-      "ホア：趣味？ えっと、音楽を聞くことです。",
-      "ホア：J-POPが好きです。特に、Perfumeが好きです。"
+      "A: 原【はら】さん、いますか？",
+      "B: ああ、座【すわ】って、本を読んでいる人ですよ。",
+      "A: ああ、あの男【おとこ】の人ですね。",
+      "B: ええ。"
     ],
     translation: [
-      "Hoa: Rất vui được làm quen với mọi người.",
-      "Hoa: Tôi tên là Nguyen Thi Hoa.",
-      "Hoa: Hãy gọi tôi là Hoa. Hoa có nghĩa là 「Bông hoa」.",
-      "Hoa: Tôi đến từ một thành phố tên là Đà Nẵng ở Việt Nam.",
-      "Hoa: Tôi vừa mới đến Nhật vào tuần trước.",
-      "Hoa: Về tiếng Nhật, tôi đã học 1 năm trước khi sang Nhật.",
-      "Hoa: Tôi vẫn chưa biết nhiều về Nhật Bản, nhưng tôi sẽ cố gắng hết sức mình.",
-      "Hoa: Rất mong nhận được sự giúp đỡ của mọi người.",
-      "Người trong công ty A: Cho tôi hỏi, ở Việt Nam bạn đã làm công việc gì?",
-      "Hoa: Tôi đã làm việc tại khách sạn.",
-      "Người trong công ty B: Sở thích của bạn là gì?",
-      "Hoa: Sở thích ạ? À, là nghe nhạc.",
-      "Hoa: Tôi thích nhạc J-POP. Đặc biệt là tôi thích nhóm Perfume."
+      "A: Cho hỏi có chị Hara ở đây không?",
+      "B: À, là người đang ngồi đọc sách đó.",
+      "A: À, là người đàn ông kia phải không nhỉ? (Lưu ý: Bối cảnh có thể là Hara là nam hoặc A đang xác nhận lại vị trí).",
+      "B: Vâng, đúng rồi."
     ]
   },
   {
-    title: "Audio 6 : katachi",
-    audio: "audio/Z_[01-06]_katachi.mp3",
+    title: "Audio 6 : kiku4",
+    audio: "audio/Z_[02-06]_kiku4.mp3",
     script: [
-      "①グエン・ティ・ホア＿＿＿＿＿＿。",
-      "　ホアと＿＿＿＿ください。",
-      "②ホアは「花」＿＿＿意味です。",
-      "③ベトナムのダナン＿＿＿町から来ました。",
-      "④先週、日本に来た＿＿＿＿です。",
-      "⑤ベトナムでは、ホテルで働い＿＿＿＿＿＿。"
+      "A: あのう、ナインさんはどの人ですか？",
+      "B: ナインさん？ あの帽子【ぼうし】をかぶってる人ですよ。",
+      "A: ああ、あの赤いジャンパーの人ですね。",
+      "B: そうです。"
     ],
     translation: [
-      "①Tôi tên là Nguyen Thi Hoa. -> と申します",
-      "　Hãy gọi tôi là Hoa. -> 呼んで",
-      "②Hoa có nghĩa là [Hoa]. -> という",
-      "③Tôi đến từ thành phố tên là Da Nang ở Việt Nam. -> という",
-      "④Tôi vừa mới đến Nhật vào tuần trước. -> ばかり",
-      "⑤Ở Việt Nam, tôi đã làm việc tại khách sạn. -> ていました"
+      "A: Xin lỗi, anh Nain là người nào vậy ạ?",
+      "B: Anh Nain hả? Là người đang đội mũ đó.",
+      "A: À, là người mặc áo khoác (jumper) màu đỏ phải không nhỉ?",
+      "B: Đúng vậy đó."
     ]
   },
   {
-    title: "Audio 7 : hanasu",
-    audio: "audio/Z_[01-07]_hanasu.mp3",
-    image: [
-      "images/listen/01-07.png",
-      "images/listen/01-07_2.png",
-    ],
+    title: "Audio 7 : katachi1",
+    audio: "audio/Z_[02-07]_katachi1.mp3",
+
     script: [
-      "はじめのことば：はじめまして。",
-      "名前・呼び方：グエン・ティ・ホアと申します。ホアと呼んでください。",
-      "名前の意味：ホアは「花」という意味です。",
-      "出身：ベトナムのダナンという町から来ました。",
-      "いつ来たか：先週、日本に来たばかりです。/ 4月／2年前に日本に来ました。",
-      "日本語の学習経験：日本語は、日本に来る前に、1年間勉強しました。",
-      "仕事の経験：ベトナムでは、ホテルで働いていました。",
-      "趣味：趣味は音楽を聞くことです。",
-      "終わりのことば：どうぞよろしくお願いします。"
+      "（加藤さんは）あそこで、コピーを＿＿＿＿＿＿人です。",
+      "（江口さんは）髪＿＿＿短くて、ひげを＿＿＿＿＿＿人です。",
+      "（原さんは）座って、本を＿＿＿＿＿＿人です。",
+      "（ナインさんは）帽子を＿＿＿＿＿＿人です。",
     ],
     translation: [
-      "Lời chào đầu: Rất vui được làm quen.",
-      "Tên/Cách gọi: Tôi tên là Nguyen Thi Hoa. Hãy gọi tôi là Hoa.",
-      "Ý nghĩa tên: Hoa có nghĩa là 「Bông hoa」.",
-      "Xuất thân: Tôi đến từ một thành phố tên là Đà Nẵng ở Việt Nam.",
-      "Đến khi nào: Tôi vừa mới đến Nhật tuần trước. / Tôi đã đến Nhật vào tháng 4 / 2 năm trước.",
-      "Kinh nghiệm học tiếng Nhật: Về tiếng Nhật, tôi đã học 1 năm trước khi sang Nhật.",
-      "Kinh nghiệm làm việc: Ở Việt Nam, tôi đã làm việc tại khách sạn.",
-      "Sở thích: Sở thích của tôi là nghe nhạc.",
-      "Lời chào kết: Rất mong nhận được sự giúp đỡ của mọi người."
+      "①(Anh Kato) là người đang photocopy ở đằng kia. -> している",
+      "②(Anh Eguchi) là người tóc ngắn và đang để râu. -> が / はやしている",
+      "③(Chị Hara) là người đang ngồi đọc sách. -> 読んでいる",
+      "④(Anh Nain) là người đang đội mũ. -> かぶっている",
     ]
   },
   {
-    title: "Audio 8 : kotoba1",
-    audio: "audio/Z_[01-08]_kotoba1.mp3",
+    title: "Audio 8 : katachi2",
+    audio: "audio/Z_[02-08]_katachi2.mp3",
     script: [
-      "a. 北【きた】",
-      "b. 東【ひがし】",
-      "c. 南【みなみ】",
-      "d. 西【にし】",
-      "e. 山【やま】",
-      "f. 川【かわ】",
-      "g. 海【うみ】",
-      "h. 島【しま】",
-      "i. 森【もり】／ジャングル",
-      "j. 草原【そうげん】",
-      "k. 砂漠【さばく】",
-      "l. 高原【こうげん】"
+      "A: あのう、ナインさんはどの人ですか？",
+      "B: ナインさん？ あの帽子をかぶっている人です＿＿。",
+      "A: ああ、あの赤いジャンパーの人です＿＿。",
+      "B: そうです。"
     ],
     translation: [
-      "a. Hướng Bắc",
-      "b. Hướng Đông",
-      "c. Hướng Nam",
-      "d. Hướng Tây",
-      "e. Núi",
-      "f. Sông",
-      "g. Biển",
-      "h. Đảo",
-      "i. Rừng / Rừng nhiệt đới",
-      "j. Đồng cỏ",
-      "k. Sa mạc",
-      "l. Cao nguyên"
+      "A: Xin lỗi, anh Nain là người nào vậy ạ?",
+      "B: Anh Nain hả? Là người đang đội mũ đó. -> よ",
+      "A: À, là người mặc áo khoác đỏ kia nhỉ. -> ね",
+      "B: Đúng vậy."
     ]
   },
   {
-    title: "Audio 9 : kotoba2",
-    audio: "audio/Z_[01-09]_kotoba2.mp3",
+    title: "Audio 9 : hanasu1",
+    audio: "audio/Z_[02-09]_hanasu1.mp3",
     script: [
-      "1. 西にあります",
-      "2. 東にあります",
-      "3. 北にあります",
-      "4. 南にあります",
-      "5. 山や川があります",
-      "6. 砂漠【さばく】があります",
-      "7. ジャングルがあります",
-      "8. 草原【そうげん】があります",
-      "9. 海【うみ】があります",
+      "A: 加藤【かとう】さんは、どの人ですか？",
+      "B: あそこでコピーをしている人です。",
+      "A: ああ、わかりました。ありがとうございます。"
     ],
     translation: [
-      "1. Nằm ở hướng Tây",
-      "2. Nằm ở hướng Đông",
-      "3. Nằm ở hướng Bắc",
-      "4. Nằm ở hướng Nam",
-      "5. Có núi và sông",
-      "6. Có sa mạc",
-      "7. Có rừng nhiệt đới",
-      "8. Có đồng cỏ",
-      "9. Có biển",
+      "A: Anh Kato là người nào vậy?",
+      "B: Là người đang photocopy ở đằng kia.",
+      "A: À, tôi rõ rồi. Xin cảm ơn."
     ]
   },
   {
-    title: "Audio 10 : kiku1",
-    audio: "audio/Z_[01-10]_kiku1.mp3",
+    title: "Audio 10 : hanasu2",
+    audio: "audio/Z_[02-10]_hanasu2.mp3",
     script: [
-      "A：あのう、出身【しゅっしん】は？",
-      "B：フィリピンです。",
-      "A：フィリピンのどこですか？",
-      "B：セブです。有名な観光地【かんこうち】です。知ってますか？",
-      "A：ああ、セブ島【しま】？海がきれいなところですね。",
-      "B：はい。観光客【かんこうち】が大勢【おおぜい】来ます。日本のお客【きゃく】さんも多いですよ。",
-      "A：日本から、どのぐらいかかりますか？",
-      "B：飛行機【ひこうき】で５時間ぐらいです。ぜひ、一度行ってみてください。"
+      "A: 加藤【かとう】さんは、どの人ですか？",
+      "B: あの髪【かみ】が短【みじか】くて、ひげをはやしている人です。",
+      "A: ああ、わかりました。ありがとうございます。"
     ],
     translation: [
-      "A: À này, bạn đến từ đâu vậy?",
-      "B: Tôi đến từ Philippines.",
-      "A: Ở chỗ nào của Philippines thế?",
-      "B: Là Cebu. Đó là một địa điểm du lịch nổi tiếng. Bạn có biết không?",
-      "A: À, đảo Cebu? Là một nơi có biển đẹp nhỉ.",
-      "B: Vâng. Khách du lịch đến rất đông. Khách Nhật Bản cũng nhiều lắm đấy.",
-      "A: Từ Nhật Bản mất khoảng bao lâu?",
-      "B: Đi máy bay mất khoảng 5 tiếng. Nhất định hãy thử đến đó một lần nhé."
+      "A: Anh Kato là người nào vậy?",
+      "B: Là người có mái tóc ngắn và đang để râu đó.",
+      "A: À, tôi rõ rồi. Xin cảm ơn."
     ]
   },
   {
-    title: "Audio 11 : kiku2",
-    audio: "audio/Z_[01-11]_kiku2.mp3",
+    title: "Audio 11 : kiku1",
+    audio: "audio/Z_[02-11]_kiku1.mp3",
     script: [
-      "A：ボルドさん、出身【しゅっしん】は？",
-      "B：モンゴルのウランバートルです。",
-      "A：ああ、モンゴル！じゃ、写真でよく見る、白くて丸いテントに住んでるの？",
-      "B：違【ちが】います。ウランバートルは首都【しゅと】だから、都会【とかい】ですよ。高いビルも多いです。",
-      "A：へー、そうなんだ。"
+      "A: その写真【しゃしん】、だれですか？",
+      "B: ああ、恋人【こいびと】です。",
+      "A: へー。まじめそうな人【ひと】ですね。",
+      "B: 写真【しゃしん】はまじめそうですけど、本当【ほんとう】はおもしろい人【ひと】ですよ。",
+      "A: そうなんですか。"
     ],
     translation: [
-      "A: Anh Bold, bạn đến từ đâu vậy?",
-      "B: Tôi đến từ Ulaanbaatar, Mông Cổ.",
-      "A: Ồ, Mông Cổ! Vậy bạn có sống trong những cái lều tròn màu trắng hay thấy trên ảnh không?",
-      "B: Không phải đâu. Ulaanbaatar là thủ đô nên là đô thị đấy. Cũng có nhiều tòa nhà cao tầng nữa.",
-      "A: Chà, ra là vậy."
+      "A: Bức ảnh đó là ai vậy?",
+      "B: À, là người yêu tôi.",
+      "A: Chà. Trông có vẻ là người nghiêm túc nhỉ.",
+      "B: Trong ảnh thì có vẻ nghiêm túc nhưng thực sự là một người rất thú vị đấy.",
+      "A: Vậy hả?"
     ]
   },
   {
-    title: "Audio 12 : kiku3",
-    audio: "audio/Z_[01-12]_kiku3.mp3",
+    title: "Audio 12 : kiku2",
+    audio: "audio/Z_[02-12]_kiku2.mp3",
     script: [
-      "A：ニャンさんは、ベトナムのホーチミン出身ですよね？",
-      "B：はい。",
-      "A：ホーチミンは、どんなところですか？",
-      "B：ベトナムの南にある、とても大きい町です。",
-      "A：首都ですか？",
-      "B：いえ、首都ではないけど、とてもにぎやかです。",
-      "B：安くておいしいレストランがたくさんあります。とても、いいところです。",
-      "A：へー。一度行ってみたいですね。"
+      "A: 山本【やまもと】さん、とてもうれしそうですね。",
+      "B: ああ、この間【あいだ】、孫【まご】が生まれたんです。",
+      "A: まご？",
+      "B: 娘【むすめ】の子どもです。ほら、見【み】てください。",
+      "A: ああ、元気【げんき】そうな赤ちゃんですね。",
+      "B: ええ、とてもかわいいです。毎日【まいにち】、夜泣【よな】いて、大変【たいへん】ですけどね。"
     ],
     translation: [
-      "A: Bạn Nhan đến từ Thành phố Hồ Chí Minh, Việt Nam phải không?",
-      "B: Vâng.",
-      "A: Hồ Chí Minh là nơi như thế nào vậy?",
-      "B: Là một thành phố rất lớn nằm ở phía Nam Việt Nam.",
-      "A: Đó có phải là thủ đô không?",
-      "B: Không, không phải thủ đô nhưng rất náo nhiệt.",
-      "B: Có rất nhiều nhà hàng rẻ và ngon. Đó là một nơi rất tuyệt vời.",
-      "A: Chà. Tôi muốn thử đến đó một lần."
+      "A: Anh Yamamoto, trông anh có vẻ đang rất vui nhỉ.",
+      "B: À, vừa rồi cháu tôi mới chào đời.",
+      "A: Cháu ư?",
+      "B: Là con của con gái tôi. Này, xem này.",
+      "A: Ồ, một em bé trông có vẻ rất khỏe mạnh nhỉ.",
+      "B: Vâng, rất đáng yêu. Mỗi tội ngày nào cũng khóc đêm nên cũng vất vả lắm."
     ]
   },
   {
-    title: "Audio 13 : katachi2-3",
-    audio: "audio/Y_[01-13]_katachi2-3.mp3",
+    title: "Audio 13 : katachi3",
+    audio: "audio/Z_[02-13]_kiku3.mp3",
     script: [
-      "A：サンティさんは、インドネシアのどちらからですか？",
-      "B：ウォノソボという町から来ました。",
-      "A：ウォノソボ？　どこにあるんですか？",
-      "B：ジャワ島【しま】に、ジョグジャカルタという大きい町があります。",
-      "B：そこから、バスで4時間ぐらいです。",
-      "A：へー、どんなところですか？",
-      "B：そうですね。高原【こうげん】の町です。",
-      "B：お茶の畑【はたけ】がたくさんあって、のんびりしています。",
-      "A：ふーん。"
+      "A: 今度【こんど】、主任【しゅにん】になった村田【むらた】さん、どんな人【ひと】ですか？",
+      "B: 見【み】た目【め】はこわそうだけど、やさしい人【ひと】だよ。",
+      "A: そうなんですか。",
+      "B: でも、仕事のときは、きびしいけどね。",
+      "A: えー！"
     ],
     translation: [
-      "A: Bạn Santi đến từ đâu ở Indonesia vậy?",
-      "B: Tôi đến từ một thị trấn tên là Wonosobo.",
-      "A: Wonosobo? Nơi đó nằm ở đâu thế?",
-      "B: Trên đảo Java có một thành phố lớn tên là Yogyakarta.",
-      "B: Từ đó đi xe buýt mất khoảng 4 tiếng.",
-      "A: Chà, đó là một nơi như thế nào?",
-      "B: À thì, đó là một thị trấn ở vùng cao nguyên.",
-      "B: Có rất nhiều cánh đồng trà và cuộc sống rất thong thả, bình yên.",
+      "A: Anh Murata, người vừa mới lên chức chủ nhiệm, là người như thế nào vậy?",
+      "B: Nhìn vẻ ngoài thì có vẻ đáng sợ nhưng thực ra là người hiền lành đấy.",
+      "A: Vậy hả?",
+      "B: Nhưng mà, trong lúc làm việc thì khá nghiêm khắc đó.",
+      "A: Ế!"
+    ]
+  },
+  {
+    title: "Audio 14 : kiku4",
+    audio: "audio/Z_[02-14]_kiku4.mp3",
+    script: [
+      "A: 小川【おがわ】さん、最近【さいきん】、とっても忙しそうですね。",
+      "B: 毎日、遅【おそ】くまで仕事をしていますよね。仕事がとても多【おお】いと言【い】っていました。",
+      "A: そうですか。心配【しんぱい】ですね。"
+    ],
+    translation: [
+      "A: Chị Ogawa dạo này trông có vẻ cực kỳ bận rộn nhỉ.",
+      "B: Đúng vậy, ngày nào chị ấy cũng làm việc đến muộn mà. Chị ấy cũng nói là công việc đang rất nhiều.",
+      "A: Vậy à. Lo lắng thật đấy nhỉ."
+    ]
+  },
+  {
+    title: "Audio 15 : katachi",
+    audio: "audio/Z_[02-15]_katachi.mp3",
+    script: [
+      "① A: ＿＿＿＿＿＿な人【ひと】ですね。",
+      "   B: 写真【しゃしん】は＿＿＿＿＿＿ですけど、本当【ほんとう】は＿＿＿＿＿＿人【ひと】ですよ。",
+      "② A: ＿＿＿＿＿＿な赤【あか】ちゃんですね。",
+      "   B: ええ、とても＿＿＿＿＿＿です。",
+      "③ 見【み】た目【め】は＿＿＿＿＿＿だけど、＿＿＿＿＿＿人【ひと】だよ。",
+      "④ 最近【さいきん】、とっても＿＿＿＿＿＿ですね。"
+    ],
+    translation: [
+      "① A: Trông có vẻ là người nghiêm túc nhỉ. -> まじめそう",
+      "   B: Trong ảnh thì có vẻ nghiêm túc nhưng thực sự là một người rất thú vị đấy. -> まじめそう / おもしろい",
+      "② A: Một em bé trông có vẻ rất khỏe mạnh nhỉ. -> 元気【げんき】そう",
+      "   B: Vâng, rất đáng yêu. -> かわいい",
+      "③ Nhìn vẻ ngoài thì có vẻ đáng sợ nhưng thực ra là người hiền lành đấy. -> こわそう / やさしい",
+      "④ Dạo này trông có vẻ cực kỳ bận rộn nhỉ. -> 忙【いそが】しそう"
+    ]
+  },
+  {
+    title: "Audio 16 : hanasu1",
+    audio: "audio/Z_[02-16]_hanasu1.mp3",
+    script: [
+      "A: その写真【しゃしん】、だれですか？",
+      "A: まじめそうな人【ひと】ですね。",
+      "B: 写真【しゃしん】はまじめそうですけど、本当【ほんとう】はおもしろい人【ひと】ですよ。",
+      "A: 山本【やまもと】さん、とてもうれしそうですね。",
+      "A: 元気【げんき】そうな赤【あか】ちゃんですね。",
+      "B: ええ、とてもかわいいです。"
+    ],
+    translation: [
+      "A: Bức ảnh đó là ai vậy? (Câu hỏi đầu)",
+      "A: Trông có vẻ là người nghiêm túc nhỉ. -> まじめそう",
+      "B: Trong ảnh thì có vẻ nghiêm túc nhưng thực sự là một người rất thú vị đấy. -> まじめそう / おもしろい",
+      "A: Anh Yamamoto, trông anh có vẻ đang rất vui nhỉ. (Câu hỏi đầu)",
+      "A: Một em bé trông có vẻ rất khỏe mạnh nhỉ. -> 元気そう",
+      "B: Vâng, rất đáng yêu. -> かわいい"
+    ]
+  },
+  {
+    title: "Audio 17 : hanasu2",
+    audio: "audio/Z_[02-17]_hanasu2.mp3",
+    script: [
+      "A: 村田【むらた】さんは、どんな人【ひと】ですか？",
+      "B: 見【み】た目【め】はこわそうだけど、やさしい人【ひと】です。",
+      "A: そうですか。"
+    ],
+    translation: [
+      "A: Anh Murata là người như thế nào vậy?",
+      "B: Nhìn vẻ ngoài thì có vẻ đáng sợ nhưng thực ra là người hiền lành.",
       "A: Vậy à."
     ]
   },
   {
-    title: "Audio 14 : katachi1",
-    audio: "audio/Z_[01-14]_katachi1.mp3",
+    title: "Audio 18 : kaiwa",
+    audio: "audio/Z_[02-18]_kaiwa.mp3",
     script: [
-      "A：ウォノソボ？　どこにあるんですか？",
-      "B：ジャワ島に、ジョグジャカルタという大きい町があります。",
-      "B：＿＿＿＿から、バスで4時間ぐらいです。"
+      "増田【ますだ】：蔡【さい】さん、日本【にほん】の歌手【かしゅ】、だれか知【し】ってる？",
+      "蔡【さい】：私【わたし】は安室奈美恵【あむろなみえ】が好【す】きです。",
+      "増田【ますだ】：へー。でも、引退【いんたい】したよね。",
+      "蔡【さい】：はい。でも、今【いま】でも好【す】きです。かっこいいし、歌【うた】もダンスも上手【じょうず】だし。",
+      "増田【ますだ】：そうだね。",
+      "マイク：安室奈美恵【あむろなみえ】は、アジアではとても有名【ゆうめい】なんですよ。",
+      "蔡【さい】：私【わたし】は、テレビで見【み】て、好【す】きになりました。",
+      "増田【ますだ】：へー、そうなんだ。マイクさんは、だれか好【す】きな歌手【かしゅ】、いる？",
+      "マイク：歌手【かしゅ】じゃないですけど、ぼくは三船敏郎【みふねとしろう】が好【す】きです。",
+      "増田【ますだ】：えっ、三船敏郎【みふねとしろう】！？　すごいね。",
+      "蔡【さい】：それ、だれですか？",
+      "マイク：日本【にほん】の有名【ゆうめい】な俳優【はいゆう】です。",
+      "増田【ますだ】：そんな古【ふる】い人【ひと】、よく知【し】ってるね。",
+      "マイク：はい。好【す】きになったきっかけは、日本映画祭【にほんえいがさい】で『七人【しちにん】の侍【さむらい】』という映画【えいが】を見【み】たことです。演技【えんぎ】が上手【じょうず】だし、本当【ほんとう】にかっこいいです。",
+      "蔡【さい】：そうなんですか。",
+      "マイク：今【いま】でも、世界中【せかいじゅう】にファンがたくさんいますよ。"
     ],
     translation: [
-      "A: Wonosobo? Nơi đó nằm ở đâu thế?",
-      "B: Trên đảo Java có một thành phố lớn tên là Yogyakarta.",
-      "B: Từ [nơi đó] đi xe buýt mất khoảng 4 tiếng. -> そこ"
+      "Masuda: Sai này, bạn có biết ca sĩ Nhật Bản nào không?",
+      "Sai: Tôi thích Amuro Namie.",
+      "Masuda: Chà. Nhưng cô ấy giải nghệ rồi nhỉ.",
+      "Sai: Vâng. Nhưng giờ tôi vẫn thích. Vì cô ấy vừa ngầu, hát và nhảy đều giỏi nữa.",
+      "Masuda: Đúng vậy nhỉ.",
+      "Mike: Amuro Namie rất nổi tiếng ở Châu Á đấy.",
+      "Sai: Tôi đã xem trên TV và trở nên yêu thích cô ấy.",
+      "Masuda: Hả, ra là vậy. Mike này, bạn có ca sĩ nào yêu thích không?",
+      "Mike: Không phải ca sĩ nhưng tôi thích Mifune Toshiro.",
+      "Masuda: Hả, Mifune Toshiro!? Giỏi thật đấy.",
+      "Sai: Đó là ai vậy?",
+      "Mike: Là một diễn viên nổi tiếng của Nhật Bản.",
+      "Masuda: Một người xưa như thế mà bạn cũng biết rõ nhỉ.",
+      "Mike: Vâng. Lý do tôi trở nên yêu thích là vì tôi đã xem bộ phim mang tên 'Bảy tay súng oai hùng' (Shichinin no Samurai) tại Liên hoan phim Nhật Bản. Diễn xuất của ông ấy rất giỏi và thực sự rất ngầu.",
+      "Sai: Vậy hả?",
+      "Mike: Ngay cả bây giờ, ông ấy vẫn có rất nhiều người hâm mộ trên toàn thế giới đấy."
     ]
   },
   {
-    title: "Audio 15 : katachi2",
-    audio: "audio/Z_[01-15]_katachi2.mp3",
+    title: "Audio 19 : katachi",
+    audio: "audio/Z_[02-19]_katachi.mp3",
     script: [
-      "1. （ウランバートルは）首都だ＿＿＿＿、都会です。",
-      "2. （ホーチミンは）首都ではない＿＿＿＿、とてもにぎやかです。",
-      "3. （ウォノソボは）お茶の畑がたくさん＿＿＿＿、のんびりしています。"
+      "① 私は安室奈美恵【あむろなみえ】が好きです。",
+      "   かっこいい＿＿＿＿、歌【うた】もダンスも上手【じょうず】だ＿＿＿＿。",
+      "   テレビで＿＿＿＿＿＿、好きになりました。",
+      "② ぼくは三船敏郎【みふねとしろう】が好【す】きです。",
+      "   好きになった＿＿＿＿＿＿は、『七人【しちにん】の侍【さむらい】』という映画を見た＿＿＿＿です。",
+      "   演技【えんぎ】が上手【じょうず】だ＿＿＿＿、本当【ほんとう】にかっこいいです。"
     ],
     translation: [
-      "1. (Ulaanbaatar) vì là thủ đô nên là một đô thị. -> から",
-      "2. (Hồ Chí Minh) tuy không phải là thủ đô nhưng rất náo nhiệt. -> けど",
-      "3. (Wonosobo) có rất nhiều cánh đồng trà và cuộc sống rất thong thả. -> あって"
+      "① Tôi thích Amuro Namie.",
+      "   Vì cô ấy ngầu, và cả hát hay nhảy giỏi nữa. -> し / し",
+      "   Tôi xem trên TV rồi trở nên yêu thích. -> 見【み】て",
+      "② Tôi thích Mifune Toshiro.",
+      "   Lý do tôi trở nên yêu thích là việc đã xem bộ phim 'Bảy tay súng oai hùng'. -> きっかけ / こと",
+      "   Vì diễn xuất của ông ấy giỏi và thực sự rất ngầu. -> し"
     ]
   },
   {
-    title: "Audio 16 : hanasu",
-    audio: "audio/Z_[01-16]_hanasu.mp3",
+    title: "Audio 20 : hanasu",
+    audio: "audio/Z_[02-20]_hanasu.mp3",
     script: [
-      "A. 出身はどちらですか？",
-      "B. ベトナムのホーチミン（という）町です",
-      "A：ホーチミンは、どんなところですか？",
-      "B：とても大きい町です。",
-      "B：安くておいしいレストランがたくさんあって、にぎやかです。",
-      "A：どこにありますか？",
-      "B：ベトナムの南にあります。",
-      "A：日本からどのぐらいかかりますか？",
-      "B：飛行機で6時間半ぐらいです。",
-      "A：そうなんですか。"
+      "A: 好きな俳優【はいゆう】がいますか？",
+      "B: 私は三船敏郎【みふねとしろう】が好きです。",
+      "B: 好きになったきっかけは、『七人【しちにん】の侍【さむらい】』という映画【えいが】を見たことです。",
+      "B: （または）『七人【しちにん】の侍【さむらい】』という映画を見て、好きになりました。",
+      "B: 演技【えんぎ】が上手【じょうず】だし、本当【ほんとう】にかっこいいです。",
+      "A: そうですか。"
     ],
     translation: [
-      "A: Bạn xuất thân từ đâu vậy?",
-      "B: Thành phố Hồ Chí Minh Việt Nam",
-      "A: Hồ Chí Minh là nơi như thế nào?",
-      "B: Là một thành phố rất lớn.",
-      "B: Có rất nhiều nhà hàng rẻ và ngon, và rất náo nhiệt.",
-      "A: Nơi đó nằm ở đâu?",
-      "B: Nằm ở miền Nam Việt Nam.",
-      "A: Từ Nhật Bản mất khoảng bao lâu?",
-      "B: Đi máy bay mất khoảng 6 tiếng rưỡi.",
+      "A: Bạn có diễn viên nào yêu thích không?",
+      "B: Tôi thích Mifune Toshiro.",
+      "B: Lý do tôi trở nên yêu thích là vì tôi đã xem bộ phim mang tên 'Bảy tay súng oai hùng'.",
+      "B: (Hoặc) Sau khi xem bộ phim mang tên 'Bảy tay súng oai hùng', tôi đã trở nên yêu thích ông ấy.",
+      "B: Vì diễn xuất của ông ấy giỏi và thực sự rất ngầu.",
       "A: Vậy à."
     ]
-  }
+  },
 ];
