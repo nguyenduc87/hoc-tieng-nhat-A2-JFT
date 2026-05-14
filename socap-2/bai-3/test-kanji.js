@@ -1,4 +1,4 @@
-import { kanjiList } from "./data/kanji-bai-2.js";
+import { kanjiList } from "./data/kanji-bai-3.js";
 import { addEvents, initToggleNav } from "../assets/js/test-common.js";
 
 const quizEl = document.getElementById("quiz");
