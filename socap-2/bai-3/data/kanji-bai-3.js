@@ -1,12 +1,12 @@
 export const kanjiList = [
-  { kanji: "写真", furi: "しゃしん", vi: "Ảnh / Bức ảnh" },
-  { kanji: "歌", furi: "うた", vi: "Bài hát" },
-  { kanji: "歌手", furi: "かしゅ", vi: "Ca sĩ" },
-  { kanji: "上手（な）", furi: "じょうず", vi: "Giỏi / Khéo léo" },
-  { kanji: "明るい", furi: "あかるい", vi: "Sáng / Tươi sáng" },
-  { kanji: "長い", furi: "ながい", vi: "Dài" },
-  { kanji: "短い", furi: "みじかい", vi: "Ngắn" },
-  { kanji: "着る", furi: "きる", vi: "Mặc (áo)" },
-  { kanji: "立つ", furi: "たつ", vi: "Đứng" },
-  { kanji: "泣く", furi: "なく", vi: "Khóc" }
+  { kanji: "注文", furi: "ちゅうもん", vi: "Đặt hàng / Gọi món" },
+  { kanji: "会計", furi: "かいけい", vi: "Thanh toán / Tính tiền" },
+  { kanji: "予約", furi: "よやく", vi: "Đặt trước / Hẹn trước" },
+  { kanji: "電話番号", furi: "でんわばんごう", vi: "Số điện thoại" },
+  { kanji: "~様", furi: "さま", vi: "Ngài / Vị (kính ngữ sau tên)" },
+  { kanji: "ご飯", furi: "ごはん", vi: "Cơm / Bữa ăn" },
+  { kanji: "牛乳", furi: "ぎゅうにゅう", vi: "Sữa bò" },
+  { kanji: "生", furi: "なま", vi: "Tươi / Sống / Nguyên chất" },
+  { kanji: "禁煙", furi: "きんえん", vi: "Cấm hút thuốc" },
+  { kanji: "自由", furi: "じゅう", vi: "Tự do" }
 ];

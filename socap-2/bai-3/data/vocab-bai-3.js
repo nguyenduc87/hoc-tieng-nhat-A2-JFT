@@ -1,504 +1,731 @@
 export const vocabList = [
   {
-    jp: "髪",
-    hira: "かみ",
-    vi: "Tóc",
-    example: "髪が長いです。/ 髪が短いです。",
-    exampleVi: "Tóc dài. / Tóc ngắn."
+    jp: "定食",
+    hira: "ていしょく",
+    vi: "Suất ăn",
+    example: "定食を注文します。",
+    exampleVi: "Tôi đặt suất ăn."
   },
   {
-    jp: "背",
-    hira: "せ",
-    vi: "Chiều cao",
-    example: "背が高いです。",
-    exampleVi: "Dáng cao."
+    jp: "日替わり",
+    hira: "ひがわり",
+    vi: "Thay đổi theo ngày",
+    example: "今日の日替わりメニューは何ですか。",
+    exampleVi: "Thực đơn thay đổi theo ngày của hôm nay là gì?"
   },
   {
-    jp: "座る",
-    hira: "すわる",
-    vi: "Ngồi",
-    example: "椅子に座ってください。",
-    exampleVi: "Hãy ngồi xuống ghế."
+    jp: "大盛り",
+    hira: "おおもり",
+    vi: "Phần ăn lớn",
+    example: "ご飯を大盛りにしてください。",
+    exampleVi: "Làm ơn cho tôi phần cơm lớn."
   },
   {
-    jp: "立つ",
-    hira: "たつ",
-    vi: "Đứng",
-    example: "立ってください。",
-    exampleVi: "Hãy đứng lên."
+    jp: "おかわり自由",
+    hira: "おかわりじゆう",
+    vi: "Lấy thêm thoải mái",
+    example: "スープはおかわり自由です。",
+    exampleVi: "Súp được lấy thêm thoải mái."
   },
   {
-    jp: "かぶる",
-    hira: "かぶる",
-    vi: "Đội",
-    example: "帽子をかぶります。",
-    exampleVi: "Đội mũ."
+    jp: "平日",
+    hira: "へいじつ",
+    vi: "Ngày thường",
+    example: "平日にランチに行きます。",
+    exampleVi: "Tôi đi ăn trưa vào ngày thường."
   },
   {
-    jp: "ピアス",
-    hira: "ぴあす",
-    vi: "Hoa tai",
-    example: "ピアスをします。",
-    exampleVi: "Đeo hoa tai."
+    jp: "~のみ（平日のみ）",
+    hira: "のみ（へいじつの customer み）",
+    vi: "Chỉ ~ (Chỉ ngày thường)",
+    example: "このサービスは平日のみです。",
+    exampleVi: "Dịch vụ này chỉ áp dụng vào ngày thường."
   },
   {
-    jp: "ワンピース",
-    hira: "わんぴーす",
-    vi: "Váy liền",
-    example: "新しいワンピースを買いました。",
-    exampleVi: "Tôi đã mua một chiếc váy liền mới."
+    jp: "ホット",
+    hira: "ホット",
+    vi: "Nóng",
+    example: "ホットコーヒーをください。",
+    exampleVi: "Cho tôi cà phê nóng."
   },
   {
-    jp: "着る",
-    hira: "きる",
-    vi: "Mặc",
-    example: "ワンピースを着ます。",
-    exampleVi: "Mặc váy."
+    jp: "アイス",
+    hira: "アイス",
+    vi: "Lạnh",
+    example: "アイスティーを飲みます。",
+    exampleVi: "Tôi uống trà lạnh."
   },
   {
-    jp: "はく",
-    hira: "はく",
-    vi: "Đi / Mặc (từ thắt lưng trở xuống)",
-    example: "靴をはきます。",
-    exampleVi: "Đi giày."
+    jp: "焼き魚",
+    hira: "やきざかな",
+    vi: "Cá nướng",
+    example: "焼き魚定食を食べます。",
+    exampleVi: "Tôi ăn suất ăn cá nướng."
   },
   {
-    jp: "めがね",
-    hira: "めがね",
-    vi: "Cái kính",
-    example: "めがねをかけています。",
-    exampleVi: "Đang đeo kính."
+    jp: "ハンバーグ",
+    hira: "ハンバーグ",
+    vi: "Hamburger (thịt băm viên)",
+    example: "ハンバーグが大好きです。",
+    exampleVi: "Tôi rất thích thịt băm viên hamburger."
   },
   {
-    jp: "かける",
-    hira: "かける",
-    vi: "Đeo (kính)",
-    example: "めがねをかけます。",
-    exampleVi: "Đeo kính."
+    jp: "カレーライス",
+    hira: "カレーライス",
+    vi: "Cơm cà ri",
+    example: "辛いカレーライスを注文しました。",
+    exampleVi: "Tôi đã gọi món cơm cà ri cay."
   },
   {
-    jp: "ひげ",
-    hira: "ひげ",
-    vi: "Râu",
-    example: "ひげがあります。",
-    exampleVi: "Có râu."
+    jp: "かつ丼",
+    hira: "かつどん",
+    vi: "Katsu-don (Cơm thịt lợn cốt lết)",
+    example: "お昼ご飯にかつ丼を食べます。",
+    exampleVi: "Tôi ăn cơm thịt lợn cốt lết vào bữa trưa."
   },
   {
-    jp: "はやす",
-    hira: "はやす",
-    vi: "Để (râu)",
-    example: "ひげをはやしています。",
-    exampleVi: "Đang để râu."
+    jp: "親子丼",
+    hira: "おやこどん",
+    vi: "Oyako-don (Cơm thịt gà và trứng)",
+    example: "親子丼は美味しいです。",
+    exampleVi: "Cơm thịt gà và trứng rất ngon."
   },
   {
-    jp: "シャツ",
-    hira: "しゃつ",
-    vi: "Áo sơ mi",
-    example: "白いシャツを着ています。",
-    exampleVi: "Đang mặc áo sơ mi trắng."
+    jp: "つく（みそ汁がつく）",
+    hira: "つく（みそしるがつく）",
+    vi: "Được phục vụ với ~ (Được phục vụ với xúp miso)",
+    example: "この定食にはみそ汁がつきます。",
+    exampleVi: "Suất ăn này được phục vụ kèm với xúp miso."
   },
   {
-    jp: "ズボン",
-    hira: "ずぼん",
-    vi: "Quần",
-    example: "青いズボンをはいています。",
-    exampleVi: "Đang mặc quần màu xanh da trời."
+    jp: "だめ（な）",
+    hira: "だめ",
+    vi: "Không thể được",
+    example: "ここでタバコを吸ってはだめです。",
+    exampleVi: "Không được phép hút thuốc ở đây."
   },
   {
-    jp: "赤い",
-    hira: "あかい",
-    vi: "Đỏ",
-    example: "赤いシャツですね。",
-    exampleVi: "Chiếc áo sơ mi màu đỏ nhỉ."
+    jp: "材料",
+    hira: "ざいりょう",
+    vi: "Nguyên liệu",
+    example: "料理の材料を買いました。",
+    exampleVi: "Tôi đã mua nguyên liệu nấu ăn."
   },
   {
-    jp: "白い",
-    hira: "しろい",
-    vi: "Trắng",
-    example: "白い靴をはいています。",
-    exampleVi: "Đang đi giày màu trắng."
+    jp: "豚肉",
+    hira: "ぶたにく",
+    vi: "Thịt lợn",
+    example: "今夜は豚肉のしょうが焼きを作ります。",
+    exampleVi: "Tối nay tôi sẽ làm món thịt lợn xào gừng."
   },
   {
-    jp: "黄色い",
-    hira: "きいろい",
-    vi: "Vàng",
-    example: "黄色い帽子をかぶっています。",
-    exampleVi: "Đang đội chiếc mũ màu vàng."
+    jp: "牛肉",
+    hira: "ぎゅうにく",
+    vi: "Thịt bò",
+    example: "牛肉と野菜を炒めます。",
+    exampleVi: "Tôi xào thịt bò với rau củ."
   },
   {
-    jp: "青い",
-    hira: "あおい",
-    vi: "Xanh da trời",
-    example: "青い海がきれいです。",
-    exampleVi: "Biển xanh thật đẹp."
+    jp: "カニ",
+    hira: "カニ",
+    vi: "Cua",
+    example: "北海道でカニを食べました。",
+    exampleVi: "Tôi đã ăn cua ở Hokkaido."
   },
   {
-    jp: "黒い",
-    hira: "くろい",
-    vi: "Đen",
-    example: "黒いジャン퍼を着ています。",
-    exampleVi: "Đang mặc áo khoác bo gấu màu đen."
+    jp: "ナッツ",
+    hira: "ナッツ",
+    vi: "Các loại hạt",
+    example: "ナッツのアレルギーがあります。",
+    exampleVi: "Tôi bị dị ứng với các loại hạt."
   },
   {
-    jp: "男の人",
-    hira: "おとこのひと",
-    vi: "Người đàn ông",
-    example: "あの男の人はだれですか。",
-    exampleVi: "Người đàn ông kia là ai thế?"
+    jp: "わさび",
+    hira: "わさび",
+    vi: "Wasabi (mù tạt Nhật)",
+    example: "お寿司にわさびを入れますか。",
+    exampleVi: "Bạn có cho mù tạt vào sushi không?"
   },
   {
-    jp: "ジャンパー",
-    hira: "じゃんぱー",
-    vi: "Áo khoác bo gấu / Áo khoác ngắn",
-    example: "新しいジャンパーを買いました。",
-    exampleVi: "Tôi đã mua một chiếc áo khoác bo gấu mới.",
-    skip: true
+    jp: "ねぎ",
+    hira: "ねぎ",
+    vi: "Hành lá",
+    example: "みそ汁にねぎを入れます。",
+    exampleVi: "Tôi cho hành lá vào xúp miso."
   },
   {
-    jp: "ほら",
-    hira: "ほら",
-    vi: "Nhìn kìa! / Này",
-    example: "ほら、あそこに猫がいますよ。",
-    exampleVi: "Nhìn kìa, có con mèo ở đằng kia kìa."
+    jp: "みりん",
+    hira: "みりん",
+    vi: "mirin (rượu nấu ngọt)",
+    example: "みりんを使って料理をします。",
+    exampleVi: "Tôi sử dụng rượu ngọt mirin để nấu ăn."
   },
   {
-    jp: "やさしい",
-    hira: "やさしい",
-    vi: "Tốt bụng / Thân thiện",
-    example: "私の先輩はとてもやさしいです。",
-    exampleVi: "Tiền bối của tôi rất tốt bụng."
+    jp: "宗教",
+    hira: "しゅうきょう",
+    vi: "Tôn giáo",
+    example: "世界の宗教について勉強します。",
+    exampleVi: "Tôi học về các tôn giáo trên thế giới."
   },
   {
-    jp: "きびしい",
-    hira: "きびしい",
-    vi: "Nghiêm khắc",
-    example: "あの先生はときどききびしいです。",
-    exampleVi: "Thầy giáo đó đôi khi rất nghiêm khắc."
+    jp: "～上（宗教上）",
+    hira: "じょう（しゅうきょうじょう）",
+    vi: "Về mặt ~ (Về mặt tôn giáo)",
+    example: "宗教上の理由で肉を食べません。",
+    exampleVi: "Tôi không ăn thịt vì lý do tôn giáo."
   },
   {
-    jp: "こわい",
-    hira: "こわい",
-    vi: "Đáng sợ",
-    example: "あの映画はこわかったです。",
-    exampleVi: "Bộ phim đó đã rất đáng sợ."
+    jp: "理由",
+    hira: "りゆう",
+    vi: "Lí do",
+    example: "遅刻した理由を教えてください。",
+    exampleVi: "Hãy cho tôi biết lí do bạn đến muộn."
   },
   {
-    jp: "忙しい",
-    hira: "いそがしい",
-    vi: "Bận rộn",
-    example: "今日は仕事が忙しいです。",
-    exampleVi: "Hôm nay công việc bận rộn."
+    jp: "アレルギー",
+    hira: "アレルギー",
+    vi: "Dị ứng",
+    example: "私はエビアレルギーがあります。",
+    exampleVi: "Tôi bị dị ứng tôm."
   },
   {
-    jp: "まじめ（な）",
-    hira: "まじめ",
-    vi: "Nghiêm túc / Chăm chỉ",
-    example: "彼はまじめな学生です。",
-    exampleVi: "Anh ấy là một sinh viên nghiêm túc."
+    jp: "自転車",
+    hira: "じてんしゃ",
+    vi: "Xe đạp",
+    example: "毎日自転車で学校へ行きます。",
+    exampleVi: "Hàng ngày tôi đến trường bằng xe đạp."
   },
   {
-    jp: "元気（な）",
-    hira: "げんき",
-    vi: "Khỏe mạnh / Vui vẻ",
-    example: "家族はみんな元気です。",
-    exampleVi: "Gia đình mọi người đều khỏe mạnh."
+    jp: "来る",
+    hira: "くる",
+    vi: "Đến",
+    example: "友達が家に遊びに来ます。",
+    exampleVi: "Bạn bè sẽ đến nhà tôi chơi."
   },
   {
-    jp: "恋人",
-    hira: "こいびと",
-    vi: "Người yêu",
-    example: "恋人と一緒に旅行に行きます。",
-    exampleVi: "Tôi đi du lịch cùng với người yêu."
+    jp: "ベジタリアン",
+    hira: "ベジタリアン",
+    vi: "Ăn chay",
+    example: "彼はベジタリアンです。",
+    exampleVi: "Anh ấy là người ăn chay."
   },
   {
-    jp: "孫",
-    hira: "まご",
-    vi: "Cháu (của ông bà)",
-    example: "おじいさんは孫が大好きです。",
-    exampleVi: "Ông rất yêu quý cháu."
+    jp: "豆腐",
+    hira: "とうふ",
+    vi: "Đậu phụ",
+    example: "豆腐の味噌汁を作りました。",
+    exampleVi: "Tôi đã nấu xúp miso đậu phụ."
   },
   {
-    jp: "この間",
-    hira: "このあいだ",
-    vi: "Hôm trước",
-    example: "この間、新しい服を買いました。",
-    exampleVi: "Hôm trước tôi đã mua quần áo mới."
+    jp: "注文する",
+    hira: "ちゅうもんする",
+    vi: "Gọi món",
+    example: "レストランで料理を注文します。",
+    exampleVi: "Tôi gọi món ăn ở nhà hàng."
   },
   {
-    jp: "赤ちゃん",
-    hira: "あかちゃん",
-    vi: "Em bé",
-    example: "赤ちゃんが泣いています。",
-    exampleVi: "Em bé đang khóc."
+    jp: "読める",
+    hira: "よめる",
+    vi: "Có thể đọc",
+    example: "漢字が少し読めます。",
+    exampleVi: "Tôi có thể đọc được một chút chữ Hán."
   },
   {
-    jp: "泣く",
-    hira: "なく",
-    vi: "Khóc",
-    example: "映画を見て、泣きました。",
-    exampleVi: "Tôi đã khóc khi xem phim."
+    jp: "メニュー",
+    hira: "メニュー",
+    vi: "Thực đơn",
+    example: "メニューを見せてください。",
+    exampleVi: "Cho tôi xem thực đơn với."
   },
   {
-    jp: "今度",
-    hira: "こんど",
-    vi: "Lần này / Lần tới",
-    example: "今度の休みはどこへ行きますか。",
-    exampleVi: "Kỳ nghỉ lần này bạn sẽ đi đâu?"
+    jp: "食べられる",
+    hira: "たべられる",
+    vi: "Có thể ăn",
+    example: "私は納豆が食べられます。",
+    exampleVi: "Tôi có thể ăn được natto."
   },
   {
-    jp: "見た目",
-    hira: "みため",
-    vi: "Vẻ ngoài",
-    example: "彼は見た目が若いです。",
-    exampleVi: "Anh ấy có vẻ ngoài trẻ trung."
+    jp: "ほかの",
+    hira: "ほかの",
+    vi: "Khác",
+    example: "ほかのメニューを選びます。",
+    exampleVi: "Tôi sẽ chọn thực đơn khác."
   },
   {
-    jp: "遅くまで",
-    hira: "おそくまで",
-    vi: "Tới tối muộn",
-    example: "昨日、遅くまで働きました。",
-    exampleVi: "Hôm qua tôi đã làm việc đến tận tối muộn."
+    jp: "～抜き（わさび抜き）",
+    hira: "ぬき（わさびぬき）",
+    vi: "Không có ~ (Không có wasabi)",
+    example: "わさび抜きでお寿司をください。",
+    exampleVi: "Cho tôi sushi không lấy mù tạt."
   },
   {
-    jp: "心配（な）",
-    hira: "しんぱい",
-    vi: "Đáng lo / Lo lắng",
-    example: "テストの結果が心配です。",
-    exampleVi: "Tôi lo lắng về kết quả bài kiểm tra."
+    jp: "そっか",
+    hira: "そっか",
+    vi: "Vậy à (Cách nói thông thường của そうですか)",
+    example: "「明日休みなんだ」「そっか、いいね」",
+    exampleVi: "「Mai tôi được nghỉ đấy」「Vậy à, thích thế」"
   },
   {
-    jp: "かっこいい",
-    hira: "かっこいい",
-    vi: "Tuyệt / Ngầu / Đẹp trai",
-    example: "あの歌手は本当にかっこいいです。",
-    exampleVi: "Ca sĩ đó thực sự rất ngầu."
+    jp: "かしこまりました",
+    hira: "かしこまりました",
+    vi: "Tôi hiểu rồi ạ (Cách diễn đạt lịch sự)",
+    example: "かしこまりました。少々お待ちください。",
+    exampleVi: "Tôi đã hiểu rồi ạ. Xin vui lòng chờ một chút."
   },
   {
-    jp: "歌",
-    hira: "うた",
-    vi: "Bài hát",
-    example: "日本の歌が好きです。",
-    exampleVi: "Tôi thích bài hát Nhật Bản."
+    jp: "カウンター",
+    hira: "カウンター",
+    vi: "Quầy",
+    example: "カウンター席でお酒を飲みます。",
+    exampleVi: "Tôi uống rượu ở ghế quầy bar."
   },
   {
-    jp: "演技",
-    hira: "えんぎ",
-    vi: "Diễn xuất",
-    example: "彼の演技はとても上手です。",
-    exampleVi: "Diễn xuất của anh ấy rất giỏi."
+    jp: "座敷",
+    hira: "ざしき",
+    vi: "Zashiki (Ngồi chiếu)",
+    example: "座敷の部屋を予約しました。",
+    exampleVi: "Tôi đã đặt trước phòng ngồi chiếu tatami."
   },
   {
-    jp: "ダンス",
-    hira: "だんす",
-    vi: "Nhảy / Khiêu vũ",
-    example: "ダンスを習っています。",
-    exampleVi: "Tôi đang học nhảy."
+    jp: "テーブル",
+    hira: "テーブル",
+    vi: "Bàn",
+    example: "テーブルの上にメニューがあります。",
+    exampleVi: "Có thực đơn ở trên bàn."
   },
   {
-    jp: "上手（な）",
-    hira: "じょうず",
-    vi: "Giỏi",
-    example: "日本語が上手ですね。",
-    exampleVi: "Tiếng Nhật của bạn giỏi quá nhỉ."
+    jp: "会計／お会計",
+    hira: "かいけい／おかいけい",
+    vi: "Thanh toán / Tính tiền",
+    example: "お会計をお願いします。",
+    exampleVi: "Làm ơn cho tôi tính tiền."
   },
   {
-    jp: "歌手",
-    hira: "かしゅ",
-    vi: "Ca sĩ",
-    example: "将来、歌手になりたいです。",
-    exampleVi: "Tương lai tôi muốn trở thành ca sĩ."
+    jp: "レジ",
+    hira: "レジ",
+    vi: "Quầy thanh toán",
+    example: "レジで並んで待っています。",
+    exampleVi: "Tôi đang xếp hàng chờ ở quầy thanh toán."
   },
   {
-    jp: "だれか",
-    hira: "だれか",
-    vi: "Ai đó",
-    example: "だれか来ましたよ。",
-    exampleVi: "Có ai đó đã đến đấy."
+    jp: "禁煙",
+    hira: "きんえん",
+    vi: "Không hút thuốc",
+    example: "このレストランは終日禁煙です。",
+    exampleVi: "Nhà hàng này cấm hút thuốc suốt cả ngày."
   },
   {
-    jp: "引退する",
-    hira: "いんたいする",
-    vi: "Giải nghệ",
-    example: "有名な歌手が引退しました。",
-    exampleVi: "Ca sĩ nổi tiếng đã giải nghệ."
+    jp: "～名（2名）",
+    hira: "めい（にめい）",
+    vi: "～ Người (2 người)",
+    example: "三名で予約したいです。",
+    exampleVi: "Tôi muốn đặt bàn cho 3 người."
   },
   {
-    jp: "今でも",
-    hira: "いまでも",
-    vi: "Ngay cả bây giờ / Vẫn còn",
-    example: "今でも彼女の歌を聞いています。",
-    exampleVi: "Ngay cả bây giờ tôi vẫn đang nghe bài hát của cô ấy."
+    jp: "当店",
+    hira: "とうてん",
+    vi: "Nhà hàng chúng tôi",
+    example: "当店の一番人気はラーメンです。",
+    exampleVi: "Món được yêu thích nhất của nhà hàng chúng tôi là mì ramen."
   },
   {
-    jp: "俳優",
-    hira: "はいゆう",
-    vi: "Diễn viên",
-    example: "好きな俳優はだれですか。",
-    exampleVi: "Diễn viên yêu thích của bạn là ai?"
+    jp: "全面",
+    hira: "ぜんめん",
+    vi: "Toàn bộ",
+    example: "このビルは全面禁煙です。",
+    exampleVi: "Tòa nhà này cấm hút thuốc hoàn toàn."
   },
   {
-    jp: "そんな",
-    hira: "そんな",
-    vi: "Như thế / Như vậy",
-    example: "そんなことはありません。",
-    exampleVi: "Không có chuyện như thế đâu."
+    jp: "決まる",
+    hira: "きまる",
+    vi: "Được quyết định",
+    example: "注文する料理が決まりました。",
+    exampleVi: "Món ăn muốn gọi đã được quyết định xong."
   },
   {
-    jp: "きっかけ",
-    hira: "きっかけ",
-    vi: "Nguyên cớ / Cơ hội / Lý do",
-    example: "日本語を勉強したきっかけは何ですか。",
-    exampleVi: "Lý do bạn học tiếng Nhật là gì?"
+    jp: "おすすめ",
+    hira: "おすすめ",
+    vi: "gợi ý / đề xuất",
+    example: "今日のおすすめ料理は何ですか。",
+    exampleVi: "Món ăn gợi ý của ngày hôm nay là gì?"
   },
   {
-    jp: "映画祭",
-    hira: "えいがさい",
-    vi: "Liên hoan phim",
-    example: "東京国際映画祭に行きました。",
-    exampleVi: "Tôi đã đi dự Liên hoan phim quốc tế Tokyo."
+    jp: "人気がある",
+    hira: "にんきがある",
+    vi: "được ưa chuộng",
+    example: "このラーメン店はとても人気があります。",
+    exampleVi: "Quán mì ramen này rất được ưa chuộng."
   },
   {
-    jp: "世界中",
-    hira: "せかいじゅう",
-    vi: "Khắp thế giới",
-    example: "世界中にファンがいます。",
-    exampleVi: "Có người hâm mộ ở khắp thế giới."
+    jp: "フライ",
+    hira: "フライ",
+    vi: "furai (món tẩm bột rán)",
+    example: "エビフライを注文しました。",
+    exampleVi: "Tôi đã gọi món tôm tẩm bột rán."
   },
   {
-    jp: "ファン",
-    hira: "ふぁん",
-    vi: "Người hâm mộ",
-    example: "私は彼の熱心なファンです。",
-    exampleVi: "Tôi là một người hâm mộ nhiệt thành của anh ấy."
+    jp: "ミックスフライ",
+    hira: "ミックスフライ",
+    vi: "món tẩm bột rán thập cẩm",
+    example: "ランチにミックスフライ定食を食べます。",
+    exampleVi: "Tôi ăn suất ăn tẩm bột rán thập cẩm vào bữa trưa."
   },
   {
-    jp: "安室奈美恵",
-    hira: "あむろなみえ",
-    vi: "Amuro Namie (ca sĩ Nhật Bản)",
-    example: "安室奈美恵はとても有名です。",
-    exampleVi: "Amuro Namie rất nổi tiếng.",
-    skip: true
+    jp: "量",
+    hira: "りょう",
+    vi: "lượng",
+    example: "この店の料理は量が多いです。",
+    exampleVi: "Thức ăn của quán này lượng rất nhiều."
   },
   {
-    jp: "三船敏郎",
-    hira: "みふねとしろう",
-    vi: "Mifune Toshiro (diễn viên Nhật Bản)",
-    example: "三船敏郎は有名な俳優でした。",
-    exampleVi: "Mifune Toshiro đã từng là một diễn viên nổi tiếng.",
-    skip: true
+    jp: "普通",
+    hira: "ふつう",
+    vi: "bình thường",
+    example: "ご飯の量は普通にしてください。",
+    exampleVi: "Hãy cho lượng cơm như bình thường."
   },
   {
-    jp: "七人の侍",
-    hira: "しちにんのさむらい",
-    vi: "Bảy Samurai (tên phim)",
-    example: "「七人の侍」を見ましたか。",
-    exampleVi: "Bạn đã xem phim \"Bảy Samurai\" chưa?",
-    skip: true
+    jp: "先に",
+    hira: "さきに",
+    vi: "trước",
+    example: "お飲み物を先にお持ちしますか。",
+    exampleVi: "Tôi mang đồ uống ra trước nhé?"
   },
   {
-    jp: "まず",
-    hira: "まず",
-    vi: "Trước tiên",
-    example: "まず、自己紹介をしてください。",
-    exampleVi: "Trước tiên, hãy tự giới thiệu bản thân."
+    jp: "別々",
+    hira: "べつべつ",
+    vi: "riêng biệt",
+    example: "お会計は別々ですか。",
+    exampleVi: "Thanh toán riêng biệt đúng không ạ?"
   },
   {
-    jp: "金色",
-    hira: "きんいろ",
-    vi: "Màu vàng / Màu kim loại",
-    example: "金色のパゴダがきれいです。",
-    exampleVi: "Ngôi chùa màu vàng thật đẹp."
+    jp: "クーポン",
+    hira: "クーポン",
+    vi: "phiếu giảm giá",
+    example: "スマホのクーポンを使います。",
+    exampleVi: "Tôi sử dụng phiếu giảm giá trên điện thoại."
   },
   {
-    jp: "驚く",
-    hira: "おどろく",
-    vi: "Ngạc nhiên",
-    example: "ニュースを聞いて驚きました。",
-    exampleVi: "Tôi đã ngạc nhiên khi nghe tin tức."
+    jp: "次回",
+    hira: "じかい",
+    vi: "lần sau",
+    example: "次回の予約をしたいです。",
+    exampleVi: "Tôi muốn đặt lịch cho lần sau."
   },
   {
-    jp: "明るい",
-    hira: "あかるい",
-    vi: "Sáng sủa / Tươi sáng",
-    example: "明るい色のシャツを着ています。",
-    exampleVi: "Tôi đang mặc một chiếc áo sơ mi màu sáng."
+    jp: "それにします",
+    hira: "それにします",
+    vi: "Tôi chọn món đó.",
+    example: "どれにする？ じゃあ、それにします。",
+    exampleVi: "Bạn chọn cái nào? Vậy thì, tôi chọn món đó."
   },
   {
-    jp: "びっくりする",
-    hira: "びっくりする",
-    vi: "Ngạc nhiên / Giật mình",
-    example: "急に大きい音がして、びっくりしました。",
-    exampleVi: "Tiếng động lớn đột ngột vang lên làm tôi giật mình."
+    jp: "お会計、お願いします",
+    hira: "おかいけい、おねがいします",
+    vi: "Làm ơn cho tôi thanh toán.",
+    example: "すみません、お会計、お願いします。",
+    exampleVi: "Xin lỗi, làm ơn cho tôi thanh toán."
   },
   {
-    jp: "ハイキング",
-    hira: "はいきんぐ",
-    vi: "Đi bộ đường dài (Hiking)",
-    example: "週末、山へハイキングに行きます。",
-    exampleVi: "Cuối tuần, tôi đi bộ đường dài trên núi."
+    jp: "別々でお願いします",
+    hira: "べつべつでおねがいします",
+    vi: "Làm ơn tính tiền riêng.",
+    example: "支払いは別々でお願いします。",
+    exampleVi: "Khi trả tiền, làm ơn tính riêng giúp tôi."
   },
   {
-    jp: "できれば",
-    hira: "できれば",
-    vi: "Nếu có thể",
-    example: "できれば、明日会いたいです。",
-    exampleVi: "Nếu có thể, tôi muốn gặp bạn vào ngày mai."
+    jp: "お客様",
+    hira: "おきゃくさま",
+    vi: "Quý khách (cách diễn đạt lịch sự khi gọi khách hàng)",
+    example: "お客様、こちらへどうぞ。",
+    exampleVi: "Xin mời quý khách đi lối này."
   },
   {
-    jp: "シリーズ",
-    hira: "しりーず",
-    vi: "Loạt / Chuỗi (Series)",
-    example: "このアニメのシリーズが大好きです。",
-    exampleVi: "Tôi rất thích loạt phim hoạt hình này.",
-    skip: true
+    jp: "何名様",
+    hira: "なんめいさま",
+    vi: "Bao nhiêu người (cách diễn đạt lịch sự)",
+    example: "何名様ですか。/ 二名です。",
+    exampleVi: "Quý khách đi bao nhiêu người ạ? / Chúng tôi đi 2 người."
   },
   {
-    jp: "おとなりさん",
-    hira: "おとなりさん",
-    vi: "Hàng xóm",
-    example: "おとなりさんに挨拶をしました。",
-    exampleVi: "Tôi đã chào hỏi hàng xóm.",
-    skip: true
+    jp: "～名様（2名様）",
+    hira: "めいさま（にめいさま）",
+    vi: "～ người (2 người) (cách diễn đạt lịch sự)",
+    example: "三名様 đấy ạ、こちらへどうぞ。",
+    exampleVi: "Quý khách đi 3 người, xin mời đi lối này."
   },
   {
-    jp: "簡単に",
-    hira: "かんたんに",
-    vi: "Đơn giản / Dễ dàng",
-    example: "この料理は簡単に作れます。",
-    exampleVi: "Món ăn này có thể làm một cách dễ dàng."
+    jp: "ご注文",
+    hira: "ごちゅうもん",
+    vi: "gọi món (cách diễn đạt lịch sự)",
+    example: "ご注文はお決まりですか。",
+    exampleVi: "Quý khách đã quyết định gọi món chưa ạ?"
   },
   {
-    jp: "ヤンゴン",
-    hira: "やんごん",
-    vi: "Yangon (Thành phố ở Myanmar)",
-    example: "ヤンゴンへ行ったことがありますか。",
-    exampleVi: "Bạn đã từng đến Yangon chưa?",
-    skip: true
+    jp: "いかが",
+    hira: "いかが",
+    vi: "thế nào (cách diễn đạt lịch sự của どう)",
+    example: "お味はいかがですか。",
+    exampleVi: "Hương vị món ăn thế nào ạ?"
   },
   {
-    jp: "パゴダ",
-    hira: "ぱごだ",
-    vi: "Chùa (kiến trúc tháp ở Đông Nam Á)",
-    example: "ヤンゴンにはパゴダがたくさんあります。",
-    exampleVi: "Ở Yangon có rất nhiều chùa.",
-    skip: true
+    jp: "ごいっしょ",
+    hira: "ごいっしょ",
+    vi: "cùng nhau (cách diễn đạt lịch sự)",
+    example: "お会計はご一緒ですか、別々ですか。",
+    exampleVi: "Quý khách muốn tính tiền chung hay tính riêng ạ?"
   },
   {
-    jp: "増える",
-    hira: "ふえる",
-    vi: "Tăng lên",
-    example: "日本へ行く外国人が増えています。",
-    exampleVi: "Số lượng người nước ngoài đến Nhật đang tăng lên.",
-    skip: true
+    jp: "よろしいですか？",
+    hira: "よろしいですか？",
+    vi: "Có đúng không ạ ? (cách diễn đạt lịch sự)",
+    example: "こちらの席でよろしいですか。",
+    exampleVi: "Ngồi ghế này có được không ạ?"
   },
   {
-    jp: "交流協会",
-    hira: "こうりゅうきょうかい",
-    vi: "Hiệp hội giao lưu",
-    example: "国際交流協会で日本語を習っています。",
-    exampleVi: "Tôi đang học tiếng Nhật tại Hiệp hội giao lưu quốc tế.",
-    skip: true
+    jp: "～でございます",
+    hira: "でございます",
+    vi: "Chúng tôi có ~ / Là ~ (cách diễn đạt lịch sự)",
+    example: "こちらがおすすめの定食でございます。",
+    exampleVi: "Đây là suất ăn gợi ý của cửa hàng chúng tôi ạ."
   },
-
+  {
+    jp: "お決まりですか？",
+    hira: "おきまりですか？",
+    vi: "Quý khách đã quyết định chưa ạ? (cách diễn đạt lịch sự)",
+    example: "ご注文はお決まりですか。",
+    exampleVi: "Quý khách đã quyết định món ăn chưa ạ?"
+  },
+  {
+    jp: "いかがですか？",
+    hira: "いかがですか？",
+    vi: "Thế nào ạ? (cách diễn đạt lịch sự)",
+    example: "食後のコーヒーはいかがですか。",
+    exampleVi: "Quý khách có dùng thêm cà phê sau bữa ăn không ạ?"
+  },
+  {
+    jp: "どうなさいますか？",
+    hira: "どうなさいますか？",
+    vi: "Quý khách muốn thế nào ạ? (cách diễn đạt lịch sự)",
+    example: "お飲み物はどうなさいますか。",
+    exampleVi: "Về đồ uống thì quý khách muốn dùng gì ạ?"
+  },
+  {
+    jp: "以上でよろしいですか？",
+    hira: "いじょうでよろしいですか？",
+    vi: "Gọi món như vậy đúng không ạ? (cách nói lịch sự)",
+    example: "ご注文は以上でよろしいですか。",
+    exampleVi: "Đơn gọi món của quý khách đến đây là hết rồi đúng không ạ?"
+  },
+  {
+    jp: "お使いください",
+    hira: "おつかいください",
+    vi: "Xin hãy dùng. (cách nói lịch sự)",
+    example: "こちらのスプーンをお使いください。",
+    exampleVi: "Xin hãy dùng chiếc thìa này ạ."
+  },
+  {
+    jp: "少なめ",
+    hira: "すくなめ",
+    vi: "ít hơn",
+    example: "ご飯は少なめにしてください。",
+    exampleVi: "Làm ơn cho tôi ít cơm hơn."
+  },
+  {
+    jp: "食後に",
+    hira: "しょくごに",
+    vi: "sau bữa ăn",
+    example: "コーヒーは食後に持ってきてください。",
+    exampleVi: "Xin vui lòng mang cà phê ra sau bữa ăn."
+  },
+  {
+    jp: "日にち／お日にち",
+    hira: "ひにち／おひにち",
+    vi: "ngày",
+    example: "ご予約のお日にちはいつですか。",
+    exampleVi: "Ngày đặt trước của quý khách là khi nào ạ?"
+  },
+  {
+    jp: "まちがい",
+    hira: "まちがい",
+    vi: "mọi sự nhầm lẫn / lỗi",
+    example: "注文にまちがいありませんか。",
+    exampleVi: "Món gọi có nhầm lẫn gì không ạ?"
+  },
+  {
+    jp: "失礼しました",
+    hira: "しつれいしました",
+    vi: "Tôi xin lỗi.",
+    example: "大変失礼しました。すぐに取り替えます。",
+    exampleVi: "Thật lòng xin lỗi. Tôi sẽ đổi món khác ngay ạ."
+  },
+  {
+    jp: "お電話",
+    hira: "おでんわ",
+    vi: "gọi điện (cách diễn đạt lịch sự)",
+    example: "後ほどお電話いたします。",
+    exampleVi: "Tôi sẽ gọi điện thoại lại sau ạ."
+  },
+  {
+    jp: "ご予約",
+    hira: "ごよやく",
+    vi: "đặt chỗ (cách diễn đạt lịch sự)",
+    example: "明日ご予約席はありますか。",
+    exampleVi: "Ngày mai còn bàn đặt trước không ạ?"
+  },
+  {
+    jp: "お時間",
+    hira: "おじかん",
+    vi: "thời gian (cách diễn đạt lịch sự)",
+    example: "ただいまお時間よろしいでしょうか。",
+    exampleVi: "Bây giờ quý khách có thời gian không ạ?"
+  },
+  {
+    jp: "お電話番号",
+    hira: "おでんわばんごう",
+    vi: "số điện thoại (cách diễn đạt lịch sự)",
+    example: "お客様のお電話番号をお教eください。",
+    exampleVi: "Xin vui lòng cho tôi biết số điện thoại của quý khách."
+  },
+  {
+    jp: "～様",
+    hira: "～さま",
+    vi: "Ông/ Bà ~ (cách diễn đạt lịch sự)",
+    example: "田中様、こちらへどうぞ。",
+    exampleVi: "Ông Tanaka, xin mời đi lối này."
+  },
+  {
+    jp: "おまちがいないでしょうか？",
+    hira: "おまちがいないでしょうか？",
+    vi: "Không có gì sai đúng không ạ? (cách diễn đạt lịch sự)",
+    example: "ご注文は以上でおまちがいないでしょうか。",
+    exampleVi: "Món quý khách gọi đến đây là không có gì nhầm lẫn đúng không ạ?"
+  },
+  {
+    jp: "半額",
+    hira: "はんがく",
+    vi: "nửa giá",
+    example: "このクーポンでラーメンが半額になります。",
+    exampleVi: "Dùng phiếu giảm giá này thì mì ramen sẽ được giảm nửa giá."
+  },
+  {
+    jp: "有効期限",
+    hira: "ゆうこうきげん",
+    vi: "ngày hết hạn",
+    example: "このチケットの有効期限は来月末までです。",
+    exampleVi: "Ngày hết hạn của tấm vé này là đến cuối tháng sau."
+  },
+  {
+    jp: "ドリンクバー",
+    hira: "ドリンクバー",
+    vi: "quầy đồ uống tự phục vụ",
+    example: "ランチにドリンクバーをつけます。",
+    exampleVi: "Tôi thêm quầy đồ uống tự phục vụ vào suất ăn trưa."
+  },
+  {
+    jp: "おこさま",
+    hira: "おこさま",
+    vi: "trẻ nhỏ (cách diễn đạt lịch sự)",
+    example: "おこさま用の椅子はありますか。",
+    exampleVi: "Có ghế dành riêng cho trẻ nhỏ không ạ?"
+  },
+  {
+    jp: "ご注文時",
+    hira: "ごちゅうもんじ",
+    vi: "khi gọi món (cách diễn đạt lịch sự)",
+    example: "ご注文時にこの画面をお見せください。",
+    exampleVi: "Xin vui lòng cho xem màn hình này khi gọi món."
+  },
+  {
+    jp: "本券",
+    hira: "ほんけん",
+    vi: "phiếu giảm giá này",
+    example: "本券は1回のみ有効です。",
+    exampleVi: "Phiếu giảm giá này chỉ có hiệu lực một lần."
+  },
+  {
+    jp: "使用",
+    hira: "しよう",
+    vi: "sử dụng",
+    example: "クーポンを使用します。",
+    exampleVi: "Tôi sử dụng phiếu giảm giá."
+  },
+  {
+    jp: "時間帯",
+    hira: "じかんたい",
+    vi: "khung giờ",
+    example: "忙しい時間帯を避けてお店に行きます。",
+    exampleVi: "Tôi đến quán tránh khung giờ bận rộn."
+  },
+  {
+    jp: "ご提示ください",
+    hira: "ごていじください",
+    vi: "Hãy xuất trình ~. (cách diễn đạt lịch sự)",
+    example: "お会計の際、会員証をご提示ください。",
+    exampleVi: "Khi tính tiền, xin vui lòng xuất trình thẻ hội viên."
+  },
+  {
+    jp: "ご利用できません",
+    hira: "ごりようできません",
+    vi: "Quý khách không thể sử dụng được. (cách diễn đạt lịch sự)",
+    example: "このクーポンは土日にはご利用できません。",
+    exampleVi: "Phiếu giảm giá này không thể sử dụng vào thứ Bảy và Chủ Nhật."
+  },
+  {
+    jp: "ご飲食代",
+    hira: "ごいんしょくだい",
+    vi: "giá đồ ăn / đồ uống",
+    example: "ご飲食代から10%割引いたします。",
+    exampleVi: "Chúng tôi sẽ giảm giá 10% trên tổng hóa đơn đồ ăn thức uống."
+  },
+  {
+    jp: "会計時",
+    hira: "かいけいじ",
+    vi: "khi thanh toán",
+    example: "会計時にクーポンを出してください。",
+    exampleVi: "Hãy đưa phiếu giảm giá khi thanh toán."
+  },
+  {
+    jp: "利用可能（な）",
+    hira: "りようかのう（な）",
+    vi: "có thể sử dụng",
+    example: "このカードは当店で利用可能です。",
+    exampleVi: "Thẻ này có thể sử dụng được tại nhà hàng chúng tôi."
+  },
+  {
+    jp: "～限り（1回限り）",
+    hira: "～かぎり（いっかいかぎり）",
+    vi: "chỉ ~ (chỉ 1 lần)",
+    example: "この特典はお一人様1回限りのみです。",
+    exampleVi: "Ưu đãi này chỉ áp dụng giới hạn mỗi người một lần."
+  },
+  {
+    jp: "有効（な）",
+    hira: "ゆうこう（な）",
+    vi: "hiệu lực",
+    example: "このパスポートはまだ有効ですか。",
+    exampleVi: "Hộ chiếu này vẫn còn hiệu lực chứ?"
+  },
+  {
+    jp: "他の",
+    hira: "たの",
+    vi: "khác",
+    example: "他の席に移動してもいいですか。",
+    exampleVi: "Tôi có thể chuyển sang ghế khác được không?"
+  },
+  {
+    jp: "併用",
+    hira: "へいよう",
+    vi: "dùng đồng thời",
+    example: "他のクーポンとの併用はできません。",
+    exampleVi: "Không thể dùng đồng thời với các phiếu giảm giá khác."
+  },
+  {
+    jp: "お見せください",
+    hira: "おみせください",
+    vi: "Hãy cho xem ~. (cách diễn đạt lịch sự)",
+    example: "画面をスタッフにお見せください。",
+    exampleVi: "Xin vui lòng cho nhân viên xem màn hình."
+  },
 ];
 
