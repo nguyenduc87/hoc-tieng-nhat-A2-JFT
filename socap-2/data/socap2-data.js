@@ -10,7 +10,7 @@ const socap2Lessons = [
   // Bài 2
   {
     id: 2,
-    title: "Sở thích – hoạt động",
+    title: "まじめそうな人ですね",
     vocab: [],
     kanji: [],
     grammar: []
@@ -18,7 +18,7 @@ const socap2Lessons = [
 
   {
     id: 3,
-    title: "Mùa  – Thời tiết",
+    title: "アレルギーがあるので、食べられないんです",
     vocab: [],
     kanji: [],
     grammar: []
@@ -26,7 +26,7 @@ const socap2Lessons = [
 
   {
     id: 4,
-    title: "Khí hậu – Nắng-Mưa-Bão",
+    title: "しょうゆをつけないで食べてください",
     vocab: [],
     kanji: [],
     grammar: []
@@ -34,7 +34,7 @@ const socap2Lessons = [
 
   {
     id: 5,
-    title: "Mua sắm – giá cả",
+    title: "早く予約した方がいいですよ",
     vocab: [],
     kanji: [],
     grammar: []

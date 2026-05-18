@@ -585,42 +585,48 @@ export const vocabList = [
     hira: "たのむ",
     vi: "gọi món / nhờ vả",
     example: "別の料理を頼んでもいいですか。",
-    exampleVi: "Tôi gọi món khác có được không?"
+    exampleVi: "Tôi gọi món khác có được không?",
+    skip: true
   },
   {
     jp: "煮込みハンバーグ",
     hira: "にこみハンバーグ",
     vi: "hamburger hầm",
     example: "熱い煮込みハンバーグを食べました。",
-    exampleVi: "Tôi đã ăn món thịt băm viên hamburger hầm nóng hổi."
+    exampleVi: "Tôi đã ăn món thịt băm viên hamburger hầm nóng hổi.",
+    skip: true
   },
   {
     jp: "～前（12時前）",
     hira: "まえ（じゅうにじまえ）",
     vi: "trước ~ (trước 12 giờ)",
     example: "混むので12時前にお店に行きましょう。",
-    exampleVi: "Vì quán sẽ đông nên chúng ta hãy đến trước 12 giờ nhé."
+    exampleVi: "Vì quán sẽ đông nên chúng ta hãy đến trước 12 giờ nhé.",
+    skip: true
   },
   {
     jp: "おすすめする",
     hira: "おすすめする",
     vi: "gợi ý / đề xuất",
     example: "友達にこのレストランをおすすめします。",
-    exampleVi: "Tôi gợi ý nhà hàng này cho bạn bè của mình."
+    exampleVi: "Tôi gợi ý nhà hàng này cho bạn bè của mình.",
+    skip: true
   },
   {
     jp: "やっている",
     hira: "やっている",
     vi: "quản lý (cửa hàng)",
     example: "あの夫婦がやっているお店はいつも混んでいます。",
-    exampleVi: "Cửa hàng do hai vợ chồng kia quản lý lúc nào cũng đông khách."
+    exampleVi: "Cửa hàng do hai vợ chồng kia quản lý lúc nào cũng đông khách.",
+    skip: true
   },
   {
     jp: "時間がかかる",
     hira: "じかんがかかる",
     vi: "mất thời gian",
     example: "この料理 là mất thời gian nấu một chút nên hãy đợi nhé.",
-    exampleVi: "Món ăn này hơi mất thời gian nấu một chút nên xin vui lòng chờ nhé."
+    exampleVi: "Món ăn này hơi mất thời gian nấu một chút nên xin vui lòng chờ nhé.",
+    skip: true
   },
   {
     jp: "値段",

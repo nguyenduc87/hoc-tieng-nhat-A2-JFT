@@ -438,105 +438,120 @@ export const vocabList = [
     hira: "おきゃくさま",
     vi: "Quý khách (cách diễn đạt lịch sự khi gọi khách hàng)",
     example: "お客様、こちらへどうぞ。",
-    exampleVi: "Xin mời quý khách đi lối này."
+    exampleVi: "Xin mời quý khách đi lối này.",
+    skip: true
   },
   {
     jp: "何名様",
     hira: "なんめいさま",
     vi: "Bao nhiêu người (cách diễn đạt lịch sự)",
     example: "何名様ですか。/ 二名です。",
-    exampleVi: "Quý khách đi bao nhiêu người ạ? / Chúng tôi đi 2 người."
+    exampleVi: "Quý khách đi bao nhiêu người ạ? / Chúng tôi đi 2 người.",
+    skip: true
   },
   {
     jp: "～名様（2名様）",
     hira: "めいさま（にめいさま）",
     vi: "～ người (2 người) (cách diễn đạt lịch sự)",
     example: "三名様 đấy ạ、こちらへどうぞ。",
-    exampleVi: "Quý khách đi 3 người, xin mời đi lối này."
+    exampleVi: "Quý khách đi 3 người, xin mời đi lối này.",
+    skip: true
   },
   {
     jp: "ご注文",
     hira: "ごちゅうもん",
     vi: "gọi món (cách diễn đạt lịch sự)",
     example: "ご注文はお決まりですか。",
-    exampleVi: "Quý khách đã quyết định gọi món chưa ạ?"
+    exampleVi: "Quý khách đã quyết định gọi món chưa ạ?",
+    skip: true
   },
   {
     jp: "いかが",
     hira: "いかが",
     vi: "thế nào (cách diễn đạt lịch sự của どう)",
     example: "お味はいかがですか。",
-    exampleVi: "Hương vị món ăn thế nào ạ?"
+    exampleVi: "Hương vị món ăn thế nào ạ?",
+    skip: true
   },
   {
     jp: "ごいっしょ",
     hira: "ごいっしょ",
     vi: "cùng nhau (cách diễn đạt lịch sự)",
     example: "お会計はご一緒ですか、別々ですか。",
-    exampleVi: "Quý khách muốn tính tiền chung hay tính riêng ạ?"
+    exampleVi: "Quý khách muốn tính tiền chung hay tính riêng ạ?",
+    skip: true
   },
   {
     jp: "よろしいですか？",
     hira: "よろしいですか？",
     vi: "Có đúng không ạ ? (cách diễn đạt lịch sự)",
     example: "こちらの席でよろしいですか。",
-    exampleVi: "Ngồi ghế này có được không ạ?"
+    exampleVi: "Ngồi ghế này có được không ạ?",
+    skip: true
   },
   {
     jp: "～でございます",
     hira: "でございます",
     vi: "Chúng tôi có ~ / Là ~ (cách diễn đạt lịch sự)",
     example: "こちらがおすすめの定食でございます。",
-    exampleVi: "Đây là suất ăn gợi ý của cửa hàng chúng tôi ạ."
+    exampleVi: "Đây là suất ăn gợi ý của cửa hàng chúng tôi ạ.",
+    skip: true
   },
   {
     jp: "お決まりですか？",
     hira: "おきまりですか？",
     vi: "Quý khách đã quyết định chưa ạ? (cách diễn đạt lịch sự)",
     example: "ご注文はお決まりですか。",
-    exampleVi: "Quý khách đã quyết định món ăn chưa ạ?"
+    exampleVi: "Quý khách đã quyết định món ăn chưa ạ?",
+    skip: true
   },
   {
     jp: "いかがですか？",
     hira: "いかがですか？",
     vi: "Thế nào ạ? (cách diễn đạt lịch sự)",
     example: "食後のコーヒーはいかがですか。",
-    exampleVi: "Quý khách có dùng thêm cà phê sau bữa ăn không ạ?"
+    exampleVi: "Quý khách có dùng thêm cà phê sau bữa ăn không ạ?",
+    skip: true
   },
   {
     jp: "どうなさいますか？",
     hira: "どうなさいますか？",
     vi: "Quý khách muốn thế nào ạ? (cách diễn đạt lịch sự)",
     example: "お飲み物はどうなさいますか。",
-    exampleVi: "Về đồ uống thì quý khách muốn dùng gì ạ?"
+    exampleVi: "Về đồ uống thì quý khách muốn dùng gì ạ?",
+    skip: true
   },
   {
     jp: "以上でよろしいですか？",
     hira: "いじょうでよろしいですか？",
     vi: "Gọi món như vậy đúng không ạ? (cách nói lịch sự)",
     example: "ご注文は以上でよろしいですか。",
-    exampleVi: "Đơn gọi món của quý khách đến đây là hết rồi đúng không ạ?"
+    exampleVi: "Đơn gọi món của quý khách đến đây là hết rồi đúng không ạ?",
+    skip: true
   },
   {
     jp: "お使いください",
     hira: "おつかいください",
     vi: "Xin hãy dùng. (cách nói lịch sự)",
     example: "こちらのスプーンをお使いください。",
-    exampleVi: "Xin hãy dùng chiếc thìa này ạ."
+    exampleVi: "Xin hãy dùng chiếc thìa này ạ.",
+    skip: true
   },
   {
     jp: "少なめ",
     hira: "すくなめ",
     vi: "ít hơn",
     example: "ご飯は少なめにしてください。",
-    exampleVi: "Làm ơn cho tôi ít cơm hơn."
+    exampleVi: "Làm ơn cho tôi ít cơm hơn.",
+    skip: true
   },
   {
     jp: "食後に",
     hira: "しょくごに",
     vi: "sau bữa ăn",
     example: "コーヒーは食後に持ってきてください。",
-    exampleVi: "Xin vui lòng mang cà phê ra sau bữa ăn."
+    exampleVi: "Xin vui lòng mang cà phê ra sau bữa ăn.",
+    skip: true
   },
   {
     jp: "日にち／お日にち",
@@ -564,42 +579,48 @@ export const vocabList = [
     hira: "おでんわ",
     vi: "gọi điện (cách diễn đạt lịch sự)",
     example: "後ほどお電話いたします。",
-    exampleVi: "Tôi sẽ gọi điện thoại lại sau ạ."
+    exampleVi: "Tôi sẽ gọi điện thoại lại sau ạ.",
+    skip: true
   },
   {
     jp: "ご予約",
     hira: "ごよやく",
     vi: "đặt chỗ (cách diễn đạt lịch sự)",
     example: "明日ご予約席はありますか。",
-    exampleVi: "Ngày mai còn bàn đặt trước không ạ?"
+    exampleVi: "Ngày mai còn bàn đặt trước không ạ?",
+    skip: true
   },
   {
     jp: "お時間",
     hira: "おじかん",
     vi: "thời gian (cách diễn đạt lịch sự)",
     example: "ただいまお時間よろしいでしょうか。",
-    exampleVi: "Bây giờ quý khách có thời gian không ạ?"
+    exampleVi: "Bây giờ quý khách có thời gian không ạ?",
+    skip: true
   },
   {
     jp: "お電話番号",
     hira: "おでんわばんごう",
     vi: "số điện thoại (cách diễn đạt lịch sự)",
     example: "お客様のお電話番号をお教eください。",
-    exampleVi: "Xin vui lòng cho tôi biết số điện thoại của quý khách."
+    exampleVi: "Xin vui lòng cho tôi biết số điện thoại của quý khách.",
+    skip: true
   },
   {
     jp: "～様",
     hira: "～さま",
     vi: "Ông/ Bà ~ (cách diễn đạt lịch sự)",
     example: "田中様、こちらへどうぞ。",
-    exampleVi: "Ông Tanaka, xin mời đi lối này."
+    exampleVi: "Ông Tanaka, xin mời đi lối này.",
+    skip: true
   },
   {
     jp: "おまちがいないでしょうか？",
     hira: "おまちがいないでしょうか？",
     vi: "Không có gì sai đúng không ạ? (cách diễn đạt lịch sự)",
     example: "ご注文は以上でおまちがいないでしょうか。",
-    exampleVi: "Món quý khách gọi đến đây là không có gì nhầm lẫn đúng không ạ?"
+    exampleVi: "Món quý khách gọi đến đây là không có gì nhầm lẫn đúng không ạ?",
+    skip: true
   },
   {
     jp: "半額",
@@ -620,112 +641,128 @@ export const vocabList = [
     hira: "ドリンクバー",
     vi: "quầy đồ uống tự phục vụ",
     example: "ランチにドリンクバーをつけます。",
-    exampleVi: "Tôi thêm quầy đồ uống tự phục vụ vào suất ăn trưa."
+    exampleVi: "Tôi thêm quầy đồ uống tự phục vụ vào suất ăn trưa.",
+    skip: true
   },
   {
     jp: "おこさま",
     hira: "おこさま",
     vi: "trẻ nhỏ (cách diễn đạt lịch sự)",
     example: "おこさま用の椅子はありますか。",
-    exampleVi: "Có ghế dành riêng cho trẻ nhỏ không ạ?"
+    exampleVi: "Có ghế dành riêng cho trẻ nhỏ không ạ?",
+    skip: true
   },
   {
     jp: "ご注文時",
     hira: "ごちゅうもんじ",
     vi: "khi gọi món (cách diễn đạt lịch sự)",
     example: "ご注文時にこの画面をお見せください。",
-    exampleVi: "Xin vui lòng cho xem màn hình này khi gọi món."
+    exampleVi: "Xin vui lòng cho xem màn hình này khi gọi món.",
+    skip: true
   },
   {
     jp: "本券",
     hira: "ほんけん",
     vi: "phiếu giảm giá này",
     example: "本券は1回のみ有効です。",
-    exampleVi: "Phiếu giảm giá này chỉ có hiệu lực một lần."
+    exampleVi: "Phiếu giảm giá này chỉ có hiệu lực một lần.",
+    skip: true
   },
   {
     jp: "使用",
     hira: "しよう",
     vi: "sử dụng",
     example: "クーポンを使用します。",
-    exampleVi: "Tôi sử dụng phiếu giảm giá."
+    exampleVi: "Tôi sử dụng phiếu giảm giá.",
+    skip: true
   },
   {
     jp: "時間帯",
     hira: "じかんたい",
     vi: "khung giờ",
     example: "忙しい時間帯を避けてお店に行きます。",
-    exampleVi: "Tôi đến quán tránh khung giờ bận rộn."
+    exampleVi: "Tôi đến quán tránh khung giờ bận rộn.",
+    skip: true
   },
   {
     jp: "ご提示ください",
     hira: "ごていじください",
     vi: "Hãy xuất trình ~. (cách diễn đạt lịch sự)",
     example: "お会計の際、会員証をご提示ください。",
-    exampleVi: "Khi tính tiền, xin vui lòng xuất trình thẻ hội viên."
+    exampleVi: "Khi tính tiền, xin vui lòng xuất trình thẻ hội viên.",
+    skip: true
   },
   {
     jp: "ご利用できません",
     hira: "ごりようできません",
     vi: "Quý khách không thể sử dụng được. (cách diễn đạt lịch sự)",
     example: "このクーポンは土日にはご利用できません。",
-    exampleVi: "Phiếu giảm giá này không thể sử dụng vào thứ Bảy và Chủ Nhật."
+    exampleVi: "Phiếu giảm giá này không thể sử dụng vào thứ Bảy và Chủ Nhật.",
+    skip: true
   },
   {
     jp: "ご飲食代",
     hira: "ごいんしょくだい",
     vi: "giá đồ ăn / đồ uống",
     example: "ご飲食代から10%割引いたします。",
-    exampleVi: "Chúng tôi sẽ giảm giá 10% trên tổng hóa đơn đồ ăn thức uống."
+    exampleVi: "Chúng tôi sẽ giảm giá 10% trên tổng hóa đơn đồ ăn thức uống.",
+    skip: true
   },
   {
     jp: "会計時",
     hira: "かいけいじ",
     vi: "khi thanh toán",
     example: "会計時にクーポンを出してください。",
-    exampleVi: "Hãy đưa phiếu giảm giá khi thanh toán."
+    exampleVi: "Hãy đưa phiếu giảm giá khi thanh toán.",
+    skip: true
   },
   {
     jp: "利用可能（な）",
     hira: "りようかのう（な）",
     vi: "có thể sử dụng",
     example: "このカードは当店で利用可能です。",
-    exampleVi: "Thẻ này có thể sử dụng được tại nhà hàng chúng tôi."
+    exampleVi: "Thẻ này có thể sử dụng được tại nhà hàng chúng tôi.",
+    skip: true
   },
   {
     jp: "～限り（1回限り）",
     hira: "～かぎり（いっかいかぎり）",
     vi: "chỉ ~ (chỉ 1 lần)",
     example: "この特典はお一人様1回限りのみです。",
-    exampleVi: "Ưu đãi này chỉ áp dụng giới hạn mỗi người một lần."
+    exampleVi: "Ưu đãi này chỉ áp dụng giới hạn mỗi người một lần.",
+    skip: true
   },
   {
     jp: "有効（な）",
     hira: "ゆうこう（な）",
     vi: "hiệu lực",
     example: "このパスポートはまだ有効ですか。",
-    exampleVi: "Hộ chiếu này vẫn còn hiệu lực chứ?"
+    exampleVi: "Hộ chiếu này vẫn còn hiệu lực chứ?",
+    skip: true
   },
   {
     jp: "他の",
     hira: "たの",
     vi: "khác",
     example: "他の席に移動してもいいですか。",
-    exampleVi: "Tôi có thể chuyển sang ghế khác được không?"
+    exampleVi: "Tôi có thể chuyển sang ghế khác được không?",
+    skip: true
   },
   {
     jp: "併用",
     hira: "へいよう",
     vi: "dùng đồng thời",
     example: "他のクーポンとの併用はできません。",
-    exampleVi: "Không thể dùng đồng thời với các phiếu giảm giá khác."
+    exampleVi: "Không thể dùng đồng thời với các phiếu giảm giá khác.",
+    skip: true
   },
   {
     jp: "お見せください",
     hira: "おみせください",
     vi: "Hãy cho xem ~. (cách diễn đạt lịch sự)",
     example: "画面をスタッフにお見せください。",
-    exampleVi: "Xin vui lòng cho nhân viên xem màn hình."
+    exampleVi: "Xin vui lòng cho nhân viên xem màn hình.",
+    skip: true
   },
 ];
 

@@ -212,7 +212,7 @@ export const grammarBai3 = [
           vi: "Mì udon thì hãy cho vào sau khi ăn thịt và rau."
         },
         {
-          jp: "お好み焼きは最初【さいしょ】に具【ぐ】をよく「混【ま】ぜてから」、焼「や」きます。",
+          jp: "お好み焼きは最初【さいしょ】に具【ぐ】をよく「混【ま】ぜてから」、焼【や】きます。",
           vi: "Okonomiyaki thì trước hết trộn đều các nguyên liệu lên, sau đó mới nướng. / Sau khi trộn thì..."
         }
       ]

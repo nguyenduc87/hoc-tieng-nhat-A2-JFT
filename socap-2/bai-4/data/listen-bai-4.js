@@ -1,488 +1,522 @@
 export const listeningData = [
   {
-    title: "Audio 1 : kotoba1",
-    audio: "audio/Z_[03-01]_kotoba1.mp3",
+    title: "Audio 1 : kiku1",
+    audio: "audio/Z_[04-01]_kiku1.mp3",
     script: [
-      "a. 肉【にく】（豚肉【ぶたにく】・牛肉【ぎゅうにく】）",
-      "b. 魚【さかな】",
-      "c. エビ・カニ",
-      "d. 卵【たまご】",
-      "e. ナッツ",
-      "f. わさび",
-      "g. ねぎ",
-      "h. みりん",
-      "i. 牛乳【ぎゅうにゅう】",
-      "j. お酒【さけ】",
-      "k. コーヒー",
+      "A: おいしいラーメンが食べたいんですけど、どこがいいですか？",
+      "B: うーん、おれのおすすめは「千歩【せんぽ】」かなあ。",
+      "A: あ、あの商店街【しょうてんがい】にある赤い看板【あかいかんばん】のお店【みせ】ですか？",
+      "B: そうそう。ラーメンなら、あそこがいちばんおいしいよ。安い【やすい】し、量【りょう】も多い【おおい】し。",
+      "A: じゃあ、今度【こんど】行ってみます。"
     ],
     translation: [
-      "a. Thịt (Thịt heo · Thịt bò)",
-      "b. Cá",
-      "c. Tôm · Cua",
-      "d. Trứng",
-      "e. Các loại hạt",
-      "f. Mù tạt (Wasabi)",
-      "g. Hành lá",
-      "h. Rượu Mirin",
-      "i. Sữa bò",
-      "j. Rượu",
-      "k. Cà phê",
+      "A: Mình muốn ăn mì ramen ngon, quán nào thì tốt nhỉ?",
+      "B: Ừm, gợi ý của mình là quán 'Senpo' (Thiên Bộ) chăng.",
+      "A: À, có phải quán có biển hiệu màu đỏ ở khu phố mua sắm kia không ạ?",
+      "B: Đúng rồi đúng rồi. Nếu là ramen thì ở đó ngon nhất đấy. Vừa rẻ mà lượng thức ăn lại còn nhiều nữa.",
+      "A: Thế thì lần tới mình sẽ đi thử."
     ]
   },
   {
-    title: "Audio 2 : kotoba2",
-    audio: "audio/Z_[03-02]_kotoba2.mp3",
+    title: "Audio 2 : kiku2",
+    audio: "audio/Z_[04-02]_kiku2.mp3",
     script: [
-      "1. 卵が食べられません。",
-      "2. 肉と魚が食べられません。",
-      "3. 牛乳が飲めません。",
-      "4. ナッツが食べられません。",
-      "5. お酒が飲めません。",
-      "6. コーヒーが飲めません。",
-      "7. エビとカニが食べられません。",
-      "8. 豚肉が食べられません。",
-      "9. 牛肉が食べられません。",
-      "10. ねぎを入れないでください。",
-      "11. わさびを入れないでください。",
-      "12. みりんを入れないでください。"
+      "A: 今度【こんど】、彼女【かのじょ】と食事【しょくじ】に行きたいんですけど、この辺【へん】で、どこかいい店、ありませんか？",
+      "B: そうねえ……。それなら、最近【さいきん】、新しくできた「みさきカフェ」はどう？ 女性【じょせい】にすごく人気【にんき】があるよ。",
+      "A: どんな店ですか？",
+      "B: きれいだし、デザートがすごくおいしいよ。",
+      "A: へー。どこにありますか？",
+      "B: 待【ま】って。じゃあ、今、地図【ちず】送る【おくる】ね。"
     ],
     translation: [
-      "1. Tôi không thể ăn trứng.",
-      "2. Tôi không thể ăn thịt và cá.",
-      "3. Tôi không thể uống sữa.",
-      "4. Tôi không thể ăn các loại hạt.",
-      "5. Tôi không thể uống rượu.",
-      "6. Tôi không thể uống cà phê.",
-      "7. Tôi không thể ăn tôm và cua.",
-      "8. Tôi không thể ăn thịt heo.",
-      "9. Tôi không thể ăn thịt bò.",
-      "10. Xin vui lòng không cho hành lá vào.",
-      "11. Xin vui lòng không cho mù tạt (wasabi) vào.",
-      "12. Xin vui lòng không cho rượu mirin vào."
+      "A: Sắp tới mình muốn đi ăn cùng bạn gái, quanh khu này có quán nào được không ạ?",
+      "B: Xem nào... Nếu vậy thì quán 'Misaki Cafe' mới mở gần đây thì sao? Quán đó cực kỳ được các bạn nữ yêu thích đấy.",
+      "A: Đó là quán như thế nào ạ?",
+      "B: Quán vừa đẹp mà đồ tráng miệng lại rất ngon nữa.",
+      "A: Ồ vậy ạ. Quán ở đâu thế ạ?",
+      "B: Đợi chút nhé. Vậy để bây giờ mình gửi bản đồ cho."
     ]
   },
   {
-    title: "Audio 3 : kiku1",
-    audio: "audio/Z_[03-03]_kiku1.mp3",
+    title: "Audio 3 : kiku3",
+    audio: "audio/Z_[04-03]_kiku3.mp3",
     script: [
-      "A: 何【なに】食【た】べる？ ここのお刺身【さしみ】、おいしいよ。",
-      "B: 私【わたし】、ベジタリアンなので、肉【にく】とか魚【さかな】はだめなんです。",
-      "A: じゃあ、豆腐料理【とうふりょうり】はだいじょうぶ？",
-      "B: はい、だいじょうぶです。"
+      "A: あのう、このあたりにベトナム料理【りょうり】のお店【みせ】、ないですか？",
+      "B: うーん、この町【まち】にはないですけど、もみじ町【ちょう】にありますよ。",
+      "「花【はな】」っていう店で、ベトナム人の夫婦【ふうふ】がやっていて、",
+      "本物【ほんもの】のベトナム料理が食べられる【たべられる】そうです。",
+      "A: へー、そうなんですか！ 知りません【しりません】でした。今度【こんど】行ってみます。"
     ],
     translation: [
-      "A: Cậu ăn gì? Món sashimi ở đây ngon lắm đó.",
-      "B: Mình là người ăn chay, nên thịt hay cá đều không được.",
-      "A: Thế thì các món đậu phụ có ổn không?",
-      "B: Vâng, các món đó thì được ạ."
+      "A: Xin lỗi, quanh khu vực này có quán ăn món Việt Nam nào không ạ?",
+      "B: Ừm, ở thị trấn này thì không có nhưng ở thị trấn Momiji thì có đấy.",
+      "Nghe nói đó là quán tên là 'Hana', do một cặp vợ chồng người Việt điều hành,",
+      "và ở đó có thể thưởng thức các món ăn Việt Nam chuẩn vị (đúng nghĩa).",
+      "A: Ồ, vậy ạ! Mình đã không biết đấy. Lần tới mình sẽ đi thử."
+    ]
+
+  },
+  {
+    title: "Audio 4 : kiku4",
+    audio: "audio/Z_[04-04]_kiku4.mp3",
+    script: [
+      "A: すみません。この土地【とち】の料理【りょうり】が食べたいんですが、この近【ちか】くに、おすすめのお店【みせ】がありますか？",
+      "B: そうですね。この近くなら、「平兵衛【へいべえ】」がおすすめです。",
+      "とりの天ぷらがおいしいし、ほかにもいろいろなメニューがありますよ。",
+      "A: それ、どこですか？",
+      "B: ここから歩【ある】いて10分【じゅっぷん】ぐらいです。地図【ちず】、ありますよ。",
+      "A: わかりました。ありがとうございます。"
+    ],
+    translation: [
+      "A: Xin lỗi, mình muốn ăn đặc sản (món ăn địa phương) của vùng này, quanh đây có quán nào gợi ý không ạ?",
+      "B: Xem nào. Nếu gần đây thì quán 'Heibei' là một gợi ý tốt đấy.",
+      "Món tempura thịt gà ở đó ngon lắm, ngoài ra còn có nhiều món trong thực đơn nữa.",
+      "A: Quán đó ở đâu vậy ạ?",
+      "B: Đi bộ từ đây mất khoảng 10 phút. Mình có bản đồ này.",
+      "A: Mình hiểu rồi. Xin cảm ơn bạn rất nhiều."
     ]
   },
   {
-    title: "Audio 4 : kiku2",
-    audio: "audio/Z_[03-04]_kiku2.mp3",
+    title: "Audio 5 : katachi",
+    audio: "audio/Z_[04-05]_katachi.mp3",
     script: [
-      "A: じゃあ、先【さき】に飲み物【のみもの】、注文【ちゅうもん】しましょう。ビールでいいですか？",
-      "B: あの、今日は自転車【じてんしゃ】で来【き】たので、飲【の】めないんです。",
-      "A: そっかそっか。ソフトドリンクのメニューはここですよ。",
-      "B: そうですね……。じゃあ、ウーロン茶【ちゃ】、お願【ねが】いします。"
+      "A: おいしいラーメンが食べたいんですけど、どこがいいですか？",
+      "B: ラーメン＿＿＿＿＿＿、あそこ（「千歩【せんぽ】」）がいちばんおいしいよ。",
+      "A: この辺【へん】で、どこがいい店【みせ】、ありませんか？",
+      "B: それ＿＿＿＿＿＿、最近【さいきん】、新しくできた「みさきカフェ」はどう？",
+      "A: この土地【とち】の料理【りょうり】が食べたいんですが、この近くに、おすすめの店【みせ】がありますか？",
+      "B: この近く＿＿＿＿＿＿、「平兵衛【へいべえ】」がおすすめです。"
     ],
     translation: [
-      "A: Vậy chúng ta gọi đồ uống trước nhé. Bia có được không?",
-      "B: À, vì hôm nay tôi đi xe đạp đến nên không uống được ạ.",
-      "A: Ra là vậy, ra là vậy. Thực đơn đồ uống không cồn ở đây nhé.",
-      "B: Vâng nhỉ... Thế thì cho tôi trà ô long nhé."
+      "A: Mình muốn ăn mì ramen ngon, quán nào thì tốt nhỉ?",
+      "B: Nếu là ramen thì ở đó (quán 'Senpo') là ngon nhất đấy. -> なら",
+      "A: Quanh khu này có quán nào được không ạ?",
+      "B: Nếu vậy thì quán 'Misaki Cafe' mới mở gần đây thì sao? -> なら",
+      "A: Mình muốn ăn đặc sản của vùng này, quanh đây có quán nào gợi ý không ạ?",
+      "B: Nếu là ở gần đây thì quán 'Heibei' là một gợi ý tốt. -> なら"
     ]
   },
   {
-    title: "Audio 5 : kiku3",
-    audio: "audio/Z_[03-05]_kiku3.mp3",
+    title: "Audio 6 : kotoba1",
+    audio: "audio/Z_[04-06]_kotoba1.mp3",
     script: [
-      "A: あれ？ エビ、食【た】べないんですか？",
-      "B: あ……はい。アレルギーがあるので、食べられないんです。よかったら、どうぞ。",
-      "A: そうですか。ほかの料理【りょうり】はだいじょうぶですか？",
-      "B: ええ。おいしいです。"
+      "a. つける",
+      "b. 混【ま】ぜる",
+      "c. かける",
+      "d. 入【い】れる",
+      "e. 巻【ま】く",
+      "f. のせる",
+      "g. むく"
     ],
     translation: [
-      "A: Ơ kìa? Cậu không ăn tôm à?",
-      "B: À... vâng. Vì mình bị dị ứng nên không ăn được. Nếu muốn, cậu cứ tự nhiên ăn nhé.",
-      "A: Vậy à. Các món khác vẫn ổn chứ?",
-      "B: Vâng. Ngon lắm ạ."
+      "a. Chấm (vào nước sốt, nước chấm)",
+      "b. Trộn, đảo đều",
+      "c. Rưới, chan, tưới (nước sốt, nước tương)",
+      "d. Cho vào, bỏ vào",
+      "e. Cuộn, quấn (cơm cuộn, trứng cuộn)",
+      "f. Đặt lên, để lên trên",
+      "g. Bóc vỏ, gọt vỏ"
     ]
   },
   {
-    title: "Audio 6 : kiku4",
-    audio: "audio/Z_[03-06]_kiku4.mp3",
+    title: "Audio 7 : kotoba2",
+    audio: "audio/Z_[04-07]_kotoba2.mp3",
     script: [
-      "A: すみません、おすし、わさび、入【はい】ってますよね。苦手【にがて】なんです。",
-      "B: あ、わさび抜【ぬ】きもできますよ。",
-      "A: じゃあ、わさび抜きでお願いします。",
-      "B: かしこまりました。"
+      "1. かけてください",
+      "2. 入れてください",
+      "3. むいてください",
+      "4. のせてください",
+      "5. 巻【ま】いてください",
+      "6. つけてください",
+      "7. 混【ま】ぜてください"
     ],
     translation: [
-      "A: Xin lỗi, trong sushi có cho mù tạt đúng không ạ? Tôi ăn không quen cái đó.",
-      "B: À, chúng tôi có thể làm loại không cho mù tạt nữa đó ạ.",
-      "A: Vậy thì làm cho tôi loại không có mù tạt nhé.",
-      "B: Tôi đã hiểu rõ rồi ạ."
+      "1. Hãy rưới / chan lên",
+      "2. Hãy cho vào / bỏ vào",
+      "3. Hãy bóc vỏ / gọt vỏ",
+      "4. Hãy đặt lên / để lên trên",
+      "5. Hãy cuộn lại / quấn lại",
+      "6. Hãy chấm vào",
+      "7. Hãy trộn lên / đảo đều lên"
     ]
   },
   {
-    title: "Audio 7 : kiku5",
-    audio: "audio/Z_[03-07]_kiku5.mp3",
+    title: "Audio 8 : kiku1",
+    audio: "audio/Z_[04-08]_kiku1.mp3",
     script: [
-      "A: あの、お好【好み】み焼きに豚肉【ぶたにく】、入【はい】ってますか？",
-      "B: はい。",
-      "A: すみませんが、宗教上【しゅうきょうじょう】の理由【りゆう】で食べられないので、入れないでください。",
+      "A: 混【ま】ぜそば、お待【ま】たせしました！ よく混【ま】ぜて食べてください。",
+      "B: はい。"
+    ],
+    translation: [
+      "A: Món mì trộn (Mazesoba) xin lỗi đã để quý khách đợi lâu! Xin vui lòng trộn đều lên rồi thưởng thức ạ.",
+      "B: Vâng ạ."
+    ]
+  },
+  {
+    title: "Audio 9 : kiku2",
+    audio: "audio/Z_[04-09]_kiku2.mp3",
+    script: [
+      "A: このシュウマイは味【あじ】がついてますから、しょうゆをつけないで食べてください。",
       "B: わかりました。"
     ],
     translation: [
-      "A: Xin lỗi, trong bánh xèo Okonomiyaki có thịt heo không ạ?",
-      "B: Có ạ.",
-      "A: Xin lỗi nhưng vì lý do tôn giáo tôi không ăn được, nên làm ơn đừng bỏ vào ạ.",
+      "A: Món xíu mại này đã được nêm nếm gia vị sẵn rồi, nên xin vui lòng ăn mà đừng chấm nước tương nhé.",
       "B: Tôi hiểu rồi ạ."
     ]
   },
   {
-    title: "Audio 8 : katachi",
-    audio: "audio/Z_[03-08]_katachi.mp3",
+    title: "Audio 10 : kiku3",
+    audio: "audio/Z_[04-10]_kiku3.mp3",
     script: [
-      "私、ベジタリアン＿＿＿＿＿＿、肉とか魚はだめなんです。",
-      "今日は自転車【じてんしゃ】で来た＿＿＿＿＿＿、飲めないんです。",
-      "アレルギーがある＿＿＿＿＿＿、食【た】べられないんです。",
-      "宗教上【しゅうきょうじょう】の理由【りゆう】で食【た】べられない＿＿＿＿＿＿、入【い】れないでください。",
-      "おすし、わさび、入【はい】ってます＿＿＿＿＿＿。",
+      "A: こちらの野菜【やさい】の天【てん】ぷらは、つゆにつけて食べてください。",
+      "エビはつゆにつけないで、塩【しお】をかけて食べてください。",
+      "B: はい。"
     ],
     translation: [
-      "Vì tôi là người ăn chay nên không ăn được những thứ như thịt hay cá. -> なので",
-      "Vì hôm nay tôi đi đến bằng xe đạp nên không thể uống được. -> ので",
-      "Vì tôi bị dị ứng nên không thể ăn được. -> ので",
-      "Vì lý do tôn giáo nên tôi không thể ăn được, xin vui lòng đừng bỏ vào. -> ので",
-      "Trong sushi có cho mù tạt đúng không nhỉ. -> よね",
+      "A: Món tempura rau củ này thì xin vui lòng chấm vào nước sốt (tsuyu) rồi ăn.",
+      "Còn tôm thì xin đừng chấm nước sốt, hãy rắc chút muối lên rồi thưởng thức ạ.",
+      "B: Vâng ạ."
     ]
   },
   {
-    title: "Audio 9 : hanasu1-1",
-    audio: "audio/Z_[03-09]_hanasu1-1.mp3",
+    title: "Audio 11 : kiku4",
+    audio: "audio/Z_[04-11]_kiku4.mp3",
     script: [
-      "A: お刺身【さしみ】、おいしいですよ、どうですか？",
-      "B: すみません、お刺身【さしみ】は苦手なんです。",
-      "A: そうですか。"
+      "A: このトマト、何もかけないで、そのまま食べて。",
+      "B: はい。……あ、甘【あま】くておいしい！"
     ],
     translation: [
-      "A: Món sashimi ngon lắm đấy, cậu dùng thử không?",
-      "B: Xin lỗi, mình không ăn quen món sashimi (không hảo món này) lắm.",
-      "A: Vậy à."
+      "A: Quả cà chua này đừng rưới thêm cái gì cả, cứ ăn trực tiếp như vậy nhé.",
+      "B: Vâng ạ. ...Ồ, ngọt và ngon quá!"
     ]
   },
   {
-    title: "Audio 10 : hanasu1-2",
-    audio: "audio/Z_[03-10]_hanasu1-2.mp3",
+    title: "Audio 12 : kiku5",
+    audio: "audio/Z_[04-12]_kiku5.mp3",
     script: [
-      "A: お刺身【さしみ】、おいしいですよ、どうですか？",
-      "B: 私、アレルギーがあるので、食べられないんです。",
-      "A: そうですか。"
+      "A: 手巻【てま】きずしは、のりの上【うえ】にご飯と刺身【さしみ】をのせて、巻【ま】いて食【た】べます。",
+      "B: こうですか？"
     ],
     translation: [
-      "A: Món sashimi ngon lắm đấy, cậu dùng thử không?",
-      "B: Vì mình bị dị ứng nên không thể ăn được.",
-      "A: Vậy à."
+      "A: Đối với món sushi cuộn tay (Temakizushi), bạn đặt cơm và cá sống (sashimi) lên trên rong biển, rồi cuộn lại ăn.",
+      "B: Như thế này có đúng không ạ?"
     ]
   },
   {
-    title: "Audio 11 : hanasu2-1",
-    audio: "audio/Z_[03-11]_hanasu2-1.mp3",
+    title: "Audio 13 : kiku6",
+    audio: "audio/Z_[04-13]_kiku6.mp3",
     script: [
-      "A: すみません。お好【この】み焼【や】きに豚肉【ぶたにく】、入【はい】ってますか？",
-      "B: はい。",
-      "A: すみませんが、宗教上【しゅうきょうじょう】の理由【りゆう】で食【た】べられないので、入【い】れないでください。"
+      "A: 焼【や】きいもは、皮【かわ】をむいて食べますか？",
+      "B: 私は、むかないで食べます。",
+      "A: へー、そうですか。"
     ],
     translation: [
-      "A: Xin lỗi. Trong bánh xèo Okonomiyaki có thịt heo không ạ?",
-      "B: Có ạ.",
-      "A: Xin lỗi nhưng vì lý do tôn giáo tôi không ăn được, nên làm ơn đừng bỏ vào ạ."
+      "A: Khoai lang nướng thì bóc vỏ rồi mới ăn ạ?",
+      "B: Tôi thì cứ để nguyên vỏ không bóc mà ăn luôn.",
+      "A: Chà, vậy ạ."
     ]
   },
   {
-    title: "Audio 12 : hanasu2-2",
-    audio: "audio/Z_[03-12]_hanasu2-2.mp3",
+    title: "Audio 14 : kiku7",
+    audio: "audio/Z_[04-14]_kiku7.mp3",
     script: [
-      "A: おすし、わさび、入【はい】ってますよね。",
-      "B: はい。",
-      "A: わさび抜【ぬ】きでお願【ねが】いします。"
+      "A: コーヒーに砂糖【さとう】とミルク、入れますか？",
+      "B: 砂糖【さとう】、お願いします。ミルクは入れないでください。"
     ],
     translation: [
-      "A: Trong sushi có cho mù tạt đúng không nhỉ.",
-      "B: Đúng vậy ạ.",
-      "A: Vậy làm ơn làm cho tôi loại không có mù tạt nhé."
-    ]
-  },
-  {
-    title: "Audio 13 : kotoba",
-    audio: "audio/Z_[03-13]_kotoba.mp3",
-    image: [
-      "images/listen/03-13.png",
-    ],
-    script: [
-      "1. カウンター",
-      "2. 座敷【ざしき】",
-      "3. テーブル",
-      "4. 禁煙【きんえん】",
-      "5. お会計【かいけい】／レジ",
-    ],
-    translation: [
-      "1. Quầy bar / Quầy thu ngân (Counter)",
-      "2. Phòng ngồi chiếu tatami (Zashiki)",
-      "3. Bàn ăn (Table)",
-      "4. Cấm hút thuốc (Không hút thuốc)",
-      "5. Thanh toán / Quầy tính tiền (Chỗ thanh toán)",
-    ]
-  },
-  {
-    title: "Audio 14 : kaiwa",
-    audio: "audio/Z_[03-14]_kaiwa.mp3",
-    script: [
-      "会話１",
-      "店員【てんいん】: いらっしゃいませ。お客様【きゃくさま】、何名様【なんめいさま】ですか？",
-      "石井【いしい】: 2人【ふたり】です。",
-      "店員【てんいん】: 2名様【めいさま】ですね。当店【とうてん】、全面禁煙【ぜんめんきんえん】ですが、よろしいですか？",
-      "石井【いしい】: はい。",
-      "店員【てんいん】: テーブルと座敷【ざしき】がございますが……。",
-      "石井【いしい】: テーブルでお願【ねが】いします。",
-      "店員【てんいん】: こちらへどうぞ。",
-      "　",
-      "会話２",
-      "店員【てんいん】: ご注文【ちゅうもん】、お決【き】まりですか？",
-      "石井【いしい】: あのー、おすすめは何【なん】ですか？",
-      "店員【てんいん】: そうですね……人気【にんき】があるのは、お刺身定食【さしみていしょく】です。",
-      "石井【いしい】: じゃあ、それにします。ご飯大盛り【ごはんおおもり】にできますか？",
-      "店員【てんいん】: はい。お刺身定食【さしみていしょく】、ご飯大盛り【ごはんおおもり】ですね？",
-      "石井【いしい】: はい。",
-      "シハー: 私【わたし】は生の魚【なまのさかな】が苦手【にがて】なんですが……ほかに何【なに】がありますか？",
-      "店員【てんいん】: そうですねえ、フライなどはいかがですか？ ミックスフライ定食【ていしょく】がおすすめです。",
-      "シハー: じゃあ、それで。",
-      "店員【てんいん】: ご飯の量【りょう】は、どうなさいますか？",
-      "シハー: 普通【ふつう】でだいじょうぶです。あと、アイスコーヒーもお願【ねが】いします。",
-      "店員【てんいん】: いつお持ち【もち】しますか？",
-      "シハー: 先【さき】にお願【ねが】いします。",
-      "店員【てんいん】: はい。ミックスフライ定食【ていしょく】、ご飯普通【はんふつう】、アイスコーヒーを先に。以上【いじょう】でよろしいですか？",
-      "石井・シハー: はい。",
-      "　",
-      "会話３",
-      "石井【いしい】: お会計【かいけい】、お願【ねが】いします。",
-      "店員【てんいん】: はい。ごいっしょでよろしいですか？",
-      "シハー: 別々【べつべつ】でお願【ねが】いします。",
-      "店員【てんいん】: かしこまりました。お刺身定食【さしみていしょく】のお客様【きゃくさま】、800円【えん】になります。",
-      "店員【てんいん】: ミックスフライ定食【ていしょく】のお客様【きゃくさま】、650円【えん】になります。……",
-      "店員【てんいん】: ありがとうございました。こちら、クーポンです。次回【じかい】、お使【つか】いください。"
-    ],
-    translation: [
-      "Hội thoại 1",
-      "Nhân viên: Xin kính chào quý khách. Quý khách đi mấy người ạ?",
-      "Ishii: 2 người.",
-      "Nhân viên: 2 người đúng không ạ. Cửa hàng của chúng tôi cấm hút thuốc hoàn toàn, như vậy có được không ạ?",
-      "Ishii: Vâng được.",
-      "Nhân viên: Chúng tôi có bàn ăn và phòng ngồi chiếu tatami...",
-      "Ishii: Cho tôi bàn ăn nhé.",
-      "Nhân viên: Mời đi lối này ạ.",
-      "",
-      "Hội thoại 2",
-      "Nhân viên: Quý khách đã quyết định món chưa ạ?",
-      "Ishii: À... món gợi ý của quán là gì vậy ạ?",
-      "Nhân viên: Xem nào... món được ưa chuộng nhất là suất ăn cơm cá sống Sashimi ạ.",
-      "Ishii: Vậy tôi chọn món đó. Có thể cho tôi cơm suất lớn được không?",
-      "Nhân viên: Vâng. Một suất Sashimi, cơm nhiều đúng không ạ?",
-      "Ishii: Vâng.",
-      "Siha: Tôi không ăn quen cá sống... ngoài ra thì còn có món gì khác không?",
-      "Nhân viên: Dạ để xem, các món chiên rán thì thế nào ạ? Suất ăn đồ chiên thập cẩm (Mix Fly) là gợi ý của quán đấy ạ.",
-      "Siha: Vậy cho tôi món đó.",
-      "Nhân viên: Lượng cơm thì quý khách muốn thế nào ạ?",
-      "Siha: Bình thường là được rồi ạ. Với cả, cho tôi một cà phê đá nữa nhé.",
-      "Nhân viên: Khi nào thì chúng tôi mang (cà phê) lên ạ?",
-      "Siha: Làm ơn mang lên trước giúp tôi nhé.",
-      "Nhân viên: Vâng. Một suất đồ chiên thập cẩm, cơm bình thường, và cà phê đá mang lên trước. Như vậy là đủ rồi đúng không ạ?",
-      "Ishii ・ Siha: Vâng.",
-      "",
-      "Hội thoại 3",
-      "Ishii: Làm ơn tính tiền giúp tôi ạ.",
-      "Nhân viên: Vâng. Quý khách thanh toán chung luôn đúng không ạ?",
-      "Siha: Làm ơn tính riêng giúp chúng tôi.",
-      "Nhân viên: Tôi hiểu rồi ạ. Quý khách dùng suất ăn Sashimi hết 800 Yên ạ.",
-      "Nhân viên: Quý khách dùng suất ăn đồ chiên thập cẩm hết 650 Yên ạ. ...",
-      "Nhân viên: Xin cảm ơn quý khách. Đây là phiếu giảm giá ạ. Xin vui lòng sử dụng vào lần tới nhé."
+      "A: Bạn có cho đường và sữa vào cà phê không?",
+      "B: Cho tôi xin đường nhé. Còn sữa thì xin vui lòng đừng bỏ vào."
     ]
   },
   {
     title: "Audio 15 : katachi",
-    audio: "audio/Z_[03-15]_katachi.mp3",
+    audio: "audio/Z_[04-15]_katachi.mp3",
     script: [
-      "A: テーブルと座敷【ざしき】がございますが……。",
-      "B: テーブル＿＿＿＿＿＿お願【ねが】いします。",
-      "A: ミックスフライ定食【ていしょく】がおすすめです。",
-      "B: じゃあ、それ＿＿＿＿＿＿。",
-      "A: ご飯【はん】の量【りょう】は、どうなさいますか？",
-      "B: 普通【ふつう】＿＿＿＿＿＿だいじょうぶです。",
-      "A: おすすめは何【なん】ですか？",
-      "B: 人気【にんき】がある＿＿＿＿＿＿、お刺身定食【さしみていしょく】です。"
+      "（混ぜそばは）よく＿＿＿＿＿＿食べてください。",
+      "こちらの野菜【やさい】の天ぷらは、つゆに＿＿＿＿＿＿食べてください。",
+      "手巻【てま】きずしは、のりの上【うえ】にご飯と刺身【さしみ】を＿＿＿＿＿＿、＿＿＿＿＿＿食べます。",
+      "エビはつゆに＿＿＿＿＿＿、塩【しお】を＿＿＿＿＿＿食べてください。",
+      "このトマト、何も＿＿＿＿＿＿、そのまま食べて。",
+      "A: 焼【や】きいもは、皮【かわ】を＿＿＿＿＿＿食べますか？",
+      "B: 私は、＿＿＿＿＿＿食べます。"
     ],
     translation: [
-      "A: Chúng tôi có bàn ăn và phòng ngồi chiếu tatami...",
-      "B: Cho tôi bàn ăn nhé. -> で",
-      "A: Suất ăn đồ chiên thập cẩm là gợi ý của quán đấy ạ.",
-      "B: Vậy tôi chọn món đó. -> にします",
-      "A: Lượng cơm thì quý khách muốn thế nào ạ?",
-      "B: Bình thường là được rồi ạ. -> で",
-      "A: Món gợi ý của quán là gì vậy ạ?",
-      "B: Món được ưa chuộng nhất là suất ăn cơm cá sống Sashimi ạ. -> のは"
+      "（Món mì trộn Mazesoba）Hãy trộn đều lên rồi ăn nhé. -> 混ぜて",
+      "Món tempura rau củ này thì hãy chấm vào nước sốt rồi ăn nhé. -> つけて",
+      "Đối với món sushi cuộn tay (Temakizushi), đặt cơm và cá sống lên trên rong biển, rồi cuộn lại ăn. -> のせて 、 巻いて",
+      "Còn tôm thì đừng chấm nước sốt, hãy rắc muối lên rồi ăn nhé. -> つけないで 、 かけて",
+      "Quả cà chua này đừng rưới thêm cái gì cả, cứ ăn trực tiếp như vậy nhé. -> かけないで",
+      "A: Khoai lang nướng thì bóc vỏ rồi mới ăn ạ? -> むいて",
+      "B: Tôi thì cứ để nguyên vỏ không bóc mà ăn luôn. -> むかないで"
     ]
   },
   {
-    title: "Audio 16 : hanasu1",
-    audio: "audio/Z_[03-16]_hanasu1.mp3",
+    title: "Audio 16 : kaiwa",
+    audio: "audio/Z_[04-16]_kaiwa.mp3",
     script: [
-      "店員【てんいん】: お客様【きゃくさま】、何名様【なんめいさま】ですか？",
-      "客【きゃく】: 2人【ふたり】です。",
-      "店員【てんいん】: テーブルと座敷【ざしき】がございますが……。",
-      "客【きゃく】: テーブルでお願【ねが】いします。",
-      "店員【てんいん】: こちらへどうぞ。"
+      "ドゥック：お肉、もう入れてもいいですか？",
+      "新井【あらい】：どうぞ。あ！ 一度【ど】に、そんなにたくさんお肉を入れちゃだめですよ。",
+      "ドゥック：え、そうなんですか？ どうやって食べるんですか？",
+      "新井【あらい】：しゃぶしゃぶは、お肉を1枚【まい】ずつ取って、お湯【ゆ】の中で、こうやって2、3回【かい】しゃぶしゃぶってするんですよ。",
+      "ドゥック：へー、こうですか？",
+      "新井【あらい】：そうそう。",
+      "ドゥック・フン：いただきます！",
+      "新井【あらい】：あ、スープには味【あじ】がありませんから、たれをつけて食べてください。",
+      "フン：たれは、どれがいいですか？",
+      "新井【あらい】：ポン酢【ず】と ごまだれ があります。私はポン酢【ず】が好きですけど、両方【りょうほう】試【ため】してみてください。",
+      "-----------------------------",
+      "ドゥック：野菜【やさい】は、もう食べられますか？",
+      "新井【あらい】：ええ、どうぞ。あ、でも、白菜【はくさい】はまだですね。",
+      "もう少し待ってくださいね。",
+      "ドゥック・フン：はい。",
+      "フン：うどんを入れてもいいですか？",
+      "新井【あらい】：うどんは、まだ入れちゃだめ。",
+      "お肉と野菜【やさい】を食べてから、入れましょう。",
+      "フン：そうなんですか。"
     ],
     translation: [
-      "Nhân viên: Quý khách đi mấy người ạ?",
-      "Khách: 2 người.",
-      "Nhân viên: Chúng tôi có bàn ăn và phòng ngồi chiếu tatami...",
-      "Khách: Cho tôi bàn ăn nhé.",
-      "Nhân viên: Mời đi lối này ạ."
+      "Đức: Tôi cho thịt vào bây giờ luôn được chưa ạ?",
+      "Arai: Xin mời. Ơ kìa! Không được cho một lúc nhiều thịt như thế vào đâu nhé.",
+      "Đức: Ồ, vậy ạ? Món này phải ăn như thế nào mới đúng ạ?",
+      "Arai: Đối với món lẩu Shabu-shabu này, bạn gắp từng miếng thịt một, cho vào trong nước sôi rồi nhúng qua nhúng lại 2, 3 lần như thế này này.",
+      "Đức: Chà, như thế này đúng không ạ?",
+      "Arai: Đúng rồi, đúng rồi.",
+      "Đức & Hùng: Chúng tôi xin phép được ăn ạ!",
+      "Arai: À, vì nước lẩu không có vị gì đâu nên bạn hãy chấm nước sốt rồi ăn nhé.",
+      "Hùng: Nước sốt thì loại nào thì ngon ạ?",
+      "Arai: Có sốt Ponzu (sốt chanh đậm vị tương) và sốt mè. Tôi thì thích sốt Ponzu hơn nhưng bạn cứ thử cả hai loại xem sao nhé.",
+      "-----------------------------",
+      "Đức: Rau thì đã ăn được chưa ạ?",
+      "Arai: Vâng, xin mời. À, nhưng mà cải thảo thì vẫn chưa chín đâu nhé.",
+      "Hãy đợi thêm một chút nữa nha.",
+      "Đức & Hùng: Vâng ạ.",
+      "Hùng: Tôi cho mì udon vào bây giờ luôn được chưa ạ?",
+      "Arai: Mì udon thì bây giờ vẫn chưa được cho vào đâu.",
+      "Chúng ta hãy ăn hết thịt và rau rồi mới cho mì vào nhé.",
+      "Hùng: Ồ, vậy ạ."
     ]
   },
   {
-    title: "Audio 17 : hanasu2",
-    audio: "audio/Z_[03-17]_hanasu2.mp3",
+    title: "Audio 17 : katachi",
+    audio: "audio/Z_[04-17]_katachi.mp3",
     script: [
-      "店員【てんいん】: ご注文【ちゅうもん】、お決【き】まりですか？",
-      "客【きゃく】: おすすめは何【なん】ですか？",
-      "店員【てんいん】: 人気【にんき】があるのは、お刺身定食【さしみていしょく】です。",
-      "客【きゃく】: 生の魚【なまのさかな】が苦手【にがて】なんですが……ほかに何【なに】がありますか？",
-      "店員【てんいん】: そうですねえ、ミックスフライ定食【ていしょく】はいかがですか？",
-      "客【きゃく】: じゃあ、それで。",
-      "店員【てんいん】: ご飯【はん】の量【りょう】は、どうなさいますか？",
-      "客【きゃく】: ご飯【はん】、大盛り【おおもり】でお願【ねが】いします。",
-      "客【きゃく】: あと、アイスコーヒーもお願【ねが】いします。",
-      "店員【てんいん】: いつ、お持ち【もち】しますか？",
-      "客【きゃく】: 先【さき】にお願【ねが】いします。"
+      "一度に、そんなにたくさんお肉【にく】を入れ＿＿＿＿＿＿ですよ。",
+      "うどんは、まだ入れ＿＿＿＿＿＿。",
+      "（うどんは）お肉【にく】と野菜【やさい】を＿＿＿＿＿＿、入れましょう。"
     ],
     translation: [
-      "Nhân viên: Quý khách đã quyết định món chưa ạ?",
-      "Khách: Món gợi ý của quán là gì vậy ạ?",
-      "Nhân viên: Món được ưa chuộng nhất là suất ăn cơm cá sống Sashimi ạ.",
-      "Khách: Tôi không ăn quen cá sống... ngoài ra thì còn có món gì khác không ạ?",
-      "Nhân viên: Dạ để xem, suất ăn đồ chiên thập cẩm thì thế nào ạ?",
-      "Khách: Vậy cho tôi món đó.",
-      "Nhân viên: Lượng cơm thì quý khách muốn thế nào ạ?",
-      "Khách: Cho tôi cơm suất lớn (nhiều cơm) nhé.",
-      "Khách: Với cả, cho tôi một cà phê đá nữa nhé.",
-      "Nhân viên: Khi nào thì chúng tôi mang (cà phê) lên ạ?",
-      "Khách: Làm ơn mang lên trước giúp tôi nhé."
+      "Không được cho một lúc nhiều thịt như thế vào đâu nhé. -> ちゃだめ",
+      "Mì udon thì bây giờ vẫn chưa được cho vào đâu. -> ちゃだめ",
+      "（Mì udon thì）Chúng ta hãy ăn hết thịt và rau rồi mới cho vào nhé. -> 食べてから"
     ]
   },
   {
-    title: "Audio 18 : hanasu3",
-    audio: "audio/Z_[03-18]_hanasu3.mp3",
+    title: "Audio 18 : hanasu1-1",
+    audio: "audio/Z_[04-18]_hanasu1-1.mp3",
     script: [
-      "客【きゃく】: お会計【かいけい】、お願【ねが】いします。",
-      "店員【てんいん】: ごいっしょでよろしいですか？",
-      "客【きゃく】: 別々【べつべつ】でお願【ねが】いします。"
+      "どうやって食べるんですか？",
+      "たれをつけて食べてください。",
     ],
     translation: [
-      "Khách: Làm ơn tính tiền giúp tôi ạ.",
-      "Nhân viên: Quý khách thanh toán chung luôn đúng không ạ?",
-      "Khách: Làm ơn tính riêng giúp chúng tôi."
+      "Ăn như thế nào ạ?",
+      "Chấm nước sốt rồi ăn.",
     ]
   },
   {
-    title: "Audio 19 : kaiwa",
-    audio: "audio/Z_[03-19]_kaiwa.mp3",
+    title: "Audio 19 : hanasu1-2",
+    audio: "audio/Z_[04-19]_hanasu1-2.mp3",
     script: [
-      "店員【てんいん】: はい、お電話【でんわ】ありがとうございます。「レストランきりん」でございます。",
-      "ナット: あのう、予約【よやく】をしたいんですけど……。",
-      "店員【てんいん】: ご予約【よやく】ですね。お日にち【ひにち】は、お決【き】まりですか？",
-      "ナット: 来週【らいしゅう】の水曜日【すいようび】の夜【よる】です。",
-      "店員【てんいん】: 9日【ここのか】ですね。何名様【なんめいさま】ですか？",
-      "ナット: 6人【にん】です。",
-      "店員【てんいん】: お時間【じかん】は？",
-      "ナット: 7時【しちじ】はだいじょうぶですか？",
-      "店員【てんいん】: 9日【ここのか】の水曜日【すいようび】19時【じゅうくじ】ですね。少々【しょうしょう】お待【ま】ちください。……",
-      "店員【てんいん】: はい、だいじょうぶです。お名前【なまえ】とお電話番号【でんわばんごう】をお願【ねが】いします。",
-      "ナット: ナットです。",
-      "店員【てんいん】: え？ ナイトウ様【さま】ですか？",
-      "ナット: ナットです。カタカナで、「なにぬねの」のナ、小さい「ツ」、「たちつてと」のトです。",
-      "店員【てんいん】: ナット様【さま】ですね。失礼【しつれい】しました。",
-      "ナット: 電話番号【でんわばんごう】は、090-1234-5678です。",
-      "店員【てんいん】: 090-1234-5678ですね。",
-      "ナット: はい。",
-      "店員【てんいん】: それでは、ナット様【さま】、9日【ここのか】の水曜日【すいようび】、19時【じゅうくじ】から6名様【めいさま】でおまちがいないでしょうか？",
-      "ナット: はい。",
-      "店員【てんいん】: それでは、お待ち【まち】しております。ご予約【よやく】ありがとうございました。"
-
+      "どうやって食べるんですか？",
+      "そのまま食べてください。",
     ],
     translation: [
-      "Nhân viên: Vâng, xin cảm ơn quý khách đã gọi điện. Đây là nhà hàng Kirin ạ.",
-      "Natto: À, tôi muốn đặt bàn trước...",
-      "Nhân viên: Quý khách đặt bàn đúng không ạ. Anh/Chị đã quyết định ngày chưa ạ?",
-      "Natto: Tối thứ Tư tuần sau ạ.",
-      "Nhân viên: Ngày mùng 9 đúng không ạ. Quý khách đi mấy người ạ?",
-      "Natto: 6 người ạ.",
-      "Nhân viên: Thời gian là mấy giờ ạ?",
-      "Natto: 7 giờ có được không ạ?",
-      "Nhân viên: Ngày mùng 9, thứ Tư, lúc 19 giờ đúng không ạ. Xin vui lòng chờ một chút ạ. ...",
-      "Nhân viên: Vâng, thời gian đó được ạ. Xin vui lòng cho biết tên và số điện thoại ạ.",
-      "Natto: Tôi là Natto.",
-      "Nhân viên: Dạ? Là quý khách Naito đúng không ạ?",
-      "Natto: Là Natto ạ. Viết bằng chữ Katakana, chữ 'Na' trong hàng 'na-ni-nu-ne-no', chữ 'tsu' nhỏ, và chữ 'to' trong hàng 'ta-chi-tsu-te-to'.",
-      "Nhân viên: Là quý khách Natto đúng không ạ. Tôi xin lỗi vì sự sơ sót.",
-      "Natto: Số điện thoại của tôi là 090-1234-5678.",
-      "Nhân viên: 090-1234-5678 đúng không ạ.",
-      "Natto: Vâng.",
-      "Nhân viên: Vậy thì, thưa quý khách Natto, lịch đặt bàn vào thứ Tư ngày mùng 9, từ 19 giờ cho 6 người không có gì sai sót đúng không ạ?",
-      "Natto: Vâng.",
-      "Nhân viên: Vậy chúng tôi xin phép được đón tiếp quý khách. Xin chân thành cảm ơn quý khách đã đặt bàn."
+      "Ăn như thế nào ạ?",
+      "Giữ nguyên như thế rồi ăn.",
     ]
   },
   {
-    title: "Audio 20 : hanasu",
-    audio: "audio/Z_[03-20]_hanasu.mp3",
+    title: "Audio 20 : hanasu2",
+    audio: "audio/Z_[04-20]_hanasu2.mp3",
     script: [
-      "客【きゃく】: あのう、予約【よやく】したいんですけど……。",
-      "店員【てんいん】: ご予約【よやく】ですね。お日にち【ひにち】は、お決【き】まりですか？",
-      "客【きゃく】: 来週【らいしゅう】の水曜日【すいようび】の夜【よる】です。",
-      "店員【てんいん】: 何名様【なんめいさま】ですか？",
-      "客【きゃく】: 6人【にん】です。",
-      "店員【てんいん】: お時間【じかん】は？",
-      "客【きゃく】: 7時【しちじ】は、だいじょうぶですか？",
-      "店員【てんいん】: はい、だいじょうぶです。",
-      "店員【てんいん】: お名前【なまえ】とお電話番号【でんわばんごう】をお願【ねが】いします。",
-      "客【きゃく】: ナットです。",
-      "店員【てんいん】: ナット様【さま】ですね。",
-      "客【きゃく】: 電話番号【でんわばんごう】は、090-1234-5678です。",
-      "店員【てんいん】: 090-1234-5678ですね。",
-      "店員【てんいん】: それでは、ナット様【さま】、9日【ここのか】の水曜日【すいようび】、19時【じゅうくじ】から6名様【めいさま】でおまちがいないでしょうか？",
-      "客【きゃく】: はい。",
-      "店員【てんいん】: それでは、お待ち【まち】しております。"
+      "たれは、どれがいいですか？",
+      "ポン酢とごまだれがあります。私はポン酢が好きです。",
     ],
     translation: [
-      "Khách: À, tôi muốn đặt bàn trước...",
-      "Nhân viên: Quý khách đặt bàn đúng không ạ. Anh/Chị đã quyết định ngày chưa ạ?",
-      "Khách: Tối thứ Tư tuần sau ạ.",
-      "Nhân viên: Quý khách đi mấy người ạ?",
-      "Khách: 6 người ạ.",
-      "Nhân viên: Thời gian là mấy giờ ạ?",
-      "Khách: 7 giờ có được không ạ?",
-      "Nhân viên: Vâng, thời gian đó được ạ.",
-      "Nhân viên: Xin vui lòng cho biết tên và số điện thoại ạ.",
-      "Khách: Tôi là Natto.",
-      "Nhân viên: Là quý khách Natto đúng không ạ.",
-      "Khách: Số điện thoại của tôi là 090-1234-5678.",
-      "Nhân viên: 090-1234-5678 đúng không ạ.",
-      "Nhân viên: Vậy thì, thưa quý khách Natto, lịch đặt bàn vào thứ Tư ngày mùng 9, từ 19 giờ cho 6 người không có gì sai sót đúng không ạ?",
-      "Khách: Vâng.",
-      "Nhân viên: Vậy chúng tôi xin phép được đón tiếp quý khách."
+      "Nước sốt thì loại nào thì ngon (được) ạ?",
+      "Có sốt Ponzu và sốt mè. Tôi thì thích sốt Ponzu hơn."
+    ]
+  },
+  {
+    title: "Audio 21 : hanasu3",
+    audio: "audio/Z_[04-21]_hanasu3.mp3",
+    script: [
+      "うどんを入れてもいいですか？",
+      "まだ入れちゃだめ。",
+    ],
+    translation: [
+      "Tôi cho mì udon vào bây giờ luôn được chưa ạ?",
+      "Bây giờ vẫn chưa được cho vào đâu."
+    ]
+  },
+  {
+    title: "Audio 22 : kotoba1-1",
+    audio: "audio/Z_[04-22]_kotoba1-1.mp3",
+    script: [
+      "a. 砂糖【さとう】",
+      "b. 塩【しお】",
+      "c. こしょう",
+      "d. スパイス",
+      "e. ソース",
+      "f. たれ",
+      "g. 油【あぶら】"
+    ],
+    translation: [
+      "a. Đường",
+      "b. Muối",
+      "c. Tiêu",
+      "d. Gia vị / Hương liệu / Gia vị tạo mùi (Spice)",
+      "e. Nước xốt / Sốt chấm (như tương cà, sốt BBQ)",
+      "f. Nước chấm / Nước xốt chuyên dụng (thường dùng pha chế sẵn cho lẩu, đồ nướng)",
+      "g. Dầu ăn"
+    ]
+  },
+  {
+    title: "Audio 23 : kotoba1-2",
+    audio: "audio/Z_[04-23]_kotoba1-2.mp3",
+    script: [
+      "1. 砂糖【さとう】を入れます",
+      "2. スパイスを入れます",
+      "3. 塩【しお】とこしょうを入れます",
+      "4. 油【あぶら】を使います",
+      "5. ソースをかけます",
+      "6. たれをつけます",
+    ],
+    translation: [
+      "1. Cho đường vào / Bỏ đường vào",
+      "2. Cho gia vị (spice) vào",
+      "3. Cho muối và tiêu vào",
+      "4. Sử dụng dầu ăn",
+      "5. Rưới nước sốt lên",
+      "6. Chấm nước xốt / Chấm nước chấm"
+    ]
+  },
+  {
+    title: "Audio 24 : kotoba1-2",
+    audio: "audio/Z_[04-24]_kotoba2-1.mp3",
+    script: [
+      "a. 切る【きる】",
+      "b. 焼く【やく】",
+      "c. 煮る【にる】",
+      "d. ゆでる",
+      "e. 蒸す【むす】",
+      "f. いためる",
+      "g. 揚げる【あげる】"
+    ],
+    translation: [
+      "a. Cắt, thái, gọt",
+      "b. Nướng, rán, chiên áp chảo",
+      "c. Ninh, kho, hầm",
+      "d. Luộc",
+      "e. Hấp",
+      "f. Xào",
+      "g. Chiên ngập dầu, rán ngập dầu"
+    ]
+  },
+  {
+    title: "Audio 25 : kotoba2-2",
+    audio: "audio/Z_[04-25]_kotoba2-2.mp3",
+    script: [
+      "1. 野菜を切ります",
+      "2. 野菜をゆでます",
+      "3. 肉を焼きます",
+      "4. 野菜を煮【に】ます",
+      "5. ご飯をいためます",
+      "6. 蒸【む】します",
+      "7. あぶらで揚【あ】げます"
+    ],
+    translation: [
+      "1. Cắt / thái rau củ",
+      "2. Luộc rau củ",
+      "3. Nướng / rán thịt",
+      "4. Ninh / kho / hầm rau củ",
+      "5. Xào cơm (Làm cơm chiên / cơm xào)",
+      "6. Hấp (món ăn)",
+      "7. Chiên ngập dầu (rán bằng dầu ăn)"
+    ]
+  },
+  {
+    title: "Audio 26 : kiku1",
+    audio: "audio/Z_[04-26]_kiku1.mp3",
+    script: [
+      "これはフェイジョアーダです。ブラジルの家庭料理【かていりょうり】です。",
+      "豆【まめ】、豚肉【ぶたにく】、牛肉【ぎゅうにく】を煮【に】て作ります。",
+      "ブラジル人はよく食べます。ご飯といっしょに食べてください。"
+    ],
+    translation: [
+      "Đây là Feijoada. Nó là món ăn gia đình của Brazil.",
+      "Món này được làm bằng cách ninh (hầm) đậu, thịt lợn và thịt bò.",
+      "Người Brazil rất hay ăn món này. Xin vui lòng ăn chung với cơm nhé."
+    ]
+  },
+  {
+    title: "Audio 27 : kiku2",
+    audio: "audio/Z_[04-27]_kiku2.mp3",
+    script: [
+      "これはモモです。ネパールの料理【りょうり】です。",
+      "皮【かわ】の中に、野菜【やさい】と肉【にく】を入れて、蒸【む】します。",
+      "餃子【ぎょうざ】に似【に】ています。たれをつけて食べると、おいしいですよ。"
+    ],
+    translation: [
+      "Đây là Momo. Nó là món ăn của Nepal.",
+      "Người ta cho rau và thịt vào bên trong lớp vỏ rồi đem hấp chín.",
+      "Món này rất giống với sủi cảo (Gyoza). Chấm nước xốt rồi ăn sẽ rất ngon đấy."
+    ]
+  },
+  {
+    title: "Audio 28 : kiku3",
+    audio: "audio/Z_[04-28]_kiku3.mp3",
+    script: [
+      "これはインドネシアのガドガドというサラダです。",
+      "ゆでた野菜【やさい】やゆで卵などが入っています。",
+      "ピーナッツのソースをかけて食べます。このソースは甘辛【あまから】いです。"
+    ],
+    translation: [
+      "Đây là món salad của Indonesia có tên gọi là Gado-gado.",
+      "Bên trong món này có chứa các nguyên liệu như rau luộc và trứng luộc.",
+      "Khi ăn sẽ rưới nước xốt đậu phộng lên. Loại nước xốt này có vị ngọt cay."
+    ]
+  },
+  {
+    title: "Audio 29 : kiku4",
+    audio: "audio/Z_[04-29]_kiku4.mp3",
+    script: [
+      "これは中国のお菓子【おかし】で、麻花【マーホア】といいます。",
+      "小麦粉【こむぎこ】に水【みず】、砂糖【さとう】などを入れて、油【あぶら】で揚【あ】げます。",
+      "ちょっと固【かた】いです。"
+    ],
+    translation: [
+      "Đây là một loại bánh ngọt của Trung Quốc, được gọi là bánh Quẩy thừng (Mahua).",
+      "Người ta cho nước, đường... vào bột mì rồi chiên ngập trong dầu ăn.",
+      "Bánh này hơi cứng một chút."
+    ]
+  },
+  {
+    title: "Audio 30 : hanasu",
+    audio: "audio/Z_[04-30]_hanasu.mp3",
+    image: [
+      "images/listen/4-30.png",
+    ],
+    script: [
+      "これはネパールのモモという料理【りょうり】です。",
+      "餃子【ぎょうざ】に似【に】ています。",
+      "皮【かわ】の中に、野菜【やさい】と肉【にく】を入れて、蒸【む】します。",
+      "たれをつけて、食べます。"
+    ],
+    translation: [
+      "Đây là món ăn có tên gọi là Momo của Nepal.",
+      "Món này rất giống với sủi cảo (Gyoza).",
+      "Người ta cho rau và thịt vào bên trong lớp vỏ rồi đem hấp chín.",
+      "Chấm nước xốt rồi ăn."
     ]
   },
 ];
