@@ -383,6 +383,13 @@ function initAudioPlayers() {
   });
 }
 
+// Tìm audio
+document.addEventListener("input", function (e) {
+  if (e.target.id === "searchAudio") {
+    renderListeningMenu(e.target.value);
+  }
+});
+
 /* =========================
    READING
 ========================= */

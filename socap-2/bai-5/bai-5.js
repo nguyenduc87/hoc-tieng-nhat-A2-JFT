@@ -1,8 +1,8 @@
-import { vocabList } from "./data/vocab-bai-16.js";
-import { kanjiList } from "./data/kanji-bai-16.js";
-import { grammarBai3 } from "./data/grammar-bai-16.js";
-import { listeningData } from "./data/listen-bai-16.js";
-import { readingData } from "./data/reading-bai-16.js";
+import { vocabList } from "./data/vocab-bai-5.js";
+import { kanjiList } from "./data/kanji-bai-5.js";
+import { grammarBai3 } from "./data/grammar-bai-5.js";
+import { listeningData } from "./data/listen-bai-5.js";
+import { readingData } from "./data/reading-bai-5.js";
 
 
 /* =========================
@@ -398,7 +398,7 @@ const readingList = document.getElementById("readingList");
 function renderReading() {
   readingList.innerHTML = readingData.map(item => `
     <div class="reading-card">
-        <h2>${item.title}</h2>
+        <h2>${addHira(item.title)}</h2>
 
         <div class="reading-image">
           ${item.image1.map(img => `<img src="${img}">`).join("")}
@@ -470,8 +470,3 @@ setupListeningLayout();
 renderListeningMenu();
 initAudioPlayers();
 setActiveOnScroll();
-
-
-
-
-
