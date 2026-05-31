@@ -2,32 +2,32 @@ export const grammarBai3 = [
   {
     id: "summary",
     tab: "Tóm tắt",
-    title: "Bài 5 – Bạn nên đặt chỗ sớm.",
+    title: "Bài 6 – Thật vui vì tôi đã đi được nhiều nơi.",
     summaryList: [
       {
-        label: "① V-(られ)ます <Thể khả năng①>",
-        example: "新鮮【しんせん】なカニとかウニとか「食べられます」よ。",
-        vi: "「Có thể ăn」 những món như cua hoặc cầu gai tươi ngon đấy."
+        label: "① V-るつもりです",
+        example: "明日は、中禅寺湖【ちゅうぜんじこ】に「行くつもりです」。",
+        vi: "Ngày mai, tôi 「dự định sẽ đi」 hồ Chuzenji."
       },
       {
-        label: "② ～ところ",
-        example: "遊べる「ところ」はありますか？",
-        vi: "「Có chỗ nào」 có thể vui chơi không ạ?"
+        label: "② V-(られ)て、～ ／ V-(られ)なくて、～",
+        example: "いろいろなところに「行けて」、よかったです。\nショーが「見られなくて」、残念【ざんねん】でした。",
+        vi: "Thật tốt vì 「đã có thể đi」 được nhiều nơi.\nThật đáng tiếc vì 「đã không thể xem」 được buổi biểu diễn."
       },
       {
-        label: "③ S(thể thông thường)って聞きました ／ S(thể thông thường)って言っていました",
-        example: "うどんがおいしい「って聞きました」。\nバスが安くて便利だ「って」先輩が「言ってました」。",
-        vi: "Tôi 「nghe nói」 là mì udon ngon lắm.\nTiền bối 「có nói là」 đi xe buýt vừa rẻ vừa tiện."
+        label: "③ S1 し、S2 し、～",
+        example: "海で泳げた「し」、船に乗れた「し」、楽しかったです。",
+        vi: "Vừa có thể bơi ở biển 「lại vừa」 có thể đi thuyền nên đã rất vui."
       },
       {
-        label: "④ 【từ nghi vấn】 V-たらいいですか？",
-        example: "日光【にっこう】に行くんですけど、何【なに】で「行ったらいいですか？」",
-        vi: "Tôi sắp đi Nikko nhưng 「đi bằng phương tiện gì thì tốt」 ạ?"
+        label: "④ V-る／V-ている／V-た とき、～",
+        example: "道を「歩いているとき」、リスを見ました。\nウミネコが近くに「来たとき」、ちょっとこわかったです。",
+        vi: "「Khi đang đi bộ」 trên đường, tôi đã nhìn thấy một con sóc.\n「Khi」 chim mòng biển đến gần, tôi đã hơi sợ một chút."
       },
       {
-        label: "⑤ V-たほうがいいです ／ V-ないほうがいいです",
-        example: "厚【あ】い上着【うわぎ】を持って「行ったほうがいいです」よ。\nできれば、日曜日は「行かないほうがいいです」よ。",
-        vi: "Bạn 「nên」 mang theo áo khoác dày đi thì hơn đấy.\nNếu có thể thì 「không nên」 đi vào Chủ Nhật đâu."
+        label: "⑤ 【người】と【số người】で",
+        example: "友だち「と２人で」ハウステンボスに行ってきました。",
+        vi: "Tôi đã cùng một người bạn (「2 người với nhau」) đi chơi ở Huis Ten Bosch về."
       }
     ]
   },
@@ -35,53 +35,38 @@ export const grammarBai3 = [
   {
     id: "1",
     tab: "Mẫu 1",
-    title: "① V-(られ)ます <Thể khả năng 可能形①>",
+    title: "① V-るつもりです ／ V-ないつもりです",
     usage: [
-      "Thể hiện khả năng thực hiện hành động gì trong hoàn cảnh nào đó.",
-      "Thể hiện những việc có thể làm."
+      "Dùng để trình bày việc định làm, hoặc dự định, kế hoạch cụ thể mà bản thân đang suy nghĩ.",
+      "Trong ví dụ trên, cấu trúc này được dùng để nói về dự định đi đâu trong chuyến du lịch."
     ],
-    structure: "V-(られ)ます",
+    structure: "V-るつもりです ／ V-ないつもりです",
     notes: {
       points: [
-        "Câu tha động từ [N を V] khi chia động từ về thể khả năng sẽ chuyển thành [N が V-(られ)ます]. Ví dụ: カニを食べます (Tôi ăn cua) sẽ chuyển thành カニが食べられます (Tôi có thể ăn cua).",
-        "Động từ nhóm 2 và động từ 来る của nhóm 3 có thể lược bỏ ら trở thành 見れる, 食べれる, 来【こ】れる.",
-        "Ở trình độ sơ cấp 1, mẫu [V-辞書形 + ことができる] đã được học để biểu thị khả năng. Cấu trúc [V-(られ)ます] này cũng có thể dùng tương tự."
+        "Thể từ điển (V-る) của động từ là 「định làm」, thể ない (V-ない) để nói về những việc 「không định làm」.",
+        "「V-るつもりです」 là cách nói dùng để trình bày về những 「dự định mang tính cụ thể hơn」, còn 「V-たいです」 là cách nói để trình bày 「mong muốn đơn thuần」, không liên quan đến việc có thực hiện được hay không."
       ],
       examples: [
         {
-          jp: "新鮮【しんせん】なカニとかウニとか「食べられます」よ。",
-          vi: "Bạn có thể ăn cua và cầu gai tươi đấy."
+          jp: "明日は、中禅寺湖【ちゅうぜんじこ】に「行くつもりです」。",
+          vi: "Tôi định đi hồ Chuzenji vào ngày mai."
         },
         {
-          jp: "沖縄【おきなわ】は、暖【あたた】かいから、春から秋まで「泳げる」よ。シュノーケリングもできるし。",
-          vi: "Vì ở Okinawa trời ấm nên có thể đi bơi từ mùa xuân đến mùa thu đấy. Có thể đi lặn nữa."
-        },
-        {
-          jp: "京都は古い町で、お寺とか神社【じんじゃ】がたくさん「見られる」よ。",
-          vi: "Kyoto là một thành phố cổ xưa, có thể xem rất nhiều chùa và đền."
+          jp: "時間がないので、神社【じんじゃ】には「行かないつもりです」。",
+          vi: "Vì không có thời gian nên tôi định không tới đền nữa."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "北海道【ほっかいどう】の旅行はどうでしたか？",
-        vi: "Chuyến du lịch Hokkaido thế nào rồi?"
+        jp: "休みはどうしますか？",
+        vi: "Anh định làm gì vào ngày nghỉ?"
       },
       {
         speaker: "B",
-        jp: "すごく楽しかったです！新鮮【しんせん】なカニとかウニとか「食べられました」よ。",
-        vi: "Vui lắm luôn! Tôi đã được ăn cả cua và cầu gai tươi ngon nữa đấy."
-      },
-      {
-        speaker: "A",
-        jp: "いいですね！私もいつか行ってみたいです。",
-        vi: "Thích thế! Một ngày nào đó tôi cũng muốn thử đến đó xem sao."
-      },
-      {
-        speaker: "B",
-        jp: "景色【けしき】もきれいだし、本当におすすめですよ。",
-        vi: "Phong cảnh cũng đẹp nữa, thực sự rất đáng đi đấy."
+        jp: "箱根【はこね】に「行くつもりです」。",
+        vi: "Tôi định đi Hakone."
       }
     ]
   },
@@ -89,52 +74,39 @@ export const grammarBai3 = [
   {
     id: "2",
     tab: "Mẫu 2",
-    title: "② ～ところ",
+    title: "② V-(られ)て、～ ／ V-(られ)なくて、～",
     usage: [
-      "ところ có nghĩa là nơi chốn.",
-      "Dùng để giải thích, mô tả đặc điểm của một địa điểm nào đó bằng cách thêm cụm từ bổ nghĩa vào phía trước."
+      "Đây là cách nói 「nêu lý do cho những việc đã làm được hoặc chưa làm được」, rồi nêu cảm tưởng về điều đó.",
+      "Thông thường cấu trúc này sẽ sử dụng 「động từ thể khả năng」 để nói về lý do."
     ],
-    structure: "Từ bổ nghĩa (V-thể thông thường / Tính từ) + ところ",
+    structure: "V-(られ)て、～ ／ V-(られ)なくて、～",
     notes: {
       points: [
-        "Trước ところ sẽ là cụm từ thể hiện đó là nơi như thế nào (Ví dụ: nơi có thể chơi, nơi có cảnh đẹp, nơi có đồ ăn ngon, nơi có thể mua sắm).",
-        "Cụm từ đứng trước đóng vai trò định ngữ bổ nghĩa trực tiếp cho danh từ ところ."
+        "Đưa thể khả năng của động từ về thể て hoặc dạng ～なくて.",
+        "Sử dụng dưới dạng 行けて (có thể đi), 見られて (có thể xem) khi nói về những việc đã làm được, 行けなくて (không đi được), 見られなくて (không xem được) khi nói về những việc chưa làm được.",
+        "Vế sau thường là quá khứ và là những từ biểu thị cảm xúc của bản thân như 楽しかった (vui), おもしろかった (thú vị), 感動した (cảm động), つまらなかった (chán), v.v.."
       ],
       examples: [
         {
-          jp: "遊【あそ】べる「ところ」はありますか？",
-          vi: "Có nơi nào có thể chơi không?"
+          jp: "いろいろなところに「行けて」、よかったです。",
+          vi: "Thật vui vì đã có thể đi rất nhiều nơi."
         },
         {
-          jp: "一日、ゆっくりできる「ところ」に行きたいです。",
-          vi: "Tôi muốn đi tới nơi có thể thư giãn cả ngày."
-        },
-        {
-          jp: "にぎやかで、食べ物がおいしい「ところ」です。",
-          vi: "Đó là một nơi náo nhiệt với nhiều đồ ăn ngon."
+          jp: "ショーが「見られなくて」、残念【ざんねん】でした。",
+          vi: "Thật tiếc vì tôi không xem được show diễn đó."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "大阪【おおさか】は「どんなところ」ですか？",
-        vi: "Osaka là nơi như thế nào?"
+        jp: "きれいな夕日が「見られて」、感動【かんどう】しました。",
+        vi: "Tôi rất cảm động vì đã ngắm được cảnh hoàng hôn đẹp như vậy."
       },
       {
         speaker: "B",
-        jp: "にぎやかで、食べ物がおいしい「ところ」です。",
-        vi: "Đó là một nơi náo nhiệt với nhiều đồ ăn ngon."
-      },
-      {
-        speaker: "A",
-        jp: "へえ、今度の休みに行ってみたいですね。",
-        vi: "Chà, kỳ nghỉ tới tôi muốn thử đến đó xem sao."
-      },
-      {
-        speaker: "B",
-        jp: "ぜひ！一日中【いちにちじゅう】ゆっくりできる「ところ」もたくさんありますよ。",
-        vi: "Nhất định nhé! Ở đó cũng có nhiều nơi có thể thư giãn cả ngày đấy."
+        jp: "金閣寺【きんかくじ】に「行けなくて」、残念【ざんねん】でした。",
+        vi: "Thật tiếc vì tôi không đi chùa Kinkakuji được."
       }
     ]
   },
@@ -142,110 +114,91 @@ export const grammarBai3 = [
   {
     id: "3",
     tab: "Mẫu 3",
-    title: "③ S (thể thông thường 普通形) + って聞きました ／ って言っていました",
+    title: "③ S1 し、S2 し、～",
     usage: [
-      "Đây là cách nói truyền đạt lại cho người khác những đánh giá, tin đồn, tin tức, v.v. mà tự mình nghe được hoặc người khác đã nói.",
-      "Từ 「って」 được dùng như một hình thức thân mật, giản lược của trợ từ trích dẫn 「と」 trong văn nói."
+      "Dùng để liệt kê các lý do, nguyên nhân cho một kết quả hoặc một đánh giá nào đó.",
+      "Thể hiện ý nghĩa vừa làm được việc này, lại vừa làm được việc kia."
     ],
-    structure: "S (thể thông thường) + って聞きました\nS (thể thông thường) + って言っていました",
+    structure: "S1 し、S2 し、～ (S: thể thông thường hoặc lịch sự)",
     notes: {
       points: [
-        "Đối với danh từ (N) và tính từ đuôi na (な-Adj) ở thể khẳng định hiện tại, khi kết hợp với mẫu này sẽ chuyển thành [N / na-Adj + だって]. Ví dụ: 大変だ -> 大変だって, 有名だ -> 有名だって.",
-        "Có thể sử dụng lược bớt phần phía sau, chỉ để lại 「って」 ở cuối câu giống như ví dụ 「うどんがおいしいって」 để diễn đạt ngắn gọn (Nghe nói mì udon ngon)."
+        "Chúng ta đã học cách kết hợp tính từ với cấu trúc ～し ở bài 2 để nêu ra lý do như trong ví dụ 「かっこいいし、歌もダンスも上手だし(Cô ấy vừa ngầu, vừa hát hay, vừa nhảy đẹp)」. Bài này chủ yếu đưa ra những ví dụ kết hợp ～し với thể khả năng của động từ.",
       ],
       examples: [
         {
-          jp: "うどんがおいしい「って聞きました」。",
-          vi: "Tôi nghe nói là mì udon ngon lắm."
+          jp: "海で泳【およ】げた「し」、船【ふね】に乗れた「し」、楽しかったです。",
+          vi: "Tôi rất vui vì vừa có thể bơi ở biển, lại có thể đi tàu thủy nữa."
         },
         {
-          jp: "友だちが、秋の日光は渋滞して大変だ「って言ってました」。",
-          vi: "Bạn tôi nói rằng mùa thu ở Nikko đường sá đông đúc vất vả lắm."
+          jp: "温泉【おんせん】にも入れた「し」、ゆっくりできた「し」、よかったです。",
+          vi: "Thật tốt vì có thể vừa tắm suối nước nóng vừa thư giãn."
         },
         {
-          jp: "京都は豆腐料理が有名だ「って聞きました」。",
-          vi: "Tôi nghe nói Kyoto nổi tiếng với các món ăn từ đậu phụ."
-        },
-        {
-          jp: "田中さんも一緒に旅行、行きたい「って」。",
-          vi: "Tanaka nói là cũng muốn đi du lịch cùng chúng ta."
+          jp: "沖縄【おきなわ】、いいですよね。海で泳げる「し」、おいしいものも食べられる「し」。",
+          vi: "Okinawa được đấy nhỉ. Chúng ta có thể bơi và ăn những món ăn ngon."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "今度の旅行、どこに行こうか迷っているんだよね。",
-        vi: "Chuyến du lịch tới, mình đang phân vân không biết nên đi đâu đây."
+        jp: "今度の休み、沖縄【おきなわ】に行くんですが、どうですか？",
+        vi: "Kỳ nghỉ tới tôi sẽ đi Okinawa đấy, ở đó thế nào ạ?"
       },
       {
         speaker: "B",
-        jp: "京都はどう？豆腐【とうふ】料理が有名だ「って聞きました」よ。",
-        vi: "Hay là đi Kyoto đi? Mình nghe nói ở đó nổi tiếng với các món đậu phụ lắm."
+        jp: "沖縄【おきなわ】、いいですよ。海で泳げる「し」、おいしいものも食べられる「し」、本当に楽しかったです。",
+        vi: "Okinawa được lắm đấy. Vừa có thể bơi ở biển, lại vừa được ăn đồ ăn ngon, thực sự đã rất vui."
       },
-      {
-        speaker: "A",
-        jp: "いいね！バスの移動【いどう】は大変かな？",
-        vi: "Hay đấy nhỉ! Nhưng di chuyển bằng xe buýt có vất vả không ta?"
-      },
-      {
-        speaker: "B",
-        jp: "バスが安くて便利だ「って」先輩【せんぱい】が言ってましたよ。",
-        vi: "Tiền bối có nói là đi xe buýt vừa rẻ vừa tiện lợi đấy."
-      }
     ]
   },
 
   {
     id: "4",
     tab: "Mẫu 4",
-    title: "④ 【Từ nghi vấn 疑問詞】 V-たらいいですか？",
+    title: "④ V-る ／ V-ている ／ V-た とき、～",
     usage: [
-      "Làm V thế nào thì được?",
-      "Đây là cách nói dùng để xin đối phương lời khuyên về cách thức, phương pháp, cách xử lý.",
-      "Trong bài này, cấu trúc trên được dùng để đưa ra lời khuyên về phương tiện di chuyển, nơi trọ, những thứ phải chuẩn bị, v.v. khi đi du lịch."
+      "Dùng để biểu thị thời điểm, trạng thái khi một hành động hoặc sự việc nào đó xảy ra.",
+      "Chú ý hành động chia ở thể ます khi đi với とき là không có (Vます + とき: Ko Co)."
     ],
-    structure: "【Từ nghi vấn】 + V-たらいいですか？",
+    structure: "V-る ／ V-ている ／ V-た + とき、～",
     notes: {
       points: [
-        "Động từ chia ở thể quá khứ ngắn (thể タ) kết hợp với 「ら」 để tạo thành 「たら」, phía sau là 「いいですか？」.",
-        "Cấu trúc này được sử dụng kết hợp với các từ nghi vấn như 何で (bằng cái gì), 何を (cái gì), いつ (khi nào), どこに (ở đâu), どうやって (bằng cách nào), v.v."
+        "Chúng ta đã học cách biểu thị thời điểm, trạng thái khi sử dụng とき ở bài 15 Sơ cấp 1 như trong ví dụ 熱があるとき、この薬を飲んでください (Hãy uống thuốc này khi bị sốt).",
+        "V-ているとき、～ thể hiện rằng trong lúc tiếp tục hành động V thì có điều gì đó xảy ra như trong ví dụ ①.",
+        "V-るとき、～ thể hiện rằng ngay trước khi thực hiện hành động V thì có điều gì đó xảy ra như trong ví dụ ②.",
+        "V-たとき、～ thể hiện rằng ngay sau khi thực hiện hành động V thì có điều gì đó xảy ra như trong ví dụ ③."
       ],
       examples: [
         {
-          jp: "日光【にっこう】に行くんですけど、「何で行ったらいいですか」？",
-          vi: "Tôi chuẩn bị đi Nikko. Tôi 「nên đi bằng phương tiện gì đến đó」?"
+          jp: "富士山【ぐじさん】に「登【のぼ】っているとき」、空【そら】が晴【は】れました。",
+          vi: "Khi tôi đang leo núi Phú Sĩ thì trời nắng lên."
         },
         {
-          jp: "どんなところに「泊【と】まったらいいですか」？",
-          vi: "Tôi 「nên trọ ở chỗ nào」?"
+          jp: "富士山【ぐじさん】に「行くとき」、バスに乗【の】りました。",
+          vi: "Khi đi tới núi Phú Sĩ, tôi đã đi xe buýt."
         },
         {
-          jp: "お土産【みやげ】は、「どこで買ったらいいですか」？",
-          vi: "Tôi 「nên mua đồ lưu niệm ở đâu」?"
+          jp: "家に「着【つ】いたとき」、疲【つ】れれて動【うご】けませんでした。",
+          vi: "Khi về tới nhà, tôi mệt tới mức không cử động nổi."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "今度、日光【にっこう】に行くんですけど、何で行ったらいいですか？",
-        vi: "Sắp tới tôi sẽ đi Nikko, tôi nên đi bằng phương tiện gì đến đó thì tốt ạ?"
+        jp: "富士山【ふじさん】の旅行はどうでしたか？",
+        vi: "Chuyến đi núi Phú Sĩ thế nào rồi bạn?"
       },
       {
         speaker: "B",
-        jp: "特急電車【とっきゅうでんしゃ】が早くて便利だから、おすすめですよ。",
-        vi: "Đi tàu điện tốc hành vừa nhanh vừa tiện, tôi rất gợi ý nhé."
+        jp: "楽しかったですよ！富士山に「行くとき」、バスで行ったんです。<br>で、山に「登っているとき」、ちょうど空【そら】が晴れてきれいな景色が見られました。",
+        vi: "Vui lắm luôn! Lúc đi tới núi Phú Sĩ thì mình đi bằng xe buýt. <br> Rồi trong lúc đang leo núi thì vừa vặn trời lại nắng lên nên đã ngắm được cảnh đẹp lắm."
       },
       {
         speaker: "A",
-        jp: "そうですか！宿【やど】はどんなところに泊【と】まったらいいですか？",
-        vi: "Vậy ạ! Còn nơi ở thì tôi nên trọ ở chỗ nào thì được?"
-      },
-      {
-        speaker: "B",
-        jp: "のんびりできる民宿【みんしゅく】がおすすめだよ。",
-        vi: "Tôi gợi ý anh nên ở nhà trọ bình dân để thư thả nghỉ ngơi."
+        jp: "わあ, いいですね！うらやましいです。",
+        vi: "Oa, thích thế nhỉ! Ghen tị thật đấy."
       }
     ]
   },
@@ -253,48 +206,43 @@ export const grammarBai3 = [
   {
     id: "5",
     tab: "Mẫu 5",
-    title: "⑤ V-たほうがいいです ／ V-ないほうがいいです",
+    title: "⑤ 【người】と【số người】で",
     usage: [
-      "Đây là cách nói dùng để đưa ra lời khuyên.",
-      "「V-た」ほうがいい kết hợp với thể タ của động từ để đưa ra lời khuyên nên làm việc gì đó.",
-      "「V-ない」ほうがいい kết hợp với thể ナイ của động từ để đưa ra lời khuyên không nên làm việc gì đó."
+      "Cấu trúc này được sử dụng khi nói về người sẽ đi cùng mình và số lượng người.",
+      "Dùng khi muốn nói về đối phương cùng thực hiện hành động và số lượng người cùng làm việc đó."
     ],
-    structure: "V-た + ほうがいいです\nV-ない + ほうがいいです",
+    structure: "【người】と【số người】で",
     notes: {
       points: [
-        "So với cấu trúc V-るといい (đưa ra lời khuyên nhẹ nhàng đã học ở Sơ cấp 1), cấu trúc V-た／ないほうがいい 「mạnh hơn」 một chút và mang hàm ý 「nếu không làm như vậy thì sẽ nảy sinh vấn đề bất tiện」."
+        "Số lượng người trong cấu trúc này biểu thị số người bao gồm cả bản thân mình. Ví dụ: '2人' trong '友だちと2人' nghĩa là bạn và mình, tổng cộng là 2 người.",
+        "Thành phần [người] と có thể liệt kê nhiều người như trong câu ví dụ."
       ],
       examples: [
         {
-          jp: "あのレストランは人気【にんき】なので、予約【よやく】して「行ったほうがいいです」よ。",
-          vi: "Nhà hàng đó rất đông khách, vì vậy nên đặt chỗ trước thì hơn."
+          jp: "「友だちと２人で」ハウステンボスに行って来ました。",
+          vi: "Tôi và bạn mình, 2 người chúng tôi cùng đi đến Huis Ten Bosch."
         },
         {
-          jp: "お土産【みやげ】は、ここで「買わないほうがいいです」よ。",
-          vi: "Quà lưu niệm thì không nên mua ở đây."
+          jp: "今度、「田中【たなか】さんとバイさんと３人で」日帰り旅行に行きます。",
+          vi: "Lần sau, cùng với Imada và Bai, 3 chúng tôi sẽ đi du lịch và về trong ngày."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "晩ご飯はあそこのレストランに行こうと思っているんです。",
-        vi: "Tôi đang định tối nay sẽ đến nhà hàng đằng kia ăn tối."
+        jp: "今週の土曜日に、だれと日本に行きますか？",
+        vi: "Thứ Bảy tuần này bạn đi Nhật Bản cùng với ai vậy?"
       },
       {
         speaker: "B",
-        jp: "あのレストランは人気なので、予約して行ったほうがいいですよ。",
-        vi: "Nhà hàng đó rất đông khách, vì vậy nên đặt chỗ trước thì hơn đấy."
+        jp: "「アンさんと２人で」日本に行きます。",
+        vi: "Mình đi Nhật với bạn An (tổng cộng 2 người)."
       },
       {
         speaker: "A",
-        jp: "そうなんですね！お土産もそこで買えますか？",
-        vi: "Thế ạ! Ở đó có mua luôn quà lưu niệm được không nhỉ?"
-      },
-      {
-        speaker: "B",
-        jp: "お土産は、ここでは「買わないほうがいいです」よ。駅前【えきまえ】の方【ほう】が安いですから。",
-        vi: "Quà lưu niệm thì không nên mua ở đây đâu. Vì ở trước ga bán rẻ hơn đấy."
+        jp: "そうですか、気を付けてくださいね。",
+        vi: "Vậy à, bạn đi cẩn thận nhé."
       }
     ]
   }
