@@ -117,7 +117,8 @@ export const grammarBai3 = [
     title: "③ S1 し、S2 し、～",
     usage: [
       "Dùng để liệt kê các lý do, nguyên nhân cho một kết quả hoặc một đánh giá nào đó.",
-      "Thể hiện ý nghĩa vừa làm được việc này, lại vừa làm được việc kia."
+      "Thể hiện ý nghĩa vừa làm được việc này, lại vừa làm được việc kia.",
+      "Cấu tạo S (thể thông thường) <a href='./the-kha-nang/index.html'>click xem tại đây</a>"
     ],
     structure: "S1 し、S2 し、～ (S: thể thông thường hoặc lịch sự)",
     notes: {
