@@ -152,6 +152,9 @@ export const listeningData = [
   {
     title: "Audio 7 : kiku1",
     audio: "audio/Z_[06-07]_kiku1.mp3",
+    image: [
+      "images/listen/6-07.png"
+    ],
     script: [
       "会話1",
       "アナウンス：お客様【きゃくさま】にお知【し】らせいたします。当駅【とうえき】13時９分発、高知【こうち】行【ゆ】きは、信号【しんごう】故障【こしょう】のため、約【やく】30分遅れて運転【うんてん】を行【おこな】っております。",
@@ -180,6 +183,9 @@ export const listeningData = [
   {
     title: "Audio 8 : kiku2",
     audio: "audio/Z_[06-08]_kiku2.mp3",
+    image: [
+      "images/listen/6-08.png"
+    ],
     script: [
       "会話2",
       "アナウンス：お客様【きゃくさま】にご案内いたします。",
@@ -377,217 +383,87 @@ export const listeningData = [
     ]
   },
   {
-    title: "Audio 14 : kotoba2",
-    audio: "audio/Z_[05-14]_kotoba2.mp3",
+    title: "Audio 14 : katachi1",
+    audio: "audio/Z_[06-14]_katachi1.mp3",
     script: [
-      "1. 旅館に泊まるといいですよ",
-      "2. ホテルに泊まるといいですよ",
-      "3. 民宿【みんしゅく】に泊まるといいですよ",
-      "4. 飛行機【ひこうき】でいくといいですよ",
-      "5. 船【ふね】でいくといいですよ",
-      "6. 帽子と手袋を持って行ってください",
-      "7. 水着【みずぎ】を持って行ってください",
-      "8. スキー板スキーウェア持って行ってください",
-      "9. そばを食べるといいですよ",
-      "10. 天ぷらを食べるといいですよ"
+      "大阪城【おおさかじょう】とか通天閣【つうてんかく】とか、いろいろなところに____________________、よかったです。",
+      "ケーブルカーがすごく____________________、大変でした。",
+      "ショーが____________________、残念【ざんねん】でした。",
+      "海【うみ】で____________________、船【ふね】に____________________、楽しかったです。"
     ],
     translation: [
-      "1. Bạn nên trọ lại lữ quán (nhà trọ kiểu Nhật) thì tốt đấy nhé.",
-      "2. Bạn nên trọ lại khách sạn thì tốt đấy nhé.",
-      "3. Bạn nên trọ lại nhà trọ dân dã (minsuku) thì tốt đấy nhé.",
-      "4. Bạn nên đi bằng máy bay thì tốt đấy nhé.",
-      "5. Bạn nên đi bằng tàu thủy / thuyền thì tốt đấy nhé.",
-      "6. Hãy mang theo mũ và găng tay nhé.",
-      "7. Hãy mang theo áo bơi nhé.",
-      "8. Hãy mang theo ván trượt tuyết và đồ trượt tuyết nhé.",
-      "9. Bạn nên ăn mì soba thì tốt đấy nhé.",
-      "10. Bạn nên ăn món tempura thì tốt đấy nhé."
+      "Tôi đã có thể đi nhiều nơi như thành Osaka hay tháp Tsutenkaku, thật là tuyệt vời. -> Đáp án: 行けて",
+      "Cáp treo kéo cực kỳ đông đúc, nên đã rất vất vả. -> Đáp án: 混んでいて",
+      "Không xem được show diễn nên hơi tiếc. -> Đáp án: 見られなくて",
+      "Tôi vừa được bơi ở biển, vừa được đi thuyền, rất là vui. -> Đáp án: 泳げたし / 乗れたし"
     ]
   },
   {
-    title: "Audio 15 : kiku1",
-    audio: "audio/Z_[05-15]_kiku1.mp3",
+    title: "Audio 15 : katachi2",
+    audio: "audio/Z_[06-15]_katachi2.mp3",
     script: [
-      "A：あのう、ちょっと聞きたいことがあるんですけど……。",
-      "B：何ですか？",
-      "A：今度、日光【にっこう】に紅葉【こうよう】を見に行くんですけど、何【なに】で行【い】ったらいいですか？",
-      "B：日光【にっこう】ですか、いいですね。日光【にっこう】までなら、電車【でんしゃ】で行【い】けますよ。時間もあまりかかりませんし。",
-      "A：電車【でんしゃ】ですね。わかりました。",
-      "B：秋【あき】の日光【にっこう】は、かなり寒【さむ】いですよ。ジャンパーとか、厚【あつ】い上着【うわぎ】を持【も】って行【い】ったほうがいいですよ。",
-      "A：そうなんですか。ありがとうございます。"
+      "道を____________________とき、リスを見ました。",
+      "ウミネコが近くに____________________とき、ちょっとこわかったです。",
+      "友だちと2人____________________ハウステンボスに行って来ました。"
     ],
     translation: [
-      "A: Xin lỗi, tôi có chút chuyện muốn hỏi một chút...",
-      "B: Chuyện gì thế ạ?",
-      "A: Sắp tới tôi định đi Nikko ngắm lá đỏ, đi bằng phương tiện gì thì tốt ạ?",
-      "B: Nikko à, thích thế nhỉ. Nếu đến Nikko thì đi bằng tàu điện được đấy. Cũng không mất nhiều thời gian lắm.",
-      "A: Tàu điện ạ. Tôi hiểu rồi.",
-      "B: Mùa thu ở Nikko khá là lạnh đấy. Bạn nên mang theo áo khoác như jumper (áo khoác gió) hoặc áo khoác dày đi thì tốt hơn.",
-      "A: Vậy ạ. Tôi xin cảm ơn."
+      "Lúc đang đi bộ trên đường, tôi đã nhìn thấy một con sóc. -> Đáp án: 歩いている",
+      "Lúc chim hải âu bay đến gần, tôi đã hơi sợ một chút. -> Đáp án: 来た",
+      "Tôi đã cùng một người bạn đi Huis Ten Bosch về. -> Đáp án: で"
     ]
   },
   {
-    title: "Audio 16 : kiku2",
-    audio: "audio/Z_[05-16]_kiku2.mp3",
+    title: "Audio 16 : hanasu1",
+    audio: "audio/Z_[06-16]_hanasu1.mp3",
     script: [
-      "A：ナディアさん、夏休みはどうするの？",
-      "B：友だちと奈良【なら】に旅行【りょこう】に行【い】きたいです。",
-      "A：いいね。",
-      "B：あのう、日本の旅館【りょかん】に泊【と】まってみたいんですけど、高いですか？",
-      "A：うーん、安いところもあるし、高いところもあるし、いろいろ。",
-      "B：どんなところに泊【と】まったらいいですか？",
-      "A：安いところがいいなら、民宿【みんしゅく】もいいよ。知【し】ってる？",
-      "B：みんしゅく？",
-      "A：えっと……、家族【かぞく】でやってる小さな【ちいさな】宿【やど】。",
-      "B：へー、民宿【みんしゅく】ですか。",
-      "A：あ、でも、夏休みの時期【じき】はすごく混む【こむ】から、早く計画【けいかく】を立【た】てて、予約【よやく】したほうがいいよ。",
-      "B：そうですか。調【しら】べてみます。"
+      "週末、大阪に行って来ました。",
+      "そうですか。どうでしたか？",
+      "大阪城【おおさかじょう】とか通天閣【つうてんかく】とか、いろいろなところに行けて、よかったです。",
+      "それは、よかったですね。",
     ],
     translation: [
-      "A: Nadia ơi, nghỉ hè này bạn tính làm gì?",
-      "B: Tôi muốn đi du lịch ở Nara cùng với bạn bè.",
-      "A: Hay quá nhỉ.",
-      "B: À thì, tôi muốn ở thử nhà trọ kiểu Nhật (Ryokan), nhưng giá có đắt không ạ?",
-      "A: Ừm, chỗ rẻ cũng có mà chỗ đắt cũng có, nhiều loại lắm.",
-      "B: Tôi nên ở những chỗ như thế nào thì tốt ạ?",
-      "A: Nếu muốn chỗ rẻ thì Minshuku (nhà nghỉ bình dân) cũng được đấy. Bạn biết không?",
-      "B: Minshuku ạ?",
-      "A: Xem nào... Đó là những chỗ trọ nhỏ do gia đình tự vận hành.",
-      "B: Ồ, là Minshuku ạ.",
-      "A: À, nhưng mà thời điểm nghỉ hè sẽ rất là đông đúc, nên bạn nên lập kế hoạch sớm rồi đặt phòng trước thì tốt hơn.",
-      "B: Vậy ạ. Tôi sẽ tìm hiểu thử xem."
+      "Cuối tuần, tôi đã đi Osaka về.",
+      "Vậy ạ. Chuyến đi thế nào rồi?",
+      "Tôi đã có thể đi nhiều nơi như thành Osaka hay tháp Tsutenkaku, thật là tuyệt vời.",
+      "Tốt quá nhỉ.",
     ]
   },
   {
-    title: "Audio 17 : kiku3",
-    audio: "audio/Z_[05-17]_kiku3.mp3",
+    title: "Audio 17 : hanasu2",
+    audio: "audio/Z_[06-17]_hanasu2.mp3",
     script: [
-      "A：今度【こんど】、富山【とやま】に行【い】くん健全ですけど、和田【わだ】さん、くわしいですよね。",
-      "B：ええ。兄【あに】が住【す】んでるから、よく遊び【あそ】びに行【い】くんです。",
-      "A：富山【とやま】では、何【なに】を食べ【たべ】たらいいですか？",
-      "B：そうですねえ、富山【とやま】はやっぱりおすしですね。「さか寿司【ずし】」という店【みせ】は、回転【かいてん】ずしだけど、本当【ほんとう】においしいですよ。安い【やす】いし、おすすめです。",
-      "A：「さか寿司【ずし】」ですね。行【い】ってみます。",
-      "B：でも、できれば、日曜日【にちようび】は行【い】かないほうがいいですよ。",
-      "A：え、どうしてですか？",
-      "B：日曜日【にちようび】はすごく混む【こむ】んですよ。1時間【じかん】ぐらい並び【なら】びますよ。",
-      "A：へー。"
+      "週末、浄土ヶ浜【じょうどがはま】に行って来ました。",
+      "そうですか。どうでしたか？",
+      "海で泳げたし、船に乗れたし、楽しかったです。",
+      "それは、よかったですね。",
     ],
     translation: [
-      "A: Sắp tới tôi định đi Toyama, anh Wada rành nơi đó lắm đúng không?",
-      "B: Vâng. Anh trai tôi sống ở đó nên tôi cũng hay đến đó chơi.",
-      "A: Ở Toyama thì nên ăn món gì ngon ạ?",
-      "B: Xem nào, nhắc đến Toyama thì chắc chắn phải là sushi rồi. Có một quán tên là 'Saka-zushi', tuy là sushi băng chuyền nhưng thực sự rất ngon đấy. Vừa rẻ lại rất đáng thử.",
-      "A: Quán 'Saka-zushi' đúng không ạ. Tôi sẽ đi thử xem.",
-      "B: Nhưng nếu được thì bạn không nên đi vào Chủ Nhật nhé.",
-      "A: Ơ, tại sao thế ạ?",
-      "B: Chủ Nhật ở đó đông lắm đấy. Phải xếp hàng tầm 1 tiếng đồng hồ lận đó.",
-      "A: Chà, vậy à."
+      "Cuối tuần, tôi đã đi Jodogahama về.",
+      "Vậy ạ. Chuyến đi thế nào rồi?",
+      "Tôi vừa được bơi ở biển, vừa được đi thuyền, rất là vui.",
+      "Tôi đã xem lễ hội ánh sáng vào ban đêm. Cực kỳ đẹp luôn ạ.",
+      "Tốt quá nhỉ.",
     ]
   },
   {
-    title: "Audio 18 : kiku4",
-    audio: "audio/Z_[05-18]_kiku4.mp3",
+    title: "Audio 18 : hanasu3",
+    audio: "audio/Z_[06-18]_hanasu3.mp3",
     script: [
-      "A：内田【うちだ】さん、日焼【ひや】けしましたね。",
-      "B：うん、長野【ながの】にスキーに行ってきたんだ。ナムさんは、スキー、したことある？",
-      "A：ないです。",
-      "B：じゃあ、今度【こんど】いっしょにどう？",
-      "A：いいですね。でも、道具【どうぐ】とか何も持ってないんです。何を準備【じゅんび】したらいいですか？",
-      "B：スキー板【いた】とかウェアはスキー場【じょう】で借りられるから、だいじょうぶだよ。",
-      "A：そうなんですか。",
-      "B：うん。でも、帽子【ぼうし】と手袋【てぶくろ】は、自分で買ったほうがいいよ。",
-      "A：スキー場【じょう】で買えないですか？",
-      "B：買えるけど、高いいから、こっちで買って、持って行ったほうがいいと思【おも】うよ。",
-      "A：わかりました。"
+      "週末、ハウステンボスに行って来ました。",
+      "そうですか。どうでしたか？",
+      "夜のイルミネーションを見ました。すごくきれいでした。",
+      "それは、よかったですね。",
+      "でも、ショーが見られなくて、残念でした。",
+      "そうですか。"
     ],
     translation: [
-      "A: Anh Uchida, da anh bị sạm nắng rồi kìa.",
-      "B: Ừm, anh vừa mới đi trượt tuyết ở Nagano về đấy. Nam đã bao giờ đi trượt tuyết chưa?",
-      "A: Dạ chưa ạ.",
-      "B: Thế thì lần tới đi cùng anh không?",
-      "A: Hay quá ạ. Nhưng em không có dụng cụ hay bất cứ thứ gì cả. Em cần phải chuẩn bị những gì ạ?",
-      "B: Ván trượt với trang phục trượt tuyết thì có thể thuê ở bãi trượt được nên không sao đâu.",
-      "A: Vậy ạ.",
-      "B: Ừm. Nhưng mũ với găng tay thì em nên tự mua thì hơn.",
-      "A: Ở bãi trượt không mua được hả anh?",
-      "B: Mua thì được nhưng đắt lắm, anh nghĩ em nên mua ở bên này rồi mang đi thì tốt hơn.",
-      "A: Vâng, em hiểu rồi ạ."
+      "Cuối tuần, tôi đã đi Huis Ten Bosch về.",
+      "Vậy ạ. Chuyến đi thế nào rồi?",
+      "Tôi đã xem lễ hội ánh sáng vào ban đêm. Cực kỳ đẹp luôn ạ.",
+      "Tốt quá nhỉ.",
+      "Nhưng mà không xem được show diễn nên hơi tiếc.",
+      "Vậy ạ."
     ]
-  },
-  {
-    title: "Audio 19 : hanasu2",
-    audio: "audio/Z_[05-19]_katachi.mp3",
-    script: [
-      "1. 何で行っ____ですか？",
-      "2. どんなところに泊まっ____ですか？",
-      "3. 何を食べ____ですか？",
-      "4. 何を準備【じゅんび】し____ですか？",
-      "5. 厚【あつ】い上着【うわぎ】を持って行った____ですよ。",
-      "6. 早く計画【けいかく】を立てて、予約した____よ。",
-      "7. できれば、日曜日に行かない____ですよ。",
-      "8. 帽子【ぼうし】と手袋【てぶくろ】は、自分で買った____よ。",
-      "9. 高いから、こっちで買って、持って行った____と思【おも】うよ。"
-    ],
-    translation: [
-      "1. Đi bằng phương tiện gì thì tốt ạ? -> Đáp án: たらいい",
-      "2. Nên ở những chỗ như thế nào thì tốt ạ? -> Đáp án: たらいい",
-      "3. Nên ăn món gì ngon ạ? -> Đáp án: たらいい",
-      "4. Cần phải chuẩn bị những gì ạ? -> Đáp án: たらいい",
-      "5. Bạn nên mang theo áo khoác dày đi thì tốt hơn đấy. -> Đáp án: ほうがいい",
-      "6. Bạn nên lập kế hoạch sớm rồi đặt phòng trước thì tốt hơn đấy. -> Đáp án: ほうがいい",
-      "7. Nếu được thì bạn không nên đi vào Chủ Nhật nhé. -> Đáp án: ほうがいい",
-      "8. Mũ với găng tay thì em nên tự mua thì hơn đấy. -> Đáp án: ほうがいい",
-      "9. Vì đắt lắm, anh nghĩ em nên mua ở bên này rồi mang đi thì tốt hơn. -> Đáp án: ほうがいい"
-    ]
-  },
-  {
-    title: "Audio 20 : hanasu1",
-    audio: "audio/Z_[05-20]_hanasu1.mp3",
-    script: [
-      "A：今度、日光【にっこう】に紅葉【こうよう】を見に行くんですけど、何で行ったらいいですか？",
-      "B：電車で行けますよ。",
-      "A：そうですか。",
-      "B：上着【うわぎ】を持って行ったほうがいいですよ。"
-    ],
-    translation: [
-      "A: Sắp tới tôi định đi Nikko ngắm lá đỏ, đi bằng phương tiện gì thì tốt ạ?",
-      "B: Đi bằng tàu điện được đấy.",
-      "A: Vậy ạ.",
-      "B: Bạn nên mang theo áo khoác đi thì tốt hơn."
-    ]
-  },
-  {
-    title: "Audio 21 : hanasu2",
-    audio: "audio/Z_[05-21]_hanasu2.mp3",
-    script: [
-      "A：今度、奈良【なら】に旅行に行くんですけど、どんなところに泊まったらいいですか？",
-      "B：民宿【みんしゅく】もいいですよ。",
-      "A：そうですか。",
-      "B：早く予約したほうがいいですよ。"
-    ],
-    translation: [
-      "A: Sắp tới tôi định đi du lịch ở Nara, tôi nên ở những chỗ như thế nào thì tốt ạ?",
-      "B: Nhà nghỉ bình dân (Minshuku) cũng được đấy.",
-      "A: Vậy ạ.",
-      "B: Bạn nên đặt phòng sớm thì tốt hơn."
-    ]
-  },
-  {
-    title: "Audio 22 : hanasu3",
-    audio: "audio/Z_[05-22]_hanasu3.mp3",
-    script: [
-      "A：今度、富山【とやま】に行くんですけど、何を食べたらいいですか？",
-      "B：おすしがおすすめです。",
-      "A：そうですか。",
-      "B：でも、日曜日は行かないほうがいいですよ。"
-    ],
-    translation: [
-      "A: Sắp tới tôi định đi Toyama, tôi nên ăn món gì ngon ạ?",
-      "B: Món sushi là gợi ý đáng thử đấy.",
-      "A: Vậy ạ.",
-      "B: Nhưng bạn không nên đi vào Chủ Nhật nhé."
-    ]
-
   },
 
 ];
