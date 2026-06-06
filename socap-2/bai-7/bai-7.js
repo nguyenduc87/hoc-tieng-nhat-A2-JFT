@@ -8,6 +8,7 @@ import { readingData } from "./data/reading-bai-7.js";
 /* =========================
    VOCAB
 ========================= */
+/*
 const vocabGrid = document.getElementById("vocabGrid");
 
 if (vocabGrid) {
@@ -79,6 +80,89 @@ if ('speechSynthesis' in window) {
     window.speechSynthesis.getVoices();
   };
 }
+*/
+/* =========================
+   VOCAB
+========================= */
+const vocabGrid = document.getElementById("vocabGrid");
+
+if (vocabGrid) {
+  // 1. Render giao diện HTML giữ nguyên
+  vocabGrid.innerHTML = vocabList.map((v, i) => `
+    <div class="card ${v.skip ? 'skip' : ''}">
+      <span class="jp">${i + 1}. ${v.jp}</span>
+      <span class="hira">${v.hira}</span>
+      <div class="meaning">${v.vi}</div>
+
+      <div class="example">
+        <span>${v.example}</span>
+        <button class="audio-btn" data-text="${v.example.replace(/"/g, '&quot;')}">🔊</button>
+        <br>
+        <i>${v.exampleVi}</i>
+      </div>
+    </div>
+  `).join("");
+
+  // 2. Kích hoạt sự kiện click nút loa
+  vocabGrid.querySelectorAll('.audio-btn').forEach(button => {
+    button.addEventListener('click', function () {
+      const textToSpeak = this.getAttribute('data-text');
+      speakJapanese(textToSpeak);
+    });
+  });
+}
+
+// 3. Hàm phát âm tiếng Nhật nâng cấp riêng cho thiết bị Samsung / Android mobile
+function speakJapanese(text) {
+  // Kiểm tra trực tiếp cả window.speechSynthesis và đối tượng SpeechSynthesisUtterance
+  if (typeof window !== 'undefined' && 'speechSynthesis' in window && typeof SpeechSynthesisUtterance !== 'undefined') {
+    
+    // Tắt câu cũ ngay lập tức
+    window.speechSynthesis.cancel(); 
+
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'ja-JP';
+    utterance.rate = 0.85;
+
+    // Lấy danh sách giọng đọc
+    let voices = window.speechSynthesis.getVoices();
+
+    // SỬA LỖI SAMSUNG: Nếu mảng voices trống, thử ép hệ thống gọi lại danh sách từ thiết bị
+    if (!voices || voices.length === 0) {
+      window.speechSynthesis.getVoices();
+      voices = window.speechSynthesis.getVoices();
+    }
+
+    // Tìm kiếm giọng đọc tối ưu
+    let chosenVoice = voices.find(voice =>
+      voice.lang === 'ja-JP' && (voice.name.includes('Google') || voice.name.includes('Samsung') || voice.name.includes('Natural'))
+    );
+
+    if (!chosenVoice) {
+      chosenVoice = voices.find(voice => voice.lang.startsWith('ja'));
+    }
+
+    if (chosenVoice) {
+      utterance.voice = chosenVoice;
+    }
+
+    // Thực hiện phát âm thanh
+    window.speechSynthesis.speak(utterance);
+  } else {
+    alert("Thiết bị chưa bật hoặc không hỗ trợ Text-to-Speech!");
+  }
+}
+
+// Kích hoạt nạp trước danh sách giọng nói ngay khi trang web tải xong
+if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+  window.speechSynthesis.getVoices();
+  if ('onvoiceschanged' in window.speechSynthesis) {
+    window.speechSynthesis.onvoiceschanged = () => {
+      window.speechSynthesis.getVoices();
+    };
+  }
+}
+
 
 
 

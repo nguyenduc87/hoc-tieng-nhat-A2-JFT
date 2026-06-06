@@ -289,6 +289,36 @@ rt {
 
 
 
+/* Thẻ chứa Kanji phải có vị trí tương đối */
+.kanji-box {
+  position: relative; 
+  padding-top: 25px; /* Tạo khoảng trống phía trên để không đè chữ */
+  /* Giữ nguyên các thuộc tính cũ của bạn (border, background,...) */
+}
+
+/* Định dạng cho nút Vẽ đặt ở góc phải */
+.draw-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #fff1f0; /* Màu nền nhẹ */
+  color: #ff4d4f;            /* Màu chữ đỏ giống Mazii */
+  border: 1px solid #ffa39e;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.draw-btn:hover {
+  background-color: #ff4d4f;
+  color: #fff;
+  border-color: #ff4d4f;
+}
+
+
 
 /* ======================
    MOBILE FIRST (default)
