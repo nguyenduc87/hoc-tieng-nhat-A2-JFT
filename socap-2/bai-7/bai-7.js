@@ -1,8 +1,8 @@
-import { vocabList } from "./data/vocab-bai-4.js";
-import { kanjiList } from "./data/kanji-bai-4.js";
-import { grammarBai3 } from "./data/grammar-bai-4.js";
-import { listeningData } from "./data/listen-bai-4.js";
-import { readingData } from "./data/reading-bai-4.js";
+import { vocabList } from "./data/vocab-bai-7.js";
+import { kanjiList } from "./data/kanji-bai-7.js";
+import { grammarBai3 } from "./data/grammar-bai-7.js";
+import { listeningData } from "./data/listen-bai-7.js";
+import { readingData } from "./data/reading-bai-7.js";
 
 
 /* =========================
@@ -79,6 +79,8 @@ if ('speechSynthesis' in window) {
     window.speechSynthesis.getVoices();
   };
 }
+
+
 
 /* =========================
    KANJI

@@ -9,7 +9,9 @@ import { readingData } from "./data/reading-bai-6.js";
    VOCAB
 ========================= */
 const vocabGrid = document.getElementById("vocabGrid");
+
 if (vocabGrid) {
+  // 1. Tạo giao diện HTML và lưu câu tiếng Nhật vào thuộc tính 'data-text' của nút loa
   vocabGrid.innerHTML = vocabList.map((v, i) => `
     <div class="card ${v.skip ? 'skip' : ''}">
       <span class="jp">${i + 1}. ${v.jp}</span>
@@ -17,11 +19,65 @@ if (vocabGrid) {
       <div class="meaning">${v.vi}</div>
 
       <div class="example">
-        ${v.example}<br>
+        <span>${v.example}</span>
+        <!-- Khi ấn nút này, thuộc tính data-text sẽ được lấy để phát âm -->
+        <button class="audio-btn" data-text="${v.example.replace(/"/g, '&quot;')}">🔊</button>
+        <br>
         <i>${v.exampleVi}</i>
       </div>
     </div>
   `).join("");
+
+  // 2. Kích hoạt sự kiện: Khi ẤN nút loa thì bắt đầu PHÁT âm thanh
+  vocabGrid.querySelectorAll('.audio-btn').forEach(button => {
+    button.addEventListener('click', function () {
+      // Lấy câu ví dụ tiếng Nhật đã lưu trong data-text của chính nút vừa ấn
+      const textToSpeak = this.getAttribute('data-text');
+
+      // Gọi hàm phát âm thanh
+      speakJapanese(textToSpeak);
+    });
+  });
+}
+
+// 3. Hàm xử lý phát âm tiếng Nhật bằng Web Speech API
+function speakJapanese(text) {
+  if ('speechSynthesis' in window) {
+    window.speechSynthesis.cancel(); // Tắt câu cũ ngay lập tức
+
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'ja-JP';
+    utterance.rate = 0.85; // Tốc độ vừa phải giúp nghe rõ âm ngắt/trường âm
+
+    // Lấy toàn bộ danh sách giọng nói có sẵn trên thiết bị của bạn
+    const voices = window.speechSynthesis.getVoices();
+
+    // Tìm kiếm giọng tiếng Nhật chất lượng cao từ Google hoặc Microsoft
+    let chosenVoice = voices.find(voice =>
+      voice.lang === 'ja-JP' && (voice.name.includes('Google') || voice.name.includes('Natural'))
+    );
+
+    // Nếu không có giọng cao cấp, tìm giọng tiếng Nhật chuẩn bất kỳ (như Kyoko trên macOS)
+    if (!chosenVoice) {
+      chosenVoice = voices.find(voice => voice.lang === 'ja-JP');
+    }
+
+    // Nếu tìm thấy giọng tốt, áp dụng ngay cho câu đọc
+    if (chosenVoice) {
+      utterance.voice = chosenVoice;
+    }
+
+    window.speechSynthesis.speak(utterance);
+  } else {
+    alert("Trình duyệt của bạn không hỗ trợ tính năng phát âm thanh!");
+  }
+}
+
+// Sửa lỗi danh sách giọng bị tải chậm trên một số trình duyệt (như Chrome)
+if ('speechSynthesis' in window) {
+  window.speechSynthesis.onvoiceschanged = () => {
+    window.speechSynthesis.getVoices();
+  };
 }
 
 /* =========================
