@@ -180,6 +180,21 @@
     border-left: 6px solid #51cf66;
 }
 
+.structure-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Tạo khoảng cách giữa badge và ảnh */
+  align-items: flex-start; /* Căn lề trái giống hình mẫu */
+}
+
+.structure-image {
+  max-width: 100%; /* Đảm bảo ảnh không bị tràn khung */
+  height: auto;
+  border-radius: 6px; /* Bo góc nhẹ cho giống phong cách badge */
+  margin-top: 5px;
+}
+
+
 /* Note */
 .block-note {
     background: #fff3f3;

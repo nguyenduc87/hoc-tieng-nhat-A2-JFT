@@ -159,11 +159,11 @@ export const grammarBai3 = [
           vi: "Tôi nghe nói là mì udon ngon lắm."
         },
         {
-          jp: "友だちが、秋の日光は渋滞して大変だ「って言ってました」。",
+          jp: "友だちが、秋の日光【Nikko】は渋滞【じゅうたい】して大変だ「って言ってました」。",
           vi: "Bạn tôi nói rằng mùa thu ở Nikko đường sá đông đúc vất vả lắm."
         },
         {
-          jp: "京都は豆腐料理が有名だ「って聞きました」。",
+          jp: "京都は豆腐料理【とうふりょうり】が有名だ「って聞きました」。",
           vi: "Tôi nghe nói Kyoto nổi tiếng với các món ăn từ đậu phụ."
         },
         {

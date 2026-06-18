@@ -2,32 +2,22 @@ export const grammarBai3 = [
   {
     id: "summary",
     tab: "Tóm tắt",
-    title: "Bài 6 – Thật vui vì tôi đã đi được nhiều nơi.",
+    title: "Bài 7 – Nếu trời mưa thì sẽ tổ chức tại hội trường.",
     summaryList: [
       {
-        label: "① V-るつもりです",
-        example: "明日は、中禅寺湖【ちゅうぜんじこ】に「行くつもりです」。",
-        vi: "Ngày mai, tôi 「dự định sẽ đi」 hồ Chuzenji."
+        label: "① ～たら、～",
+        example: "雨が「降ったら」、盆踊【ぼんおど】りは日曜日にやるよ。<br> 盆踊【ぼんおど】りが「終わったら」、いっしょに居酒屋【いざかや】に行きましょう。",
+        vi: "Nếu trời mưa thì điệu múa Bon sẽ được tổ chức vào Chủ Nhật. <br> Sau khi điệu múa Bon kết thúc, chúng ta cùng nhau đi quán nhậu nhé."
       },
       {
-        label: "② V-(られ)て、～ ／ V-(られ)なくて、～",
-        example: "いろいろなところに「行けて」、よかったです。\nショーが「見られなくて」、残念【ざんねん】でした。",
-        vi: "Thật tốt vì 「đã có thể đi」 được nhiều nơi.\nThật đáng tiếc vì 「đã không thể xem」 được buổi biểu diễn."
+        label: "② V-(ら)れます ＜Bị động①＞",
+        example: "７月14日、『ひかりホール』において、コンサートが「開催【かいさい】されます」。",
+        vi: "Vào ngày 14 tháng 7, một buổi hòa nhạc sẽ được tổ chức tại 「Hikari Hall」."
       },
       {
-        label: "③ S1 し、S2 し、～",
-        example: "海で泳げた「し」、船に乗れた「し」、楽しかったです。",
-        vi: "Vừa có thể bơi ở biển 「lại vừa」 có thể đi thuyền nên đã rất vui."
-      },
-      {
-        label: "④ V-る／V-ている／V-た とき、～",
-        example: "道を「歩いているとき」、リスを見ました。\nウミネコが近くに「来たとき」、ちょっとこわかったです。",
-        vi: "「Khi đang đi bộ」 trên đường, tôi đã nhìn thấy một con sóc.\n「Khi」 chim mòng biển đến gần, tôi đã hơi sợ một chút."
-      },
-      {
-        label: "⑤ 【người】と【số người】で",
-        example: "友だち「と２人で」ハウステンボスに行ってきました。",
-        vi: "Tôi đã cùng một người bạn (「2 người với nhau」) đi chơi ở Huis Ten Bosch về."
+        label: "③ V-(られ)ます ＜Thể khả năng②＞",
+        example: "盆踊【ぼんおど】りは簡単【かんたん】だから、だれでも「踊【おど】れます」よ。",
+        vi: "Vì điệu múa Bon đơn giản nên ai cũng có thể múa được đấy."
       }
     ]
   },
@@ -35,38 +25,53 @@ export const grammarBai3 = [
   {
     id: "1",
     tab: "Mẫu 1",
-    title: "① V-るつもりです ／ V-ないつもりです",
+    title: "① ～たら、～",
     usage: [
-      "Dùng để trình bày việc định làm, hoặc dự định, kế hoạch cụ thể mà bản thân đang suy nghĩ.",
-      "Trong ví dụ trên, cấu trúc này được dùng để nói về dự định đi đâu trong chuyến du lịch."
+      "Có 2 trường hợp như sau:",
+      "Trường hợp 「không chắc chắn」 sự việc đó sẽ xảy ra. Được dùng để biểu thị giả định như 雨が降ったら. Có thể 「thêm もし vào đầu câu」 (điều kiện giả định).",
+      "Trường hợp 「xác định trước」 sự việc đó sẽ xảy ra. Trong ví dụ, người nói sử dụng để nói họ 「sẽ làm gì sau khi múa Bon-odori」 (điều kiện xác định)."
     ],
-    structure: "V-るつもりです ／ V-ないつもりです",
+    structure: "~Vた+ら、~",
+    structureImg: [
+      "./images/grammar/tara.png"
+    ],
     notes: {
       points: [
-        "Thể từ điển (V-る) của động từ là 「định làm」, thể ない (V-ない) để nói về những việc 「không định làm」.",
-        "「V-るつもりです」 là cách nói dùng để trình bày về những 「dự định mang tính cụ thể hơn」, còn 「V-たいです」 là cách nói để trình bày 「mong muốn đơn thuần」, không liên quan đến việc có thực hiện được hay không."
+        "~たら được chia bằng cách thêm ら vào sau thể quá khứ thông thường của danh từ, tính từ đuôi イ, tính từ đuôi ナ, động từ."
       ],
       examples: [
         {
-          jp: "明日は、中禅寺湖【ちゅうぜんじこ】に「行くつもりです」。",
-          vi: "Tôi định đi hồ Chuzenji vào ngày mai."
+          jp: "雨が「降ったら」、盆踊りは日曜日にやるよ。",
+          vi: "Nếu trời mưa, múa Bon-odori sẽ được tổ chức vào Chủ nhật."
         },
         {
-          jp: "時間がないので、神社【じんじゃ】には「行かないつもりです」。",
-          vi: "Vì không có thời gian nên tôi định không tới đền nữa."
+          jp: "盆踊りが「終わったら」、いっしょに居酒屋に行きましょう。",
+          vi: "Sau khi múa Bon-odori, hãy cùng nhau đến quán rượu."
+        },
+        {
+          jp: "もし、わからないことが「あったら」、いつでも質問【しつもん】してください。",
+          vi: "Nếu có gì không hiểu thì hãy hỏi tôi bất cứ lúc nào."
+        },
+        {
+          jp: "６時に「なったら」、仕事を終わりにしてください。",
+          vi: "Đến 6h thì hãy kết thúc công việc."
+        },
+        {
+          jp: "「暇【ひま】だったら」、ちょっと手伝ってください。",
+          vi: "Nếu bạn rảnh thì hãy giúp tôi một chút."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "休みはどうしますか？",
-        vi: "Anh định làm gì vào ngày nghỉ?"
+        jp: "この資料の作り方、ちょっと難しいですね。",
+        vi: "Cách làm tài liệu này hơi khó nhỉ."
       },
       {
         speaker: "B",
-        jp: "箱根【はこね】に「行くつもりです」。",
-        vi: "Tôi định đi Hakone."
+        jp: "もし、わからないことが「あったら」、いつでも質問してください。私も「暇だったら」、手伝いますよ。",
+        vi: "Nếu có gì không hiểu thì cứ hỏi tôi bất cứ lúc nào nhé. Nếu tôi rảnh, tôi cũng sẽ phụ một tay."
       }
     ]
   },
@@ -74,178 +79,84 @@ export const grammarBai3 = [
   {
     id: "2",
     tab: "Mẫu 2",
-    title: "② V-(られ)て、～ ／ V-(られ)なくて、～",
+    title: "② V-(ら)れます ＜Bị động 受身①＞",
     usage: [
-      "Đây là cách nói 「nêu lý do cho những việc đã làm được hoặc chưa làm được」, rồi nêu cảm tưởng về điều đó.",
-      "Thông thường cấu trúc này sẽ sử dụng 「động từ thể khả năng」 để nói về lý do."
+      "sự kiện 「được tổ chức」 được lấy làm chủ ngữ để truyền đạt thông tin chứ không phải người tổ chức (chủ thể hành động). Trong trường hợp này, thể bị động của động từ được sử dụng.",
+      "①来週、[ひかりホールで]、（だれかが）コンサート「を開催します」 (Câu gốc) <br> (Ai đó) 「sẽ tổ chức」 buổi hòa nhạc ở hội trường Hikari vào tuần sau. <br> ②来週、[ひかりホールで]、コンサート「が開催まされす」<br> Buổi hòa nhạc 「được tổ chức」 tại hội trường Hikari.",
+      "Chủ ngữ của câu ① là người tổ chức hòa nhạc. Ngược lại, chủ ngữ của câu ② là コンサート (buổi hòa nhạc). <br> 開催【かいさい】されます (される) (được tổ chức) 「là thể bị động」 của động từ 開催【かいさい】します (する) (tổ chức).",
+      "Trong bài này, mục tiêu là nghe hiểu các từ thường được dùng để thông báo sự kiện như: <br>「開催【かいさい】される」 (được tổ chức), 「行【おこな】われる」 (được thực hiện), 「開【ひら】かれる」 (được tổ chức).",
+      "Những từ này được sử dụng trong các thông báo, phát thanh trang trọng. <br> Còn trong hội thoại hàng ngày, chúng ta sẽ nói: <br> 7月14日に、ひかりホールで、コンサートがあります <br> (Sẽ có buổi hòa nhạc ở hội trường Hikari vào ngày 14 tháng 7)."
     ],
-    structure: "V-(られ)て、～ ／ V-(られ)なくて、～",
+    structure: "V-(ら)れます",
+    structureImg: [
+      "./images/grammar/bi-dong.png"
+    ],
     notes: {
       points: [
-        "Đưa thể khả năng của động từ về thể て hoặc dạng ～なくて.",
-        "Sử dụng dưới dạng 行けて (có thể đi), 見られて (có thể xem) khi nói về những việc đã làm được, 行けなくて (không đi được), 見られなくて (không xem được) khi nói về những việc chưa làm được.",
-        "Vế sau thường là quá khứ và là những từ biểu thị cảm xúc của bản thân như 楽しかった (vui), おもしろかった (thú vị), 感動した (cảm động), つまらなかった (chán), v.v.."
+        "Trợ từ を -> が",
       ],
       examples: [
         {
-          jp: "いろいろなところに「行けて」、よかったです。",
-          vi: "Thật vui vì đã có thể đi rất nhiều nơi."
+          jp: "明日【あした】、18時【じ】から、海岸【かいがん】で、花火大会【はなびたいかい】が「行【おこな】われます」。",
+          vi: "Lễ hội pháo hoa sẽ được tổ chức ở bãi biển từ 18h ngày mai."
         },
         {
-          jp: "ショーが「見られなくて」、残念【ざんねん】でした。",
-          vi: "Thật tiếc vì tôi không xem được show diễn đó."
+          jp: "月【つき】に1回【いっかい】、公園でフリーマーケットが「開【ひら】かれます」。",
+          vi: "Chợ trời được tổ chức ở công viên mỗi tháng 1 lần."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "きれいな夕日が「見られて」、感動【かんどう】しました。",
-        vi: "Tôi rất cảm động vì đã ngắm được cảnh hoàng hôn đẹp như vậy."
+        jp: "明日、18時から、海岸【かいがん】で、花火大会【はなびたいかい】が「行【おこな】われます」よ。",
+        vi: "Từ 18h ngày mai, lễ hội pháo hoa sẽ được tổ chức ở bãi biển đấy."
       },
       {
         speaker: "B",
-        jp: "金閣寺【きんかくじ】に「行けなくて」、残念【ざんねん】でした。",
-        vi: "Thật tiếc vì tôi không đi chùa Kinkakuji được."
+        jp: "そうなんですか！あそこは月【つき】に1回【いっかい】、公園でフリーマーケットも「開【ひら】かれます」よね。",
+        vi: "Vậy à bạn! Ở đó mỗi tháng 1 lần cũng có chợ trời được tổ chức ở công viên nữa nhỉ."
       }
     ]
   },
 
   {
-    id: "3",
-    tab: "Mẫu 3",
-    title: "③ S1 し、S2 し、～",
-    usage: [
-      "Dùng để liệt kê các lý do, nguyên nhân cho một kết quả hoặc một đánh giá nào đó.",
-      "Thể hiện ý nghĩa vừa làm được việc này, lại vừa làm được việc kia.",
-      "Cấu tạo S (thể thông thường) <a href='./the-kha-nang/index.html'>click xem tại đây</a>"
+  id: "3",
+  tab: "Mẫu 3",
+  title: "② V-(られ)ます ＜Thể khả năng 可能形②＞",
+  usage: [
+    "Đây là cách nói thể hiện năng lực.",
+    "Chúng ta đã học cách chia thể khả năng ở bài 5. Có 2 cách dùng thể khả năng: <br> ① thể hiện năng lực của chủ thể, <br> ② thể hiện khả năng thực hiện hành động trong hoàn cảnh được đưa ra.",
+    "Trong bài này, chúng ta học cách dùng ①.",
+    "Chúng ta đã học cách dùng ② trong bài 5: <br> 北海道【ほっかいどう】では、新鮮【しんせん】なカニとかウニとか「食べられます」よ <br> (「Có thể ăn」 cua và cầu gai tươi ở Hokkaido đấy).",
+  ],
+  structure: "V-(られ)ます",
+  structureImg: [
+    "./images/grammar/kha-nang.png"
+  ],
+  notes: {
+    points: [
+      "Thể hiện năng lực cá nhân của chủ thể"
     ],
-    structure: "S1 し、S2 し、～ (S: thể thông thường hoặc lịch sự)",
-    notes: {
-      points: [
-        "Chúng ta đã học cách kết hợp tính từ với cấu trúc ～し ở bài 2 để nêu ra lý do như trong ví dụ 「かっこいいし、歌もダンスも上手だし(Cô ấy vừa ngầu, vừa hát hay, vừa nhảy đẹp)」. Bài này chủ yếu đưa ra những ví dụ kết hợp ～し với thể khả năng của động từ.",
-      ],
-      examples: [
-        {
-          jp: "海で泳【およ】げた「し」、船【ふね】に乗れた「し」、楽しかったです。",
-          vi: "Tôi rất vui vì vừa có thể bơi ở biển, lại có thể đi tàu thủy nữa."
-        },
-        {
-          jp: "温泉【おんせん】にも入れた「し」、ゆっくりできた「し」、よかったです。",
-          vi: "Thật tốt vì có thể vừa tắm suối nước nóng vừa thư giãn."
-        },
-        {
-          jp: "沖縄【おきなわ】、いいですよね。海で泳げる「し」、おいしいものも食べられる「し」。",
-          vi: "Okinawa được đấy nhỉ. Chúng ta có thể bơi và ăn những món ăn ngon."
-        }
-      ]
-    },
-    dialogue: [
+    examples: [
       {
-        speaker: "A",
-        jp: "今度の休み、沖縄【おきなわ】に行くんですが、どうですか？",
-        vi: "Kỳ nghỉ tới tôi sẽ đi Okinawa đấy, ở đó thế nào ạ?"
-      },
-      {
-        speaker: "B",
-        jp: "沖縄【おきなわ】、いいですよ。海で泳げる「し」、おいしいものも食べられる「し」、本当に楽しかったです。",
-        vi: "Okinawa được lắm đấy. Vừa có thể bơi ở biển, lại vừa được ăn đồ ăn ngon, thực sự đã rất vui."
-      },
-    ]
-  },
-
-  {
-    id: "4",
-    tab: "Mẫu 4",
-    title: "④ V-る ／ V-ている ／ V-た とき、～",
-    usage: [
-      "Dùng để biểu thị thời điểm, trạng thái khi một hành động hoặc sự việc nào đó xảy ra.",
-      "Chú ý hành động chia ở thể ます khi đi với とき là không có (Vます + とき: Ko Co)."
-    ],
-    structure: "V-る ／ V-ている ／ V-た + とき、～",
-    notes: {
-      points: [
-        "Chúng ta đã học cách biểu thị thời điểm, trạng thái khi sử dụng とき ở bài 15 Sơ cấp 1 như trong ví dụ 熱があるとき、この薬を飲んでください (Hãy uống thuốc này khi bị sốt).",
-        "V-ているとき、～ thể hiện rằng trong lúc tiếp tục hành động V thì có điều gì đó xảy ra như trong ví dụ ①.",
-        "V-るとき、～ thể hiện rằng ngay trước khi thực hiện hành động V thì có điều gì đó xảy ra như trong ví dụ ②.",
-        "V-たとき、～ thể hiện rằng ngay sau khi thực hiện hành động V thì có điều gì đó xảy ra như trong ví dụ ③."
-      ],
-      examples: [
-        {
-          jp: "富士山【ぐじさん】に「登【のぼ】っているとき」、空【そら】が晴【は】れました。",
-          vi: "Khi tôi đang leo núi Phú Sĩ thì trời nắng lên."
-        },
-        {
-          jp: "富士山【ぐじさん】に「行くとき」、バスに乗【の】りました。",
-          vi: "Khi đi tới núi Phú Sĩ, tôi đã đi xe buýt."
-        },
-        {
-          jp: "家に「着【つ】いたとき」、疲【つ】れれて動【うご】けませんでした。",
-          vi: "Khi về tới nhà, tôi mệt tới mức không cử động nổi."
-        }
-      ]
-    },
-    dialogue: [
-      {
-        speaker: "A",
-        jp: "富士山【ふじさん】の旅行はどうでしたか？",
-        vi: "Chuyến đi núi Phú Sĩ thế nào rồi bạn?"
-      },
-      {
-        speaker: "B",
-        jp: "楽しかったですよ！富士山に「行くとき」、バスで行ったんです。<br>で、山に「登っているとき」、ちょうど空【そら】が晴れてきれいな景色が見られました。",
-        vi: "Vui lắm luôn! Lúc đi tới núi Phú Sĩ thì mình đi bằng xe buýt. <br> Rồi trong lúc đang leo núi thì vừa vặn trời lại nắng lên nên đã ngắm được cảnh đẹp lắm."
-      },
-      {
-        speaker: "A",
-        jp: "わあ, いいですね！うらやましいです。",
-        vi: "Oa, thích thế nhỉ! Ghen tị thật đấy."
+        jp: "盆踊【ぼんおど】りは簡単【かんたん】だから、だれでも「踊【おど】れます」よ。",
+        vi: "Múa Bon-odori đơn giản nên ai cũng 「có thể múa」 được đấy."
       }
     ]
   },
-
-  {
-    id: "5",
-    tab: "Mẫu 5",
-    title: "⑤ 【người】と【số người】で",
-    usage: [
-      "Cấu trúc này được sử dụng khi nói về người sẽ đi cùng mình và số lượng người.",
-      "Dùng khi muốn nói về đối phương cùng thực hiện hành động và số lượng người cùng làm việc đó."
-    ],
-    structure: "【người】と【số người】で",
-    notes: {
-      points: [
-        "Số lượng người trong cấu trúc này biểu thị số người bao gồm cả bản thân mình. Ví dụ: '2人' trong '友だちと2人' nghĩa là bạn và mình, tổng cộng là 2 người.",
-        "Thành phần [người] と có thể liệt kê nhiều người như trong câu ví dụ."
-      ],
-      examples: [
-        {
-          jp: "「友だちと２人で」ハウステンボスに行って来ました。",
-          vi: "Tôi và bạn mình, 2 người chúng tôi cùng đi đến Huis Ten Bosch."
-        },
-        {
-          jp: "今度、「田中【たなか】さんとバイさんと３人で」日帰り旅行に行きます。",
-          vi: "Lần sau, cùng với Imada và Bai, 3 chúng tôi sẽ đi du lịch và về trong ngày."
-        }
-      ]
+  dialogue: [
+    {
+      speaker: "A",
+      jp: "何か楽器【がっき】ができますか？",
+      vi: "Bạn có thể chơi nhạc cụ nào không?"
     },
-    dialogue: [
-      {
-        speaker: "A",
-        jp: "今週の土曜日に、だれと日本に行きますか？",
-        vi: "Thứ Bảy tuần này bạn đi Nhật Bản cùng với ai vậy?"
-      },
-      {
-        speaker: "B",
-        jp: "「アンさんと２人で」日本に行きます。",
-        vi: "Mình đi Nhật với bạn An (tổng cộng 2 người)."
-      },
-      {
-        speaker: "A",
-        jp: "そうですか、気を付けてくださいね。",
-        vi: "Vậy à, bạn đi cẩn thận nhé."
-      }
-    ]
-  }
+    {
+      speaker: "B",
+      jp: "ギターが「弾【ひ】けます」。",
+      vi: "Tôi 「có thể chơi」 ghi-ta."
+    }
+  ]
+},
 
 ];
