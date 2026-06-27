@@ -20,7 +20,7 @@ if (vocabGrid) {
       <div class="meaning">${v.vi}</div>
 
       <div class="example">
-        <span>${v.example}</span>
+        <span>${addHira(v.example)}</span>
         <!-- Khi ấn nút này, thuộc tính data-text sẽ được lấy để phát âm -->
         <button class="audio-btn" data-text="${v.example.replace(/"/g, '&quot;')}">🔊</button>
         <br>

@@ -252,7 +252,7 @@ export const vocabList = [
   },
   {
     jp: "貸し出し",
-    hira: "かしたし",
+    hira: "かしだし",
     vi: "cho mượn",
     example: "市営の体育館では、ラケットの無料貸し出しを行っています。",
     exampleVi: "Tại nhà thi đấu của thành phố, người ta đang cho mượn vợt miễn phí."
@@ -303,7 +303,7 @@ export const vocabList = [
     jp: "延期する",
     hira: "えんきする",
     vi: "hoãn",
-    example: "雨が激しいので、明日のイベントは来週に延期することになった。",
+    example: "雨が激【はげ】しいので、明日のイベントは来週に延期することになった。",
     exampleVi: "Vì mưa lớn nên sự kiện ngày mai đã được quyết định hoãn sang tuần sau."
   },
   {
@@ -324,22 +324,22 @@ export const vocabList = [
     jp: "軍手",
     hira: "ぐんて",
     vi: "găng tay sợi",
-    example: "庭の掃除をするときは、手を保護するために軍手をはめます。",
+    example: "庭の掃除をするときは、手を保護【ほご】するために軍手をはめます。",
     exampleVi: "Khi dọn dẹp sân vườn, tôi đeo găng tay sợi để bảo vệ đôi tay."
   },
   {
     jp: "～程度（2時間程度）",
     hira: "～ていど（にじかんていど）",
     vi: "khoảng ~ (khoảng 2 tiếng)",
-    example: "ここから目的地までは、車で1時間程度かかります。",
+    example: "ここから目的地【もくてきち】までは、車で1時間程度かかります。",
     exampleVi: "Từ đây đến điểm đến mất khoảng 1 tiếng đi xe ô tô.",
     skip: true
   },
   {
     jp: "作業",
     hira: "さぎょう",
-    vi: "công việc",
-    example: "パソコンを使った作業が長く続いたので、目が疲れました。",
+    vi: "công việc (việc nằm trong quy trình)",
+    example: "パソコンを使った作業が長【なが】く続【つづ】いたので、目【め】が疲【つか】れました。",
     exampleVi: "Vì công việc sử dụng máy tính kéo dài liên tục nên mắt tôi đã bị mỏi.",
     skip: true
   },
@@ -347,7 +347,7 @@ export const vocabList = [
     jp: "世話役",
     hira: "せわやく",
     vi: "người điều hành / người chịu trách nhiệm chính",
-    example: "山田さんは今回の地域の祭りの世話役を任されている。",
+    example: "山田さんは今回の地域【ちいき】の祭りの世話役を任【まか】されている。",
     exampleVi: "Anh Yamada đang được giao đảm nhận vai trò người điều hành lễ hội địa phương lần này.",
     skip: true
   },
@@ -355,7 +355,7 @@ export const vocabList = [
     jp: "会（ボランティアの会）",
     hira: "かい（ボランティアのかい）",
     vi: "hội ~ (hội tình nguyện)",
-    example: "私は週末、地域のボランティアの会に参加しています。",
+    example: "私は週末、地域【ちいき】のボランティアの会に参加しています。",
     exampleVi: "Vào cuối tuần, tôi tham gia vào hội tình nguyện của địa phương.",
     skip: true
   },
@@ -363,105 +363,105 @@ export const vocabList = [
     jp: "ガス",
     hira: "ガス",
     vi: "gas",
-    example: "安全のために、寝る前にガスの元栓を閉めます。",
+    example: "安全のために、寝る前にガスの元栓【もとせん】を閉【し】めます。",
     exampleVi: "Để an toàn, tôi khóa van ga tổng trước khi đi ngủ."
   },
   {
     jp: "点検",
     hira: "てんけん",
     vi: "kiểm tra",
-    example: "エレベーターの定期点検のため、しばらく階段をご利用ください。",
+    example: "エレベーターの定期点検【ていきてんけん】のため、しばらく階段【かいだん】をご利用【りよう】ください。",
     exampleVi: "Vì đang kiểm tra định kỳ thang máy, xin vui lòng sử dụng cầu thang bộ trong chốc lát."
   },
   {
     jp: "フリーマーケット",
     hira: "フリーマーケット",
     vi: "chợ trời",
-    example: "週末のフリーマーケットで、欲しかった古着を安く買いました。",
+    example: "週末のフリーマーケットで、欲【ほ】しかった古着【ふるぎ】を安く買いました。",
     exampleVi: "Tôi đã mua được bộ quần áo cũ mình thích với giá rẻ ở chợ trời vào cuối tuần."
   },
   {
     jp: "祭り／お祭り",
     hira: "まつり／おまつり",
     vi: "lễ hội",
-    example: "夏休みには、多くの子どもたちが地元の祭りに参加します。",
+    example: "夏休みには、多くの子どもたちが地元【じもと】の祭りに参加します。",
     exampleVi: "Vào kỳ nghỉ hè, nhiều trẻ em sẽ tham gia vào lễ hội của địa phương."
   },
   {
     jp: "寄付",
     hira: "きふ",
     vi: "quyên góp / đóng góp",
-    example: "使わなくなった本を地域の図書館に寄付しました。",
+    example: "使わなくなった本を地域【ちいき】の図書館【としょかん】に寄付しました。",
     exampleVi: "Tôi đã quyên góp những cuốn sách không còn dùng nữa cho thư viện địa phương."
   },
   {
     jp: "お願い",
     hira: "おねがい",
     vi: "yêu cầu / nhờ",
-    example: "先生に推薦状を書いてもらうよう、お願いをしました。",
+    example: "先生に推薦状【すいせんじょう】を書いてもらうよう、お願いをしました。",
     exampleVi: "Tôi đã nhờ thầy giáo viết thư giới thiệu giúp mình."
   },
   {
     jp: "花火大会",
     hira: "はなびたいかい",
     vi: "lễ hội pháo hoa",
-    example: "今年の夏は、友達と一緒に浴衣を着て花火大会に行きたいです。",
+    example: "今年の夏は、友達【ともだち】と一緒に浴衣【Yukata】を着て花火大会【はなびたいかい】に行きたいです。",
     exampleVi: "Mùa hè năm nay, tôi muốn cùng bạn bè mặc Yukata đi xem lễ hội pháo hoa."
   },
   {
     jp: "今月",
     hira: "こんげつ",
     vi: "tháng này",
-    example: "今月は出費が多かったので, 来月は少し節約しようと思います。",
+    example: "今月は出費【しゅっぴ】が多かったので, 来月は少し節約【せつやく】しようと思います。",
     exampleVi: "Tháng này chi tiêu nhiều quá rồi nên tôi tính tháng sau sẽ tiết kiệm một chút."
   },
   {
     jp: "来月",
     hira: "らいげつ",
     vi: "tháng sau",
-    example: "来月の初めに、日本語能力試験を受ける予定です。",
+    example: "来月の初めに、日本語能力試験【にほんごのうりょくしけん】を受ける予定【よてい】です。",
     exampleVi: "Tôi có kế hoạch sẽ tham gia kỳ thi năng lực tiếng Nhật vào đầu tháng sau."
   },
   {
     jp: "ポスト",
     hira: "ポスト",
     vi: "hộp thư",
-    example: "駅の前に赤いポストがあるので、そこに手紙を投函してください。",
+    example: "駅の前に赤いポストがあるので、そこに手紙を投函【とうかん】してください。",
     exampleVi: "Có một cái hộp thư màu đỏ ở trước nhà ga, bạn hãy bỏ thư vào đó nhé."
   },
   {
     jp: "ガス会社",
     hira: "ガスがいしゃ",
     vi: "công ty gas",
-    example: "ガスの調子が悪いので、ガス会社に連絡して見てもらいました。",
+    example: "ガスの調子【ちょうし】が悪いので、ガス会社に連絡して見てもらいました。",
     exampleVi: "Vì tình trạng ga có vấn đề nên tôi đã liên hệ công ty ga đến kiểm tra."
   },
   {
     jp: "間（14時から15時の間）",
     hira: "あいだ（じゅうよじからじゅうごじのあいだ）",
     vi: "giữa (trong khoảng từ 14h đến 15h)",
-    example: "荷物は今日の14時から15時の間に届く予定です。",
+    example: "荷物【にもつ】は今日の14時から15時の間に届【とど】く予定です。",
     exampleVi: "Hành lý dự kiến sẽ được giao đến trong khoảng từ 14h đến 15h ngày hôm nay."
   },
   {
     jp: "封筒",
     hira: "ふうとう",
     vi: "phong bì",
-    example: "手紙を封筒に入れて、切手を貼って出しました。",
+    example: "手紙を封筒に入れて、切手【きって】を貼【は】って出【だ】しました。",
     exampleVi: "Tôi đã bỏ thư vào phong bì, dán tem rồi gửi đi."
   },
   {
     jp: "手紙",
     hira: "てがみ",
     vi: "thư",
-    example: "国にいる両親に近況を伝える手紙を書きました。",
+    example: "国にいる両親【りょうしん】に近況【きんきょう】を伝える手紙を書きました。",
     exampleVi: "Tôi đã viết một bức thư để thông báo tình hình gần đây cho bố mẹ ở quê nhà."
   },
   {
     jp: "～だけ",
     hira: "～だけ",
     vi: "chỉ ~",
-    example: "今回のイベントは、土曜日だけ開催されます。",
+    example: "今回のイベントは、土曜日だけ開催【かいさい】されます。",
     exampleVi: "Sự kiện lần này sẽ chỉ được tổ chức vào thứ Bảy."
   },
   {
@@ -489,7 +489,7 @@ export const vocabList = [
     jp: "食器",
     hira: "しょっき",
     vi: "bộ đồ ăn",
-    example: "夕食が終わった後、家族と一緒に食器を洗いました。",
+    example: "夕食【ゆうしょく】が終わった後【あと】、家族と一緒に食器を洗いました。",
     exampleVi: "Sau khi ăn tối xong, tôi đã cùng gia đình rửa bát đĩa."
   },
   {
@@ -510,14 +510,14 @@ export const vocabList = [
     jp: "販売会",
     hira: "はんばいかい",
     vi: "sự kiện bán hàng",
-    example: "週末、市民センターで地域の特産物の販売会が行われます。",
+    example: "週末、市民【しみん】センターで地域【ちいき】の特産物【とくさんぶつ】の販売会が行われます。",
     exampleVi: "Vào cuối tuần, một sự kiện bán các sản phẩm đặc sản địa phương sẽ được tổ chức tại trung tâm hành chính."
   },
   {
     jp: "カラオケ大会",
     hira: "カラオケたいかい",
     vi: "cuộc thi hát karaoke",
-    example: "お祭りのステージでカラオケ大会が開かれ、みんな大いに盛り上がった。",
+    example: "お祭りのステージでカラオケ大会が開【ひら】かれ、みんな大いに盛【も】り上【あ】がった。",
     exampleVi: "Một cuộc thi hát karaoke đã được tổ chức trên sân khấu lễ hội và mọi người đều hưởng ứng vô cùng nồng nhiệt."
   },
   {
@@ -538,21 +538,21 @@ export const vocabList = [
     jp: "踊り",
     hira: "おどり",
     vi: "nhảy / điệu nhảy",
-    example: "日本の伝統的な踊りを習うために、地元の教室に通っています。",
+    example: "日本の伝統的【でんとうてき】な踊【おど】りを習うために、地元【じもと】の教室に通【かよ】っています。",
     exampleVi: "Tôi đang tham gia một lớp học ở địa phương để học các điệu nhảy truyền thống của Nhật Bản."
   },
   {
     jp: "練習",
     hira: "れんしゅう",
     vi: "luyện tập",
-    example: "スピーチコンテストに向けて、毎日遅くまで発表の練習をしています。",
+    example: "スピーチコンテストに向けて、毎日遅くまで発表【はっぴょう】の練習をしています。",
     exampleVi: "Hướng tới cuộc thi hùng biện, mỗi ngày tôi đều luyện tập bài thuyết trình đến tối muộn."
   },
   {
     jp: "道の駅",
     hira: "みちのえき",
     vi: "Michi-no-eki (nhà ga ven đường)",
-    example: "ドライブの途中で道の駅に寄り、新鮮な野菜を買いました。",
+    example: "ドライブの途中【とちゅう】で道の駅に寄【よ】り、新鮮【しんせん】な野菜【やさい】を買いました。",
     exampleVi: "Tôi đã ghé vào một trạm dừng nghỉ ven đường khi đang lái xe và mua được ít rau củ rất tươi ngon."
   },
   {
@@ -580,7 +580,7 @@ export const vocabList = [
     jp: "開催する",
     hira: "かいさいする",
     vi: "tổ chức",
-    example: "来月、市民センターでアジアの文化祭が開催されます。",
+    example: "来月、市民センターでアジアの文化祭【ぶんかさい】が開催されます。",
     exampleVi: "Tháng sau, lễ hội văn hóa châu Á sẽ được tổ chức tại trung tâm hành chính."
   },
   {
@@ -594,7 +594,7 @@ export const vocabList = [
     jp: "販売中",
     hira: "はんばいちゅう",
     vi: "đang mở bán",
-    example: "来週のサッカーの試合のチケットは、ただいま窓口で販売中です。",
+    example: "来週のサッカーの試合のチケットは、ただいま窓口【まどぐち】で販売中です。",
     exampleVi: "Vé cho trận đấu bóng đá tuần tới hiện đang được mở bán tại quầy."
   },
   {

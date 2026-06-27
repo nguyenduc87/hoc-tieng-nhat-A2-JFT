@@ -31,7 +31,7 @@ export const grammarBai3 = [
       "Trường hợp 「không chắc chắn」 sự việc đó sẽ xảy ra. Được dùng để biểu thị giả định như 雨が降ったら. Có thể 「thêm もし vào đầu câu」 (điều kiện giả định).",
       "Trường hợp 「xác định trước」 sự việc đó sẽ xảy ra. Trong ví dụ, người nói sử dụng để nói họ 「sẽ làm gì sau khi múa Bon-odori」 (điều kiện xác định)."
     ],
-    structure: "~Vた+ら、~",
+    structure: "~N/A/V+たら、~",
     structureImg: [
       "./images/grammar/tara.png"
     ],
@@ -97,11 +97,11 @@ export const grammarBai3 = [
       ],
       examples: [
         {
-          jp: "明日【あした】、18時【じ】から、海岸【かいがん】で、花火大会【はなびたいかい】が「行【おこな】われます」。",
+          jp: "明日【あした】、18時【じ】から、海岸【かいがん】で、花火大会【はなびたいかい】が「行【おこな】われます」。（行う）",
           vi: "Lễ hội pháo hoa sẽ được tổ chức ở bãi biển từ 18h ngày mai."
         },
         {
-          jp: "月【つき】に1回【いっかい】、公園でフリーマーケットが「開【ひら】かれます」。",
+          jp: "月【つき】に1回【いっかい】、公園でフリーマーケットが「開【ひら】かれます」。（開く）",
           vi: "Chợ trời được tổ chức ở công viên mỗi tháng 1 lần."
         }
       ]
