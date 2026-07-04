@@ -2,22 +2,22 @@ export const grammarBai3 = [
   {
     id: "summary",
     tab: "Tóm tắt",
-    title: "Bài 7 – Nếu trời mưa thì sẽ tổ chức tại hội trường.",
+    title: "Bài 8 – Bạn có biết quầy hàng ở đâu không ?.",
     summaryList: [
       {
-        label: "① ～たら、～",
-        example: "雨が「降ったら」、盆踊【ぼんおど】りは日曜日にやるよ。<br> 盆踊【ぼんおど】りが「終わったら」、いっしょに居酒屋【いざかや】に行きましょう。",
-        vi: "Nếu trời mưa thì điệu múa Bon sẽ được tổ chức vào Chủ Nhật. <br> Sau khi điệu múa Bon kết thúc, chúng ta cùng nhau đi quán nhậu nhé."
+        label: "① もう V-ました / まだ V-て(い)ません",
+        example: "A：スピーチコンテストは、「もう始まりました」か？<br>B：「まだ始まってません」。",
+        vi: "A: Cuộc thi hùng biện 「đã bắt đầu chưa」?<br>B: 「Vẫn chưa」 bắt đầu."
       },
       {
-        label: "② V-(ら)れます ＜Bị động①＞",
-        example: "７月14日、『ひかりホール』において、コンサートが「開催【かいさい】されます」。",
-        vi: "Vào ngày 14 tháng 7, một buổi hòa nhạc sẽ được tổ chức tại 「Hikari Hall」."
+        label: "② まだ V-ます",
+        example: "イベント、「まだやってます」か？",
+        vi: "Sự kiện 「vẫn còn đang diễn ra」 à?"
       },
       {
-        label: "③ V-(られ)ます ＜Thể khả năng②＞",
-        example: "盆踊【ぼんおど】りは簡単【かんたん】だから、だれでも「踊【おど】れます」よ。",
-        vi: "Vì điệu múa Bon đơn giản nên ai cũng có thể múa được đấy."
+        label: "③ 【từ nghi vấn】 + S(thể thông thường) か、～",
+        example: "明日のフリーマーケットは、何時から「か」、わかりますか？",
+        vi: "Bạn có biết chợ đồ cũ ngày mai bắt đầu từ mấy giờ không?"
       }
     ]
   },
@@ -25,53 +25,39 @@ export const grammarBai3 = [
   {
     id: "1",
     tab: "Mẫu 1",
-    title: "① ～たら、～",
+    title: "① もう V-ました / まだ V-て(い)ません",
     usage: [
-      "Có 2 trường hợp như sau:",
-      "Trường hợp 「không chắc chắn」 sự việc đó sẽ xảy ra. Được dùng để biểu thị giả định như 雨が降ったら. Có thể 「thêm もし vào đầu câu」 (điều kiện giả định).",
-      "Trường hợp 「xác định trước」 sự việc đó sẽ xảy ra. Trong ví dụ, người nói sử dụng để nói họ 「sẽ làm gì sau khi múa Bon-odori」 (điều kiện xác định)."
+      "「もう + Khẳng định」: Diễn tả hành động đã hoàn thành (Đã... rồi).",
+      "「まだ + Phủ định」: Diễn tả hành động chưa hoàn thành (Chưa...).",
+      "Dùng để hỏi và trả lời về việc một sự kiện đã bắt đầu hoặc kết thúc hay chưa.",
+      "Khi trả lời nhanh, có thể dùng ngắn gọn là 「まだです」(Chưa ạ)."
     ],
-    structure: "~N/A/V+たら、~",
-    structureImg: [
-      "./images/grammar/tara.png"
-    ],
+    structure: "もう V-ました (Đã... rồi) <br> まだ V-て(い)ません (Chưa...)",
     notes: {
       points: [
-        "~たら được chia bằng cách thêm ら vào sau thể quá khứ thông thường của danh từ, tính từ đuôi イ, tính từ đuôi ナ, động từ."
+        "Cấu trúc phủ định đi với まだ chuẩn chỉnh là 「V-ていません」, <br> nhưng trong giao tiếp thực tế hay nói tắt thành 「V-てません」.",
       ],
       examples: [
         {
-          jp: "雨が「降ったら」、盆踊りは日曜日にやるよ。",
-          vi: "Nếu trời mưa, múa Bon-odori sẽ được tổ chức vào Chủ nhật."
+          jp: "A：準備【じゅんび】は、「もう終わりました」か？",
+          vi: "A：Bạn đã chuẩn bị 「xong chưa」?"
         },
         {
-          jp: "盆踊りが「終わったら」、いっしょに居酒屋に行きましょう。",
-          vi: "Sau khi múa Bon-odori, hãy cùng nhau đến quán rượu."
-        },
-        {
-          jp: "もし、わからないことが「あったら」、いつでも質問【しつもん】してください。",
-          vi: "Nếu có gì không hiểu thì hãy hỏi tôi bất cứ lúc nào."
-        },
-        {
-          jp: "６時に「なったら」、仕事を終わりにしてください。",
-          vi: "Đến 6h thì hãy kết thúc công việc."
-        },
-        {
-          jp: "「暇【ひま】だったら」、ちょっと手伝ってください。",
-          vi: "Nếu bạn rảnh thì hãy giúp tôi một chút."
+          jp: "B：「まだ終わっていません」。あと、少しかかります。",
+          vi: "B：「Vẫn chưa」 xong ạ. Sẽ mất thêm một chút thời gian nữa."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "この資料の作り方、ちょっと難しいですね。",
-        vi: "Cách làm tài liệu này hơi khó nhỉ."
+        jp: "スピーチコンテストは、「もう始まりました」か？",
+        vi: "Cuộc thi hùng biện đã bắt đầu chưa?"
       },
       {
         speaker: "B",
-        jp: "もし、わからないことが「あったら」、いつでも質問してください。私も「暇だったら」、手伝いますよ。",
-        vi: "Nếu có gì không hiểu thì cứ hỏi tôi bất cứ lúc nào nhé. Nếu tôi rảnh, tôi cũng sẽ phụ một tay."
+        jp: "「まだ始まってません」。",
+        vi: "Vẫn chưa bắt đầu đâu."
       }
     ]
   },
@@ -79,84 +65,94 @@ export const grammarBai3 = [
   {
     id: "2",
     tab: "Mẫu 2",
-    title: "② V-(ら)れます ＜Bị động 受身①＞",
+    title: "② まだ V-ます",
     usage: [
-      "sự kiện 「được tổ chức」 được lấy làm chủ ngữ để truyền đạt thông tin chứ không phải người tổ chức (chủ thể hành động). Trong trường hợp này, thể bị động của động từ được sử dụng.",
-      "①来週、[ひかりホールで]、（だれかが）コンサート「を開催します」 (Câu gốc) <br> (Ai đó) 「sẽ tổ chức」 buổi hòa nhạc ở hội trường Hikari vào tuần sau. <br> ②来週、[ひかりホールで]、コンサート「が開催まされす」<br> Buổi hòa nhạc 「được tổ chức」 tại hội trường Hikari.",
-      "Chủ ngữ của câu ① là người tổ chức hòa nhạc. Ngược lại, chủ ngữ của câu ② là コンサート (buổi hòa nhạc). <br> 開催【かいさい】されます (される) (được tổ chức) 「là thể bị động」 của động từ 開催【かいさい】します (する) (tổ chức).",
-      "Trong bài này, mục tiêu là nghe hiểu các từ thường được dùng để thông báo sự kiện như: <br>「開催【かいさい】される」 (được tổ chức), 「行【おこな】われる」 (được thực hiện), 「開【ひら】かれる」 (được tổ chức).",
-      "Những từ này được sử dụng trong các thông báo, phát thanh trang trọng. <br> Còn trong hội thoại hàng ngày, chúng ta sẽ nói: <br> 7月14日に、ひかりホールで、コンサートがあります <br> (Sẽ có buổi hòa nhạc ở hội trường Hikari vào ngày 14 tháng 7)."
+      "「まだ + Câu khẳng định」: Diễn tả một trạng thái, hành động vẫn đang tiếp diễn 「(Vẫn còn... / Vẫn đang...)」.",
+      "Dùng để 「hỏi hoặc xác nhận」 xem một sự kiện, hoạt động hay sự vật nào đó có 「còn tiếp tục duy trì」 hay không."
     ],
-    structure: "V-(ら)れます",
+    structure: "まだ + V-ます (Thể khẳng định / Thể tiếp diễn)",
     structureImg: [
-      "./images/grammar/bi-dong.png"
+      "./images/grammar/mada_vmasu.png"
     ],
     notes: {
       points: [
-        "Trợ từ を -> が",
+        "Từ 「まだ」 trong mẫu câu này mang nghĩa là 「'vẫn còn', 'cho đến bây giờ vẫn thế'」.",
+        "Trong văn nói giao tiếp, động từ thường được chia ở thể tiếp diễn 「V-ています」 hoặc nói tắt thành 「V-てます」 để diễn tả trạng thái đang xảy ra."
       ],
       examples: [
         {
-          jp: "明日【あした】、18時【じ】から、海岸【かいがん】で、花火大会【はなびたいかい】が「行【おこな】われます」。（行う）",
-          vi: "Lễ hội pháo hoa sẽ được tổ chức ở bãi biển từ 18h ngày mai."
+          jp: "イベント、「まだやってます」か？",
+          vi: "Sự kiện 「vẫn còn đang diễn ra」 à?"
         },
         {
-          jp: "月【つき】に1回【いっかい】、公園でフリーマーケットが「開【ひら】かれます」。（開く）",
-          vi: "Chợ trời được tổ chức ở công viên mỗi tháng 1 lần."
+          jp: "A：お菓子、「まだあります」か？",
+          vi: "A：「Vẫn còn」 bánh kẹo chứ?"
+        },
+        {
+          jp: "B：すみません。「もう」、全部なく「なりました」。",
+          vi: "B：Xin lỗi, 「đã hết」 sạch rồi ạ."
         }
       ]
     },
     dialogue: [
       {
         speaker: "A",
-        jp: "明日、18時から、海岸【かいがん】で、花火大会【はなびたいかい】が「行【おこな】われます」よ。",
-        vi: "Từ 18h ngày mai, lễ hội pháo hoa sẽ được tổ chức ở bãi biển đấy."
+        jp: "あのラーメン屋、「まだ開【ひら】いてます」か？",
+        vi: "Quán mì ramen kia giờ này vẫn còn mở cửa chứ?"
       },
       {
         speaker: "B",
-        jp: "そうなんですか！あそこは月【つき】に1回【いっかい】、公園でフリーマーケットも「開【ひら】かれます」よね。",
-        vi: "Vậy à bạn! Ở đó mỗi tháng 1 lần cũng có chợ trời được tổ chức ở công viên nữa nhỉ."
+        jp: "夜の11時までやってるから、「まだ大丈夫です」よ。",
+        vi: "Họ bán đến 11h đêm cơ, nên giờ vẫn thoải mái đấy."
       }
     ]
   },
 
   {
-  id: "3",
-  tab: "Mẫu 3",
-  title: "② V-(られ)ます ＜Thể khả năng 可能形②＞",
-  usage: [
-    "Đây là cách nói thể hiện năng lực.",
-    "Chúng ta đã học cách chia thể khả năng ở bài 5. Có 2 cách dùng thể khả năng: <br> ① thể hiện năng lực của chủ thể, <br> ② thể hiện khả năng thực hiện hành động trong hoàn cảnh được đưa ra.",
-    "Trong bài này, chúng ta học cách dùng ①.",
-    "Chúng ta đã học cách dùng ② trong bài 5: <br> 北海道【ほっかいどう】では、新鮮【しんせん】なカニとかウニとか「食べられます」よ <br> (「Có thể ăn」 cua và cầu gai tươi ở Hokkaido đấy).",
-  ],
-  structure: "V-(られ)ます",
-  structureImg: [
-    "./images/grammar/kha-nang.png"
-  ],
-  notes: {
-    points: [
-      "Thể hiện năng lực cá nhân của chủ thể"
+    id: "3",
+    tab: "Mẫu 3",
+    title: "③ 【Từ nghi vấn】 + S(thể thông thường) か、～",
+    usage: [
+      "Dùng để 「lồng một câu hỏi」 có từ nghi vấn (khi nào, ở đâu, ai, tại sao...) vào trong một câu nói lớn.",
+      "Thường dùng khi không chắc đối phương có biết câu trả lời hay không, hoặc dùng để nhờ vả, giải thích."
     ],
-    examples: [
+    structure: "【Từ nghi vấn】 + S(thể thông thường) か、[わかりませんか / 教えてください / しりません]",
+    structureImg: [
+      "./images/grammar/nghi_van_ka.png"
+    ],
+    notes: {
+      points: [
+        "Trước chữ 「か」, động từ và tính từ phải đưa về thể thông thường (普通形).",
+        "Lưu ý: Nếu là câu hỏi đuôi 「ですか」 (ví dụ: 何時からですか), khi ghép vào cấu trúc này phải bỏ 「です」 đi và giữ nguyên danh từ/tính từ rồi cộng thẳng với 「か」（何時から「か」）.",
+        "Mẫu này không chỉ dùng để hỏi (か、わかりますか) mà còn dùng để nhờ vả (か、教えてください) hoặc trả lời (か、わかりません)."
+      ],
+      examples: [
+        {
+          jp: "明日のフリーマーケットは、何時から「か」、わかりますか？",
+          vi: "Bạn có biết chợ đồ cũ ngày mai bắt đầu 「từ mấy giờ」 không?"
+        },
+        {
+          jp: "何時から「始まるか」、教えてください。",
+          vi: "Hãy cho tôi biết bắt đầu từ mấy giờ với."
+        },
+        {
+          jp: "会議はいつ「終わるか」、わかりません。",
+          vi: "Tôi không biết cuộc họp khi nào xong nữa."
+        }
+      ]
+    },
+    dialogue: [
       {
-        jp: "盆踊【ぼんおど】りは簡単【かんたん】だから、だれでも「踊【おど】れます」よ。",
-        vi: "Múa Bon-odori đơn giản nên ai cũng 「có thể múa」 được đấy."
+        speaker: "A",
+        jp: "今度の花火大会、どこで「やるか」知っていますか？",
+        vi: "Bạn có biết lễ hội pháo hoa tới đây được tổ chức ở đâu không?"
+      },
+      {
+        speaker: "B",
+        jp: "すみません、私もどこで「開【ひら】かれるか」分からないんです。",
+        vi: "Xin lỗi nhé, tôi cũng không biết là nó được tổ chức ở đâu nữa."
       }
     ]
   },
-  dialogue: [
-    {
-      speaker: "A",
-      jp: "何か楽器【がっき】ができますか？",
-      vi: "Bạn có thể chơi nhạc cụ nào không?"
-    },
-    {
-      speaker: "B",
-      jp: "ギターが「弾【ひ】けます」。",
-      vi: "Tôi 「có thể chơi」 ghi-ta."
-    }
-  ]
-},
 
 ];
