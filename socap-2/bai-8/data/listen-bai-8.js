@@ -1,468 +1,397 @@
 export const listeningData = [
   {
-    title: "Audio 1 : kaiwa",
-    audio: "audio/Z_[06-01]_kaiwa.mp3",
-    script: [
-      "坂本：あ、こんばんは。外国の方ですよね？",
-      "エド：あ、はい。",
-      "坂本：坂本といいます。よろしくお願いします。",
-      "エド：あ、私はエドです。よろしくお願いします。",
-      "坂本：エドさんは、どちらからですか？",
-      "エド：フィリピンです。でも、今は日本に住んでいます。",
-      "坂本：そうですか。日光は旅行ですか？",
-      "エド：はい、1泊です。",
-      "坂本：今日は、どこに行きましたか？",
-      "エド：今日は、東照宮に行きました。明日は、中禅寺湖に行くつもりです。",
-      "坂本：ぼくも今日、中禅寺湖に行って来ましたよ。すごくきれいでした。",
-      "エド：そうですか。楽しみです。",
-      "坂本：おいしいものは、何か食べましたか？",
-      "エド：はい、そばを食べました。ゆばも食べてみたいです。",
-      "坂本：ああ、日光の名物ですからねえ。",
-      "エド：あと、温泉に入りたいんですけど、どこで入ったらいいですか？",
-      "坂本：温泉ですか。中禅寺湖のホテルに、日帰りでお風呂に入れるところがあると思いますよ。ちょっと調べてみましょうか。",
-      "エド：はい！　ぜひお願いします。"
-    ],
-    translation: [
-      "Sakamoto: À, chào buổi tối. Bạn là người nước ngoài đúng không?",
-      "Edo: À, vâng.",
-      "Sakamoto: Tôi tên là Sakamoto. Rất mong được giúp đỡ.",
-      "Edo: À, tôi là Edo. Rất mong được giúp đỡ.",
-      "Sakamoto: Bạn Edo đến từ đâu vậy?",
-      "Edo: Philippines ạ. Nhưng hiện tại tôi đang sống ở Nhật Bản.",
-      "Sakamoto: Vậy à. Bạn đi du lịch đến Nikko hả?",
-      "Edo: Vâng, tôi ở lại 1 đêm.",
-      "Sakamoto: Hôm nay bạn đã đi những đâu rồi?",
-      "Edo: Hôm nay tôi đã đi Toshogu. Ngày mai tôi dự định sẽ đi hồ Chuzenji.",
-      "Sakamoto: Hôm nay tôi cũng vừa đi hồ Chuzenji về đấy. Đẹp lắm luôn.",
-      "Edo: Thế ạ. Tôi đang rất mong đợi đây.",
-      "Sakamoto: Bạn đã ăn món gì ngon chưa?",
-      "Edo: Vâng, tôi đã ăn mì soba. Tôi cũng muốn ăn thử cả váng đậu (yuba) nữa.",
-      "Sakamoto: À, vì đó là đặc sản của Nikko mà lị.",
-      "Edo: Với lại, tôi muốn đi tắm suối nước nóng (onsen) thì nên đi tắm ở đâu thì tốt ạ?",
-      "Sakamoto: Suối nước nóng à. Tôi nghĩ là ở các khách sạn quanh hồ Chuzenji sẽ có những nơi có thể vào tắm rồi về trong ngày đấy. Để tôi thử tra cứu một chút nhé.",
-      "Edo: Vâng! Nhất định nhờ anh giúp ạ."
-    ]
-  },
-  {
-    title: "Audio 2 : katachi",
-    audio: "audio/Z_[06-02]_katachi.mp3",
-    script: [
-      "今日は、東照宮【とうしょうぐう】に行きました。明日は、中禅寺湖【ちゅうぜんじこ】に行く＿＿＿＿＿＿です。",
-      "そばを食べました。ゆばも食べて＿＿＿＿＿＿です。"
-    ],
-    translation: [
-      "Hôm nay tôi đã đi Toshogu. Ngày mai tôi dự định sẽ đi hồ Chuzenji. -> つもり",
-      "Tôi đã ăn mì soba. Tôi cũng muốn ăn thử cả váng đậu (yuba) nữa. -> みたい"
-    ]
-
-  },
-  {
-    title: "Audio 3 : hanasu",
-    audio: "audio/Z_[06-03]_hanasu.mp3",
-    script: [
-      "A: 今日は、どこに行きましたか？",
-      "B: 今日は、東照宮【とうしょうぐう】に行きました。明日は、中禅寺湖【ちゅうぜんじこ】に行くつもりです。",
-      "A: おいしいものは、何か食べましたか？",
-      "B: そばを食べました。ゆばも食べてみたいです。",
-      "B: あと、温泉に入りたいんですが、どこで入ったらいいですか？",
-      "A: 中禅寺湖【ちゅうぜんじこ】のホテルに、入れるところがあると思いますよ。"
-    ],
-    translation: [
-      "A: Hôm nay, bạn đã đi đâu thế?",
-      "B: Hôm nay tôi đã đi đền Toshogu. Ngày mai tôi dự định sẽ đi hồ Chuzenji.",
-      "A: Bạn có ăn món gì ngon không?",
-      "B: Tôi đã ăn mì soba. Tôi cũng muốn ăn thử cả váng đậu (yuba) nữa.",
-      "B: Ngoài ra, tôi muốn tắm suối nước nóng (onsen) thì nên tắm ở đâu thì tốt ạ?",
-      "A: Tôi nghĩ là ở các khách sạn quanh hồ Chuzenji có những nơi có thể vào tắm đấy."
-    ]
-
-  },
-  {
-    title: "Audio 4 : kotoba",
-    audio: "audio/Z_[06-04]_kotoba.mp3",
+    title: "Audio 1 : kotoba1",
+    audio: "audio/Z_[08-01]_kotoba1.mp3",
     image: [
-      "./images/listen/6-04.png"
+      "./images/listen/8-01.png"
     ],
     script: [
-      "a. 指定席【していせき】",
-      "b. 自由席【じゆうせき】",
-      "c. ～号車【ごうしゃ】",
-      "d. ～発【はつ】",
-      "e. ～着【ちゃく】",
-      "f. ～番乗【ばんの】り場【ば】／～番線【ばんせん】",
-      "g. ～行【ゆ】き",
-      "h. ～線【せん】",
-      "i. ～方面【ほうめん】",
-      "j. 発車【はっしゃ】する",
-      "k. 到着【とうちゃく】する",
-      "l. 乗【の】り換【か】える"
+      "a. 屋台【やたい】",
+      "b. ステージ",
+      "c. パフォーマンス",
+      "d. 観光紹介【かんこうしょうかい】コーナー",
+      "e. スピーチコンテスト",
+      "f. カラオケ大会【たいかい】",
+      "g. 合気道【あいきどう】デモンストレーション",
+      "h. 世界【せかい】の遊【あそ】び体験【たいけん】",
+      "i. ファッションショー",
+      "j. スタンプラリー"
     ],
     translation: [
-      "a. Ghế đặt trước / Ghế chỉ định",
-      "b. Ghế tự do",
-      "c. Toa số ~",
-      "d. Khởi hành từ ~ / Xuất phát lúc ~",
-      "e. Đến ~ / Đến lúc ~",
-      "f. Sân ga số ~ / Đường ray số ~",
-      "g. Đi hướng ~ / Chuyến đi đến ~",
-      "h. Tuyến đường sắt ~",
-      "i. Hướng ~ / Khu vực ~",
-      "j. Xuất phát / Rời ga (Tàu chạy)",
-      "k. Đến nơi / Cập bến (Tàu vào ga)",
-      "l. Đổi tàu / Chuyển tuyến"
+      "a. Quầy hàng, gian hàng ẩm thực",
+      "b. Sân khấu",
+      "c. Biểu diễn nghệ thuật",
+      "d. Góc giới thiệu du lịch",
+      "e. Cuộc thi hùng biện",
+      "f. Đại hội Karaoke",
+      "g. Biểu diễn võ Aikido",
+      "h. Trải nghiệm trò chơi thế giới",
+      "i. Trình diễn thời trang",
+      "j. Trò chơi thu thập dấu mộc"
     ]
   },
   {
-    title: "Audio 5 : kiku1",
-    audio: "audio/Z_[06-05]_kiku1.mp3",
+    title: "Audio 2 : kotoba2",
+    audio: "audio/Z_[08-02]_kotoba2.mp3",
     script: [
-      "アナウンス1",
-      "11時42分発特急【ぶんはつとっきゅう】サンダーバード19号金沢行【ごうかなざわゆ】きは、11番乗り場から発車【はっしゃ】します。",
-      "列車【れっしゃ】は9両【りょう】で到着します。前から9号車8号車の順【じゅん】でいちばん後【うし】ろが1号車【ごうしゃ】です。",
-      "自由席【じゆうせき】は5号車、6号車、7号車、指定席【していせき】は2号車、3号車、4号車、8号車、9号車、グリーン席【せき】は1号車です。"
+      "1. ステージはどこですか？",
+      "2. カラオケ大会はどこですか？",
+      "3. スピーチコンテストは đâu ですか？",
+      "4. ファッションショーはどこですか？",
+      "5. 屋台はどこですか？",
+      "6. 観光紹介【かんこうしょうかい】コーナーはどこですか？",
+      "7. 合気道【あいきどう】デモンストレーションはどこですか？",
+      "8. 世界【せかい】の遊【あそ】び体験【たいけん】はどこですか？",
     ],
     translation: [
-      "Thông báo 1",
-      "Tàu tốc hành đặc biệt Thunderbird số 19 khởi hành lúc 11:42 đi Kanazawa sẽ xuất phát từ sân ga số 11.",
-      "Tàu đến gồm có 9 toa. Thứ tự từ phía trước là toa số 9, toa số 8, và toa cuối cùng là toa số 1.",
-      "Ghế tự do là toa số 5, toa số 6, toa số 7; ghế chỉ định (đặt trước) là toa số 2, toa số 3, toa số 4, toa số 8, toa số 9; ghế hạng thương gia (Green Car) là toa số 1."
+      "1. Sân khấu ở đâu vậy?",
+      "2. Cuộc thi Karaoke ở đâu vậy?",
+      "3. Cuộc thi hùng biện ở đâu vậy?",
+      "4. Buổi trình diễn thời trang ở đâu vậy?",
+      "5. Quầy hàng ẩm thực ở đâu vậy?",
+      "6. Góc giới thiệu du lịch ở đâu vậy?",
+      "7. Buổi biểu diễn võ Aikido ở đâu vậy?",
+      "8. Khu trải nghiệm trò chơi thế giới ở đâu vậy?",
     ]
+  },
+  {
+    title: "Audio 3 : kiku1",
+    audio: "audio/Z_[08-03]_kiku1.mp3",
+    script: [
+      "A: すみません。スピーチコンテストは、もう始【はじ】まりましたか？",
+      "B: まだ始【はじ】まってません。",
+      "A: 何時【なんじ】に始【はじ】まりますか？",
+      "B: 2時【じ】からです。あと30分【さんじゅっぷん】です。",
+      "A: わかりました。"
+    ],
+    translation: [
+      "A: Xin lỗi, cuộc thi hùng biện đã bắt đầu chưa ạ?",
+      "B: Vẫn chưa bắt đầu đâu ạ.",
+      "A: Mấy giờ thì bắt đầu vậy ạ?",
+      "B: Từ 2 giờ ạ. Còn khoảng 30 phút nữa.",
+      "A: Tôi hiểu rồi."
+    ]
+  },
+  {
+    title: "Audio 4 : kiku2",
+    audio: "audio/Z_[08-04]_kiku2.mp3",
+    script: [
+      "A: あのう、まだやってますか？",
+      "B: すみませんが、今日【きょう】の受付【うけつけ】は、もう終【お】わりました。",
+      "A: え、もう無理【むり】ですか？",
+      "B: はい、すみません。"
+    ],
+    translation: [
+      "A: Xin lỗi, ở đây vẫn còn mở cửa/hoạt động chứ ạ?",
+      "B: Xin lỗi bạn, thủ tục tiếp nhận ngày hôm nay đã kết thúc rồi.",
+      "A: Ủa, không được nữa rồi sao ạ?",
+      "B: Vâng, xin lỗi bạn nhé."
+    ]
+  },
+  {
+    title: "Audio 5 : kiku3",
+    audio: "audio/Z_[08-05]_kiku3.mp3",
+    script: [
+      "A: あのう、すみません。カンボジア料理【りょうり】の屋台【やたい】は、どこかわかりますか？",
+      "B: えっと、あっちの奥【おく】です。ここをまっすぐ行【い】って、つきあたりを右【みぎ】に曲【ま】がったところですよ。",
+      "A: ありがとうございます。"
+    ],
+    translation: [
+      "A: Xin lỗi, bạn có biết quầy đồ ăn Campuchia ở đâu không ạ?",
+      "B: À, ở phía sâu trong kia kìa. Đi thẳng lối này, rồi rẽ phải ở cuối đường là tới nhé.",
+      "A: Tôi xin cảm ơn."
+    ]
+  },
+  {
+    title: "Audio 6 : kiku4",
+    audio: "audio/Z_[08-06]_kiku4.mp3",
+    script: [
+      "A: あのう、フリーマーケットをやっていると聞【き】いたんですが……。",
+      "B: ああ、今日【きょう】は、もう終【お】わりましたよ。",
+      "A: え、そうなんですか。",
+      "B: たぶん明日【あした】もありますよ。",
+      "A: 何時【なんじ】からか、わかりますか？",
+      "B: さあ……。10時【じ】ぐらいだと思【お】います。"
+    ],
+    translation: [
+      "A: Xin lỗi, tôi nghe nói ở đây có tổ chức chợ đồ cũ (free market) mà nhỉ...",
+      "B: À, hôm nay thì kết thúc mất rồi.",
+      "A: Ồ, vậy ạ?",
+      "B: Có lẽ ngày mai cũng có đấy.",
+      "A: Bạn có biết là từ mấy giờ không?",
+      "B: Chịu thôi... Tôi nghĩ là khoảng tầm 10 giờ."
+    ]
+  },
+  {
+    title: "Audio 7 : katachi1",
+    audio: "audio/Z_[08-07]_katachi1.mp3",
+    script: [
+      "A: スピーチコンテストは、_______始【はじ】まりましたか？",
+      "B: _______始【はじ】まって_______。",
+      "A: あのう、_______やって_______か？",
+      "B: すみませんが、今日【きょう】の受付【うけつけ】は、_______終【お】わりました。",
+      "A: あのう、フリーマーケットをやっていると聞【き】いたんですが……。",
+      "B: 今日【きょう】は、_______終【お】わりましたよ。"
+    ],
+    translation: [
+      "A: Cuộc thi hùng biện đã bắt đầu chưa ạ? -> もう",
+      "B: Vẫn chưa bắt đầu đâu ạ. -> まだ / ません",
+      "A: Xin lỗi, ở đây vẫn còn mở cửa/hoạt động chứ ạ? -> まだ / ます",
+      "B: Xin lỗi bạn, thủ tục tiếp nhận ngày hôm nay đã kết thúc rồi. -> もう",
+      "A: Xin lỗi, tôi nghe nói ở đây có tổ chức chợ đồ cũ (free market) mà nhỉ... -> (Câu hỏi ban đầu, không đục lỗ)",
+      "B: Hôm nay thì kết thúc mất rồi. -> もう"
+    ]
+  },
+  {
+    title: "Audio 8 : katachi2",
+    audio: "audio/Z_[08-08]_katachi2.mp3",
+    script: [
+      "A: カンボジア料理【りょうり】の屋台【やたい】は、_______わかりますか？",
+      "B: あっちの奥【おく】です。",
+      "A: （明日【あした】のフリーマーケットは）_______から_______、わかりますか？",
+      "B: 10時【じ】ぐらいだと思【お】います。"
+    ],
+    translation: [
+      "A: Bạn có biết quầy đồ ăn Campuchia ở đâu không ạ? -> どこか",
+      "B: Ở phía sâu trong kia kìa. -> (Câu trả lời, không đục lỗ)",
+      "A: Bạn có biết (chợ đồ cũ ngày mai) bắt đầu từ mấy giờ không? -> 何時 / か",
+      "B: Tôi nghĩ là khoảng tầm 10 giờ. -> (Câu trả lời, không đục lỗ)"
+    ]
+  },
 
-  },
   {
-    title: "Audio 6 : kiku2",
-    audio: "audio/Z_[06-06]_kiku2.mp3",
+    title: "Audio 9 : hanasu1-1",
+    audio: "audio/Z_[08-09]_hanasu1-1.mp3",
     script: [
-      "アナウンス2",
-      "ご乗車【じょうしゃ】ありがとうございました。あと３分ほどで岡山【おかやま】です。お出口【でぐち】は左側【ひだりがわ】、22番線【ばんせん】に着【つ】きます。",
-      "乗【の】り換【か】えのご案内【あんない】をいたします。新幹線【しんかんせん】、各駅【かくえき】に止【と】まりますこだま729号、博多行【はかたゆ】き、７時50分、着【つ】きました同じホーム、向【む】かい側【がわ】、21番線中【ばんせんなか】ほどへお越【こ】しください。",
-      "山陽【Sanyo】線【せん】　倉敷【Kurashiki】方面【ほうめん】　福山【Fukuyama】行【ゆ】き、７時57分、２番線。瀬戸【Seto】方面【ほうめん】　相生【Aioi】　行き、８時９分、３番線。",
-      "瀬戸大橋【Seto-Ohashi】線【せん】　快速【かいそく】マリンライナー　９号【ごう】　高松【Takamatsu】行【ゆ】き、７時55分、８番線。児玉行き、８時９分、８番線。",
-      "特急【とっきゅう】しおかぜ３号、松山行き、８時32分、６番線。特急南風【とっきゅうなんぷう】３号【ごう】……"
+      "A: スピーチコンテストは、もう始【はじ】まりましたか？",
+      "B: まだ始【はじ】まってません。",
+      "A: 何時【なんじ】に始【はじ】まりますか？",
+      "B: 2時【じ】からです。"
     ],
     translation: [
-      "Thông báo 2",
-      "Cảm ơn quý khách đã đi tàu. Khoảng 3 phút nữa tàu sẽ đến Okayama. Cửa ra ở phía bên trái, tàu sẽ cập bến tại đường ray số 22.",
-      "Sau đây là thông tin chuyển tuyến. Đối với tàu Shinkansen Kodama số 729 đi Hakata, dừng ở tất cả các ga, khởi hành lúc 7:50, xin vui lòng di chuyển đến khu vực giữa đường ray số 21, đối diện cùng một sân ga nơi tàu vừa cập bến.",
-      "Tuyến Sanyo đi Fukuyama hướng Kurashiki, khởi hành lúc 7:57, đường ray số 2. Tuyến Sanyo đi Aioi hướng Seto, khởi hành lúc 8:09, đường ray số 3.",
-      "Tuyến Seto-Ohashi tàu nhanh Marine Liner số 9 đi Takamatsu, khởi hành lúc 7:55, đường ray số 8. Chuyến đi Kodama, khởi hành lúc 8:09, đường ray số 8.",
-      "Tàu tốc hành đặc biệt Shiokaze số 3 đi Matsuyama, khởi hành lúc 8:32, đường ray số 6. Tàu tốc hành đặc biệt Nanpu số 3......"
+      "A: Cuộc thi hùng biện đã bắt đầu chưa ạ?",
+      "B: Vẫn chưa bắt đầu đâu ạ.",
+      "A: Mấy giờ thì bắt đầu vậy ạ?",
+      "B: Từ 2 giờ ạ."
     ]
   },
   {
-    title: "Audio 7 : kiku1",
-    audio: "audio/Z_[06-07]_kiku1.mp3",
-    image: [
-      "images/listen/6-07.png"
-    ],
+    title: "Audio 10 : hanasu1-2",
+    audio: "audio/Z_[08-10]_hanasu1-2.mp3",
     script: [
-      "会話1",
-      "アナウンス：お客様【きゃくさま】にお知【し】らせいたします。当駅【とうえき】13時９分発、高知【こうち】行【ゆ】きは、信号【しんごう】故障【こしょう】のため、約【やく】30分遅れて運転【うんてん】を行【おこな】っております。",
-      "お急【いそ】ぎのところ、ご利用【りよう】のお客様【きゃくさま】にはご迷惑【めいわく】をおかけしまして、申【もう】し訳【わけ】ありません。",
-      "Ａ：あのう、すみません。今のアナウンス、何て言【い】ってましたか？",
-      "Ｂ：えっと、電車【でんしゃ】が30分遅れるそうですよ。",
-      "Ａ：え、30分も遅れるんですか？",
-      "Ｂ：そう。信号【しんごう】故障【こしょう】だって。困【こま】りますよねえ。",
-      "Ａ：信号【しんごう】……？",
-      "Ｂ：えっと、信号【しんごう】が壊【こわ】れたんですよ。",
-      "Ａ：そうなんですか。"
+      "A: スピーチコンテストは、もう始【はじ】まりましたか？",
+      "B: はい、もう始まりました。",
+      "A: まだ入【はい】れますか？",
+      "B: どうぞ。"
     ],
     translation: [
-      "Hội thoại 1",
-      "Thông báo: Xin thông báo tới quý khách. Chuyến tàu khởi hành từ ga này lúc 13:09 đi Kochi đang chạy trễ khoảng 30 phút do sự cố tín hiệu.",
-      "Chúng tôi thành thật xin lỗi vì đã gây ra sự bất tiện này cho quý khách trong lúc đang vội.",
-      "A: Xin lỗi, cho tôi hỏi một chút. Thông báo vừa rồi nói gì thế ạ?",
-      "B: À, nghe nói tàu sẽ bị trễ 30 phút đấy.",
-      "A: Ôi, trễ tận 30 phút cơ ạ?",
-      "B: Đúng vậy. Nghe bảo là do sự cố tín hiệu. Phiền phức thật đấy nhỉ.",
-      "A: Tín hiệu...?",
-      "B: À, nghĩa là đèn tín hiệu bị hỏng đấy.",
-      "A: Ra là vậy ạ."
+      "A: Cuộc thi hùng biện đã bắt đầu chưa ạ?",
+      "B: Vâng, đã bắt đầu rồi ạ.",
+      "A: Tôi vẫn còn có thể vào trong chứ ạ?",
+      "B: Xin mời vào ạ."
     ]
   },
   {
-    title: "Audio 8 : kiku2",
-    audio: "audio/Z_[06-08]_kiku2.mp3",
-    image: [
-      "images/listen/6-08.png"
-    ],
+    title: "Audio 11 : hanasu1-3",
+    audio: "audio/Z_[08-11]_hanasu1-3.mp3",
     script: [
-      "会話2",
-      "アナウンス：お客様【きゃくさま】にご案内いたします。",
-      "浦和駅【Urewa Eki】と赤羽駅【Akabane Eki】の間【あいだ】で発生【はっせい】した人身事故【じんしんじこ】の影響【えいきょう】で、",
-      "京浜東北【Keihin-Tohoku】線、高崎【Takasaki】線、宇都宮【Utsunomiya】線、上野東京【Ueno-Tokyo】ライン、湘南新宿【Shonan-Shinjuku】ラインは、全線【ぜんせん】で運転【うんてん】を見合【みあ】わせています。",
-      "大宮【Oomiya】方面へお越【こ】しのお客様は、埼京【Saikyo】線をご利用【りよう】ください。",
-      "　",
-      "乗客【じょうきゃく】：すみません、さいたま新都心【Shintoshin】に行きたいんですけど、京浜東北【Keihin-Tohoku】線、",
-      "動【うご】かないんですか？",
-      "駅員【えきいん】：ええ、申【もう】し訳【わけ】ありません。さいたま新都心【Shintoshin】なら、埼京【Saikyo】線の北与野【Kita-Yono】駅",
-      "から歩けますよ。",
-      "乗客【じょうきゃく】：すみません、何線【なにせん】ですか？",
-      "駅員【えきいん】：埼京【Saikyo】線です。8番線から乗ってください。",
-      "乗客【じょうきゃく】：8番線ですね？",
-      "駅員【えきいん】：はい。埼京【Saikyo】線で北与野【Kita-Yono】駅まで行ってください。",
-      "乗客【じょうきゃく】：すみません、駅の名前、もう一度お願いします。",
-      "駅員【えきいん】：北与野【Kita-Yono】です。",
-      "乗客【じょうきゃく】：北与野【Kita-Yono】ですね。そこから歩くんですね？",
-      "駅員【えきいん】：はい。ご迷惑【めいわく】をおかけします。"
+      "A: フリーマーケットは、まだやってますか？",
+      "B: はい、5時【じ】までやってます。"
     ],
     translation: [
-      "Hội thoại 2",
-      "Thông báo: Xin thông báo tới quý khách.",
-      "Do ảnh hưởng của tai nạn về người xảy ra giữa ga Urawa và ga Akabane,",
-      "các tuyến Keihin-Tohoku, Takasaki, Utsunomiya, Ueno-Tokyo và Shonan-Shinjuku đang tạm dừng hoạt động trên toàn tuyến.",
-      "Quý khách di chuyển về hướng Oomiya vui lòng sử dụng tuyến Saikyo.",
-      "　",
-      "Hành khách: Xin lỗi, tôi muốn đi đến Saitama-Shintoshin, nhưng có phải tuyến Keihin-Tohoku",
-      "đang không hoạt động không ạ?",
-      "Nhân viên nhà ga: Vâng, thành thật xin lỗi quý khách. Nếu đi Saitama-Shintoshin thì từ ga Kita-Yono",
-      "của tuyến Saikyo có thể đi bộ đến được đấy ạ.",
-      "Hành khách: Xin lỗi, tuyến gì cơ ạ?",
-      "Nhân viên nhà ga: Là tuyến Saikyo. Xin vui lòng lên tàu từ đường ray số 8.",
-      "Hành khách: Đường ray số 8 đúng không ạ?",
-      "Nhân viên nhà ga: Vâng. Hãy đi tuyến Saikyo đến ga Kita-Yono.",
-      "Hành khách: Xin lỗi, làm ơn cho tôi hỏi lại tên ga một lần nữa ạ.",
-      "Nhân viên nhà ga: Là Kita-Yono.",
-      "Hành khách: Là Kita-Yono đúng không ạ. Từ đó sẽ đi bộ tiếp phải không?",
-      "Nhân viên nhà ga: Vâng. Rất xin lỗi vì sự bất tiện này."
-    ]
-  },
-
-  {
-    title: "Audio 9 : kotoba",
-    audio: "audio/Z_[06-09]_kotoba.mp3",
-    script: [
-      "【旅行はどうだった？】",
-      "a. よかった",
-      "b. 楽しかった",
-      "c. 感動【かんどう】した",
-      "d. 気持【きも】ちよかった",
-      "e. おもしろかった",
-      "f. すてきだった",
-      "g. きれいだった",
-      "h. おいしかった",
-      "i. 残念【ざんねん】だった",
-      "j. 大変だった",
-      "k. 疲【つ】れた",
-      "l. まあまあだった",
-      "m. びっくりした／驚【おどろ】いた",
-      "n. こわかった"
-    ],
-    translation: [
-      "【Chuyến du lịch thế nào?】",
-      "a. Đã rất tốt / Tuyệt vời",
-      "b. Đã rất vui",
-      "c. Đã rất cảm động / Ấn tượng",
-      "d. Đã rất sảng khoái / Dễ chịu",
-      "e. Đã rất thú vị",
-      "f. Đã rất tuyệt vời / Đẹp đẽ",
-      "g. Đã rất đẹp",
-      "h. Đã rất ngon",
-      "i. Đã rất đáng tiếc",
-      "j. Đã rất vất vả",
-      "k. Đã mệt mỏi",
-      "l. Đã bình thường / Tàm tạm",
-      "m. Đã giật mình / Ngạc nhiên",
-      "n. Đã đáng sợ / Sợ hãi"
+      "A: Chợ đồ cũ vẫn còn mở cửa/hoạt động chứ ạ?",
+      "B: Vâng, mở cửa đến 5 giờ ạ."
     ]
   },
   {
-    title: "Audio 10 : kiku1",
-    audio: "audio/Z_[06-10]_kiku1.mp3",
+    title: "Audio 12 : hanasu1-4",
+    audio: "audio/Z_[08-12]_hanasu1-4.mp3",
     script: [
-      "A: これ、お菓子【かし】、どうぞ。大阪【おおさか】のお土産【みやげ】です。",
-      "B: ありがとうございます。大阪に行ったんですね。どうでしたか？",
-      "A: 大阪城【おおさかじょう】とか通天閣【つうてんかく】とか、いろいろなところに行けて、よかったです。",
-      "B: へー、串【くし】カツも食べましたか？",
-      "A: いえ。でも、たこ焼きを食べました。おいしかったです。",
-      "B: そうですか。よかったですね。",
-      "A: あと、あべのハルカスに登りました。すごく高いビルですね。",
-      "びっくりしました。",
-      "B: そうなんですか。私、まだ行ったことないんですよ。"
+      "A: フリーマーケットは、まだやってますか？",
+      "B: 今日【きょう】は、もう終【お】わりました。"
     ],
     translation: [
-      "A: Cái này là bánh kẹo, xin mời ạ. Đây là quà lưu niệm của Osaka.",
-      "B: Xin cảm ơn bạn. Bạn đã đi Osaka nhỉ. Chuyến đi thế nào rồi?",
-      "A: Tôi đã có thể đi nhiều nơi như thành Osaka hay tháp Tsutenkaku, thật là tuyệt vời.",
-      "B: Ồ, bạn cũng đã ăn cả Kushikatsu (xiên que chiên) nữa chứ?",
-      "A: Không ạ. Nhưng tôi đã ăn Takoyaki (bánh bạch tuộc). Nó rất ngon.",
-      "B: Vậy ạ. Tốt quá nhỉ.",
-      "A: Ngoài ra, tôi đã leo lên tòa nhà Abeno Harukas. Đó là một tòa nhà cực kỳ cao nhỉ.",
-      "Tôi đã rất ngạc nhiên.",
-      "B: Ra là vậy sao. Tôi thì vẫn chưa đi đến đó lần nào cả đâu."
+      "A: Chợ đồ cũ vẫn còn mở cửa/hoạt động chứ ạ?",
+      "B: Hôm nay thì kết thúc mất rồi."
     ]
   },
   {
-    title: "Audio 11 : kiku2",
-    audio: "audio/Z_[06-11]_kiku2.mp3",
+    title: "Audio 13 : hanasu2",
+    audio: "audio/Z_[08-13]_hanasu2.mp3",
     script: [
-      "A: 週末は何をしてたの？",
-      "B: 友だちと浄土ヶ浜【Jodogahama】に行って来ました。",
-      "A: 浄土ヶ浜【Jodogahama】か、いいね。どうだった？",
-      "B: 海【うみ】も空【そら】もすごくきれいでした。海で泳げたし、船【ふね】に乗【の】れたし、楽しかったです。",
-      "A: よかったね。",
-      "B: 船では、鳥【とり】にパンをあげられるんです。",
-      "A: ああ、ウミネコね。楽しかった？",
-      "B: ウミネコが近くに来たとき、ちょっとこわかったです。",
-      "でも、おもしろかったです。",
-      "A: あの辺【へん】は、つりもおもしろいよ。",
-      "B: そうなんですか。じゃあ、今度はぜひ。"
+      "A: カンボジア料理【りょうり】の屋台【やたい】は、どこかわかりますか？",
+      "B: あっちです。",
+      "A: フリーマーケットは、何時【なんじ】からか、わかりますか？",
+      "B: 10時【じ】からだと思【お】います。"
     ],
     translation: [
-      "A: Cuối tuần bạn đã làm gì thế?",
-      "B: Tôi đã đi bãi biển Jodogahama với bạn bè về.",
-      "A: Jodogahama à, tuyệt nhỉ. Chuyến đi thế nào?",
-      "B: Cả biển và bầu trời đều cực kỳ đẹp. Tôi vừa được bơi ở biển, vừa được đi thuyền, rất là vui.",
-      "A: Tốt quá nhỉ.",
-      "B: Ở trên thuyền, mình còn có thể cho chim ăn bánh mì nữa đấy ạ.",
-      "A: À, hải âu đuôi đen nhỉ. Có vui không?",
-      "B: Lúc chim hải âu bay đến gần, tôi đã hơi sợ một chút.",
-      "Nhưng mà cũng rất thú vị.",
-      "A: Vùng quanh đó câu cá cũng thú vị lắm đấy.",
-      "B: Vậy ạ. Thế thì nhất định lần tới tôi sẽ thử."
+      "A: Bạn có biết quầy đồ ăn Campuchia ở đâu không ạ?",
+      "B: Ở đằng kia kìa.",
+      "A: Bạn có biết chợ đồ cũ bắt đầu từ mấy giờ không ạ?",
+      "B: Tôi nghĩ là từ 10 giờ đấy."
     ]
   },
   {
-    title: "Audio 12 : kiku3",
-    audio: "audio/Z_[06-12]_kiku3.mp3",
+    title: "Audio 14 : kaiwa",
+    audio: "audio/Z_[08-14]_kaiwa.mp3",
     script: [
-      "A: 週末、高尾山【たかおさん】に行ったんです。",
-      "B: へー、どうでしたか？",
-      "A: ケーブルカーがすごく混んでいて、大変でした。",
-      "B: ああ、この時期【じき】は混【こ】みますよね。",
-      "A: ええ。だから、ケーブルカーはあきらめて、歩いて登りました。",
-      "B: 大変でしたね。",
-      "A: 疲れたけど、景色【けしき】がきれいで、気持ちよかったです。",
-      "頂上【ちょうじょう】で、写真をたくさん撮【と】りました。",
-      "B: そうですか。",
-      "A: あ、それから、道を歩いているとき、リスを見ました。",
-      "B: そうなんですか。自然【しぜん】が豊【ゆた】かなんですね。"
+      "ヨス：すみません。今度【こんど】、国際交流【こくさいこうりゅう】フェスティバルで、カラオケ大会【たいかい】があると聞【き】きました。だれでも参加【さんか】できますか？",
+      "係の人：カラオケ大会【たいかい】ですね。はい。中学生以上【ちゅうがくせいいじょう】でしたら、だれでも参加【さんか】できます。でも、プロの方【かた】はご遠慮【えんりょ】いただいています。",
+      "ヨス：えんりょ？",
+      "係の人：プロの人【ひと】は出【で】られません。",
+      "ヨス：わかりました。友だちと2人【ふたり】で出【で】てもいいですか？",
+      "係の人：だいじょうぶですよ。",
+      "ヨス：お金【かね】は払【はら】いますか？",
+      "係の人：参加費【さんかひ】は、1人1,000円【えん】いただいています。優勝【ゆうしょう】した人には、賞品【しょうひん】が出【で】ます。",
+      "ヨス：そうですか。どんな歌【うた】でもいいですか？",
+      "係の人：いいですけど、ステージでは楽器【がっき】の演奏【えんそう】ができないので、カラオケがある曲【きょく】だけです。",
+      "ヨス：そうなんですか。じゃあ、友だちと相談【そうだん】してみます。どうやって申【もう】し込【こ】んだらいいですか？",
+      "係の人：こちらが申込書【もうしこみしょ】です。ここに、お名前【なまえ】と必要事項【ひつようじこう】を書いて持って来てください。",
+      "ヨス：じゃあ、決まったら、この紙【かみ】に書いて持って来ます。",
+      "係の人：申【もう】し込【こ】みは先着順【せんちゃくじゅん】なので、できるだけ早く持って来てください。",
+      "ヨス：せんちゃく……？",
+      "係の人：早く申【もう】し込【こ】んだ人から、順番【じゅんばん】に決めます。遅い人は出【で】られません。",
+      "ヨス：ああ、わかりました。ありがとうございます。"
     ],
     translation: [
-      "A: Cuối tuần, tôi đã đi núi Takao đấy.",
-      "B: Ồ, chuyến đi thế nào rồi?",
-      "A: Cáp treo kéo cực kỳ đông đúc, nên đã rất vất vả.",
-      "B: À, vào thời gian này trong năm thì thường đông lắm nhỉ.",
-      "A: Vâng. Vì vậy, tôi đã bỏ cuộc không đi cáp treo nữa mà đi bộ leo lên.",
-      "B: Vất vả cho bạn quá nhỉ.",
-      "A: Tuy mệt nhưng phong cảnh rất đẹp, cảm giác rất sảng khoái.",
-      "Tôi đã chụp rất nhiều ảnh ở trên đỉnh núi.",
-      "B: Vậy ạ.",
-      "A: À, ngoài ra, lúc đang đi bộ trên đường, tôi đã nhìn thấy một con sóc.",
-      "B: Ra là vậy sao. Thiên nhiên ở đó phong phú thật đấy nhỉ."
+      "Yosu: Xin lỗi, tôi nghe nói sắp tới sẽ có cuộc thi Karaoke tại Lễ hội Giao lưu Quốc tế. Ai cũng có thể tham gia được chứ ạ?",
+      "Người phụ trách: Cuộc thi Karaoke đúng không ạ. Vâng, nếu là từ học sinh cấp 2 trở lên thì ai cũng có thể tham gia được. Tuy nhiên, những người là ca sĩ chuyên nghiệp thì xin vui lòng không tham gia ạ.",
+      "Yosu: Enryo (Không tham gia)?",
+      "Người phụ trách: Là những người chuyên nghiệp thì không được tham gia đó ạ.",
+      "Yosu: Tôi hiểu rồi. Tôi cùng tham gia với một người bạn nữa (2 người) có được không ạ?",
+      "Người phụ trách: Được chứ ạ.",
+      "Yosu: Có phải trả tiền không ạ?",
+      "Người phụ trách: Phí tham gia thì chúng tôi có thu 1,000 Yên mỗi người ạ. Người chiến thắng sẽ nhận được giải thưởng.",
+      "Yosu: Vậy ạ. Hát bài hát như thế nào cũng được chứ ạ?",
+      "Người phụ trách: Được chứ, nhưng vì trên sân khấu không thể biểu diễn nhạc cụ nên chỉ giới hạn các ca khúc có sẵn nhạc nền Karaoke thôi nhé.",
+      "Yosu: Vậy ạ. Thế thì tôi sẽ thử bàn bạc với bạn của tôi xem sao. Tôi nên đăng ký như thế nào thì được ạ?",
+      "Người phụ trách: Đây là đơn đăng ký. Bạn hãy điền tên và các thông tin cần thiết vào đây rồi mang tới nhé.",
+      "Yosu: Vâng, vậy sau khi quyết định xong, tôi sẽ viết vào tờ giấy này rồi mang tới ạ.",
+      "Người phụ trách: Việc đăng ký sẽ theo thứ tự ưu tiên ai đến trước được trước, nên bạn hãy cố gắng mang tới càng sớm càng tốt nhé.",
+      "Yosu: Senchaku (Đến trước được trước)...?",
+      "Người phụ trách: Chúng tôi sẽ xếp theo thứ tự lần lượt từ những người đăng ký sớm. Những ai đến muộn thì sẽ không được tham gia đâu ạ.",
+      "Yosu: À, tôi hiểu rồi. Tôi xin cảm ơn rất nhiều."
     ]
   },
   {
-    title: "Audio 13 : kiku4",
-    audio: "audio/Z_[06-13]_kiku4.mp3",
+    title: "Audio 15 : hanasu1",
+    audio: "audio/Z_[08-15]_hanasu1.mp3",
     script: [
-      "A: 連休【れんきゅう】はどうだった？どこか行った？",
-      "B: はい、友だちと2人でハウステンボスに行って来ました。",
-      "A: へー、そう。どうだった？",
-      "B: オランダの町並【まちな】みや花畑【はなばたけ】がすてきでした。",
-      "A: よかったね。",
-      "B: あと、夜のイルミネーションを見ました。滝【たき】がきらきら光【ひか】って、",
-      "すごくきれいでした。",
-      "A: あー、イルミネーション、きれいだよね。",
-      "B: でも、ショーが見られなくて、残念【ざんねん】でした。時間がなかったので。",
-      "A: 泊【と】まらなかったの？",
-      "B: はい。日帰【ひがえ】りでした。"
+      "A: 今度【こんど】、カラオケ大会【たいかい】があると聞【き】きました。だれでも参加【さんか】できますか？",
+      "B: はい。中学生以上【ちゅうがくせいいじょう】でしたら、だれでも参加【さんか】できます。"
     ],
     translation: [
-      "A: Kỳ nghỉ dài ngày thế nào rồi? Có đi đâu không?",
-      "B: Vâng, tôi đã cùng một người bạn đi Huis Ten Bosch về đấy ạ.",
-      "A: Ồ, vậy à. Chuyến đi thế nào?",
-      "B: Cảnh quan đường phố kiểu Hà Lan và những cánh đồng hoa rất tuyệt vời.",
-      "A: Tốt quá nhỉ.",
-      "B: Ngoài ra, tôi đã xem lễ hội ánh sáng vào ban đêm. Thác nước tỏa sáng lấp lánh,",
-      "cực kỳ đẹp luôn ạ.",
-      "A: À, lễ hội ánh sáng lung linh, đẹp thật đấy nhỉ.",
-      "B: Nhưng mà không xem được show diễn nên hơi tiếc ạ. Vì không có thời gian.",
-      "A: Bạn không ở lại qua đêm à?",
-      "B: Vâng. Tôi đi về trong ngày ạ."
+      "A: Tôi nghe nói sắp tới có cuộc thi Karaoke. Ai cũng có thể tham gia được chứ ạ?",
+      "B: Vâng. Nếu là từ học sinh cấp 2 trở lên thì ai cũng có thể tham gia được ạ."
     ]
   },
   {
-    title: "Audio 14 : katachi1",
-    audio: "audio/Z_[06-14]_katachi1.mp3",
+    title: "Audio 16 : hanasu2-1",
+    audio: "audio/Z_[08-16]_hanasu2-1.mp3",
     script: [
-      "大阪城【おおさかじょう】とか通天閣【つうてんかく】とか、いろいろなところに____________________、よかったです。",
-      "ケーブルカーがすごく____________________、大変でした。",
-      "ショーが____________________、残念【ざんねん】でした。",
-      "海【うみ】で____________________、船【ふね】に____________________、楽しかったです。"
+      "A: お金【かね】は払【はら】いますか？",
+      "B: 参加費【さんかひ】は、1人【ひとり】1,000円【えん】です。"
     ],
     translation: [
-      "Tôi đã có thể đi nhiều nơi như thành Osaka hay tháp Tsutenkaku, thật là tuyệt vời. -> Đáp án: 行けて",
-      "Cáp treo kéo cực kỳ đông đúc, nên đã rất vất vả. -> Đáp án: 混んでいて",
-      "Không xem được show diễn nên hơi tiếc. -> Đáp án: 見られなくて",
-      "Tôi vừa được bơi ở biển, vừa được đi thuyền, rất là vui. -> Đáp án: 泳げたし / 乗れたし"
+      "A: Có phải trả tiền không ạ?",
+      "B: Lệ phí tham gia là 1,000 Yên một người ạ."
     ]
   },
   {
-    title: "Audio 15 : katachi2",
-    audio: "audio/Z_[06-15]_katachi2.mp3",
+    title: "Audio 17 : hanasu2-2",
+    audio: "audio/Z_[08-17]_hanasu2-2.mp3",
     script: [
-      "道を____________________とき、リスを見ました。",
-      "ウミネコが近くに____________________とき、ちょっとこわかったです。",
-      "友だちと2人____________________ハウステンボスに行って来ました。"
+      "A: お金【かね】は払【はら】いますか？",
+      "B: 無料【むりょう】です。"
     ],
     translation: [
-      "Lúc đang đi bộ trên đường, tôi đã nhìn thấy một con sóc. -> Đáp án: 歩いている",
-      "Lúc chim hải âu bay đến gần, tôi đã hơi sợ một chút. -> Đáp án: 来た",
-      "Tôi đã cùng một người bạn đi Huis Ten Bosch về. -> Đáp án: で"
-    ]
-  },
-  {
-    title: "Audio 16 : hanasu1",
-    audio: "audio/Z_[06-16]_hanasu1.mp3",
-    script: [
-      "週末、大阪に行って来ました。",
-      "そうですか。どうでしたか？",
-      "大阪城【おおさかじょう】とか通天閣【つうてんかく】とか、いろいろなところに行けて、よかったです。",
-      "それは、よかったですね。",
-    ],
-    translation: [
-      "Cuối tuần, tôi đã đi Osaka về.",
-      "Vậy ạ. Chuyến đi thế nào rồi?",
-      "Tôi đã có thể đi nhiều nơi như thành Osaka hay tháp Tsutenkaku, thật là tuyệt vời.",
-      "Tốt quá nhỉ.",
-    ]
-  },
-  {
-    title: "Audio 17 : hanasu2",
-    audio: "audio/Z_[06-17]_hanasu2.mp3",
-    script: [
-      "週末、浄土ヶ浜【じょうどがはま】に行って来ました。",
-      "そうですか。どうでしたか？",
-      "海で泳げたし、船に乗れたし、楽しかったです。",
-      "それは、よかったですね。",
-    ],
-    translation: [
-      "Cuối tuần, tôi đã đi Jodogahama về.",
-      "Vậy ạ. Chuyến đi thế nào rồi?",
-      "Tôi vừa được bơi ở biển, vừa được đi thuyền, rất là vui.",
-      "Tôi đã xem lễ hội ánh sáng vào ban đêm. Cực kỳ đẹp luôn ạ.",
-      "Tốt quá nhỉ.",
+      "A: Có phải trả tiền không ạ?",
+      "B: Miễn phí ạ."
     ]
   },
   {
     title: "Audio 18 : hanasu3",
-    audio: "audio/Z_[06-18]_hanasu3.mp3",
+    audio: "audio/Z_[08-18]_hanasu3.mp3",
     script: [
-      "週末、ハウステンボスに行って来ました。",
-      "そうですか。どうでしたか？",
-      "夜のイルミネーションを見ました。すごくきれいでした。",
-      "それは、よかったですね。",
-      "でも、ショーが見られなくて、残念でした。",
-      "そうですか。"
+      "A: 歌【うた】は、何【なん】でもいいですか？",
+      "B: カラオケがある曲【きょく】だけです。"
     ],
     translation: [
-      "Cuối tuần, tôi đã đi Huis Ten Bosch về.",
-      "Vậy ạ. Chuyến đi thế nào rồi?",
-      "Tôi đã xem lễ hội ánh sáng vào ban đêm. Cực kỳ đẹp luôn ạ.",
-      "Tốt quá nhỉ.",
-      "Nhưng mà không xem được show diễn nên hơi tiếc.",
-      "Vậy ạ."
+      "A: Hát bài hát như thế nào cũng được chứ ạ?",
+      "B: Chỉ giới hạn các ca khúc có sẵn nhạc nền Karaoke thôi ạ."
+    ]
+  },
+  {
+    title: "Audio 19 : hanasu4",
+    audio: "audio/Z_[08-19]_hanasu4.mp3",
+    script: [
+      "A: どうやって申【もう】し込【こ】んだらいいですか？",
+      "B: こちらが申込書【もうしこみしょ】です。先着順【せんちゃくじゅん】なので、できるだけ早く【はやく】お願い【おねがい】します。申し込み【もうしこみ】が多い【おおい】ときは、抽選【ちゅうせん】になります。",
+      "A: わかりました。ありがとうございます。"
+    ],
+    translation: [
+      "A: Tôi nên đăng ký như thế nào thì được ạ?",
+      "B: Đây là đơn đăng ký ạ. Vì theo thứ tự ưu tiên ai đến trước được trước nên bạn vui lòng nộp càng sớm càng tốt nhé. Trong trường hợp số lượng đăng ký quá đông thì sẽ chuyển sang bốc thăm.",
+      "A: Tôi hiểu rồi. Tôi xin cảm ơn rất nhiều."
+    ]
+  },
+  {
+    title: "Audio 20 : kiku1",
+    audio: "audio/Z_[08-20]_kiku1.mp3",
+    script: [
+      "皆様【みなさま】にお願いいたします。公園内【こうえんない】は禁煙【きんえん】になっております。",
+      "小さいお子様【こさま】もお見えですので、公園内【こうえんない】でのおたばこは、ご遠慮【えんりょ】くださいませ。",
+      "ご協力【きょうりょく】よろしくお願いいたします。"
+    ],
+    translation: [
+      "Chúng tôi xin có một thỉnh cầu gửi đến quý vị. Trong khuôn viên công viên là khu vực cấm hút thuốc.",
+      "Vì có cả các em nhỏ đang có mặt tại đây, xin quý vị vui lòng không hút thuốc trong khuôn viên công viên.",
+      "Rất mong nhận được sự hợp tác của quý vị."
+    ]
+  },
+  {
+    title: "Audio 21 : kiku2",
+    audio: "audio/Z_[08-21]_kiku2.mp3",
+    script: [
+      "皆様【みなさま】、本日【ほんじつ】はお忙しい中【なか】、スピーチコンテストにおいでくださって、ありがとうございます。",
+      "始まる前【まえ】に、皆様【みなさま】にお願いがあります。",
+      "スピーチコンテスト中【ちゅう】、写真【しゃしん】の撮影【さつえい】はかまいませんが、動画【どうが】の撮影【さつえい】はご遠慮【えんりょ】ください。",
+      "また、携帯電話【けいたいでんわ】は、電源【でんげん】を切るか、マナーモードに設定【せってい】し、通話【つうわ】はご遠慮【えんりょ】ください。",
+      "ご協力【きょうりょく】よろしくお願いいたします。"
+    ],
+    translation: [
+      "Kính thưa quý vị, xin cảm ơn quý vị đã dành thời gian bận rộn ngày hôm nay để đến tham dự cuộc thi hùng biện.",
+      "Trước khi chương trình bắt đầu, chúng tôi có một vài lưu ý gửi đến quý vị.",
+      "Trong suốt thời gian diễn ra cuộc thi, việc chụp ảnh là được phép, nhưng xin vui lòng không quay phim.",
+      "Ngoài ra, đối với điện thoại di động, xin quý vị vui lòng tắt nguồn hoặc chuyển sang chế độ im lặng, và vui lòng không thực hiện cuộc gọi.",
+      "Rất mong nhận được sự hợp tác của quý vị."
+    ]
+
+  },
+  {
+    title: "Audio 22 : kiku3",
+    audio: "audio/Z_[08-22]_kiku3.mp3",
+    script: [
+      "お客様【おきゃくさま】にお願い【おねがい】いたします。ホールの中【なか】への食べ物【たべもの】、飲み物【のみもの】の持ち込み【もちこみ】は禁止【きんし】となっています。",
+      "飲食【いんしょく】は、外【そと】のロビーでお願い【おねがい】します。"
+    ],
+    translation: [
+      "Xin kính mời quý khách lưu ý. Việc mang đồ ăn và thức uống vào bên trong hội trường là bị nghiêm cấm.",
+      "Xin quý khách vui lòng ăn uống ở khu vực sảnh chờ bên ngoài."
+    ]
+  },
+  {
+    title: "Audio 23 : kiku3",
+    audio: "audio/Z_[08-23]_kiku4.mp3",
+    script: [
+      "すみません。本日【ほんじつ】の、午前のロールケーキの販売【はんばい】は終了【しゅうりょう】しました。",
+      "次の販売【はんばい】は、午後1時になります。",
+      "個数【こすう】が限【かぎ】られていますので、ロールケーキをお求め【もと】のお客様【きゃくさま】は、こちらの列【れつ】にお並【なら】びください。よろしくお願いします。"
+    ],
+    translation: [
+      "Xin lỗi quý khách. Buổi bán bánh bông lan cuộn (roll cake) trong sáng ngày hôm nay đã kết thúc.",
+      "Đợt mở bán tiếp theo sẽ bắt đầu vào lúc 1 giờ chiều.",
+      "Vì số lượng bánh có hạn, những quý khách muốn mua bánh bông lan cuộn vui lòng xếp hàng theo hàng này. Xin cảm ơn quý khách."
     ]
   },
 

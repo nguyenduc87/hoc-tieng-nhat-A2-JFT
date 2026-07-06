@@ -76,9 +76,6 @@ export const listeningData = [
   {
     title: "Audio 4 : kiku4",
     audio: "audio/Z_[07-04]_kiku4.mp3",
-    image: [
-      "./images/listen/6-04.png"
-    ],
     script: [
       "A：あのう、市役所でフリーマーケットがあるそうですね。",
       "B：ええ。毎月、第2土曜日に、市役所の広場でやってますよ。",

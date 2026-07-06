@@ -117,9 +117,6 @@ export const grammarBai3 = [
       "Thường dùng khi không chắc đối phương có biết câu trả lời hay không, hoặc dùng để nhờ vả, giải thích."
     ],
     structure: "【Từ nghi vấn】 + S(thể thông thường) か、[わかりませんか / 教えてください / しりません]",
-    structureImg: [
-      "./images/grammar/nghi_van_ka.png"
-    ],
     notes: {
       points: [
         "Trước chữ 「か」, động từ và tính từ phải đưa về thể thông thường (普通形).",
