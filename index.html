@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Học tiếng Nhật cơ bản</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <!-- Banner -->
@@ -13,6 +15,10 @@
     <h1>DUCさん日本語</h1>
     <p>Học tiếng Nhật cơ bản – dễ hiểu – thực tế</p>
   </header>
+
+  <section class="search-box">
+    <input type="text" id="grammarSearch" placeholder="🔍 Tìm ngữ pháp...">
+  </section>
 
   <!-- Main -->
   <main class="main">
@@ -34,6 +40,22 @@
     </div>
   </main>
 
+  <div id="grammarModal" class="modal">
+
+    <div class="modal-content">
+
+      <span class="close">&times;</span>
+
+      <h3>Kết quả tìm kiếm</h3>
+
+      <div id="grammarResult"></div>
+
+    </div>
+
+  </div>
+
+  <script src="grammar-data.js"></script>
   <script src="script.js"></script>
 </body>
+
 </html>

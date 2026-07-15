@@ -1,10 +1,10 @@
 export const listeningData = [
   {
-    title: "Audio 1 : kotoba1",
-    audio: "audio/Z_[09-01]_kotoba1.mp3",
-    image: [
-      "./images/listen/9-01.png"
-    ],
+    title: "Audio 1 : kiku1",
+    audio: "audio/Z_[10-01]_kiku1.mp3",
+    // image: [
+    //   "./images/listen/9-01.png"
+    // ],
     script: [
       "a. (お)正月（1月1日）",
       "b. 成人の日（1月 第2 月曜日）",
@@ -473,4 +473,6 @@ export const listeningData = [
       "B: Ăn một món ăn đặc biệt gọi là Ketupat và các loại bánh kẹo như bánh quy."
     ]
   },
+  
+
 ];

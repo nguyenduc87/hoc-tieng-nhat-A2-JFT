@@ -148,7 +148,7 @@ export const grammarBai3 = [
       points: [
         "Chỉ mang tính chất giới hạn số lượng/phạm vi một cách thuần túy, trung lập.",
         "Ví dụ phân biệt: Nếu nói 「1日だけ帰りました」 nghĩa là 'tôi chỉ về 1 ngày (vì có lịch trình khác)'. Còn nếu nói 「1日しか帰れませんでした」 nghĩa là 'tiếc quá, bận quá nên chỉ về được vỏn vẹn có 1 ngày'.",
-        "Ví dụ cốt lõi: 今年は、１日だけ実家に帰りました。(Năm nay, tôi chỉ về nhà bố mẹ đẻ 1 ngày)."
+        "Ví dụ cốt lõi: 今年は、１日だけ実家【じっか】に帰りました。(Năm nay, tôi chỉ về nhà bố mẹ đẻ 1 ngày)."
       ],
       examples: [
         {
@@ -160,7 +160,7 @@ export const grammarBai3 = [
     dialogue: [
       {
         speaker: "A",
-        jp: "資料のこのページ「だけ」、コピーしてください。",
+        jp: "資料【しりょう】のこのページ「だけ」、コピーしてください。",
         vi: "「Chỉ photocopy trang này」 trong tài liệu thôi nhé."
       },
       {
@@ -186,7 +186,7 @@ export const grammarBai3 = [
       ],
       examples: [
         {
-          jp: "休日はカフェで本を読ん「だりして」、過【す】ごしています。",
+          jp: "休日【きゅうじつ】はカフェで本を読ん「だりして」、過【す】ごしています。",
           vi: "Ngày nghỉ tôi thường dành thời gian như là đọc sách ở quán cà phê."
         },
         {
@@ -194,7 +194,7 @@ export const grammarBai3 = [
           vi: "Tối qua tôi thức muộn để làm mấy việc như là xem YouTube."
         },
         {
-          jp: "お正月は実家で美味しいものを食べ「たりして」、のんびりしました。",
+          jp: "お正月は実家【じっか】でおいしいものを食べ「たりして」、のんびりしました。",
           vi: "Dịp Tết tôi đã thư giãn ở quê như là ăn nhiều món ngon."
         }
       ]
@@ -334,7 +334,7 @@ export const grammarBai3 = [
       },
       {
         speaker: "B",
-        jp: "家族と過【す】ごす人が多いです。でも、最近【さいきん】は1日で旅行に出かける人もいますよ。",
+        jp: "家族と過【す】ごす人が多いです。でも、最近【さいきん】は1人で旅行に行く人もいますよ。",
         vi: "Nhiều người đón Tết cùng gia đình lắm. Nhưng dạo gần đây cũng có cả những người một mình đi du lịch nữa đấy."
       }
     ]
@@ -355,7 +355,7 @@ export const grammarBai3 = [
       ],
       examples: [
         {
-          jp: "お正月は、食事をし「ながら」、両親といろいろ話しました。",
+          jp: "お正月は、食事をし「ながら」、両親【りょうしん】といろいろ話しました。",
           vi: "Vào dịp năm mới, tôi vừa ăn cơm vừa nói chuyện nhiều điều với bố mẹ."
         },
         {

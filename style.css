@@ -46,7 +46,7 @@ body {
   background: #fff;
   padding: 22px 18px;
   border-radius: 16px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   text-align: center;
   cursor: pointer;
   transition: 0.25s ease;
@@ -68,8 +68,84 @@ body {
   transform: scale(0.97);
 }
 
-.level-card:hover {
+/* .level-card:hover {
   border: 2px solid #ff4d4f;
+} */
+
+/* ==========================
+Search
+========================== */
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.search-box input {
+  width: 420px;
+  max-width: 90%;
+  padding: 14px 18px;
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-box input:focus {
+  border-color: #ff4d4f;
+}
+
+/* ==========================
+Popup
+========================== */
+
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, .45);
+  z-index: 999;
+}
+
+.modal-content {
+  width: 500px;
+  max-width: 90%;
+  margin: 80px auto;
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  right: 18px;
+  top: 12px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.result-item {
+
+  padding: 14px;
+
+  border-bottom: 1px solid #eee;
+
+  cursor: pointer;
+
+}
+
+.result-item:hover {
+
+  background: #fff4f4;
+
+}
+
+.result-item b {
+
+  color: #ff4d4f;
+
 }
 
 /* ===== Desktop / Tablet ===== */
@@ -96,6 +172,6 @@ body {
 
   .level-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 14px 30px rgba(0,0,0,0.12);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
   }
 }
