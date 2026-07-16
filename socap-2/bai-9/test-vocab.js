@@ -1,4 +1,4 @@
-import { vocabList } from "./data/vocab-bai-8.js";
+import { vocabList } from "./data/vocab-bai-9.js";
 import { addEvents, initToggleNav } from "../assets/js/test-common.js";
 
 const quizEl = document.getElementById("quiz");
