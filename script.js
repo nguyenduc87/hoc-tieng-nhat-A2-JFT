@@ -19,7 +19,9 @@ const modal = document.getElementById("grammarModal");
 const result = document.getElementById("grammarResult");
 const closeBtn = document.querySelector(".close");
 
-input.addEventListener("input", () => {
+input.addEventListener("keydown", (e) => {
+
+  if (e.key !== "Enter") return;
 
   const keyword = input.value.trim().toLowerCase();
 
@@ -29,14 +31,35 @@ input.addEventListener("input", () => {
   }
 
   const list = grammarData.filter(item =>
-
-    item.grammar.toLowerCase().includes(keyword) ||
-
-    item.meaning.toLowerCase().includes(keyword) ||
-
-    item.lesson.toLowerCase().includes(keyword)
-
+    item.grammar.toLowerCase().includes(keyword)
   );
+
+  // 2. SẮP XẾP: Ưu tiên từ khóa ở đầu chuỗi + Gom các mục trùng tên lại với nhau
+  list.sort((a, b) => {
+    const aGrammar = a.grammar.toLowerCase();
+    const bGrammar = b.grammar.toLowerCase();
+
+    // Bước A: Nếu tên trùng nhau hoàn toàn, xếp chúng đứng cạnh nhau
+    if (aGrammar === bGrammar) return 0;
+
+    // Bước B: So sánh vị trí xuất hiện của từ khóa tìm kiếm
+    const indexA = aGrammar.indexOf(keyword);
+    const indexB = bGrammar.indexOf(keyword);
+
+    // Ưu tiên kết quả có từ khóa nằm gần đầu chuỗi hơn
+    if (indexA !== -1 && indexB !== -1) {
+      if (indexA !== indexB) {
+        return indexA - indexB;
+      }
+      // Nếu vị trí giống nhau (ví dụ cùng ở đầu), xếp theo bảng chữ cái để gom nhóm
+      return aGrammar.localeCompare(bGrammar);
+    }
+
+    if (indexA !== -1) return -1;
+    if (indexB !== -1) return 1;
+
+    return 0;
+  });
 
   result.innerHTML = "";
 
@@ -55,7 +78,6 @@ input.addEventListener("input", () => {
       div.innerHTML = `
                 <b>${item.grammar}</b><br>
                 <small>${item.meaning}</small><br>
-                ${item.lesson}
             `;
 
       div.onclick = () => {

@@ -79,7 +79,7 @@ Search
 .search-box {
   display: flex;
   justify-content: center;
-  margin: 20px;
+  margin-top: 20px;
 }
 
 .search-box input {
@@ -127,26 +127,46 @@ Popup
 }
 
 .result-item {
-
   padding: 14px;
-
   border-bottom: 1px solid #eee;
-
   cursor: pointer;
-
 }
 
 .result-item:hover {
-
   background: #fff4f4;
-
 }
 
 .result-item b {
-
   color: #ff4d4f;
-
 }
+
+/* Tạo thanh cuộn cho vùng chứa kết quả */
+#grammarResult {
+  max-height: 400px;    /* Chiều cao tối đa của vùng kết quả trước khi xuất hiện scroll */
+  overflow-y: auto;     /* Bật thanh cuộn dọc khi nội dung vượt quá max-height */
+  margin-top: 15px;     /* Tạo khoảng cách với ô tìm kiếm phía trên */
+  padding-right: 5px;   /* Tránh việc thanh cuộn đè sát vào nội dung chữ */
+}
+
+/* Tùy chỉnh thanh cuộn thanh mảnh và đẹp hơn (Tùy chọn) */
+#grammarResult::-webkit-scrollbar {
+  width: 6px;
+}
+
+#grammarResult::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+#grammarResult::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 10px;
+}
+
+#grammarResult::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
 
 /* ===== Desktop / Tablet ===== */
 @media (min-width: 768px) {
