@@ -42,7 +42,7 @@ const socap2Lessons = [
 
   {
     id: 6,
-    title: "Gia đình – công việc",
+    title: "いろいろなところに行けて、よかったです。",
     vocab: [],
     kanji: [],
     grammar: []
@@ -50,7 +50,7 @@ const socap2Lessons = [
 
   {
     id: 7,
-    title: "Sinh hoạt hằng ngày",
+    title: "雨が降ったら、ホールでやります。",
     vocab: [],
     kanji: [],
     grammar: []
@@ -58,7 +58,7 @@ const socap2Lessons = [
 
   {
     id: 8,
-    title: "Ăn uống – nhà hàng",
+    title: "屋台はどこかわかりますか。",
     vocab: [],
     kanji: [],
     grammar: []
@@ -66,7 +66,7 @@ const socap2Lessons = [
 
   {
     id: 9,
-    title: "Thời tiết – mùa",
+    title: "成人の日は、何をするんですか？",
     vocab: [],
     kanji: [],
     grammar: []
@@ -74,7 +74,7 @@ const socap2Lessons = [
 
   {
     id: 10,
-    title: "Sức khỏe – bệnh tật",
+    title: "どんな服を着て行けばいいですか？",
     vocab: [],
     kanji: [],
     grammar: []
@@ -82,7 +82,7 @@ const socap2Lessons = [
 
   {
     id: 11,
-    title: "Du lịch – đi lại",
+    title: "ポイントカードを忘れてしまいました",
     vocab: [],
     kanji: [],
     grammar: []

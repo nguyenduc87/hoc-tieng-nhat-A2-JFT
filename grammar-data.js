@@ -1,5 +1,5 @@
 const grammarData = [
-    //Bai 1
+    //SC1 Bai 1
     {
         grammar: "Kiểu lịch sự / thông thường",
         meaning: "Có です là kiểu lịch sự, không có です là kiểu thông thường....",
@@ -107,5 +107,11 @@ const grammarData = [
         grammar: "N／ナA／イAい／V-る でしょう",
         meaning: "～でしょう Dùng để đưa ra dự đoán, dùng trong dự báo thời tiết, bản tin....",
         link: "/socap-1/bai-4/bai-4.html"
+    },
+    // Bai 5
+    {
+        grammar: "Nで、／ナAで、／イAくて、～",
+        meaning: "Dùng để nối 2 câu hoặc 2 ý với nhau.",
+        link: "/socap-1/bai-5/bai-5.html"
     },
 ];

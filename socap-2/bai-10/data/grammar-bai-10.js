@@ -113,7 +113,7 @@ export const grammarBai3 = [
       },
       {
         speaker: "B",
-        jp: "いいえ、あそこを見てください。「禁煙【きんえん】」と書いてありますよ。 ở đây「吸【す】ってはいけません」。",
+        jp: "いいえ、あそこを見てください。「禁煙【きんえん】」と書いてありますよ。 ここで「吸【す】ってはいけません」。",
         vi: "Không được đâu, hãy nhìn đằng kia xem. Có chữ \"Cấm hút thuốc\" kìa. Bạn 「không được hút thuốc」 ở đây."
       }
     ]
@@ -303,7 +303,7 @@ export const grammarBai3 = [
     dialogue: [
       {
         speaker: "A",
-        jp: "だめ。電車に乗るときは、ちゃんと列に「並ばなきゃ」。",
+        jp: "だめ。電車に乗るときは、ちゃんと列【れつ】に「並ばなきゃ」。",
         vi: "Không được. Khi lên tàu, bạn 「phải xếp hàng」 đàng hoàng chứ."
       },
       {
