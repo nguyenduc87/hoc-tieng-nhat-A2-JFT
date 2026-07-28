@@ -2,21 +2,21 @@ export const grammarBai3 = [
   {
     id: "summary",
     tab: "Tóm tắt",
-    title: "Bài 11 – Tôi quên thẻ tích điểm mất rồi.",
+    title: "Bài 12 – Máy hút bụi này nhẹ và dễ di chuyển đấy.",
     summaryList: [
       {
         label: "① V-るまで、～",
-        example: "手元【てもと】に届くまで、２日しかかかりませんでした。",
+        example: "手元【てもと】に「届くまで」、２日しかかかりませんでした。",
         vi: "Cho đến khi sản phẩm tới tay, chỉ mất có 2 ngày."
       },
       {
         label: "② V-やすいです / V-にくいです",
-        example: "どっちが使いやすいですか？ / この掃除機【そうじき】は、重【おも】くて、使いにくいですね。",
+        example: "どっちが使い「やすい」ですか？ / この掃除機【そうじき】は、重【おも】くて、使い「にくい」ですね。",
         vi: "Cái nào dễ sử dụng hơn? / Chiếc máy hút bụi này nặng nên khó sử dụng nhỉ."
       },
       {
         label: "③ N1とN2(と)、どちら／どっちが～か？（N1より）N2のほうが、～。",
-        example: "A：どっちが使いやすいですか？ B：セーシバの掃除機【そうじき】のほうがスギシタより軽くて、動【うご】かしやすいですよ。",
+        example: "A：どっちが使いやすいですか？ B：セーシバの掃除機【そうじき】「のほうが」スギシタより軽くて、動【うご】かしやすいですよ。",
         vi: "A: Cái nào dễ sử dụng hơn? B: Máy hút bụi của Seeshiba nhẹ và dễ di chuyển hơn của Sugishita đấy."
       }
     ]
@@ -37,7 +37,7 @@ export const grammarBai3 = [
       ],
       examples: [
         {
-          jp: "手元に届くまで、2日しかかかりませんでした。",
+          jp: "手元に「届くまで」、2日しかかかりませんでした。",
           vi: "Chỉ mất 2 ngày cho đến khi nhận được."
         }
       ]
@@ -45,7 +45,7 @@ export const grammarBai3 = [
     dialogue: [
       {
         speaker: "A",
-        jp: "パソコンが直るまで、どのぐらいかかりますか？",
+        jp: "パソコンが「直るまで」、どのぐらいかかりますか？",
         vi: "Sẽ mất bao lâu để sửa máy tính?"
       },
       {
@@ -55,7 +55,7 @@ export const grammarBai3 = [
       },
       {
         speaker: "A",
-        jp: "店の人が来るまで、ここで待っていてください。",
+        jp: "店の人が「来るまで」、ここで待っていてください。",
         vi: "Hãy đợi ở đây cho đến khi nhân viên cửa hàng đến."
       }
     ]
@@ -76,11 +76,11 @@ export const grammarBai3 = [
       ],
       examples: [
         {
-          jp: "どっちが使いやすいですか？",
+          jp: "どっちが使い「やすい」ですか？",
           vi: "Cái nào dễ sử dụng?"
         },
         {
-          jp: "この掃除機は、重くて、使いにくいですね。",
+          jp: "この掃除機【そうじき】は、重【おも】くて、使い「にくい」ですね。",
           vi: "Máy hút bụi này nặng, khó sử dụng nhỉ."
         }
       ]
@@ -88,12 +88,12 @@ export const grammarBai3 = [
     dialogue: [
       {
         speaker: "A",
-        jp: "この説明書は、説明がとてもわかりやすいですね。",
+        jp: "この説明書【せつめいしょ】は、説明がとてもわかり「やすい」ですね。",
         vi: "Quyển sách hướng dẫn này giải thích rất dễ hiểu nhỉ."
       },
       {
         speaker: "B",
-        jp: "この掃除機は、じょうぶで壊れにくいですよ。",
+        jp: "この掃除機【そうじき】は、じょうぶで壊【こわ】れ「にくい」ですよ。",
         vi: "Chiếc máy hút bụi này bền và khó hỏng (khó hư) lắm đấy."
       }
     ]
@@ -118,7 +118,7 @@ export const grammarBai3 = [
           vi: "Cái nào dễ sử dụng?"
         },
         {
-          jp: "B：セーシバの掃除機【そうじき】のほうがスギシタより軽【かる】くて、動【うご】かしやすいですよ。",
+          jp: "B：セーシバの掃除機【そうじき】「のほうが」スギシタより軽【かる】くて、動【うご】かしやすいですよ。",
           vi: "Máy hút bụi của Seshiba nhẹ và dễ di chuyển hơn so với máy của Sugishita."
         }
       ]
@@ -126,12 +126,12 @@ export const grammarBai3 = [
     dialogue: [
       {
         speaker: "A",
-        jp: "冷蔵庫【れいぞうこ】の色は、白とシルバーと、どっちが人気【にんき】ですか？",
+        jp: "冷蔵庫【れいぞうこ】の色は、白とシルバーと、「どっちが」人気【にんき】ですか？",
         vi: "Màu nào của tủ lạnh được ưa chuộng hơn, màu trắng hay màu bạc?"
       },
       {
         speaker: "B",
-        jp: "白のほうがよく売【う】れています。でも、若【わか】い人には、白よりシルバーのほうが人気【にんき】があります。",
+        jp: "白のほうがよく売【う】れています。でも、若【わか】い人には、白よりシルバー「のほうが」人気【にんき】があります。",
         vi: "Màu trắng bán được nhiều hơn. Tuy nhiên, màu bạc được giới trẻ ưa chuộng hơn màu trắng."
       }
     ]

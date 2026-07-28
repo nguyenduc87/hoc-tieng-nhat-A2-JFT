@@ -238,7 +238,7 @@ export const grammarBai3 = [
       },
       {
         speaker: "B",
-        jp: "ええ。「今度から気をつけて」って「注意されちゃいました」。",
+        jp: "ええ。「今度から気をつけて」って「注意されました」。",
         vi: "Ừ. Tớ 「bị nhắc nhở」 là \"Từ lần sau phải chú ý\" đấy."
       }
     ]
