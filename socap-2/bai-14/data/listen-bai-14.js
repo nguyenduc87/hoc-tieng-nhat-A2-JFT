@@ -1,35 +1,37 @@
 export const listeningData = [
   {
-    title: "Audio 1 : kotoba1",
-    audio: "audio/Z_[13-01]_kotoba1.mp3",
+    title: "Audio 1 : kotoba",
+    audio: "audio/Z_[14-01]_kotoba.mp3",
     image: [
-      "./images/listen/13-01.png"
+      "./images/listen/14-01.png"
     ],
     script: [
-      "a. ホール",
-      "b. 図書館【としょかん】",
-      "c. 美術館【びじゅつかん】",
-      "d. 民俗資料館【みんぞくしりょうかん】",
-      "e. 体育館【たいいくかん】",
-      "f. スポーツジム",
-      "g. プール",
-      "h. お風呂【おふろ】／入浴施設【にゅうよくしせつ】",
-      "i. インフォメーション　コーナー",
-      "j. プラネタリウム",
-      "k. 物産【ぶっさん】　コーナー"
+      "a. 銀行【ぎんこう】",
+      "b. 郵便局【ゆうびんきょく】",
+      "c. 不動産屋【ふどうさんや】",
+      "d. 理髪店【りはつてん】／床屋【とこや】",
+      "e. 美容院【びよういん】",
+      "f. クリーニング店【てん】",
+      "g. コインランドリー",
+      "h. 中古車店【ちゅうこしゃてん】",
+      "i. 自転車店【じてんしゃてん】",
+      "j. 携帯【けいたい】ショップ",
+      "k. スマホ修理店【しゅうりてん】",
+      "l. リサイクルショップ"
     ],
     translation: [
-      "a. Hội trường / Nhà hát",
-      "b. Thư viện",
-      "c. Bảo tàng mỹ thuật",
-      "d. Bảo tàng dân tộc học",
-      "e. Nhà thi đấu thể thao / Phòng thể chất",
-      "f. Phòng tập thể thao (Gym)",
-      "g. Bể bơi",
-      "h. Nhà tắm công cộng / Cơ sở tắm bồn",
-      "i. Quầy thông tin",
-      "j. Cung thiên văn",
-      "k. Quầy bán đặc sản địa phương"
+      "a. Ngân hàng",
+      "b. Bưu điện",
+      "c. Công ty/Tiệm bất động sản",
+      "d. Tiệm cắt tóc nam / Hiệu hớt tóc",
+      "e. Thẩm mỹ viện / Tiệm làm tóc nữ",
+      "f. Tiệm giặt là / Giặt khô",
+      "g. Tiệm giặt tự động (bỏ xu)",
+      "h. Cửa hàng xe hơi cũ / Xe đã qua sử dụng",
+      "i. Cửa hàng xe đạp",
+      "j. Cửa hàng điện thoại di động",
+      "k. Cửa hàng sửa chữa điện thoại thông minh",
+      "l. Cửa hàng đồ cũ / Cửa hàng tái chế"
     ]
   },
   {
