@@ -3,22 +3,22 @@ const grammarData = [
     {
         grammar: "Kiểu lịch sự / thông thường",
         meaning: "Có です là kiểu lịch sự, không có です là kiểu thông thường....",
-        link: "/socap-1/bai-1/bai-1.html"
+        link: "socap-1/bai-1/bai-1.html"
     },
     {
         grammar: "【Khoảng thời gian】になります",
         meaning: "Cách nói thể hiện quá trình thời gian....",
-        link: "/socap-1/bai-1/bai-1.html"
+        link: "socap-1/bai-1/bai-1.html"
     },
     {
         grammar: "【Thời điểm】（に）来ました",
         meaning: "thời điểm xảy ra sự việc.",
-        link: "/socap-1/bai-1/bai-1.html"
+        link: "socap-1/bai-1/bai-1.html"
     },
     {
         grammar: "V-ています",
         meaning: "Giải thích nghề nghiệp hiện tại của mình.",
-        link: "/socap-1/bai-1/bai-1.html"
+        link: "socap-1/bai-1/bai-1.html"
     },
     // Bai 2
     {
