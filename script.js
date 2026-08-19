@@ -81,7 +81,11 @@ input.addEventListener("keydown", (e) => {
             `;
 
       div.onclick = () => {
-        window.location.href = item.link;
+        // Lấy ra phần đường dẫn gốc của GitHub Pages (ví dụ: /hoc-tieng-nhat-A2-JFT)
+        const rootPath = window.location.pathname.split('/')[1];
+
+        // Tự động nối tên repo vào trước link dữ liệu
+        window.location.href = `/${rootPath}${item.link}`;
       }
 
       result.appendChild(div);
