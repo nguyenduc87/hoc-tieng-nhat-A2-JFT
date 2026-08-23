@@ -1,8 +1,8 @@
-import { vocabList } from "./data/vocab-bai-14.js";
-import { kanjiList } from "./data/kanji-bai-14.js";
-import { grammarBai3 } from "./data/grammar-bai-14.js";
-import { listeningData } from "./data/listen-bai-14.js";
-import { readingData } from "./data/reading-bai-14.js";
+import { vocabList } from "./data/vocab-bai-15.js";
+import { kanjiList } from "./data/kanji-bai-15.js";
+import { grammarBai3 } from "./data/grammar-bai-15.js";
+import { listeningData } from "./data/listen-bai-15.js";
+import { readingData } from "./data/reading-bai-15.js";
 
 
 /* =========================
@@ -512,7 +512,6 @@ function renderReading() {
 }
 
 renderReading();
-
 
 document.addEventListener("click", function (e) {
   if (e.target.classList.contains("answer-btn")) {

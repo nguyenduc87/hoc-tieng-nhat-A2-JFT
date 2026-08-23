@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>郵便物等ご不在連絡票</title>
+
+    <style>
+        /* ===================================================
+   CẤU HÌNH RESET & PHÔNG CHỮ CHUẨN NHẬT BẢN
+   =================================================== */
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            padding: 25px 15px;
+            background: #f3f3f3;
+            color: #222;
+            font-family: "Noto Sans JP", "Yu Gothic", "Meiryo", Arial, sans-serif;
+            line-height: 1.4;
+        }
+
+        /* ===================================================
+   ĐỊNH DẠNG RIÊNG CHO PHIÊN ÂM FURIGANA (HIRA ĐỎ)
+   =================================================== */
+        ruby {
+            ruby-position: over;
+            /* Ép chữ Hira luôn nằm TRÊN đầu Kanji */
+            ruby-align: center;
+            /* Căn chữ Hira ở giữa chữ Kanji */
+        }
+
+        rt {
+            font-size: 0.55em;
+            /* Kích thước chữ nhỏ mảnh vừa vặn */
+            color: #d32f2f;
+            /* Màu đỏ chuẩn bưu điện Nhật Bản */
+            font-weight: normal;
+            /* Giúp chữ không bị dính nét, dễ đọc */
+            letter-spacing: 0px;
+            line-height: 1;
+            /* Ép sát độ cao dòng để không làm giãn hàng văn bản */
+        }
+
+        /* ===================================================
+   BỐ CỤC KHUNG CHỨA TOÀN TRANG (CONTAINER)
+   =================================================== */
+        .front-title {
+            margin-bottom: 18px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .front-title .vi {
+            margin-left: 8px;
+            color: #666;
+            font-size: 17px;
+            font-weight: normal;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            align-items: start;
+        }
+
+        .document {
+            min-width: 0;
+            background: #fff;
+            border: 1px solid #777;
+            padding: 15px;
+            box-shadow: 0 3px 12px rgba(0, 0, 0, .1);
+            overflow: hidden;
+        }
+
+        /* ===================================================
+   PHẦN ĐẦU TRANG & THÔNG TIN KHÁCH HÀNG (HEADER / ROW)
+   =================================================== */
+        .document-header {
+            height: 72px;
+            display: grid;
+            grid-template-columns: 75px 105px minmax(0, 1fr) 20px;
+            align-items: center;
+            gap: 6px;
+            border-bottom: 1px solid #999;
+            padding-bottom: 8px;
+        }
+
+        .logo {
+            color: #e60012;
+            text-align: center;
+            line-height: 1;
+        }
+
+        .logo-main {
+            font-size: 29px;
+            font-weight: 900;
+            font-style: italic;
+        }
+
+        .logo-sub {
+            margin-top: 4px;
+            font-size: 9px;
+            letter-spacing: 3px;
+        }
+
+        .post-office {
+            color: #e60012;
+            font-size: 22px;
+            font-weight: bold;
+            text-align: center;
+            white-space: nowrap;
+        }
+
+        .document-main-title {
+            min-width: 0;
+            text-align: center;
+            font-size: 19px;
+            font-weight: bold;
+            line-height: 1.25;
+            white-space: nowrap;
+        }
+
+        .document-main-title .en {
+            display: block;
+            margin-top: 3px;
+            color: #555;
+            font-size: 10px;
+            letter-spacing: 1px;
+            font-weight: normal;
+        }
+
+        .copyright {
+            align-self: start;
+            text-align: right;
+            font-size: 16px;
+        }
+
+        .row {
+            height: 58px;
+            display: grid;
+            grid-template-columns: 125px 1fr 65px;
+            align-items: center;
+            border-bottom: 1px solid #999;
+            padding: 4px 0;
+        }
+
+        .row-label {
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+
+        .row-label small {
+            display: block;
+            margin-top: 2px;
+            color: #666;
+            font-size: 10px;
+            font-weight: normal;
+        }
+
+        .row-content {
+            height: 29px;
+            margin-right: 8px;
+            background: linear-gradient(90deg, #eee, #ccc, #eee);
+        }
+
+        .row-end {
+            text-align: left;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .message {
+            padding: 12px 5px;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 1.5;
+        }
+
+        /* ===================================================
+   CÁC THANH TIÊU ĐỀ MÀU ĐỎ TRÒN / CHỮ HƯỚNG DẪN
+   =================================================== */
+        .red-title {
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            margin-top: 10px;
+            background: #e60012;
+            /* Đổi sang màu đỏ thương hiệu của JP Post */
+            color: #fff;
+            text-align: center;
+            font-size: 19px;
+            font-weight: bold;
+        }
+
+        .red-title small {
+            font-size: 13px;
+            font-weight: normal;
+        }
+
+        .instruction {
+            padding: 8px 5px;
+            color: #e60012;
+            text-align: left;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        /* ===================================================
+   KHU VỰC 3 Ô TRÒN CHỨA DẤU CỘNG (+) (GIỐNG ẢNH MẪU)
+   =================================================== */
+        .receive-items {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 4px;
+            margin: 5px 0;
+        }
+
+        .receive-item {
+            flex: 3;
+            /* min-height: 90px; */
+            /* display: flex;
+            flex-direction: column; */
+            align-items: center;
+            justify-content: center;
+            padding: 8px 6px;
+            border: 1.5px solid #e60012;
+            border-radius: 20px;
+            /* Làm bo tròn ô hình Elip giống ảnh */
+            text-align: center;
+            font-size: 13px;
+            font-weight: bold;
+            line-height: 1.4;
+        }
+        /* 🟢 Cấu hình co nhỏ 2 ô đầu tiên */
+        .receive-items .receive-item:nth-of-type(1),
+        .receive-items .receive-item:nth-of-type(2) {
+        flex: 0 0 100px;           /* Khóa cố định độ rộng nhỏ gọn (130px) cho 2 ô ít chữ */
+        }
+        /* 🔵 Cấu hình tự động mở rộng ô thứ 3 chứa nhiều chữ */
+        .receive-items .receive-item:nth-of-type(3) {
+        flex: 1;                   /* Chiếm toàn bộ khoảng trống còn lại để hiển thị chữ dài */
+        align-items: flex-start;   /* Căn lề trái nội dung chữ cho dễ đọc giống mẫu ảnh */
+        text-align: center;
+        padding: 8px 14px;         /* Tăng đệm bên trong cho thoáng chữ */
+        }
+
+        .receive-item small {
+            font-size: 9.5px;
+            font-weight: normal;
+            color: #444;
+            margin-top: 2px;
+        }
+
+        /* Định dạng riêng cho dấu cộng ở giữa các ô */
+        .item-plus {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: #e60012;
+            font-weight: bold;
+            padding: 0 4px;
+        }
+
+        /* ===================================================
+   GHI CHÚ / KHUNG TỰ ĐỘNG SỐ 1
+   =================================================== */
+        .note {
+            padding: 6px 3px;
+            font-size: 11px;
+            line-height: 1.4;
+            color: #333;
+        }
+
+        .important {
+            padding: 5px;
+            color: #e60012;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .auto-box {
+            width: 100%;
+            border: 2px solid #e60012;
+            /* Đổi viền sang màu đỏ giống ảnh thực tế */
+            padding: 8px 12px;
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+        /* ===================================================
+   KHU VỰC HIỂN THỊ SỐ ĐIỆN THOẠI (PHONE AREA)
+   =================================================== */
+        .phone-area {
+            display: grid;
+            grid-template-columns: 140px 1fr;
+            align-items: center;
+            gap: 8px;
+            border-bottom: 1px dashed #777;
+            padding: 12px 0;
+        }
+
+        .phone-label {
+            padding-left: 4px;
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 1.3;
+        }
+
+        .phone-number {
+            font-size: 26px;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            display: flex;
+            align-items: baseline;
+            gap: 5px;
+        }
+
+        .phone-number .red {
+            color: #e60012;
+        }
+
+        .phone-note {
+            font-size: 11px;
+            font-weight: normal;
+            color: #444;
+        }
+
+        /* ===================================================
+   KHU VỰC PHÂN LOẠI MÃ BƯU PHẨM (TYPE AREA)
+   =================================================== */
+        .type-area {
+            margin-top: 15px;
+            padding: 9px;
+            border: 1px solid #555;
+        }
+
+        .type-title {
+            margin-bottom: 6px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #999;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .type-line {
+            min-height: 38px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 6px;
+            font-size: 11px;
+            line-height: 1.4;
+            margin-bottom: 4px;
+        }
+
+        .number-box {
+            display: inline-flex;
+            flex: 0 0 auto;
+            border: 1px solid #555;
+        }
+
+        .number-box span {
+            min-width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-right: 1px solid #555;
+            font-weight: bold;
+            font-size: 12px;
+            background: #fff;
+        }
+
+        .number-box span:last-child {
+            border-right: 0;
+        }
+
+        /* ===================================================
+   KHU VỰC SỐ THÔNG BÁO VÀ THẺ CẮT (BOTTOM AREA)
+   =================================================== */
+        .bottom-area {
+            display: grid;
+            grid-template-columns: 195px 1fr;
+            gap: 14px;
+            margin-top: 18px;
+        }
+
+        .notice-info {
+            border-right: 1px dashed #777;
+            padding-right: 9px;
+        }
+
+        .notice-title {
+            margin-bottom: 4px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .notice-number {
+            margin-bottom: 12px;
+            color: #e60012;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .time-title {
+            margin-bottom: 3px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .time-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .time-table td {
+            padding: 4px 2px;
+            border-bottom: 1px solid #ddd;
+            font-size: 11px;
+            vertical-align: middle;
+        }
+
+        .time-table tr td:last-child {
+            color: #e60012;
+            text-align: right;
+            font-weight: bold;
+            padding-right: 4px;
+        }
+
+        /* Định dạng riêng cho thẻ điền thông báo bên phải */
+        .notice-card {
+            min-height: 310px;
+            padding: 12px 10px;
+            border: 2px dashed #222;
+            /* Khung nét đứt đục lỗ để cắt */
+            text-align: center;
+            background: #fafafa;
+        }
+
+        .notice-card-title {
+            font-size: 13px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .big-number {
+            font-size: 26px;
+            font-weight: bold;
+            color: #222;
+        }
+
+        .delivery-date {
+            margin: 6px 0;
+            font-size: 12px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .qr {
+            width: 85px;
+            height: 85px;
+            margin: 10px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 4px solid #222;
+            font-size: 10px;
+            font-weight: bold;
+            background: #fff;
+        }
+
+        /* ===================================================
+   CẤU HÌNH CHO PHẦN BẢN DỊCH TIẾNG VIỆT (VI-DOCUMENT)
+   =================================================== */
+        .vi-document {
+            font-family: Arial, "Segoe UI", sans-serif;
+        }
+
+        .vi-document .document-main-title {
+            font-size: 17px;
+            white-space: nowrap;
+        }
+
+        .vi-document .post-office {
+            font-size: 20px;
+        }
+
+        /* ===================================================
+   CẤU HÌNH ĐÁP ỨNG DI ĐỘNG (RESPONSIVE)
+   =================================================== */
+        @media (max-width: 1100px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 650px) {
+            body {
+                padding: 15px 7px;
+            }
+
+            .document {
+                padding: 10px;
+            }
+
+            .document-header {
+                grid-template-columns: 55px 75px minmax(0, 1fr) 15px;
+                gap: 3px;
+            }
+
+            .logo-main {
+                font-size: 22px;
+            }
+
+            .logo-sub {
+                font-size: 7px;
+            }
+
+            .post-office {
+                font-size: 15px;
+            }
+
+            .document-main-title {
+                font-size: 14px;
+            }
+
+            .vi-document .document-main-title {
+                font-size: 12px;
+            }
+
+            .row {
+                grid-template-columns: 95px 1fr 50px;
+            }
+
+            .red-title {
+                font-size: 15px;
+            }
+
+            .receive-items {
+                flex-direction: row;
+                gap: 3px;
+            }
+
+            .receive-item {
+                min-height: 110px;
+                padding: 4px;
+                font-size: 9.5px;
+            }
+
+            .item-plus {
+                font-size: 18px;
+                padding: 0 1px;
+            }
+
+            .phone-area {
+                grid-template-columns: 1fr;
+                gap: 4px;
+            }
+
+            .phone-number {
+                font-size: 22px;
+            }
+
+            .bottom-area {
+                grid-template-columns: 1fr;
+            }
+
+            .notice-info {
+                border-right: 0;
+                border-bottom: 1px dashed #777;
+                padding-bottom: 12px;
+            }
+        }
+            /* Cấu hình hỗ trợ khi In ấn trang */
+            @media print {
+                body {
+                    padding: 0;
+                    background: #fff;
+                }
+
+                .front-title {
+                    margin-bottom: 10px;
+                }
+
+                .container {
+                    gap: 10px;
+                }
+
+                .document {
+                    box-shadow: none;
+                }
+            }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <div class="front-title">
+        <ruby>表面<rt>おもてめん</rt></ruby> <span class="vi">mặt trước</span>
+    </div>
+
+    <div class="container">
+
+        <section class="document jp-document">
+
+            <div class="document-header">
+                <div class="logo">
+                    <div class="logo-main">JP</div>
+                    <div class="logo-sub">POST</div>
+                </div>
+                <div class="post-office"><ruby>郵便局<rt>ゆうびんきょく</rt></ruby></div>
+                <div class="document-main-title">
+                    <ruby>郵便物等<rt>ゆうびんぶつとう</rt></ruby>ご<ruby>不在連絡票<rt>ふざいれんらくひょう</rt></ruby>
+                    <span class="en">Undeliverable Item Notice</span>
+                </div>
+                <div class="copyright">©</div>
+            </div>
+
+            <div class="row">
+                <div class="row-label">
+                    <ruby>受取人様<rt>うけとりにんさま</rt></ruby>
+                    <small>Addressee</small>
+                </div>
+                <div class="row-content"></div>
+                <div class="row-end"><ruby>様<rt>さま</rt></ruby></div>
+            </div>
+
+            <div class="row">
+                <div class="row-label">
+                    <ruby>差出人様<rt>さしだしにんさま</rt></ruby>
+                    <small>Sender</small>
+                </div>
+                <div class="row-content"></div>
+                <div class="row-end"><ruby>様<rt>さま</rt></ruby>からの</div>
+            </div>
+
+            <div class="message">
+                <ruby>郵便物等<rt>ゆうびんぶつとう</rt></ruby>をお<ruby>届<rt>とど</rt></ruby>けに<ruby>参<rt>まい</rt></ruby>りましたがご<ruby>不在
+                    <rt>ふざい</rt></ruby>でした。<br>
+                （ご<ruby>連絡欄<rt>れんらくらん</rt></ruby>）
+            </div>
+
+            <div class="red-title">
+                <ruby>郵便局窓口<rt>ゆうびんきょくまどぐch</rt></ruby>でのお<ruby>受取<rt>うけとり</rt></ruby> <small>（24<ruby>時間営業<rt>じかんえいぎょう
+                        </rt></ruby>）</small>
+            </div>
+
+            <div class="instruction">
+                <ruby>次<rt>つぎ</rt></ruby>のものをご<ruby>持参<rt>じさん</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>、<ruby>窓口開設時間内<rt>
+                        まどぐちかいせつじかんない</rt></ruby>にご<ruby>来局<rt>らいきょく</rt></ruby>ください。
+            </div>
+
+            <div class="receive-items">
+                <div class="receive-item">
+                    この <ruby>連絡票<rt>れんらくひょう</rt></ruby>
+                </div>
+
+                <div class="item-plus">+</div>
+
+                <div class="receive-item">
+                    <ruby>印鑑<rt>いんかん</rt></ruby><br>（<ruby>又は<rt>または</rt></ruby>ご<ruby>署名<rt>しょめい</rt></ruby>）
+                </div>
+
+                <div class="item-plus">+</div>
+
+                <div class="receive-item">
+                    ご<ruby>本人様<rt>ほんにんさま</rt></ruby>・ご<ruby>住所<rt>じゅうしょ</rt></ruby>が<ruby>確認<rt>かくにん</rt>
+                        </ruby>できる<ruby>証明資料<rt>しょうめいしりょう</rt></ruby>（<ruby>免許証<rt>めんきょしょう</rt></ruby>、<ruby>保険証<rt>
+                            ほけんしょう</rt></ruby>、マイナンバーカード（<ruby>個人番号<rt>koじんばんごう</rt></ruby>カード）※<ruby>等<rt>とう</rt>
+                        </ruby>）<br>
+                    <small>※<ruby>個人番号<rt>こじんばんごう</rt></ruby>の<ruby>通知<rt>つうち</rt></ruby>カードはご<ruby>使用<rt>しよう</rt>
+                            </ruby>いただけません。</small>
+                </div>
+            </div>
+            <div class="note">
+                ※<ruby>代理人<rt>だいりにん</rt></ruby>（<ruby>同居家族以外<rt>どうきょかぞくいがい</rt></ruby>）の<ruby>方<rt>かた</rt>
+                    </ruby>がお<ruby>受取<rt>うけとり</rt></ruby>になる<ruby>場合<rt>ばあい</rt></ruby>は、<ruby>委任状<rt>いにんじょう</rt>
+                    </ruby>が<ruby>必要<rt>ひつよう</rt></ruby>となります。
+            </div>
+
+            <div class="important">
+                なお、<ruby>当日配達分<rt>とうじつはいたつぶん</rt></ruby>は 23:00 <ruby>以降<rt>いこう</rt></ruby>にお<ruby>越<rt>こ</rt>
+                    </ruby>しください。
+            </div>
+
+            <div class="red-title">
+                <ruby>再配達<rt>さいはいたつ</rt></ruby>でのお<ruby>受取<rt>うけとり</rt></ruby>
+            </div>
+
+            <div class="auto-box" style="height: auto; flex-direction: column; align-items: flex-start; gap: 2px;">
+                <div>1．24<ruby>時間自動受付<rt>じかんじどううけつけ</rt></ruby></div>
+                <small style="font-size: 10px; font-weight: normal; color: #333; line-height: 1.2;">
+                    （この<ruby>連絡票<rt>れんらくひょう</rt></ruby>のお<ruby>届け先<rt>とどけさき</rt></ruby>ご<ruby>住所<rt>じゅうしょ</rt>
+                        </ruby>への<ruby>再配達<rt>さいはいたつ</rt></ruby>に<ruby>限<rt>かぎ</rt></ruby>ります。）<br>
+                    （<ruby>一部ご利用<rt>いちぶごりよう</rt></ruby>になれない<ruby>電話機<rt>でんわき</rt></ruby>があります。）
+                </small>
+            </div>
+
+            <div class="note" style="font-size: 13px; font-weight: bold;">
+                ※<ruby>当日再配達<rt>とうじつさいはいたつ</rt></ruby>の<ruby>受付<rt>うけつけ</rt></ruby>は 17:00 までとなります。
+            </div>
+
+            <div class="phone-area">
+                <div class="phone-label">
+                    <span style="font-size: 18px; margin-right: 4px;">☎</span><ruby>携帯電話<rt>けいたいでんわ</rt></ruby>からは
+                </div>
+                <div class="phone-number">
+                    0570-<span class="red">0466</span>XX
+                    <div class="phone-note">（<ruby>有料<rt>ゆうryou</rt></ruby>）</div>
+                </div>
+
+                <div class="phone-label"><ruby>固定電話<rt>こていでんわ</rt></ruby>からは</div>
+                <div class="phone-number">
+                    0800-<span class="red">997-7</span>XXX
+                    <div class="phone-note">（<ruby>無料<rt>むりょう</rt></ruby>）</div>
+                </div>
+            </div>
+            <!-- KHU VỰC MÃ BƯU CHÍNH VÀ LOẠI BƯU PHẨM TRÊN CÙNG -->
+            <div style="font-size: 11px; margin-bottom: 5px; font-weight: bold;">
+                <ruby>自動音声<rt>じどうおんせい</rt></ruby>に<ruby>従<rt>したが</rt></ruby>って、<ruby>電話機<rt>でんわき</rt></ruby>を<ruby>操作
+                    <rt>そうさ</rt></ruby>してください。
+            </div>
+
+            <div class="type-area">
+                <div class="type-title"><ruby>種類番号<rt>しゅるいばんごう</rt></ruby></div>
+
+                <div class="type-line">
+                    ＜<ruby>内国<rt>ないこく</rt></ruby>＞
+                    <div class="number-box"><span>57</span></div>
+                    <ruby>定形外<rt>ていけいがい</rt></ruby>・ゆうメール
+                    <ruby>料金不足<rt>りょうきんぶそく</rt></ruby>（　<ruby>円<rt>えん</rt></ruby>）
+                </div>
+
+                <div class="type-line">
+                    ＜<ruby>国際<rt>こくさい</rt></ruby>＞
+                    <div class="number-box"><span>61</span></div>
+                    <ruby>書留<rt>かきとめ</rt></ruby>・<ruby>保険付<rt>ほけんつき</rt></ruby>
+                    <div class="number-box"><span>62</span></div>
+                    <ruby>税付国際通常<rt>ぜいつきこくさいつうじょう</rt></ruby>
+                    <div class="number-box"><span>63</span></div>
+                    <ruby>左記以外<rt>さきいがい</rt></ruby>（<ruby>国際通常<rt>こくさいつうじょう</rt></ruby>）
+                </div>
+
+                <div class="type-line">
+                    <div class="number-box"><span>81</span></div>
+                    <ruby>国際小包<rt>こくさいこづつみ</rt></ruby>・EMS
+                    <div class="number-box"><span>82</span></div>
+                    <ruby>税付国際小包<rt>ぜいつきこくさいこづつみ</rt></ruby>
+                    <div class="number-box"><span>83</span></div>
+                    <ruby>左記以外<rt>さきいがい</rt></ruby>（<ruby>国際小包<rt>こくさいこづつみ</rt></ruby>）
+                </div>
+
+                <div style="text-align: right; font-size: 11px; margin-top: 2px;">
+                    （　　　　　　　　<ruby>円<rt>えん</rt></ruby>）
+                </div>
+            </div>
+            <!-- KHU VỰC SỐ THÔNG BÁO VÀ KHUNG GIỜ MỚI NHẤT -->
+            <div class="bottom-area">
+
+                <div class="notice-info">
+                    <div class="notice-title">お知らせ<ruby>番号<rt>ばんごう</rt></ruby></div>
+                    <div class="notice-number">19XXXXXX</div>
+
+                    <div class="time-title"><ruby>配達日<rt>はいたつび</rt></ruby></div>
+                    <div class="time-title">【<ruby>配達希望時間帯<rt>はいたつきぼうじかんたい</rt></ruby>】</div>
+
+                    <table class="time-table">
+                        <tr>
+                            <td><ruby>希望<rt>きぼう</rt></ruby>なし → 0</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td><ruby>午前中<rt>ごぜんちゅう</rt></ruby> → 1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>12～14<ruby>時<rt>じ</rt></ruby> → 2</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>14～16<ruby>時<rt>じ</rt></ruby> → 3</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>16～18<ruby>時<rt>じ</rt></ruby> → 4</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>18～20<ruby>時<rt>じ</rt></ruby> → 5</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>19～21<ruby>時<rt>じ</rt></ruby> → 6</td>
+                            <td>6</td>
+                        </tr>
+                    </table>
+
+                    <div style="font-size: 9px; color: #333; line-height: 1.2; margin-top: 5px;">
+                        ※ご<ruby>依頼時刻<rt>いらいじこく</rt></ruby>により、<ruby>配達時間帯<rt>はいたつじかんたい</rt></ruby>のご<ruby>希望<rt>きぼう</rt>
+                            </ruby>に<ruby>沿<rt>そ</rt></ruby>えない<ruby>場合<rt>ばあい</rt></ruby>があります。
+                    </div>
+                </div>
+
+                <!-- THẺ THÔNG BÁO BÊN PHẢI -->
+                <div class="notice-card">
+                    <div class="notice-card-title">＊ お知らせ<ruby>番号<rt>ばんごう</rt></ruby> ＊</div>
+                    <div class="big-number">19XXXXXX</div>
+                    <div style="font-size: 11px; margin-bottom: 5px;">
+                        （これは<ruby>電話番号<rt>でんわばんごう</rt></ruby>ではありません）
+                    </div>
+                    <div class="delivery-date">
+                        <ruby>配達日<rt>はいたつび</rt></ruby> 12/27 11:50 <ruby>保管期限<rt>ほかんきげん</rt></ruby> 1/11
+                    </div>
+
+                    <div class="qr">QR CODE</div>
+
+                    <div style="text-align: left; font-size: 11px; line-height: 1.3;">
+                        <ruby>配達<rt>はいたつ</rt></ruby>のお<ruby>申<rt>もう</rt></ruby>し<ruby>込<rt>こ</rt></ruby>みは、<br>
+                        <ruby>右側<rt>みぎがわ</rt></ruby>のQRコードからアクセスしてください。
+                    </div>
+
+                    <div style="text-align: left; font-size: 11px; margin-top: 8px; font-weight: bold;">
+                        <ruby>配達担当者<rt>はいたつたんとうしゃ</rt></ruby> ■■ ■■
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="document vi-document">
+
+            <div class="document-header">
+                <div class="logo">
+                    <div class="logo-main">JP</div>
+                    <div class="logo-sub">POST</div>
+                </div>
+                <div class="post-office">BƯU ĐIỆN</div>
+                <div class="document-main-title">
+                    THÔNG BÁO BƯU PHẨM KHÔNG GIAO ĐƯỢC
+                    <span class="en">Undeliverable Item Notice</span>
+                </div>
+                <div class="copyright">©</div>
+            </div>
+
+            <div class="row">
+                <div class="row-label">
+                    Người nhận
+                    <small>Addressee</small>
+                </div>
+                <div class="row-content"></div>
+                <div class="row-end">Ông/Bà</div>
+            </div>
+
+            <div class="row">
+                <div class="row-label">
+                    Người gửi
+                    <small>Sender</small>
+                </div>
+                <div class="row-content"></div>
+                <div class="row-end">gửi</div>
+            </div>
+
+            <div class="message">
+                Nhân viên bưu điện đã đến giao bưu phẩm nhưng không có người ở nhà.<br>
+                (Phần thông tin liên hệ)
+            </div>
+
+            <div class="red-title">
+                NHẬN BƯU PHẨM TẠI QUẦY BƯU ĐIỆN
+                <small>(Hoạt động 24 giờ)</small>
+            </div>
+
+            <div class="instruction">
+                Vui lòng mang theo các giấy tờ dưới đây và đến bưu điện trong thời gian làm việc.
+            </div>
+
+            <div class="receive-items">
+                <div class="receive-item">
+                    Phiếu thông báo này
+                </div>
+                <div class="receive-item">
+                    Con dấu<br>(hoặc chữ ký)
+                </div>
+                <div class="receive-item">
+                    Giấy tờ xác nhận danh tính và địa chỉ<br>
+                    (Bằng lái xe, thẻ bảo hiểm, thẻ My Number...)
+                </div>
+            </div>
+
+            <div class="note">
+                ※ Nếu người nhận thay không phải là thành viên trong gia đình, cần có giấy ủy quyền.
+            </div>
+
+            <div class="important">
+                Ngoài ra, đối với bưu phẩm giao trong ngày, vui lòng đến nhận sau 23:00.
+            </div>
+
+            <div class="red-title">
+                NHẬN BẰNG HÌNH THỨC GIAO LẠI
+            </div>
+
+            <div class="auto-box">
+                1．Tiếp nhận tự động 24 giờ
+            </div>
+
+            <div class="note">
+                ※ Đăng ký giao lại trong ngày được tiếp nhận đến 17:00.
+            </div>
+
+            <div class="phone-area">
+                <div class="phone-label">Gọi từ điện thoại di động</div>
+                <div class="phone-number">
+                    0570-<span class="red">0466</span>XX
+                    <div class="phone-note">(Có tính phí)</div>
+                </div>
+
+                <div class="phone-label">Gọi từ điện thoại cố định</div>
+                <div class="phone-number">
+                    0800-<span class="red">997-7</span>XXX
+                    <div class="phone-note">(Miễn phí)</div>
+                </div>
+            </div>
+
+            <div class="type-area">
+                <div class="type-title">Mã loại bưu phẩm</div>
+
+                <div class="type-line">
+                    ＜Trong nước＞
+                    <div class="number-box"><span>57</span></div>
+                    Bưu phẩm không tiêu chuẩn・Yu-Mail
+                    Thiếu cước phí
+                </div>
+
+                <div class="type-line">
+                    ＜Quốc tế＞
+                    <div class="number-box"><span>61</span></div>
+                    Bưu phẩm bảo đảm・có bảo hiểm
+                    <div class="number-box"><span>62</span></div>
+                    Bưu phẩm quốc tế có thuế
+                    <div class="number-box"><span>63</span></div>
+                    Loại khác
+                </div>
+
+                <div class="type-line">
+                    <div class="number-box"><span>81</span></div>
+                    Bưu kiện quốc tế・EMS
+                    <div class="number-box"><span>82</span></div>
+                    Bưu kiện quốc tế có thuế
+                    <div class="number-box"><span>83</span></div>
+                    Loại khác
+                </div>
+            </div>
+
+            <div class="bottom-area">
+
+                <div class="notice-info">
+                    <div class="notice-title">Số thông báo</div>
+                    <div class="notice-number">19XXXXXX</div>
+
+                    <div class="time-title">Ngày giao</div>
+                    <div class="time-title">【Khung giờ mong muốn】</div>
+
+                    <table class="time-table">
+                        <tr>
+                            <td>Không yêu cầu</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Buổi sáng</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>12～14 giờ</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>14～16 giờ</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>16～18 giờ</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>18～20 giờ</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>19～21 giờ</td>
+                            <td>6</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="notice-card">
+                    <div class="notice-card-title">＊ SỐ THÔNG BÁO ＊</div>
+                    <div class="big-number">19XXXXXX</div>
+                    <div class="delivery-date">Ngày giao: 27/12 11:50</div>
+                    <div>Hạn lưu giữ: 11/1</div>
+                    <div class="qr">QR CODE</div>
+                    <div>
+                        Để đăng ký giao lại,<br>
+                        vui lòng truy cập bằng mã QR.
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+</body>
+
+</html>
