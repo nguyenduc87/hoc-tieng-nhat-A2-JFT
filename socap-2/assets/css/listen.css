@@ -155,7 +155,7 @@ html {
 }
 
 .slide-box.show {
-  max-height: 2000px;
+  max-height: 3000px;
   opacity: 1;
   margin-top: 10px;
   padding: 10px;
